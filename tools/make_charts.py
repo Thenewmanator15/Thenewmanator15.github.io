@@ -184,8 +184,108 @@ def gate_blanking(plt, np) -> str:
     return buf.getvalue()
 
 
+def _finish(fig, ax) -> str:
+    leg = ax.get_legend()
+    if leg:
+        for t in leg.get_texts():
+            t.set_color("#000001")
+    fig.tight_layout()
+    buf = io.StringIO()
+    fig.savefig(buf, format="svg", transparent=True)
+    fig.clf()
+    return buf.getvalue()
+
+
+def phd_coding(plt, np) -> str:
+    """An illustration, not data: one period of pulsing against an order-5 m-sequence."""
+    n = 31
+    reg, code = 1, []
+    for _ in range(n):                      # Galois LFSR for x^5 + x^3 + 1
+        code.append(reg & 1)
+        reg = (reg >> 1) ^ (0b10100 if reg & 1 else 0)
+    assert sum(code) == 16
+    reps = 2
+    coded = np.array(code * reps)
+    pulsed = np.zeros(n * reps, dtype=int)
+    pulsed[::n] = 1
+    t = np.arange(n * reps + 1)
+    fig, ax = plt.subplots(figsize=(4.6, 1.9))
+    for y0, s, colour in ((1.7, coded, "#000003"), (0.0, pulsed, "#000004")):
+        ax.step(t, y0 + np.append(s, s[-1]), where="post", lw=1.1, color=colour)
+    for k in range(reps + 1):
+        ax.axvline(k * n, ls=":", lw=0.7, color="#000002")
+    ax.text(0.5, 2.85, "coded: open 16 symbols in 31", fontsize=8.5, color="#000003")
+    ax.text(0.5, 1.15, "pulsed: open 1 symbol in 31", fontsize=8.5, color="#000004")
+    ax.set_xlim(0, n * reps)
+    ax.set_ylim(-0.2, 3.3)
+    ax.set_yticks([])
+    ax.set_xticks([0, n, 2 * n])
+    ax.minorticks_off()
+    ax.set_xlabel("Time (symbols), two periods")
+    for side in ("left", "right", "top"):
+        ax.spines[side].set_visible(False)
+    out = _finish(fig, ax)
+    plt.close(fig)
+    return out
+
+
+def phd_pair_spectra(plt, np) -> str:
+    data = rows("phd-pair-spectra")
+    t = np.array([float(r["lag_samples"]) for r in data]) / 1e3     # 1 GS/s, so 1,000 samples = 1 µs
+    fig, ax = plt.subplots(figsize=(4.6, 3.1))
+    ax.plot(t, [float(r["coded_sd"]) for r in data], lw=0.6, color="#000003", label="coded, above")
+    ax.plot(t, [-float(r["pulsed_sd"]) for r in data], lw=0.6, color="#000004", label="pulsed, below")
+    ax.axhline(0, lw=0.5, color="#000001")
+    for s in (4, -4):
+        ax.axhline(s, ls=(0, (3, 2)), lw=0.6, color="#000002")
+    delta, kappa = 8729.6, 4208.0       # the silver-pair mass scale the thesis assumes
+    for lab, mz in (("Na$^+$", 22.990), ("Ag$^+$", 107.9), ("Ag$_2^+$", 215.8), ("Ag$_3^+$", 323.7)):
+        ax.text((delta + kappa * np.sqrt(mz)) / 1e3, 0.97, lab, transform=ax.get_xaxis_transform(),
+                fontsize=8, ha="center", va="top", color="#000001")
+    ax.set_xlim(0, 112)
+    lo, hi = ax.get_ylim()
+    ax.set_ylim(lo * 1.05, hi * 1.15)
+    ticks = [v for v in ax.get_yticks() if lo * 1.05 <= v <= hi * 1.15]
+    ax.set_yticks(ticks, [f"{abs(v):g}" for v in ticks])
+    ax.set_xlabel("Flight time (µs)")
+    ax.set_ylabel("Height over baseline noise (s.d.)")
+    ax.legend(loc="lower right", fontsize=8)
+    out = _finish(fig, ax)
+    plt.close(fig)
+    return out
+
+
+def phd_speedup(plt, np) -> str:
+    data = rows("phd-speedup")
+    label = {"Na": "Na$^+$", "107Ag": "$^{107}$Ag$^+$", "109Ag": "$^{109}$Ag$^+$", "Ag2": "Ag$_2^+$",
+             "Ag3": "Ag$_3^+$"}
+    fig, ax = plt.subplots(figsize=(4.6, 2.6))
+    y = np.arange(len(data))[::-1]
+    for yi, r in zip(y, data):
+        v, lo, hi = float(r["time_ratio"]), float(r["lo"]), float(r["hi"])
+        ax.errorbar([v], [yi], xerr=[[v - lo], [hi - v]], fmt="o", ms=4, color="#000003", elinewidth=1.0,
+                    capsize=2)
+        ax.text(hi * 1.25, yi, f"{v:.0f}×", fontsize=8.5, va="center", color="#000001")
+    top = ax.get_xaxis_transform()
+    ax.axvline(1024, ls="--", lw=0.8, color="#000002")
+    ax.text(1024, 1.03, "ideal counting, 1,024×", transform=top, fontsize=8, ha="right", va="bottom",
+            color="#000002")
+    ax.axvline(1, ls=":", lw=0.8, color="#000002")
+    ax.text(1, 1.03, "no gain", transform=top, fontsize=8, ha="left", va="bottom", color="#000002")
+    ax.set_xscale("log")
+    ax.set_xlim(0.8, 2000)
+    ax.set_ylim(-0.7, len(data) - 0.3)
+    ax.set_yticks(y, [label[r["peak"]] for r in data])
+    ax.tick_params(axis="y", which="both", length=0)
+    ax.set_xlabel("Times faster to the same signal-to-noise")
+    out = _finish(fig, ax)
+    plt.close(fig)
+    return out
+
+
 CHARTS = {"driver-edges": driver_edges, "driver-pdn": driver_pdn, "detector-coupling": detector_coupling,
-          "gate-blanking": gate_blanking}
+          "gate-blanking": gate_blanking, "phd-coding": phd_coding, "phd-pair-spectra": phd_pair_spectra,
+          "phd-speedup": phd_speedup}
 
 
 def main() -> int:

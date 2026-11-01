@@ -1,0 +1,805 @@
+<svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 316.68 171.73315" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  </defs>
+ <g id="phd-speedup-figure_1">
+  <g id="phd-speedup-patch_1">
+   <path d="M 0 171.73315 
+L 316.68 171.73315 
+L 316.68 0 
+L 0 0 
+L 0 171.73315 
+z
+" fill="none"/>
+  </g>
+  <g id="phd-speedup-axes_1">
+   <g id="phd-speedup-patch_2">
+    <path d="M 40.1 139.23315 
+L 313.08 139.23315 
+L 313.08 15.31747 
+L 40.1 15.31747 
+L 40.1 139.23315 
+z
+" fill="none"/>
+   </g>
+   <g id="phd-speedup-matplotlib.axis_1">
+    <g id="phd-speedup-xtick_1">
+     <g id="phd-speedup-line2d_1">
+      <defs>
+       <path id="phd-speedup-mae40bbd23d" d="M 0 0 
+L 0 -3 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#phd-speedup-mae40bbd23d" x="47.885451" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_2">
+      <defs>
+       <path id="phd-speedup-m6ab5fe8380" d="M 0 0 
+L 0 3 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#phd-speedup-m6ab5fe8380" x="47.885451" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-text_1">
+      <!-- $\mathdefault{10^{0}}$ -->
+      <g class="f-fg" transform="translate(40.635451 151.63315)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_2">
+     <g id="phd-speedup-line2d_3">
+      <g>
+       <use xlink:href="#phd-speedup-mae40bbd23d" x="128.222361" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_4">
+      <g>
+       <use xlink:href="#phd-speedup-m6ab5fe8380" x="128.222361" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-text_2">
+      <!-- $\mathdefault{10^{1}}$ -->
+      <g class="f-fg" transform="translate(120.972361 151.63315)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_3">
+     <g id="phd-speedup-line2d_5">
+      <g>
+       <use xlink:href="#phd-speedup-mae40bbd23d" x="208.559271" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_6">
+      <g>
+       <use xlink:href="#phd-speedup-m6ab5fe8380" x="208.559271" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-text_3">
+      <!-- $\mathdefault{10^{2}}$ -->
+      <g class="f-fg" transform="translate(201.309271 151.63315)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_4">
+     <g id="phd-speedup-line2d_7">
+      <g>
+       <use xlink:href="#phd-speedup-mae40bbd23d" x="288.89618" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_8">
+      <g>
+       <use xlink:href="#phd-speedup-m6ab5fe8380" x="288.89618" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-text_4">
+      <!-- $\mathdefault{10^{3}}$ -->
+      <g class="f-fg" transform="translate(281.64618 151.63315)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_5">
+     <g id="phd-speedup-line2d_9">
+      <defs>
+       <path id="phd-speedup-m20fb295bad" d="M 0 0 
+L 0 -1.5 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="40.1" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_10">
+      <defs>
+       <path id="phd-speedup-m9d8bd21e61" d="M 0 0 
+L 0 1.5 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="40.1" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_6">
+     <g id="phd-speedup-line2d_11">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="44.209436" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_12">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="44.209436" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_7">
+     <g id="phd-speedup-line2d_13">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="72.069271" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_14">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="72.069271" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_8">
+     <g id="phd-speedup-line2d_15">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="86.215898" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_16">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="86.215898" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_9">
+     <g id="phd-speedup-line2d_17">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="96.25309" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_18">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="96.25309" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_10">
+     <g id="phd-speedup-line2d_19">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="104.038541" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_20">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="104.038541" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_11">
+     <g id="phd-speedup-line2d_21">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="110.399718" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_22">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="110.399718" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_12">
+     <g id="phd-speedup-line2d_23">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="115.778016" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_24">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="115.778016" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_13">
+     <g id="phd-speedup-line2d_25">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="120.43691" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_26">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="120.43691" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_14">
+     <g id="phd-speedup-line2d_27">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="124.546345" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_28">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="124.546345" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_15">
+     <g id="phd-speedup-line2d_29">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="152.40618" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_30">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="152.40618" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_16">
+     <g id="phd-speedup-line2d_31">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="166.552808" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_32">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="166.552808" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_17">
+     <g id="phd-speedup-line2d_33">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="176.59" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_34">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="176.59" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_18">
+     <g id="phd-speedup-line2d_35">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="184.375451" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_36">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="184.375451" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_19">
+     <g id="phd-speedup-line2d_37">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="190.736628" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_38">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="190.736628" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_20">
+     <g id="phd-speedup-line2d_39">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="196.114926" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_40">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="196.114926" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_21">
+     <g id="phd-speedup-line2d_41">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="200.77382" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_42">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="200.77382" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_22">
+     <g id="phd-speedup-line2d_43">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="204.883255" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_44">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="204.883255" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_23">
+     <g id="phd-speedup-line2d_45">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="232.74309" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_46">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="232.74309" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_24">
+     <g id="phd-speedup-line2d_47">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="246.889718" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_48">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="246.889718" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_25">
+     <g id="phd-speedup-line2d_49">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="256.92691" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_50">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="256.92691" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_26">
+     <g id="phd-speedup-line2d_51">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="264.712361" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_52">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="264.712361" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_27">
+     <g id="phd-speedup-line2d_53">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="271.073537" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_54">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="271.073537" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_28">
+     <g id="phd-speedup-line2d_55">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="276.451836" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_56">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="276.451836" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_29">
+     <g id="phd-speedup-line2d_57">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="281.110729" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_58">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="281.110729" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_30">
+     <g id="phd-speedup-line2d_59">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="285.220165" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_60">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="285.220165" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-xtick_31">
+     <g id="phd-speedup-line2d_61">
+      <g>
+       <use xlink:href="#phd-speedup-m20fb295bad" x="313.08" y="139.23315" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="phd-speedup-line2d_62">
+      <g>
+       <use xlink:href="#phd-speedup-m9d8bd21e61" x="313.08" y="15.31747" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-text_5">
+     <text font-size="10px" text-anchor="middle" class="f-fg" x="176.59" y="165.63315" transform="rotate(-0 176.59 165.63315)">Times faster to the same signal-to-noise</text>
+    </g>
+   </g>
+   <g id="phd-speedup-matplotlib.axis_2">
+    <g id="phd-speedup-ytick_1">
+     <g id="phd-speedup-line2d_63"/>
+     <g id="phd-speedup-line2d_64"/>
+     <g id="phd-speedup-text_6">
+      <!-- Na$^+$ -->
+      <g class="f-fg" transform="translate(15.7 35.530614)">
+       <text>
+        <tspan x="0" y="-0.791389" font-size="10px" class="f-fg">N</tspan>
+        <tspan x="7.219986" y="-0.791389" font-size="10px" class="f-fg">a</tspan>
+        <tspan x="13.460421" y="-4.920313" font-size="7px" class="f-fg">+</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-ytick_2">
+     <g id="phd-speedup-line2d_65"/>
+     <g id="phd-speedup-line2d_66"/>
+     <g id="phd-speedup-text_7">
+      <!-- $^{107}$Ag$^+$ -->
+      <g class="f-fg" transform="translate(3.6 58.777962)">
+       <text>
+        <tspan x="0.400429" y="-4.264063" font-size="7px" class="f-fg">1</tspan>
+        <tspan x="3.900429" y="-4.264063" font-size="7px" class="f-fg">0</tspan>
+        <tspan x="7.400429" y="-4.264063" font-size="7px" class="f-fg">7</tspan>
+        <tspan x="25.49289" y="-4.264063" font-size="7px" class="f-fg">+</tspan>
+        <tspan x="11.472471" y="-0.135139" font-size="10px" class="f-fg">A</tspan>
+        <tspan x="18.692457" y="-0.135139" font-size="10px" class="f-fg">g</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-ytick_3">
+     <g id="phd-speedup-line2d_67"/>
+     <g id="phd-speedup-line2d_68"/>
+     <g id="phd-speedup-text_8">
+      <!-- $^{109}$Ag$^+$ -->
+      <g class="f-fg" transform="translate(3.6 81.67531)">
+       <text>
+        <tspan x="0.400429" y="-4.340625" font-size="7px" class="f-fg">1</tspan>
+        <tspan x="3.900429" y="-4.340625" font-size="7px" class="f-fg">0</tspan>
+        <tspan x="7.400429" y="-4.340625" font-size="7px" class="f-fg">9</tspan>
+        <tspan x="25.49289" y="-4.340625" font-size="7px" class="f-fg">+</tspan>
+        <tspan x="11.472471" y="-0.211702" font-size="10px" class="f-fg">A</tspan>
+        <tspan x="18.692457" y="-0.211702" font-size="10px" class="f-fg">g</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-ytick_4">
+     <g id="phd-speedup-line2d_69"/>
+     <g id="phd-speedup-line2d_70"/>
+     <g id="phd-speedup-text_9">
+      <!-- Ag$_2^+$ -->
+      <g class="f-fg" transform="translate(15.1 104.372659)">
+       <text>
+        <tspan x="0" y="-0.791389" font-size="10px" class="f-fg">A</tspan>
+        <tspan x="7.219986" y="-0.791389" font-size="10px" class="f-fg">g</tspan>
+        <tspan x="12.620415" y="2.81875" font-size="7px" class="f-fg">2</tspan>
+        <tspan x="14.020419" y="-4.920313" font-size="7px" class="f-fg">+</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-ytick_5">
+     <g id="phd-speedup-line2d_71"/>
+     <g id="phd-speedup-line2d_72"/>
+     <g id="phd-speedup-text_10">
+      <!-- Ag$_3^+$ -->
+      <g class="f-fg" transform="translate(15.1 127.320007)">
+       <text>
+        <tspan x="0" y="-0.791389" font-size="10px" class="f-fg">A</tspan>
+        <tspan x="7.219986" y="-0.791389" font-size="10px" class="f-fg">g</tspan>
+        <tspan x="12.620415" y="2.81875" font-size="7px" class="f-fg">3</tspan>
+        <tspan x="14.020419" y="-4.920313" font-size="7px" class="f-fg">+</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="phd-speedup-ytick_6">
+     <g id="phd-speedup-line2d_73"/>
+     <g id="phd-speedup-line2d_74"/>
+    </g>
+    <g id="phd-speedup-ytick_7">
+     <g id="phd-speedup-line2d_75"/>
+     <g id="phd-speedup-line2d_76"/>
+    </g>
+    <g id="phd-speedup-ytick_8">
+     <g id="phd-speedup-line2d_77"/>
+     <g id="phd-speedup-line2d_78"/>
+    </g>
+    <g id="phd-speedup-ytick_9">
+     <g id="phd-speedup-line2d_79"/>
+     <g id="phd-speedup-line2d_80"/>
+    </g>
+    <g id="phd-speedup-ytick_10">
+     <g id="phd-speedup-line2d_81"/>
+     <g id="phd-speedup-line2d_82"/>
+    </g>
+    <g id="phd-speedup-ytick_11">
+     <g id="phd-speedup-line2d_83"/>
+     <g id="phd-speedup-line2d_84"/>
+    </g>
+    <g id="phd-speedup-ytick_12">
+     <g id="phd-speedup-line2d_85"/>
+     <g id="phd-speedup-line2d_86"/>
+    </g>
+    <g id="phd-speedup-ytick_13">
+     <g id="phd-speedup-line2d_87"/>
+     <g id="phd-speedup-line2d_88"/>
+    </g>
+    <g id="phd-speedup-ytick_14">
+     <g id="phd-speedup-line2d_89"/>
+     <g id="phd-speedup-line2d_90"/>
+    </g>
+    <g id="phd-speedup-ytick_15">
+     <g id="phd-speedup-line2d_91"/>
+     <g id="phd-speedup-line2d_92"/>
+    </g>
+    <g id="phd-speedup-ytick_16">
+     <g id="phd-speedup-line2d_93"/>
+     <g id="phd-speedup-line2d_94"/>
+    </g>
+    <g id="phd-speedup-ytick_17">
+     <g id="phd-speedup-line2d_95"/>
+     <g id="phd-speedup-line2d_96"/>
+    </g>
+    <g id="phd-speedup-ytick_18">
+     <g id="phd-speedup-line2d_97"/>
+     <g id="phd-speedup-line2d_98"/>
+    </g>
+    <g id="phd-speedup-ytick_19">
+     <g id="phd-speedup-line2d_99"/>
+     <g id="phd-speedup-line2d_100"/>
+    </g>
+    <g id="phd-speedup-ytick_20">
+     <g id="phd-speedup-line2d_101"/>
+     <g id="phd-speedup-line2d_102"/>
+    </g>
+    <g id="phd-speedup-ytick_21">
+     <g id="phd-speedup-line2d_103"/>
+     <g id="phd-speedup-line2d_104"/>
+    </g>
+    <g id="phd-speedup-ytick_22">
+     <g id="phd-speedup-line2d_105"/>
+     <g id="phd-speedup-line2d_106"/>
+    </g>
+    <g id="phd-speedup-ytick_23">
+     <g id="phd-speedup-line2d_107"/>
+     <g id="phd-speedup-line2d_108"/>
+    </g>
+    <g id="phd-speedup-ytick_24">
+     <g id="phd-speedup-line2d_109"/>
+     <g id="phd-speedup-line2d_110"/>
+    </g>
+    <g id="phd-speedup-ytick_25">
+     <g id="phd-speedup-line2d_111"/>
+     <g id="phd-speedup-line2d_112"/>
+    </g>
+    <g id="phd-speedup-ytick_26">
+     <g id="phd-speedup-line2d_113"/>
+     <g id="phd-speedup-line2d_114"/>
+    </g>
+    <g id="phd-speedup-ytick_27">
+     <g id="phd-speedup-line2d_115"/>
+     <g id="phd-speedup-line2d_116"/>
+    </g>
+   </g>
+   <g id="phd-speedup-LineCollection_1">
+    <path d="M 156.954779 31.380614 
+L 167.01608 31.380614 
+" clip-path="url(#phd-speedup-p3a4830404f)" fill="none" class="s-c5"/>
+   </g>
+   <g id="phd-speedup-line2d_117">
+    <defs>
+     <path id="phd-speedup-m73304d99f9" d="M 0 2 
+L 0 -2 
+" class="s-c5"/>
+    </defs>
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-m73304d99f9" x="156.954779" y="31.380614" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-line2d_118">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-m73304d99f9" x="167.01608" y="31.380614" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-LineCollection_2">
+    <path d="M 164.903692 54.327962 
+L 172.914954 54.327962 
+" clip-path="url(#phd-speedup-p3a4830404f)" fill="none" class="s-c5"/>
+   </g>
+   <g id="phd-speedup-line2d_119">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-m73304d99f9" x="164.903692" y="54.327962" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-line2d_120">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-m73304d99f9" x="172.914954" y="54.327962" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-LineCollection_3">
+    <path d="M 165.368784 77.27531 
+L 175.93316 77.27531 
+" clip-path="url(#phd-speedup-p3a4830404f)" fill="none" class="s-c5"/>
+   </g>
+   <g id="phd-speedup-line2d_121">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-m73304d99f9" x="165.368784" y="77.27531" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-line2d_122">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-m73304d99f9" x="175.93316" y="77.27531" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-LineCollection_4">
+    <path d="M 117.179954 100.222659 
+L 146.867018 100.222659 
+" clip-path="url(#phd-speedup-p3a4830404f)" fill="none" class="s-c5"/>
+   </g>
+   <g id="phd-speedup-line2d_123">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-m73304d99f9" x="117.179954" y="100.222659" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-line2d_124">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-m73304d99f9" x="146.867018" y="100.222659" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-LineCollection_5">
+    <path d="M 155.044467 123.170007 
+L 169.954209 123.170007 
+" clip-path="url(#phd-speedup-p3a4830404f)" fill="none" class="s-c5"/>
+   </g>
+   <g id="phd-speedup-line2d_125">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-m73304d99f9" x="155.044467" y="123.170007" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-line2d_126">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-m73304d99f9" x="169.954209" y="123.170007" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-line2d_127">
+    <path d="M 289.723647 139.23315 
+L 289.723647 15.31747 
+" clip-path="url(#phd-speedup-p3a4830404f)" fill="none" stroke-dasharray="2.96,1.28" stroke-dashoffset="0" stroke-width="0.8" class="s-dim"/>
+   </g>
+   <g id="phd-speedup-line2d_128">
+    <path d="M 47.885451 139.23315 
+L 47.885451 15.31747 
+" clip-path="url(#phd-speedup-p3a4830404f)" fill="none" stroke-dasharray="0.8,1.32" stroke-dashoffset="0" stroke-width="0.8" class="s-dim"/>
+   </g>
+   <g id="phd-speedup-line2d_129">
+    <defs>
+     <path id="phd-speedup-mbcb06dca5c" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" class="s-c5"/>
+    </defs>
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-mbcb06dca5c" x="162.006708" y="31.380614" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-line2d_130">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-mbcb06dca5c" x="168.724866" y="54.327962" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-line2d_131">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-mbcb06dca5c" x="170.375749" y="77.27531" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-line2d_132">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-mbcb06dca5c" x="131.340942" y="100.222659" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-line2d_133">
+    <g clip-path="url(#phd-speedup-p3a4830404f)">
+     <use xlink:href="#phd-speedup-mbcb06dca5c" x="162.413703" y="123.170007" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="phd-speedup-patch_3">
+    <path d="M 40.1 139.23315 
+L 40.1 15.31747 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="phd-speedup-patch_4">
+    <path d="M 313.08 139.23315 
+L 313.08 15.31747 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="phd-speedup-patch_5">
+    <path d="M 40.1 139.23315 
+L 313.08 139.23315 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="phd-speedup-patch_6">
+    <path d="M 40.1 15.31747 
+L 313.08 15.31747 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="phd-speedup-text_11">
+    <text font-size="8.5px" text-anchor="start" class="f-fg" x="174.801531" y="33.505614" transform="rotate(-0 174.801531 33.505614)">26×</text>
+   </g>
+   <g id="phd-speedup-text_12">
+    <text font-size="8.5px" text-anchor="start" class="f-fg" x="180.700405" y="56.452962" transform="rotate(-0 180.700405 56.452962)">32×</text>
+   </g>
+   <g id="phd-speedup-text_13">
+    <text font-size="8.5px" text-anchor="start" class="f-fg" x="183.718611" y="79.40031" transform="rotate(-0 183.718611 79.40031)">33×</text>
+   </g>
+   <g id="phd-speedup-text_14">
+    <text font-size="8.5px" text-anchor="start" class="f-fg" x="154.652469" y="102.347659" transform="rotate(-0 154.652469 102.347659)">11×</text>
+   </g>
+   <g id="phd-speedup-text_15">
+    <text font-size="8.5px" text-anchor="start" class="f-fg" x="177.73966" y="125.295007" transform="rotate(-0 177.73966 125.295007)">27×</text>
+   </g>
+   <g id="phd-speedup-text_16">
+    <text font-size="8px" text-anchor="end" class="f-dim" x="289.723647" y="9.6" transform="rotate(-0 289.723647 9.6)">ideal counting, 1,024×</text>
+   </g>
+   <g id="phd-speedup-text_17">
+    <text font-size="8px" text-anchor="start" class="f-dim" x="47.885451" y="9.6" transform="rotate(-0 47.885451 9.6)">no gain</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="phd-speedup-p3a4830404f">
+   <rect x="40.1" y="15.31747" width="272.98" height="123.91568"/>
+  </clipPath>
+ </defs>
+</svg>

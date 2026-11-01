@@ -74,24 +74,98 @@ and the electronics each cost. The data, figures and simulations are public on t
 site. The PhD was funded by a joint award from EPSRC and a University of Manchester Presidential Doctoral Scholarship.
 
 
-## What the instrument does
+## The problem
 
-A time-of-flight secondary ion mass spectrometer fires a beam of ions at a sample. It then times
-how long the ions knocked out of the sample take to reach a detector, which tells you their mass.
+A time-of-flight instrument works out each ion's mass from how long it takes to fly to the
+detector. To start that clock, the beam is let through in short bursts. Each burst then has to
+wait until the slowest ions from the last one have landed. In my pulsed test on the BioTOF that
+left the gate open for 0.049% of the time. The other 99.95% of the beam was thrown away. A
+measurement took as long as it took to collect enough ions from those short bursts.
 
-Conventional pulsing lets the beam through in short bursts, so it is off for almost all of the
-time. My PhD tried another way: switch the beam in a known pattern that keeps it on about half
-the time, then recover the spectrum from the pattern. That raises the duty cycle from 0.049% in my pulsed test
-towards 50%.
+{{ <chart name="phd-coding" alt="Two square-wave traces over two periods of 31 symbols. The pulsed trace opens for one symbol at the start of each period. The coded trace switches on and off in an irregular pattern, open for 16 of every 31 symbols." caption="Pulsing against a coded pattern, drawn short so it can be seen. The test used a code of 2,047 symbols, so pulsing opened the gate for 1 symbol in 2,047." /> }}
 
-## The question
+## The idea
 
-The idea is the multiplex advantage behind Fourier-transform and Hadamard spectroscopy. The
-pattern was an m-sequence, a pseudo-random code. Decoding correlates the detector's record with
-the code, which turns the overlapping arrivals back into one spectrum. With the gate open 1,024
-times as long, ideal counting would give 32 times the signal-to-noise, or the same spectrum in
-about a thousandth of the time. The question was how much of that survives on a real
-instrument. And if not all of it, what takes the rest?
+The idea is the multiplex advantage behind Fourier-transform and Hadamard spectroscopy. Keep the
+beam on about half the time, switched in a known pattern. The ions from different openings then
+overlap at the detector. The pattern was an m-sequence, a pseudo-random code. Because
+the code is known, decoding can correlate the detector's record with it and turn the overlapping
+arrivals back into one spectrum.
+
+With the gate open 1,024 times as long, ideal counting would give 32 times the signal-to-noise,
+or the same spectrum in about a thousandth of the time. The question was how much of that
+survives on a real instrument. And if not all of it, what takes the rest?
+
+## The architecture
+
+A coded beam needs a gate that switches in nanoseconds, with a driver to swing it. It needs a
+pattern generator to play the code. It also needs a capture fast enough to record single ions
+for decoding. I added these as a drive path and a capture path around the instrument.
+
+{{ <chart name="phd-architecture" alt="Block diagram. The drive path runs down the left: a 100 MHz clock reference, a pattern generator playing the m-sequence through a 1 GS/s DAC, the 150 V driver, and the Bradbury–Nielsen gate in the vacuum. The C60 ion beam passes through the gate to the sample, and ions from the sample fly to the detector. The capture path runs up the right: the detector, a bought 28 dB pre-amplifier, a 16-bit 1 GS/s ADC, recording in LabVIEW and decoding in Julia. The pattern generator and the ADC share one converter card with one 1 GHz clock. The clock reference, driver and gate are hardware I designed. The pattern generator, capture, recording and decode are firmware or software I wrote or changed. The pre-amplifier, detector, sample and card are bought or part of the instrument." caption="The system. The pattern generator and the capture sit on one converter card, so the code and the record run from the same clock." /> }}
+
+One card plays the code and records the detector. Both run from the card's 1 GHz clock, which
+my 100 MHz reference disciplines, so every sample in the record should line up with a symbol of
+the code. In practice the record still slipped against the code, which is
+[the timing problem](@/instruments/phd/timing-problem.md).
+
+The code is made in firmware. A Galois shift register produces the m-sequence one bit per
+symbol. A controller loads new taps in one clock cycle, for any order from 3 to 20. A symbol can
+be any width from 16 ns in 1 ns steps. So a new experiment was a setting, with no file to
+build.
+
+The driver was sized to its load. The gate and its feedthrough are under 100 pF. A 20 ns symbol
+needs edges under 2 ns to stay square. I used GaN FETs. The small, fast ones available then were
+rated to 100 V. A 75 V rail already overshot to 87 V. So each output stayed at 75 V, one
+swinging positive and one negative. Together they put 150 V across the gate.
+
+The detector side is about single ions. Their pulses are about 2 ns wide and a few millivolts
+high. So they are amplified, then sampled at 1 GS/s. The recording stores the raw samples, compressed
+without loss. Decoding happens afterwards in software, so the same record can be decoded several
+ways and the results compared.
+
+## What I built
+
+Each part has its own page, listed above. I designed, built and tested the driver. I designed
+the clock reference board, then measured its jitter. I designed gates, modelled them in CST
+and measured how well a gate blanked the beam. I wrote the pattern generator in the card's FPGA.
+I changed the card's capture firmware too. I also wrote the recording software and the decode.
+Then I
+commissioned all of it on the live instrument, which meant fixing ground loops and EMI along the
+way.
+
+{{ <figure src="driver-stack.jpg" alt="Two stacked circuit boards on a blue mat: a black board with a semicircular cutout on top of a green one, with coax cables on gold connectors" caption="The driver on the bench, April 2021: the black power and control board sits on top of the green drive board." /> }}
+
+{{ <figure src="driver-water-block.jpg" alt="A round water-cooling block on an aluminium plate mounted on the vacuum chamber, with coax cables leaving the board beneath" caption="The driver on the instrument with its water-cooling block, October 2022." /> }}
+
+## How I learned it and checked it
+
+The BioTOF is a commercial instrument that I didn't build. Much of it couldn't be changed,
+including the C60 ion gun. Most of the capture card's firmware was the vendor's. On a fixed
+budget I had to make design choices before I understood how the instrument worked inside. So I
+taught myself the rest as I went. Then I went back and checked those early choices against what
+I'd learned.
+
+I learned the gun by testing its beam, since I couldn't change it. I swept the gate over a
+fortnight while reading the beam on a Faraday cup, down to single-digit picoamps. I also modelled
+the column in CST from Ionoptika's drawing.
+
+I also learned to distrust a result until something had tried to break it.
+
+- The first coded data looked flat, as if the gate had never switched the beam. In 2026 I went
+  back to the raw captures. The record ran 2,297 ppm short of the period I'd set, so the fold had
+  smeared the signal out. Folded at the measured period, the gate's signal came back. Folded at a
+  wrong period on purpose, the same data read nothing. I withdrew the "never modulated" verdict.
+- The gate sweeps had a check built in. A single electrode should need twice the voltage of the
+  pair. It needed 1.97 times. The same check caught an earlier analysis that had overstated the
+  voltage by about a factor of two.
+- At 15 kV the gate needed 27 V one day and 55 V four days later. Nothing in the records explains
+  it, so I don't average any figure across the campaign.
+- The model that removed the decode's echoes was fitted on one run, then carried unchanged to four
+  more. On a run from another day it overcorrected. So I report it as a description of that day's
+  gate.
+- Each figure on these pages says whether it was measured or inferred. The dose figures are
+  inferred, for example, because the beam current wasn't logged.
 
 ## The test
 
@@ -99,40 +173,61 @@ On 7 September 2022 I recorded a matched pair, ten minutes apart, through the sa
 driver on the same silver sample. One run played an order-11 m-sequence, open 50.0% of the time.
 The other opened the gate once per period of the same length, 0.049% of the time.
 
-## What it showed
+## Results
 
 The decoded spectrum is the same spectrum. The lines sit where the pulsed run puts them, with the
-same widths: a resolving power of about 160 at silver-107 in both, on the mass scale fitted to the silver lines. The two silver isotopes keep
-their ratio to within about 10%.
+same widths: a resolving power of about 160 at silver-107 in both, on the mass scale fitted to the
+silver lines. The two silver isotopes keep their ratio to within about 10%.
+
+{{ <chart name="phd-pair-spectra" alt="Mirrored plot of the two spectra against flight time from 0 to 112 microseconds. The coded run is drawn upwards and the pulsed run downwards, each as height over its own baseline noise. Both show lines at the same flight times, labelled sodium, silver, silver dimer and silver trimer, with the silver lines tallest. Dashed lines mark 4 standard deviations." caption="The matched pair, 7 September 2022: coded above, pulsed below, each over its own noise. The pulsed run was recorded for 3.5 times as long. The lines fall in the same places." /> }}
 
 It is faster. Every line reached a given signal-to-noise in less time, from 11 times faster for
 the weakest line to 33 times for silver-109. Silver-107 came out 32 times faster (29 to 36).
 At equal time, the smallest detectable line was 2.7 times weaker.
 
+{{ <chart name="phd-speedup" alt="Speed-up for five lines on a log scale, each with a 95 per cent interval: sodium 26 times, silver-107 32 times, silver-109 33 times, the silver dimer 11 times and the silver trimer 27 times. A dashed line at 1,024 marks ideal counting. A dotted line at 1 marks no gain." caption="How many times faster the coded run reached the same signal-to-noise, per line, with 95% intervals. Ideal counting would give 1,024." /> }}
+
 It is not a thousand times faster. The data say why. Decoding spreads every ion's counting
 noise across the whole spectrum. So a line gains only as the square root of its share of all the
 counts. Silver-107 was about 3% of the events, so it realised about 3% of the ideal saving. Events
-that carried no trace of the code cost a further 1.7 times. Those could in principle be stopped before the
-detector. The noise from the rest of the spectrum can't, because every species is coded the same way.
+that carried no trace of the code cost a further 1.7 times. Those could in principle be stopped
+before the detector. The noise from the rest of the spectrum can't, because every species is
+coded the same way.
 
-The gain is in time, not dose. At the same beam current the coded beam would put 1,024 times the dose on the sample. Per unit
-of dose, pulsing extracts more from each ion: the coded run's figure is 0.18 to 0.67 of the
-pulsed one. So the method suits work limited by time rather than by damage: metals, depth
-profiling and C60 analysis of organics where the damage clears as fast as it builds. It also
-suits continuous beams and spectra dominated by a few strong lines.
+The gain is in time, not dose. At the same beam current the coded beam would put 1,024 times the
+dose on the sample. Per unit of dose, pulsing extracts more from each ion: the coded run's figure
+is 0.18 to 0.67 of the pulsed one.
 
-The pair has limits. Only the set points were recorded, not the
-beam current or drive voltage actually delivered, so the dose figures are inferred. The pulsed run repeated at the coded run's long
-period. Had it run at its own fastest rate, the advantage is projected to fall to 17 to 20
+The pair has limits. Only the set points were recorded, not the beam current or drive voltage
+actually delivered, so the dose figures are inferred. The pulsed run repeated at the coded run's
+long period. Had it run at its own fastest rate, the advantage is projected to fall to 17 to 20
 times. A clean test needs both arms in one run, with the current logged.
 
-A simulation built on the measured gate shows what a better one needs. Below 0.3% leakage when
-shut, the gate keeps 99% of the ideal. The biggest loss is the events the code never touched.
-That is a property of the beam, not the gate.
+## Outcome
 
-## On the instrument
+The method works on a real instrument. The coded beam gave the same spectrum as pulsing, about
+30 times faster for the strongest line. Against pulsing at its own fastest rate, the projection
+is 17 to 20 times.
 
-The work ran from metal to data, so it is split into the six parts listed above. I also
-commissioned the electronics on the live instrument, fixing EMI and ground-loop problems.
+The work also shows where it pays off. Because a line gains with its share of the counts, the
+method suits spectra dominated by a few strong lines. Because the gain is in time rather than dose,
+it suits work where time is the limit, not damage to the sample: metals, depth profiling and
+C60 analysis of organics where the damage clears as fast as it builds. It also suits continuous
+beams.
+
+It measures what each part costs, which is what a next version needs to know.
+
+- The gate's tail sets its voltage. At 15 kV, 10% transmission took 27 V but 1% took 50 V. A
+  simulation built on the measured gate shows that below 0.3% leakage when shut, the gate keeps
+  99% of the ideal.
+- The biggest loss is the events the code never touched. That is a property of the beam, not
+  the gate.
+- Each line left a negative copy about 4% of its size, from beam lost every time the gate opens or
+  closes. The driver accounts for a third of that at most. An inverse-repeat code cancels the
+  copy: in simulation it fell from 6.3% to 0.05% with no loss of signal-to-noise.
+- Most of the timing error is added after the pattern generator, most likely in the driver: 14 to
+  20 ps rms at the generator against 33 to 132 ps rms at the driver's output.
+- The driver's high-voltage stage should be a small board of its own beside a cooling element,
+  with GaN parts that report their own junction temperature.
 
 I'm a PhD candidate at the University of Manchester. The thesis is not yet submitted.

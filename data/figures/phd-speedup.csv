@@ -1,0 +1,9 @@
+# Time the pulsed arm needs to reach the coded arm's SNR, per line, with 95 % intervals.
+# Reviewed reading: steady part of both runs, measured decode noise, matched peak shape.
+# From the thesis repo, scripts/multiplex-compare/data/pair_gains.csv. Ideal counting gives 1,024.
+peak,time_ratio,lo,hi
+Na,26.335,22.785,30.401
+107Ag,31.927,28.615,36.001
+109Ag,33.474,28.999,39.254
+Ag2,10.935,7.287,17.064
+Ag3,26.644,21.571,33.072
