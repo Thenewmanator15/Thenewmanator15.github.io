@@ -82,6 +82,8 @@ I laid it out following signal-integrity principles, using 2D transmission-line 
 Keysight ADS. Full-wave CST predicted the waveform at the far end of the gate, through drive-path
 parts that had to be safe in vacuum with low capacitance.
 
+{{ <figure src="driver-layout.jpg" alt="Altium layout of the driver's drive board, its top copper in red over the bottom in blue. Two halves mirror each other above and below the centre line. Wide copper paths from each half sweep to the right and meet at the output connectors that feed the gate." caption="The drive board's layout in Altium, version 3.1. The two outputs are laid out as mirror images, so their paths to the gate match." /> }}
+
 ## Power delivery
 
 First I chased down the obvious faults. Supply noise was coupling through the isolated DC-DC

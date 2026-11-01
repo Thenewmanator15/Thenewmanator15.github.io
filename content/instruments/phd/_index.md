@@ -124,6 +124,37 @@ high. So they are amplified, then sampled at 1 GS/s. The recording stores the ra
 without loss. Decoding happens afterwards in software, so the same record can be decoded several
 ways and the results compared.
 
+## The clock
+
+I made two choices about the clock. The first was to play the code and record the detector from
+one clock. Any drift in the oscillator then moves both together. A symbol is always 100 samples,
+so in principle the code and the record can't drift apart, however far the oscillator wanders.
+In practice the capture dropped samples after the ADC, which is the timing problem.
+
+The second was an external reference. The card's own oscillator is specified to 10 ppm. The
+absolute flight time sets the mass scale, so it needs a steadier source. I designed a reference
+board around a 100 MHz oven-controlled crystal oscillator, specified to 2 parts in 10¹¹ over a
+second. It has a low-jitter buffer, attenuators to set each output's level and three LT3045
+regulators in parallel. A monitor on the oven current shows when the oscillator has warmed up.
+
+{{ <chart name="phd-clock" alt="Block diagram of the clock chain. My clock reference board, a 100 MHz OCXO, feeds the converter card. On the card a first loop follows the reference below about 100 Hz. A second loop locks a 3 GHz VCO to a 500 MHz VCSO and sets the jitter, about 200 femtoseconds as modelled. Divided by 3, that gives one 1 GHz sample clock, which feeds both the DAC that plays the code and the ADC that records, whose aperture jitter is 120 femtoseconds." caption="The clock chain. My reference disciplines the jitter cleaner on the converter card, which makes one 1 GHz clock for both converters." /> }}
+
+I measured the board on two oscilloscopes with jitter-analysis software. From 12 kHz to 20 MHz
+the jitter came out at 2.4 ps. That was the oscilloscope's floor: the oscillator's own figure is
+below 0.1 ps. Driving the output harder helped the measurement. At +10 dBm it read 2.4 ps against
+4.5 ps at +6 dBm, because a steeper edge turns less amplitude noise into timing noise.
+
+The reference doesn't clock the converters directly. It disciplines a jitter cleaner on the card.
+I traced that chain through the card's firmware. The first loop follows the reference only below
+about 100 Hz. A second loop locks a 3 GHz oscillator to a 500 MHz one. Divided by three, that
+gives the 1 GHz sample clock for both converters. I modelled the second loop with the vendor's
+filter. It was under-damped, at about 20° of phase margin, for roughly 200 fs of jitter. A
+redesigned filter would give about 90 fs. The ADC's own aperture jitter is 120 fs, so a quieter
+reference would buy nothing. Those figures are modelled, not measured.
+
+So the jitter is set on the card, not by my reference. The place to improve it is the card's loop
+filter. The reference does the job it's there for: keeping the time of flight steady.
+
 ## What I built
 
 Each part has its own page, listed above. I designed, built and tested the driver. I designed
@@ -133,6 +164,8 @@ I changed the card's capture firmware too. I also wrote the recording software a
 Then I
 commissioned all of it on the live instrument, which meant fixing ground loops and EMI along the
 way.
+
+{{ <figure src="driver-layout.jpg" alt="Altium layout of the driver's drive board, its top copper in red over the bottom in blue. Two halves mirror each other above and below the centre line. Wide copper paths from each half sweep to the right and meet at the output connectors that feed the gate." caption="The drive board's layout in Altium, version 3.1. The two outputs are laid out as mirror images, so their paths to the gate match." /> }}
 
 {{ <figure src="driver-stack.jpg" alt="Two stacked circuit boards on a blue mat: a black board with a semicircular cutout on top of a green one, with coax cables on gold connectors" caption="The driver on the bench, April 2021: the black power and control board sits on top of the green drive board." /> }}
 

@@ -20,7 +20,7 @@ on_request = true
 
 ## The company
 
-[PhovIR](https://phovir.com/) is a University of Manchester spin-out making a handheld, MEMS-based
+[PhovIR](https://www.phovir.com/) is a University of Manchester spin-out making a handheld, MEMS-based
 infrared (FTIR) spectrometer
 ([PhovIR on LinkedIn](https://www.linkedin.com/company/phovir-technologies/)). I joined on a
 three-month contract to set up the embedded and electronics side, taking the device from an
