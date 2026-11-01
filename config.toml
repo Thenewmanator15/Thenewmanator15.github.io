@@ -10,8 +10,9 @@ ignored_content = ["_template/*"]
 smart_punctuation = false
 
 [link_checker]
-# LinkedIn refuses automated requests, so its links are not checked.
-skip_prefixes = ["https://www.linkedin.com/"]
+# LinkedIn refuses automated requests, so its links are not checked. HAL refuses GitHub's runners
+# (the link opened fine by hand on 1 Nov 2026), so it is skipped too.
+skip_prefixes = ["https://www.linkedin.com/", "https://hal.science/"]
 
 [extra]
 # The one Content Security Policy every page carries; tools/check_site.py checks it matches.
