@@ -1,0 +1,23 @@
+# Timeline entries: a single date, no page. They are pulses on the D2 line, never projects.
+
+[[entries]]
+id = "beng-award"
+title = "BEng (Hons) Electronic Engineering, First Class"
+date = "2017-07"
+education = true
+summary = "Awarded by the University of Manchester."
+[[entries.proof]]
+kind = "certificate"
+label = "Degree certificate"
+on_request = true
+
+[[entries]]
+id = "afhea"
+title = "Associate Fellow of the Higher Education Academy"
+date = "2024-01"   # issued January 2024 (Mathew, from LinkedIn, 1 Nov 2026)
+education = true
+summary = "Recognition for university teaching, from Advance HE."
+[[entries.proof]]
+kind = "certificate"
+label = "AFHEA certificate, credential ID PR282709"
+on_request = true   # Advance HE has no public verification link

@@ -1,0 +1,15 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "timeout": 60000,
+    "wait": 500,
+    "viewport": { "width": 1280, "height": 900 },
+    "chromeLaunchConfig": { "args": ["--no-sandbox"] }
+  },
+  "urls": [
+    "http://127.0.0.1:1111/",
+    { "url": "http://127.0.0.1:1111/", "viewport": { "width": 375, "height": 812 } },
+    "http://127.0.0.1:1111/rf-wireless-embedded/sniffers/",
+    { "url": "http://127.0.0.1:1111/rf-wireless-embedded/sniffers/", "viewport": { "width": 375, "height": 812 } }
+  ]
+}

@@ -1,0 +1,65 @@
+{#- The body of a project page, shared by page.html (a project in one folder) and section.html
+    (a big project with parts). `p` is the page or section; `parts` its part pages (or []);
+    `skills` and `proof` already include the parts' own. -#}
+{% component project(p, n, chan: string, parts, skills, proof) -%}
+{%- set text_only = p.extra?.text_only or false -%}
+{%- set bits = p.relative_path | split(pat="/") -%}
+{%- set dir = bits[:-1] | join(sep="/") -%}
+<article class="project" data-channel="{{ n }}">
+<header class="phead">
+<p class="kicker"><span class="tag">CH{{ n }}</span> {{ chan }} · {{<dates start={p.extra.start} end={p.extra?.end or "now"} />}}{% if p.extra?.role %} · role{% endif %}</p>
+<h1>{{ p.title }}</h1>
+<p class="lede">{{ p.description }}</p>
+</header>
+{%- if p.extra?.still_to_come %}
+{{<wip_sign items={p.extra.still_to_come} note={p.extra?.still_to_come_note or ""} />}}
+{%- endif %}
+{%- if p.extra?.hero and not text_only %}
+<figure class="hero">{{<img path={dir ~ "/" ~ p.extra.hero} alt={p.extra.hero_alt} sizes="(min-width: 64rem) 60rem, 100vw" lazy={false} />}}</figure>
+{%- endif %}
+<div class="pbody">
+<nav class="toc" aria-label="On this page"><ul>
+{%- if p.extra?.my_part %}<li><a href="#what-i-did">What I did</a></li>{% endif %}
+{%- if p.extra?.result %}<li><a href="#result">Result</a></li>{% endif %}
+{%- if parts %}<li><a href="#parts">Parts</a></li>{% endif %}
+{%- for h in p.toc %}<li><a href="#{{ h.id }}">{{ h.title }}</a></li>{% endfor %}
+{%- if skills %}<li><a href="#skills">Skills</a></li>{% endif %}
+{%- if proof %}<li><a href="#proof">Proof</a></li>{% endif %}
+</ul></nav>
+<div class="prose">
+{%- if p.extra?.my_part %}
+<h2 id="what-i-did">What I did</h2>
+<p>{{ p.extra.my_part }}</p>
+{%- endif %}
+{%- if p.extra?.result %}
+<h2 id="result">Result</h2>
+<p>{{ p.extra.result }}</p>
+{%- endif %}
+{%- if parts %}
+<h2 id="parts">Parts</h2>
+<ol class="parts">{% for q in parts %}<li><a href="{{ q.path }}">{{ q.title }}</a>{% if q.extra?.still_to_come %} <span class="lbl wip">in progress</span>{% endif %}{% if q.description %}: {{ q.description }}{% endif %}</li>{% endfor %}</ol>
+{%- endif %}
+{{ p.content | safe }}
+{%- if skills %}
+<h2 id="skills">Skills</h2>
+<ul class="skills">{% for s in skills %}<li>{{ s }}</li>{% endfor %}</ul>
+{%- endif %}
+{%- if proof %}
+<h2 id="proof">Proof</h2>
+{{<proof_list items={proof} />}}
+{%- endif %}
+</div>
+</div>
+</article>
+{%- endcomponent project %}
+
+{#- "Next in ...": the next project in the list (newest first), wrapping round to the first. -#}
+{% component next_in(list, current: string, label: string) -%}
+{%- if list | length > 1 -%}
+{%- set_global at = 0 -%}
+{%- for q in list %}{% if q.path == current %}{% set_global at = loop.index0 %}{% endif %}{% endfor -%}
+{%- set k = (at + 1) % (list | length) -%}
+{%- set nx = list[k] -%}
+<nav class="next" aria-label="{{ label }}"><span class="k">{{ label }}</span> <a href="{{ nx.path }}">{{ nx.title }}</a></nav>
+{%- endif -%}
+{%- endcomponent next_in %}

@@ -1,0 +1,104 @@
+/* Theme tokens. Three themes: scope (dark, the default), paper (light) and hc (high contrast).
+   A theme the visitor picked is set as html[data-style]. Without one, the browser's own settings
+   decide through the media queries at the end, which must copy the paper and hc blocks exactly
+   (tools/check_contrast.py checks that, and every text colour against its background).
+   Channel colours are never reused: a new channel adds the next --cN, a retired one keeps its token. */
+
+:root {
+  --serif: Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, "Cascadia Mono", monospace;
+  --sans: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+:root,
+html[data-style=scope] {
+  --page: #1c1c1a; --pagetext: #e8e6df; --bezel: #2b2b29; --panel: #3a3a37; --paneldim: #b4b2a9;
+  --screen: #07160e; --grid: #173325; --trace: #46e09a; --text: #8ff0c2; --dim: #4fae84;
+  --accent: #ffb23e; --onaccent: #111111;
+  --btn: #4a4a46; --btntext: #eeeeea; --btnedge: #5f5e5a;
+  --glow: 0 0 6px rgba(70, 224, 154, .45);
+  --c1: #f5c518; --c2: #3fd0e0; --c3: #e781da; --c4: #ff8a65; --c5: #7aa2ff; --c6: #b791ff; --c7: #c8c8c0;
+  --chtext: #111111;
+  --zbg: #10261b; --ztext: #e9f7ef; --zdim: #9fd8bd; --tagbg: #1d3a2b;
+  --dig: #a9cbbd; --cm: #f1e9d2;
+}
+
+html[data-style=paper] {
+  --page: #f4f1e8; --pagetext: #2c2c2a; --bezel: #d9d4c5; --panel: #ece7da; --paneldim: #5f5e5a;
+  --screen: #fbf8f0; --grid: #e3ded0; --trace: #1d5f8a; --text: #2c2c2a; --dim: #61605b;
+  --accent: #c2410c; --onaccent: #ffffff;
+  --btn: #ffffff; --btntext: #2c2c2a; --btnedge: #b4b2a9;
+  --glow: none;
+  --c1: #8a5d00; --c2: #0b6e7d; --c3: #93277f; --c4: #b0401b; --c5: #2b56c4; --c6: #6d3fc0; --c7: #5f5e5a;
+  --chtext: #ffffff;
+  --zbg: #ffffff; --ztext: #2c2c2a; --zdim: #5f5e5a; --tagbg: #efeadf;
+  --dig: #4a4945; --cm: #1f2937;
+}
+
+html[data-style=hc] {
+  --page: #000000; --pagetext: #ffffff; --bezel: #000000; --panel: #000000; --paneldim: #ffffff;
+  --screen: #000000; --grid: #555555; --trace: #ffff00; --text: #ffffff; --dim: #ffffff;
+  --accent: #00ffff; --onaccent: #000000;
+  --btn: #000000; --btntext: #ffffff; --btnedge: #ffffff;
+  --glow: none;
+  --c1: #ffff00; --c2: #00ffff; --c3: #ff66ff; --c4: #ff9933; --c5: #88bbff; --c6: #c9a3ff; --c7: #ffffff;
+  --chtext: #000000;
+  --zbg: #000000; --ztext: #ffffff; --zdim: #ffffff; --tagbg: #2a2a2a;
+  --dig: #ffffff; --cm: #bfbfbf;
+}
+
+/* No theme picked: follow the browser. These two blocks are exact copies of paper and hc. */
+@media (prefers-color-scheme: light) {
+  html:not([data-style]) {
+    --page: #f4f1e8; --pagetext: #2c2c2a; --bezel: #d9d4c5; --panel: #ece7da; --paneldim: #5f5e5a;
+    --screen: #fbf8f0; --grid: #e3ded0; --trace: #1d5f8a; --text: #2c2c2a; --dim: #61605b;
+    --accent: #c2410c; --onaccent: #ffffff;
+    --btn: #ffffff; --btntext: #2c2c2a; --btnedge: #b4b2a9;
+    --glow: none;
+    --c1: #8a5d00; --c2: #0b6e7d; --c3: #93277f; --c4: #b0401b; --c5: #2b56c4; --c6: #6d3fc0; --c7: #5f5e5a;
+    --chtext: #ffffff;
+    --zbg: #ffffff; --ztext: #2c2c2a; --zdim: #5f5e5a; --tagbg: #efeadf;
+    --dig: #4a4945; --cm: #1f2937;
+  }
+}
+
+@media (prefers-contrast: more) {
+  html:not([data-style]) {
+    --page: #000000; --pagetext: #ffffff; --bezel: #000000; --panel: #000000; --paneldim: #ffffff;
+    --screen: #000000; --grid: #555555; --trace: #ffff00; --text: #ffffff; --dim: #ffffff;
+    --accent: #00ffff; --onaccent: #000000;
+    --btn: #000000; --btntext: #ffffff; --btnedge: #ffffff;
+    --glow: none;
+    --c1: #ffff00; --c2: #00ffff; --c3: #ff66ff; --c4: #ff9933; --c5: #88bbff; --c6: #c9a3ff; --c7: #ffffff;
+    --chtext: #000000;
+    --zbg: #000000; --ztext: #ffffff; --zdim: #ffffff; --tagbg: #2a2a2a;
+    --dig: #ffffff; --cm: #bfbfbf;
+  }
+}
+
+/* Windows high contrast and other forced-colour modes: use the system's own colours. */
+@media (forced-colors: active) {
+  html:not([data-style]),
+  html[data-style] {
+    --page: Canvas; --pagetext: CanvasText; --bezel: Canvas; --panel: Canvas; --paneldim: CanvasText;
+    --screen: Canvas; --grid: GrayText; --trace: CanvasText; --text: CanvasText; --dim: CanvasText;
+    --accent: Highlight; --onaccent: HighlightText;
+    --btn: ButtonFace; --btntext: ButtonText; --btnedge: ButtonText;
+    --glow: none;
+    --c1: CanvasText; --c2: CanvasText; --c3: CanvasText; --c4: CanvasText; --c5: CanvasText;
+    --c6: CanvasText; --c7: CanvasText;
+    --chtext: Canvas;
+    --zbg: Canvas; --ztext: CanvasText; --zdim: CanvasText; --tagbg: Canvas;
+    --dig: CanvasText; --cm: CanvasText;
+  }
+}
+
+/* Each element marked data-channel="N" gets its channel's colour as --cc.
+   A new channel adds its line here, next to its --cN token. */
+[data-channel="1"] { --cc: var(--c1); }
+[data-channel="2"] { --cc: var(--c2); }
+[data-channel="3"] { --cc: var(--c3); }
+[data-channel="4"] { --cc: var(--c4); }
+[data-channel="5"] { --cc: var(--c5); }
+[data-channel="6"] { --cc: var(--c6); }
+[data-channel="7"] { --cc: var(--c7); }

@@ -1,0 +1,1458 @@
+<svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 287.86 215.54" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  </defs>
+ <g id="driver-pdn-figure_1">
+  <g id="driver-pdn-patch_1">
+   <path d="M 0 215.54 
+L 287.86 215.54 
+L 287.86 0 
+L 0 0 
+L 0 215.54 
+z
+" fill="none"/>
+  </g>
+  <g id="driver-pdn-axes_1">
+   <g id="driver-pdn-patch_2">
+    <path d="M 40.4 183.04 
+L 284.26 183.04 
+L 284.26 3.6 
+L 40.4 3.6 
+L 40.4 183.04 
+z
+" fill="none"/>
+   </g>
+   <g id="driver-pdn-matplotlib.axis_1">
+    <g id="driver-pdn-xtick_1">
+     <g id="driver-pdn-line2d_1">
+      <defs>
+       <path id="driver-pdn-mae40bbd23d" d="M 0 0 
+L 0 -3 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-pdn-mae40bbd23d" x="112.206478" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_2">
+      <defs>
+       <path id="driver-pdn-m6ab5fe8380" d="M 0 0 
+L 0 3 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-pdn-m6ab5fe8380" x="112.206478" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-text_1">
+      <!-- $\mathdefault{10^{1}}$ -->
+      <g class="f-fg" transform="translate(104.956478 195.44)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_2">
+     <g id="driver-pdn-line2d_3">
+      <g>
+       <use xlink:href="#driver-pdn-mae40bbd23d" x="186.178089" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_4">
+      <g>
+       <use xlink:href="#driver-pdn-m6ab5fe8380" x="186.178089" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-text_2">
+      <!-- $\mathdefault{10^{2}}$ -->
+      <g class="f-fg" transform="translate(178.928089 195.44)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_3">
+     <g id="driver-pdn-line2d_5">
+      <g>
+       <use xlink:href="#driver-pdn-mae40bbd23d" x="260.1497" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_6">
+      <g>
+       <use xlink:href="#driver-pdn-m6ab5fe8380" x="260.1497" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-text_3">
+      <!-- $\mathdefault{10^{3}}$ -->
+      <g class="f-fg" transform="translate(252.8997 195.44)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_4">
+     <g id="driver-pdn-line2d_7">
+      <defs>
+       <path id="driver-pdn-m20fb295bad" d="M 0 0 
+L 0 -1.5 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="60.50254" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_8">
+      <defs>
+       <path id="driver-pdn-m9d8bd21e61" d="M 0 0 
+L 0 1.5 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="60.50254" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_5">
+     <g id="driver-pdn-line2d_9">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="73.528295" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_10">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="73.528295" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_6">
+     <g id="driver-pdn-line2d_11">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="82.770214" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_12">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="82.770214" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_7">
+     <g id="driver-pdn-line2d_13">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="89.938804" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_14">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="89.938804" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_8">
+     <g id="driver-pdn-line2d_15">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="95.795968" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_16">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="95.795968" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_9">
+     <g id="driver-pdn-line2d_17">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="100.74813" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_18">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="100.74813" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_10">
+     <g id="driver-pdn-line2d_19">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="105.037888" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_20">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="105.037888" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_11">
+     <g id="driver-pdn-line2d_21">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="108.821723" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_22">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="108.821723" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_12">
+     <g id="driver-pdn-line2d_23">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="134.474152" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_24">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="134.474152" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_13">
+     <g id="driver-pdn-line2d_25">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="147.499906" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_26">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="147.499906" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_14">
+     <g id="driver-pdn-line2d_27">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="156.741826" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_28">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="156.741826" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_15">
+     <g id="driver-pdn-line2d_29">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="163.910415" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_30">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="163.910415" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_16">
+     <g id="driver-pdn-line2d_31">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="169.76758" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_32">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="169.76758" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_17">
+     <g id="driver-pdn-line2d_33">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="174.719742" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_34">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="174.719742" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_18">
+     <g id="driver-pdn-line2d_35">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="179.009499" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_36">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="179.009499" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_19">
+     <g id="driver-pdn-line2d_37">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="182.793334" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_38">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="182.793334" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_20">
+     <g id="driver-pdn-line2d_39">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="208.445763" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_40">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="208.445763" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_21">
+     <g id="driver-pdn-line2d_41">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="221.471517" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_42">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="221.471517" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_22">
+     <g id="driver-pdn-line2d_43">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="230.713437" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_44">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="230.713437" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_23">
+     <g id="driver-pdn-line2d_45">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="237.882027" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_46">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="237.882027" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_24">
+     <g id="driver-pdn-line2d_47">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="243.739191" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_48">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="243.739191" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_25">
+     <g id="driver-pdn-line2d_49">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="248.691353" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_50">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="248.691353" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_26">
+     <g id="driver-pdn-line2d_51">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="252.981111" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_52">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="252.981111" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_27">
+     <g id="driver-pdn-line2d_53">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="256.764945" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_54">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="256.764945" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-xtick_28">
+     <g id="driver-pdn-line2d_55">
+      <g>
+       <use xlink:href="#driver-pdn-m20fb295bad" x="282.417374" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_56">
+      <g>
+       <use xlink:href="#driver-pdn-m9d8bd21e61" x="282.417374" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-text_4">
+     <text font-size="10px" text-anchor="middle" class="f-fg" x="162.33" y="209.44" transform="rotate(-0 162.33 209.44)">Frequency (MHz)</text>
+    </g>
+   </g>
+   <g id="driver-pdn-matplotlib.axis_2">
+    <g id="driver-pdn-ytick_1">
+     <g id="driver-pdn-line2d_57">
+      <defs>
+       <path id="driver-pdn-m2685e6c094" d="M 0 0 
+L 3 0 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-pdn-m2685e6c094" x="40.4" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_58">
+      <defs>
+       <path id="driver-pdn-m41dff3320c" d="M 0 0 
+L -3 0 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-pdn-m41dff3320c" x="284.26" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-text_5">
+      <!-- $\mathdefault{10^{-1}}$ -->
+      <g class="f-fg" transform="translate(17.6 187.49)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">−</tspan>
+        <tspan x="15.195423" y="-4.264063" font-size="7px" class="f-fg">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_2">
+     <g id="driver-pdn-line2d_59">
+      <g>
+       <use xlink:href="#driver-pdn-m2685e6c094" x="40.4" y="142.960675" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_60">
+      <g>
+       <use xlink:href="#driver-pdn-m41dff3320c" x="284.26" y="142.960675" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-text_6">
+      <!-- $\mathdefault{10^{0}}$ -->
+      <g class="f-fg" transform="translate(22.4 147.410675)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_3">
+     <g id="driver-pdn-line2d_61">
+      <g>
+       <use xlink:href="#driver-pdn-m2685e6c094" x="40.4" y="102.881349" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_62">
+      <g>
+       <use xlink:href="#driver-pdn-m41dff3320c" x="284.26" y="102.881349" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-text_7">
+      <!-- $\mathdefault{10^{1}}$ -->
+      <g class="f-fg" transform="translate(22.4 107.331349)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_4">
+     <g id="driver-pdn-line2d_63">
+      <g>
+       <use xlink:href="#driver-pdn-m2685e6c094" x="40.4" y="62.802024" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_64">
+      <g>
+       <use xlink:href="#driver-pdn-m41dff3320c" x="284.26" y="62.802024" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-text_8">
+      <!-- $\mathdefault{10^{2}}$ -->
+      <g class="f-fg" transform="translate(22.4 67.252024)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_5">
+     <g id="driver-pdn-line2d_65">
+      <g>
+       <use xlink:href="#driver-pdn-m2685e6c094" x="40.4" y="22.722698" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_66">
+      <g>
+       <use xlink:href="#driver-pdn-m41dff3320c" x="284.26" y="22.722698" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-text_9">
+      <!-- $\mathdefault{10^{3}}$ -->
+      <g class="f-fg" transform="translate(22.4 27.172698)">
+       <text>
+        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_6">
+     <g id="driver-pdn-line2d_67">
+      <defs>
+       <path id="driver-pdn-m7e519bac54" d="M 0 0 
+L 1.5 0 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="170.974921" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_68">
+      <defs>
+       <path id="driver-pdn-ma626b2919d" d="M 0 0 
+L -1.5 0 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="170.974921" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_7">
+     <g id="driver-pdn-line2d_69">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="163.917302" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_70">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="163.917302" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_8">
+     <g id="driver-pdn-line2d_71">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="158.909842" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_72">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="158.909842" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_9">
+     <g id="driver-pdn-line2d_73">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="155.025754" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_74">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="155.025754" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_10">
+     <g id="driver-pdn-line2d_75">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="151.852223" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_76">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="151.852223" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_11">
+     <g id="driver-pdn-line2d_77">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="149.169041" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_78">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="149.169041" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_12">
+     <g id="driver-pdn-line2d_79">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="146.844762" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_80">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="146.844762" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_13">
+     <g id="driver-pdn-line2d_81">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="144.794604" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_82">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="144.794604" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_14">
+     <g id="driver-pdn-line2d_83">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="130.895595" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_84">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="130.895595" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_15">
+     <g id="driver-pdn-line2d_85">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="123.837976" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_86">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="123.837976" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_16">
+     <g id="driver-pdn-line2d_87">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="118.830516" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_88">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="118.830516" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_17">
+     <g id="driver-pdn-line2d_89">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="114.946428" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_90">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="114.946428" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_18">
+     <g id="driver-pdn-line2d_91">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="111.772897" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_92">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="111.772897" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_19">
+     <g id="driver-pdn-line2d_93">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="109.089715" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_94">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="109.089715" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_20">
+     <g id="driver-pdn-line2d_95">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="106.765437" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_96">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="106.765437" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_21">
+     <g id="driver-pdn-line2d_97">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="104.715278" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_98">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="104.715278" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_22">
+     <g id="driver-pdn-line2d_99">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="90.81627" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_100">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="90.81627" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_23">
+     <g id="driver-pdn-line2d_101">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="83.758651" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_102">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="83.758651" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_24">
+     <g id="driver-pdn-line2d_103">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="78.751191" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_104">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="78.751191" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_25">
+     <g id="driver-pdn-line2d_105">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="74.867103" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_106">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="74.867103" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_26">
+     <g id="driver-pdn-line2d_107">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="71.693572" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_108">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="71.693572" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_27">
+     <g id="driver-pdn-line2d_109">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="69.01039" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_110">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="69.01039" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_28">
+     <g id="driver-pdn-line2d_111">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="66.686112" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_112">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="66.686112" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_29">
+     <g id="driver-pdn-line2d_113">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="64.635953" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_114">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="64.635953" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_30">
+     <g id="driver-pdn-line2d_115">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="50.736944" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_116">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="50.736944" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_31">
+     <g id="driver-pdn-line2d_117">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="43.679325" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_118">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="43.679325" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_32">
+     <g id="driver-pdn-line2d_119">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="38.671865" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_120">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="38.671865" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_33">
+     <g id="driver-pdn-line2d_121">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="34.787777" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_122">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="34.787777" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_34">
+     <g id="driver-pdn-line2d_123">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="31.614246" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_124">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="31.614246" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_35">
+     <g id="driver-pdn-line2d_125">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="28.931064" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_126">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="28.931064" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_36">
+     <g id="driver-pdn-line2d_127">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="26.606786" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_128">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="26.606786" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_37">
+     <g id="driver-pdn-line2d_129">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="24.556627" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_130">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="24.556627" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_38">
+     <g id="driver-pdn-line2d_131">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="10.657619" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_132">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="10.657619" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-ytick_39">
+     <g id="driver-pdn-line2d_133">
+      <g>
+       <use xlink:href="#driver-pdn-m7e519bac54" x="40.4" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-pdn-line2d_134">
+      <g>
+       <use xlink:href="#driver-pdn-ma626b2919d" x="284.26" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-pdn-text_10">
+     <text font-size="10px" text-anchor="middle" class="f-fg" x="11.1" y="93.32" transform="rotate(-90 11.1 93.32)">Supply impedance (Ω)</text>
+    </g>
+   </g>
+   <g id="driver-pdn-line2d_135">
+    <path d="M 51.484545 154.585762 
+L 86.650117 137.84044 
+L 108.885749 125.9579 
+L 118.119652 121.476026 
+L 131.137388 114.513227 
+L 158.348057 99.693319 
+L 178.231805 88.300493 
+L 185.399654 83.741253 
+L 189.565254 80.853101 
+L 197.589998 74.839275 
+L 200.187252 72.537604 
+L 202.590141 70.151011 
+L 205.094561 67.394402 
+L 207.167791 64.707659 
+L 208.878217 62.152845 
+L 210.275136 59.730326 
+L 212.26283 55.989814 
+L 213.108252 54.085414 
+L 215.324597 48.372461 
+L 216.094078 45.577842 
+L 217.579862 39.573852 
+L 218.297755 35.079146 
+L 219.173134 27.902753 
+L 219.856659 23.299597 
+L 220.193043 22.463543 
+L 220.359924 22.653212 
+L 220.691107 24.575978 
+L 222.453991 38.759115 
+L 223.2244 43.1423 
+L 224.566225 49.205007 
+L 226.410528 55.354268 
+L 228.02382 59.527251 
+L 231.145178 66.367039 
+L 237.882412 81.391635 
+L 239.390015 85.502559 
+L 240.564897 89.212751 
+L 241.612542 93.140548 
+L 242.627099 97.865188 
+L 243.529776 103.43667 
+L 244.249918 109.30237 
+L 244.799076 115.383546 
+L 245.491618 122.62779 
+L 245.643509 123.13299 
+L 245.719187 123.088473 
+L 245.870009 122.493003 
+L 246.169545 119.870538 
+L 247.839696 102.622194 
+L 248.746653 96.486004 
+L 249.96161 89.967017 
+L 251.513223 83.003591 
+L 255.597155 65.435379 
+L 256.636186 59.498433 
+L 257.275514 54.763036 
+L 259.070682 38.34852 
+L 259.120527 38.365615 
+L 259.2696 38.838015 
+L 259.516528 40.759051 
+L 261.795191 62.152845 
+L 262.965145 69.22808 
+L 265.01912 79.70826 
+L 266.556893 87.957428 
+L 267.414656 93.98632 
+L 268.324995 102.316218 
+L 268.991211 110.39305 
+L 269.572022 116.900682 
+L 269.643891 117.061109 
+L 269.679765 117.03754 
+L 269.822862 116.337349 
+L 270.071758 113.600381 
+L 270.979706 102.065283 
+L 271.896178 93.583786 
+L 272.49295 89.606083 
+L 273.175455 86.478618 
+L 273.175455 86.478618 
+" clip-path="url(#driver-pdn-p7bb9f5eab4)" fill="none" stroke-linecap="square" class="s-c5"/>
+   </g>
+   <g id="driver-pdn-line2d_136">
+    <path d="M 51.484545 153.877378 
+L 73.65638 144.242583 
+L 86.650117 137.493716 
+L 103.034994 128.722097 
+L 108.885749 126.202086 
+L 118.119652 121.299618 
+L 147.541481 105.466174 
+L 171.37152 92.220394 
+L 174.984439 90.100144 
+L 182.828492 85.184802 
+L 188.235844 81.585153 
+L 194.764147 76.836943 
+L 196.559212 75.472814 
+L 197.926372 74.31883 
+L 200.187252 72.386007 
+L 200.805033 72.03043 
+L 202.006057 70.643787 
+L 206.405922 65.38483 
+L 208.639376 62.119339 
+L 210.502162 58.84845 
+L 212.898973 54.13824 
+L 215.129312 48.425726 
+L 215.903429 45.878069 
+L 217.397854 40.14689 
+L 218.297755 34.864534 
+L 219.687136 25.498379 
+L 220.025291 24.587599 
+L 220.193043 24.568235 
+L 220.359924 24.935931 
+L 220.691107 26.896385 
+L 222.297667 39.059077 
+L 223.2244 44.281432 
+L 224.419871 49.879405 
+L 225.430616 53.362202 
+L 225.99422 54.534218 
+L 226.685099 55.68648 
+L 227.495007 57.655867 
+L 230.0561 63.916115 
+L 232.542127 70.010861 
+L 232.882075 70.654716 
+L 233.329814 71.457298 
+L 238.17053 83.115063 
+L 238.55071 84.122149 
+L 238.739127 84.300798 
+L 239.112676 85.336602 
+L 241.09299 92.145083 
+L 242.208254 97.061975 
+L 243.040553 101.982435 
+L 243.931846 108.48371 
+L 244.643129 115.769765 
+L 245.339005 122.681998 
+L 245.415402 122.917036 
+L 245.491618 122.823734 
+L 245.719187 122.434026 
+L 245.870009 121.547092 
+L 246.392378 115.117851 
+L 247.051752 107.773153 
+L 247.910379 100.707851 
+L 249.224611 92.679234 
+L 250.093813 88.217838 
+L 255.318047 65.338453 
+L 256.311687 59.744923 
+L 257.22272 53.001646 
+L 257.850593 48.311785 
+L 258.159987 45.944027 
+L 258.618561 42.205932 
+L 258.870525 41.342722 
+L 258.970759 41.368107 
+L 259.170295 41.899439 
+L 259.417984 43.52337 
+L 262.205015 65.411097 
+L 267.568182 93.260316 
+L 268.511445 101.301658 
+L 269.173845 108.894374 
+L 269.965325 118.494362 
+L 270.071758 118.644398 
+L 270.213124 117.824487 
+L 270.494002 114.297249 
+L 271.525951 100.939834 
+L 272.361289 92.679234 
+L 273.175455 86.478618 
+L 273.175455 86.478618 
+" clip-path="url(#driver-pdn-p7bb9f5eab4)" fill="none" stroke-dasharray="3.7,1.6" stroke-dashoffset="0" class="s-c5"/>
+   </g>
+   <g id="driver-pdn-line2d_137">
+    <path d="M 51.484545 69.270937 
+L 73.65638 78.812219 
+L 86.650117 85.637766 
+L 95.876022 90.95608 
+L 103.034994 95.513204 
+L 108.885749 99.722329 
+L 113.833329 103.788836 
+L 118.119652 107.89113 
+L 121.900813 112.033024 
+L 128.343564 120.414821 
+L 131.137388 122.977676 
+L 133.707563 122.92254 
+L 136.087259 120.669281 
+L 140.375298 114.594914 
+L 144.157796 109.410946 
+L 147.541481 105.31138 
+L 150.60249 101.982435 
+L 154.708146 97.917459 
+L 158.348057 94.667752 
+L 164.584196 89.188955 
+L 170.597486 83.851733 
+L 173.587642 80.912122 
+L 179.444093 74.707698 
+L 181.18084 72.098591 
+L 182.828492 69.137671 
+L 184.395746 65.741799 
+L 185.399654 63.017448 
+L 186.373139 59.744923 
+L 187.31799 55.721212 
+L 188.235844 50.693483 
+L 189.128202 45.09918 
+L 189.565254 43.283517 
+L 189.99644 43.448776 
+L 190.421915 45.786146 
+L 193.636901 71.766249 
+L 195.853176 87.957428 
+L 196.906496 97.249881 
+L 197.926372 106.057665 
+L 198.259261 107.16155 
+L 198.588736 106.687285 
+L 199.237718 102.898764 
+L 200.497627 94.776677 
+L 201.411157 90.403455 
+L 202.590141 85.970566 
+L 203.727384 82.667946 
+L 205.361151 78.690375 
+L 210.046494 68.746336 
+L 210.951458 67.024448 
+L 213.931996 59.847442 
+L 215.129312 56.214872 
+L 216.283603 52.009487 
+L 217.030714 48.655869 
+L 218.650774 39.97252 
+L 219.345383 34.508056 
+L 220.691107 23.317599 
+L 220.855427 22.848476 
+L 221.018911 23.097456 
+L 221.343403 25.198822 
+L 223.071789 41.603399 
+L 223.976766 47.133608 
+L 225.001328 51.925422 
+L 225.99422 55.297626 
+L 227.495007 60.024606 
+L 228.02382 61.032617 
+L 231.025976 68.783112 
+L 234.955363 77.577576 
+L 237.396399 83.916016 
+L 238.832922 88.489816 
+L 240.20795 93.716932 
+L 241.26711 98.748399 
+L 242.208254 104.80836 
+L 243.040553 111.833926 
+L 243.771621 118.064348 
+L 244.091275 118.939646 
+L 244.328946 119.182169 
+L 244.486422 118.674561 
+L 244.799076 116.239582 
+L 246.020126 105.341427 
+L 247.051752 98.035646 
+L 248.331237 90.437484 
+L 249.895305 82.870761 
+L 253.531257 65.872121 
+L 254.58081 59.965351 
+L 255.261933 54.708282 
+L 255.983877 47.426157 
+L 257.169839 34.446501 
+L 257.275514 34.583586 
+L 257.433377 35.44764 
+L 257.850593 40.260937 
+L 258.719584 50.572366 
+L 259.565687 58.115161 
+L 260.581014 65.044932 
+L 262.023516 72.944281 
+L 264.769441 87.333638 
+L 265.797207 94.377013 
+L 266.635825 101.949406 
+L 267.221711 109.27973 
+L 267.910956 117.898573 
+L 268.024406 118.152016 
+L 268.062134 118.110214 
+L 268.175052 117.559546 
+L 268.436995 114.690704 
+L 269.822862 97.099394 
+L 270.668312 89.711946 
+L 271.694766 82.651605 
+L 273.175455 72.981727 
+L 273.175455 72.981727 
+" clip-path="url(#driver-pdn-p7bb9f5eab4)" fill="none" stroke-linecap="square" class="s-c4"/>
+   </g>
+   <g id="driver-pdn-line2d_138">
+    <path d="M 51.484545 72.574184 
+L 73.65638 80.469464 
+L 86.650117 86.939146 
+L 95.876022 92.333975 
+L 103.034994 97.099394 
+L 108.885749 101.557872 
+L 113.833329 105.862391 
+L 125.283431 117.057179 
+L 128.343564 118.618585 
+L 131.137388 118.210708 
+L 133.707563 116.394004 
+L 136.087259 114.014485 
+L 144.157796 105.207617 
+L 145.894167 103.478051 
+L 153.397042 96.789997 
+L 154.708146 96.010394 
+L 155.967834 95.719605 
+L 159.475145 92.457863 
+L 170.597486 83.442427 
+L 172.127341 82.376124 
+L 176.323026 78.781678 
+L 176.971969 78.31714 
+L 181.7395 73.344732 
+L 182.828492 72.098591 
+L 183.359451 72.006784 
+L 183.881777 71.463022 
+L 184.395746 71.641431 
+L 184.901621 71.385896 
+L 185.890084 69.806634 
+L 186.373139 69.195378 
+L 187.31799 67.684608 
+L 188.235844 66.29243 
+L 190.421915 62.119339 
+L 192.069609 58.69655 
+L 192.862812 57.020069 
+L 194.392776 53.231138 
+L 195.131274 52.34987 
+L 195.494253 51.916106 
+L 195.853176 50.911883 
+L 196.559212 48.04879 
+L 196.906496 47.240069 
+L 197.250064 47.091206 
+L 197.589998 47.841217 
+L 198.259261 51.375126 
+L 198.914865 54.404803 
+L 199.557358 56.001587 
+L 199.873848 56.322503 
+L 200.187252 56.096058 
+L 200.497627 54.862029 
+L 201.109524 51.813962 
+L 201.411157 51.133058 
+L 201.709984 50.789242 
+L 202.299426 51.629767 
+L 202.878248 51.89749 
+L 203.727384 53.021482 
+L 204.281256 54.555881 
+L 204.554652 55.628748 
+L 205.094561 58.62794 
+L 205.625546 60.29378 
+L 206.661891 63.139473 
+L 207.912009 63.733366 
+L 208.398745 63.621711 
+L 208.878217 64.587669 
+L 209.350638 65.907455 
+L 209.584269 65.760357 
+L 210.502162 64.31783 
+L 210.727596 64.61276 
+L 211.173771 65.913698 
+L 211.831627 69.030294 
+L 212.47628 72.410174 
+L 212.898973 73.705696 
+L 213.522764 74.839275 
+L 213.931996 76.085423 
+L 214.735144 79.616552 
+L 217.030714 92.477001 
+L 217.214808 92.834908 
+L 217.397854 92.78611 
+L 218.11978 90.428971 
+L 218.999956 90.32713 
+L 219.345383 89.549346 
+L 219.856659 87.37644 
+L 220.025291 87.163474 
+L 220.193043 87.184654 
+L 220.525942 87.541498 
+L 220.691107 87.62824 
+L 220.855427 87.54871 
+L 221.181567 87.02293 
+L 221.504429 86.003539 
+L 222.297667 82.526828 
+L 223.2244 77.488313 
+L 224.272848 72.428321 
+L 226.685099 58.477944 
+L 228.154675 46.922621 
+L 229.182752 38.51591 
+L 229.434712 37.884889 
+L 229.559955 37.968272 
+L 229.808985 38.833622 
+L 230.178948 41.587956 
+L 231.382262 51.675633 
+L 232.31348 57.309655 
+L 233.329814 62.119339 
+L 234.636767 67.290471 
+L 236.401741 73.290591 
+L 239.846992 84.712656 
+L 241.180168 89.950448 
+L 242.208254 94.930327 
+L 243.12261 100.646507 
+L 243.851833 106.682953 
+L 244.564871 114.503043 
+L 245.262425 122.11055 
+L 245.415402 122.337948 
+L 245.567653 121.684974 
+L 245.870009 118.640093 
+L 247.124187 104.097803 
+L 248.051278 96.498062 
+L 248.952363 90.938542 
+L 250.225473 84.749468 
+L 253.531257 69.223045 
+L 254.638125 62.898022 
+L 255.541527 56.346511 
+L 256.1482 50.512122 
+L 256.904121 40.661208 
+L 257.433377 34.354576 
+L 257.53819 34.172169 
+L 257.642662 34.532053 
+L 257.902366 37.108077 
+L 259.467294 55.966292 
+L 260.29418 62.440278 
+L 261.240498 68.180093 
+L 263.272987 78.415036 
+L 264.64387 85.83276 
+L 265.716185 93.090887 
+L 266.517354 100.044676 
+L 267.144208 107.571446 
+L 268.062134 119.907534 
+L 268.137457 119.819798 
+L 268.287575 118.726391 
+L 268.65983 113.420868 
+L 269.536027 101.590165 
+L 270.318741 93.82005 
+L 271.322196 85.990343 
+L 273.175455 72.401107 
+L 273.175455 72.401107 
+" clip-path="url(#driver-pdn-p7bb9f5eab4)" fill="none" stroke-dasharray="3.7,1.6" stroke-dashoffset="0" class="s-c4"/>
+   </g>
+   <g id="driver-pdn-line2d_139">
+    <path d="M 193.346679 183.04 
+L 193.346679 3.6 
+" clip-path="url(#driver-pdn-p7bb9f5eab4)" fill="none" stroke-dasharray="0.8,1.32" stroke-dashoffset="0" stroke-width="0.8" class="s-dim"/>
+   </g>
+   <g id="driver-pdn-line2d_140">
+    <path d="M 230.713437 183.04 
+L 230.713437 3.6 
+" clip-path="url(#driver-pdn-p7bb9f5eab4)" fill="none" stroke-dasharray="0.8,1.32" stroke-dashoffset="0" stroke-width="0.8" class="s-dim"/>
+   </g>
+   <g id="driver-pdn-patch_3">
+    <path d="M 40.4 183.04 
+L 40.4 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="driver-pdn-patch_4">
+    <path d="M 284.26 183.04 
+L 284.26 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="driver-pdn-patch_5">
+    <path d="M 40.4 183.04 
+L 284.26 183.04 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="driver-pdn-patch_6">
+    <path d="M 40.4 3.6 
+L 284.26 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="driver-pdn-text_11">
+    <text font-size="8px" class="f-dim" transform="translate(201.218595 178.473227) rotate(-90)">125 MHz</text>
+   </g>
+   <g id="driver-pdn-text_12">
+    <text font-size="8px" class="f-dim" transform="translate(238.585352 178.473227) rotate(-90)">400 MHz</text>
+   </g>
+   <g id="driver-pdn-legend_1">
+    <g id="driver-pdn-line2d_141">
+     <path d="M 47.6 14 
+L 55.6 14 
+L 63.6 14 
+" fill="none" stroke-linecap="square" class="s-c5"/>
+    </g>
+    <g id="driver-pdn-text_13">
+     <text font-size="8px" text-anchor="start" class="f-fg" x="70" y="16.8" transform="rotate(-0 70 16.8)">drive board, output A</text>
+    </g>
+    <g id="driver-pdn-line2d_142">
+     <path d="M 47.6 26 
+L 55.6 26 
+L 63.6 26 
+" fill="none" stroke-dasharray="3.7,1.6" stroke-dashoffset="0" class="s-c5"/>
+    </g>
+    <g id="driver-pdn-text_14">
+     <text font-size="8px" text-anchor="start" class="f-fg" x="70" y="28.8" transform="rotate(-0 70 28.8)">drive board, output B</text>
+    </g>
+    <g id="driver-pdn-line2d_143">
+     <path d="M 47.6 38 
+L 55.6 38 
+L 63.6 38 
+" fill="none" stroke-linecap="square" class="s-c4"/>
+    </g>
+    <g id="driver-pdn-text_15">
+     <text font-size="8px" text-anchor="start" class="f-fg" x="70" y="40.8" transform="rotate(-0 70 40.8)">control board, output A</text>
+    </g>
+    <g id="driver-pdn-line2d_144">
+     <path d="M 47.6 50 
+L 55.6 50 
+L 63.6 50 
+" fill="none" stroke-dasharray="3.7,1.6" stroke-dashoffset="0" class="s-c4"/>
+    </g>
+    <g id="driver-pdn-text_16">
+     <text font-size="8px" text-anchor="start" class="f-fg" x="70" y="52.8" transform="rotate(-0 70 52.8)">control board, output B</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="driver-pdn-p7bb9f5eab4">
+   <rect x="40.4" y="3.6" width="243.86" height="179.44"/>
+  </clipPath>
+ </defs>
+</svg>

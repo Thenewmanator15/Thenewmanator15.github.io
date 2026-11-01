@@ -1,0 +1,93 @@
+{#- The JSON the front-page script reads; static/js/scope-core.mjs normalise() takes this shape.
+    `projects` is every project (pages and big-project sections, never parts), built by index.html.
+    The whole blob is one json_encode, with "<" written as the JSON escape for it, so no title or
+    label can close the script element. -#}
+{% component scope_data(projects) -%}
+{%- set chans_file = load_data(path="data/channels.toml") -%}
+{%- set chans = chans_file.channels -%}
+{%- set site = load_data(path="data/site.toml") -%}
+{%- set dig_file = load_data(path="data/digital.toml") -%}
+{%- set tl_file = load_data(path="data/timeline.toml") -%}
+{%- set study = site?.study or [] -%}
+{%- set entries = tl_file?.entries or [] -%}
+
+{#- Tera 2 map keys must be literals, so the per-channel readouts are built as JSON text, then parsed. -#}
+{%- set_global cr = [] -%}
+{%- for c in chans -%}
+  {%- set sec = get_section(path=c.slug ~ "/_index.md", metadata_only=true) -%}
+  {%- set rs = [{"label": r.label, "value": r.value} for r in (sec.extra?.readouts or [])] -%}
+  {%- set_global cr = [...cr, '"' ~ c.n ~ '": ' ~ (rs | json_encode)] -%}
+{%- endfor -%}
+{%- set channel_readouts = load_data(literal="{" ~ (cr | join(sep=", ")) ~ "}", format="json") -%}
+
+{%- set_global items = [] -%}
+{%- for p in projects -%}
+  {%- set slug = p.components | first -%}
+  {%- set n = [c.n for c in chans if c.slug == slug] | first -%}
+  {%- set is_big = p.relative_path is ending_with(pat="_index.md") -%}
+  {%- set part_pages = p.pages if is_big else [] -%}
+  {%- set_global skills = p.extra?.skills or [] -%}
+  {#- Proof links are resolved against the page they belong to: a part's "#photos" is on the part's page. -#}
+  {%- set_global proof = [{"q": r, "base": p.path} for r in (p.extra?.proof or [])] -%}
+  {%- for q in part_pages -%}
+    {%- set qs = q.extra?.skills or [] -%}
+    {%- set qp = [{"q": r, "base": q.path} for r in (q.extra?.proof or [])] -%}
+    {%- set_global skills = [...skills, ...qs] -%}
+    {%- set_global proof = [...proof, ...qp] -%}
+  {%- endfor -%}
+  {%- set_global resolved = [] -%}
+  {#- Proof still to come (to_come) is not proof yet: it is left out, so the Proof column doesn't count it. -#}
+  {%- for x in proof -%}
+    {%- if not x.q?.to_come -%}
+    {%- set u = x.q?.url -%}
+    {%- set whole = u and (u is starting_with(pat="https://") or u is starting_with(pat="/")) -%}
+    {%- set url = u if whole else ((x.base ~ u) if u else none) -%}
+    {%- set_global resolved = [...resolved, {"kind": x.q.kind, "label": x.q.label, "url": url, "on_request": x.q?.on_request or false, "archive": x.q?.archive}] -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- set text_only = p.extra?.text_only or false -%}
+  {%- set thumb = none -%}
+  {%- if p.extra?.hero and not text_only -%}
+    {%- set bits = p.relative_path | split(pat="/") -%}
+    {%- set path = (bits[:-1] | join(sep="/")) ~ "/" ~ p.extra.hero -%}
+    {%- set meta = get_image_metadata(path=path) -%}
+    {%- set w = 640 if meta.width > 640 else meta.width -%}
+    {%- set th = resize_image(path=path, width=w, op="fit_width") -%}
+    {%- set thumb = th.url -%}
+  {%- endif -%}
+  {%- set item = {
+    "id": p.components | last, "title": p.title, "url": p.path, "channel": n,
+    "start": p.extra.start, "end": p.extra?.end or "now",
+    "featured": p.extra?.featured or false, "milestone": p.extra?.milestone or false,
+    "role": p.extra?.role or false, "bus_label": p.extra?.bus_label,
+    "study": p.extra?.study or false, "text_only": text_only,
+    "summary": p.description or "",
+    "thumb": thumb, "thumb_alt": p.extra?.hero_alt if thumb else none,
+    "skills": skills | unique,
+    "readouts": [{"label": r.label, "value": r.value} for r in (p.extra?.readouts or [])],
+    "proof": resolved,
+    "parts": [{"title": q.title, "url": q.path, "wip": true if q.extra?.still_to_come else false} for q in part_pages],
+    "wip": true if p.extra?.still_to_come else false,
+  } -%}
+  {%- set_global items = [...items, item] -%}
+{%- endfor -%}
+
+{%- set years = [(s.start[:4] | int) for s in study] -%}
+{%- set years = [...years, ...[(p.extra.start[:4] | int) for p in projects]] -%}
+{%- set years = [...years, ...[(e.date[:4] | int) for e in entries]] -%}
+
+{%- set blob = {
+  "now": now() | date(format="%Y-%m"),
+  "min": years | sort | first,
+  "channels": [{"n": c.n, "name": c.name, "slug": c.slug, "colour": c.colour, "archived": c?.archived or false, "alias": c?.alias} for c in chans],
+  "channelReadouts": channel_readouts,
+  "digital": [{"id": d.id, "order": d.order, "label": d.label} for d in dig_file.lines],
+  "study": [{"label": s.label, "start": s.start, "end": s.end} for s in study],
+  "openSince": site?.open_to_roles_since,
+  "events": [{"id": e.id, "title": e.title, "date": e.date, "summary": e?.summary or "",
+              "proof": [{"kind": q.kind, "label": q.label, "url": q?.url, "on_request": q?.on_request or false, "archive": q?.archive} for q in (e?.proof or [])]} for e in entries],
+  "items": items,
+} -%}
+{%- set lt = "\\" ~ "u003c" -%}
+<script type="application/json" id="scope-data">{{ blob | json_encode | replace(from="<", to=lt) | safe }}</script>
+{%- endcomponent scope_data %}

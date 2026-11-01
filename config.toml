@@ -1,0 +1,18 @@
+base_url = "https://thenewmanator15.github.io"
+title = "Mathew Newman"
+default_language = "en-GB"
+compile_sass = false
+build_search_index = false
+generate_feeds = false
+ignored_content = ["_template/*"]
+
+[markdown]
+smart_punctuation = false
+
+[link_checker]
+# LinkedIn refuses automated requests, so its links are not checked.
+skip_prefixes = ["https://www.linkedin.com/"]
+
+[extra]
+# The one Content Security Policy every page carries; tools/check_site.py checks it matches.
+csp = "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"

@@ -1,0 +1,26 @@
+{#- Small components shared by every page. Zola 0.23 uses Tera 2: components replace macros
+    and shortcodes, and are available everywhere without an import. -#}
+
+{#- The one date format on the site: years. "2018 – 2023", "2026 – now", or a single year. -#}
+{% component dates(start: string, end: string = "now") -%}
+{%- set a = start[:4] -%}
+{%- set b = "now" if end == "now" else end[:4] -%}
+{{ a if a == b else a ~ " – " ~ b }}
+{%- endcomponent dates %}
+
+{#- A responsive image: 640, 1280 and 2000 px copies, never wider than the original.
+    Text is escaped here because a component called from Markdown is not escaped for us. -#}
+{% component img(path: string, alt: string, sizes: string = "100vw", lazy = true) -%}
+{%- set meta = get_image_metadata(path=path) -%}
+{%- set widths = [w for w in [640, 1280, 2000] if w <= meta.width] -%}
+{%- if not widths %}{% set widths = [meta.width] %}{% endif -%}
+{%- set copies = [resize_image(path=path, width=w, op="fit_width") for w in widths] -%}
+{%- set small = copies[0] -%}
+<img src="{{ small.url }}" srcset="{{ [c.url ~ ' ' ~ c.width ~ 'w' for c in copies] | join(sep=', ') }}" sizes="{{ sizes }}" width="{{ small.width }}" height="{{ small.height }}" alt="{{ alt | escape_html | safe }}"{% if lazy %} loading="lazy"{% endif %} decoding="async">
+{%- endcomponent img %}
+
+{#- A proof list: the label links when there is a url, says "on the way" for proof still to come
+    (to_come), and "on request" otherwise. -#}
+{% component proof_list(items) -%}
+<ul class="proof">{% for p in items %}<li><span class="kind">{{ p.kind }}</span> {% if p?.url %}<a href="{{ p.url }}">{{ p.label }}</a>{% elif p?.to_come %}{{ p.label }} <span class="req">on the way</span>{% else %}{{ p.label }} <span class="req">on request</span>{% endif %}{% if p?.archive %} <a href="{{ p.archive }}">(archived copy)</a>{% endif %}</li>{% endfor %}</ul>
+{%- endcomponent proof_list %}

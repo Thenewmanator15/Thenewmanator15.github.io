@@ -1,0 +1,10 @@
+{#- A photo with a caption, for use in Markdown:
+      {{ <figure src="gate.jpg" alt="What the photo shows" caption="One line about it." /> }}
+    The build fails when alt is empty. The file sits beside the page (or its section). -#}
+{% component figure(src: string, alt: string, caption: string = "", @page = none, @section = none) -%}
+{%- if not alt %}{{ throw(message="figure needs alt text") }}{% endif -%}
+{%- set rel = page.relative_path if page else section.relative_path -%}
+{%- set bits = rel | split(pat="/") -%}
+{%- set dir = bits[:-1] | join(sep="/") -%}
+<figure class="fig">{{<img path={dir ~ "/" ~ src} alt={alt} sizes="(min-width: 64rem) 44rem, 100vw" />}}{% if caption %}<figcaption>{{ caption | escape_html | safe }}</figcaption>{% endif %}</figure>
+{%- endcomponent figure %}

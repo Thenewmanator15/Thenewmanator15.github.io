@@ -1,0 +1,52 @@
+# The channels (topics). Numbers and colour tokens are never reused: a retired channel stays here
+# with archived = true, and alias = N maps an old number to the channel that replaced it.
+# Colour tokens live in static/css/tokens.css.
+
+[[channels]]
+n = 1
+name = "Instruments"
+slug = "instruments"
+colour = "--c1"
+archived = false
+
+[[channels]]
+n = 2
+name = "RF, wireless and embedded"
+slug = "rf-wireless-embedded"
+colour = "--c2"
+archived = false
+
+[[channels]]
+n = 3
+name = "Measurement data and signal processing"
+slug = "measurement-data"
+colour = "--c3"
+archived = false
+
+[[channels]]
+n = 4
+name = "Performance and graphics"
+slug = "performance-graphics"
+colour = "--c4"
+archived = false
+
+[[channels]]
+n = 5
+name = "Medical imaging"
+slug = "medical-imaging"
+colour = "--c5"
+archived = false
+
+[[channels]]
+n = 6
+name = "Open standards and accessibility"
+slug = "open-standards-accessibility"
+colour = "--c6"
+archived = false
+
+[[channels]]
+n = 7
+name = "Teaching and mentoring"
+slug = "teaching-mentoring"
+colour = "--c7"
+archived = false

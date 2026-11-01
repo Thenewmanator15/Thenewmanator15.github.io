@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+
+{% block head %}<link rel="stylesheet" href="/css/pages.css">
+<link rel="stylesheet" href="/css/scope.css">
+<script type="module" src="/js/scope-main.mjs"></script>{% endblock head %}
+
+{% block content %}
+{%- set site = load_data(path="data/site.toml") -%}
+{%- set chans_file = load_data(path="data/channels.toml") -%}
+{%- set chans = chans_file.channels -%}
+{%- set tl_file = load_data(path="data/timeline.toml") -%}
+{%- set entries = tl_file?.entries or [] -%}
+{#- Every project: each channel's pages, plus its sub-sections that have a start date (big projects).
+    Parts are the pages inside a big project, so they never get here. -#}
+{%- set_global projects = [] -%}
+{%- for ch in chans -%}
+  {%- set sec = get_section(path=ch.slug ~ "/_index.md") -%}
+  {%- set_global projects = [...projects, ...sec.pages] -%}
+  {%- for sub in sec.subsections -%}
+    {%- set s = get_section(path=sub) -%}
+    {%- if s.extra?.start %}{% set_global projects = [...projects, s] %}{% endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- set projects = projects | sort(attribute="extra.start") | reverse -%}
+
+<header class="intro">
+<h1 class="head">{{ site.headline }}</h1>
+<p class="sub">{{ site.subline }}</p>
+{%- if site.profiles %}
+<nav class="profiles" aria-label="Profiles">{% for p in site.profiles %}<a class="pcard" href="{{ p.url }}"><span class="pn">{% if p.icon %}{{<icon name={p.icon} />}} {% endif %}{{ p.name }}</span> <span class="ph">{{ p.handle }}</span> <span class="pl">{{ p.line }}</span></a>{% endfor %}</nav>
+{%- endif %}
+</header>
+
+{#- The scope. Without JavaScript only the tiles and the channel links show; scope-ui.mjs reveals
+    the parts marked data-scope-js, turns the links into toggles and draws the screen. -#}
+<section class="scope" id="scope" aria-label="Portfolio scope">
+<div class="bezel">
+<div class="screen">
+<div class="status" data-scope-js hidden><span><b>Mathew Newman</b> · trig: curiosity · calibrated {{ now() | date(format="%Y-%m-%d") }}</span><span id="stat"></span></div>
+<div class="rec" id="rec" role="img" data-scope-js hidden><svg id="rsvg" aria-hidden="true"></svg></div>
+<div class="plot" id="plot" tabindex="0" role="application" aria-roledescription="timeline" data-scope-js hidden aria-label="Career timeline. Drag across it to zoom into a stretch of time. Left or right arrows move the view or the zoom. Up or down changes the timebase. With Cursors on, [ or ] picks a cursor for the arrows to move. Tab reaches the digital lines, where arrow keys move between segments. Escape clears the zoom."><svg id="svg"></svg><div id="dtip" hidden></div></div>
+<p class="hint" data-scope-js hidden>drag to zoom · drag the box to move through time · Shift-drag to pan</p>
+<p class="dfold" id="dfold" hidden></p>
+<aside class="zoom" id="zoom" aria-live="polite" hidden></aside>
+<div id="ro" data-scope-js hidden></div>
+<div class="tiles" id="tiles">
+{%- for p in projects %}
+{%- set slug = p.components | first -%}
+{%- set n = [c.n for c in chans if c.slug == slug] | first -%}
+{%- set bits = p.relative_path | split(pat="/") %}
+<a class="tile" href="{{ p.path }}" data-id="{{ p.components | last }}" data-channel="{{ n }}">
+{%- if p.extra?.hero and not (p.extra?.text_only or false) %}{{<img path={(bits[:-1] | join(sep="/")) ~ "/" ~ p.extra.hero} alt="" sizes="(min-width: 40rem) 16rem, 100vw" />}}{% endif -%}
+<span class="tag">CH{{ n }}</span> <span class="ttl">{{ p.title }}{% if p.extra?.still_to_come %} <span class="lbl wip">in progress</span>{% endif %}</span> <span class="dt">{{<dates start={p.extra.start} end={p.extra?.end or "now"} />}}</span></a>
+{%- endfor %}
+</div>
+</div>
+</div>
+<div class="strip" id="strip" role="group" aria-label="Scope controls">
+<div class="grp" id="ch-group" role="group" aria-label="Channels, each one a topic"><span class="k">Channels</span>
+{%- for ch in chans %}{% if not ch?.alias %}
+<a class="chb" href="/{{ ch.slug }}/" data-channel="{{ ch.n }}">CH{{ ch.n }} {{ ch.name }}</a>
+{%- endif %}{% endfor %}
+</div>
+</div>
+</section>
+<div id="toast" role="status"></div>
+
+<p class="now">{{ site.now }}</p>
+{%- if site.try_it %}
+<a class="pcard tryit" href="{{ site.try_it.url }}"><span class="pn">{% if site.try_it.icon %}{{<icon name={site.try_it.icon} />}} {% endif %}{{ site.try_it.name }}</span> <span class="ph">{{ site.try_it.handle }}</span> <span class="pl">{{ site.try_it.line }}</span></a>
+{%- endif %}
+
+{#- All projects, grouped by the year they started, newest first. Timeline entries sit in their year. -#}
+{%- set years = [p.extra.start[:4] for p in projects] -%}
+{%- set years = [...years, ...[e.date[:4] for e in entries]] | unique | sort | reverse -%}
+{%- set this_year = now() | date(format="%Y") | int -%}
+{%- set recent = [y for y in years if (y | int) >= this_year - 5] -%}
+{%- set older = [y for y in years if (y | int) < this_year - 5] -%}
+<section class="all" aria-labelledby="all-h">
+<h2 id="all-h">All projects</h2>
+{%- if (projects | length) + (entries | length) > 50 %}
+<p class="find"><label for="find">Search the list</label> <input type="search" id="find" autocomplete="off"></p>
+{%- endif %}
+{%- for group in [recent, older] %}
+{%- if group and loop.index0 == 1 %}
+<details class="older"><summary>Earlier years</summary>
+{%- endif %}
+{%- for y in group %}
+<h3 class="year">{{ y }}</h3>
+<ul class="rows">
+{%- set rows = [{"k": p.extra.start, "p": p, "e": none} for p in projects if p.extra.start[:4] == y] -%}
+{%- set rows = [...rows, ...[{"k": e.date, "p": none, "e": e} for e in entries if e.date[:4] == y]] | sort(attribute="k") | reverse -%}
+{%- for row in rows %}{% if row.p %}{% set p = row.p %}
+{%- set slug = p.components | first -%}
+{%- set n = [c.n for c in chans if c.slug == slug] | first -%}
+{%- set_global kinds = [q.kind for q in (p.extra?.proof or []) if not q?.to_come] -%}
+{%- if p.relative_path is ending_with(pat="_index.md") %}{% for q in p.pages %}{% set qk = [r.kind for r in (q.extra?.proof or []) if not r?.to_come] %}{% set_global kinds = [...kinds, ...qk] %}{% endfor %}{% endif %}
+<li class="row" data-channel="{{ n }}"><span class="dot" aria-hidden="true"></span><span class="tag">CH{{ n }}</span> <span class="ti"><a href="{{ p.path }}">{{ p.title }}</a>{% if p.extra?.role %} <span class="lbl">role</span>{% endif %}{% if p.extra?.still_to_come %} <span class="lbl wip">in progress</span>{% endif %}</span> <span class="dt">{{<dates start={p.extra.start} end={p.extra?.end or "now"} />}}</span>{% if kinds %} <span class="kinds">{{ kinds | unique | join(sep=" · ") }}</span>{% endif %}</li>
+{%- else %}{% set e = row.e %}
+<li class="row tl"><span class="dot dg" aria-hidden="true"></span><span class="tag">D2</span> <span class="ti">{{ e.title }} <span class="lbl">timeline</span></span> <span class="dt">{{ e.date[:4] }}</span></li>
+{%- endif %}{% endfor %}
+</ul>
+{%- endfor %}
+{%- if group and loop.index0 == 1 %}
+</details>
+{%- endif %}
+{%- endfor %}
+</section>
+
+{{<scope_data projects={projects} />}}
+{% endblock content %}

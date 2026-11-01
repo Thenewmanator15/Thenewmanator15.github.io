@@ -1,0 +1,21 @@
+# The digital lines under the analogue traces.
+
+[[lines]]
+id = "D0"
+order = 0
+label = "roles"
+
+[[lines]]
+id = "D1"
+order = 1
+label = "study"
+
+[[lines]]
+id = "D2"
+order = 2
+label = "events"
+
+[[lines]]
+id = "D3"
+order = 3
+label = "open to roles"

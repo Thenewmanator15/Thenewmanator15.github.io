@@ -1,0 +1,63 @@
+# Front-page copy and links. Mathew edits this file himself (drafts until he reviews them).
+
+headline = "I build the instrument, then find out why it works."
+subline = "Electronics, RF and instrumentation engineer · Bristol · open to instrument-building roles"
+now = "Now: RF research in Bristol, while building this site."
+cv = "CV available on request"
+refs = "References on request"
+open_to_roles_since = "2026-10"   # placeholder: Mathew to confirm the month
+
+[[links]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/mathew-newman"
+
+[[links]]
+label = "GitHub"
+url = "https://github.com/Thenewmanator15"
+
+[[links]]
+label = "How I test"
+url = "/how-i-test/"
+
+# Years of study, drawn high on the D1 line. The PhD joins D1 through study = true on its page.
+[[study]]
+label = "BEng"
+start = "2013-09"
+end = "2017-07"
+
+# Profile cards, a row under the headline on the front page. Each needs a name, an https url and a line.
+[[profiles]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/mathew-newman"
+handle = "mathew-newman"
+line = "Roles and messages"
+
+[[profiles]]
+name = "ORCID"
+icon = "orcid"
+url = "https://orcid.org/0000-0003-1784-3250"
+handle = "0000-0003-1784-3250"
+line = "Research record"
+
+[[profiles]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/Thenewmanator15"
+handle = "Thenewmanator15"
+line = "Code, with its tests"
+
+[[profiles]]
+name = "PhD data"
+icon = "wave"
+url = "https://thenewmanator15.github.io/mptofsims-supplementary/"
+handle = "mptofsims-supplementary"
+line = "Data, figures and simulations from the instrument"
+
+# A card after the "Now" line: something on the web a visitor can use straight away.
+[try_it]
+name = "Try it: Colour themes for PDF"
+icon = "play"
+url = "https://thenewmanator15.github.io/pdf-themes/"
+handle = "live demo"
+line = "One PDF with its own light, dark and higher-contrast themes"

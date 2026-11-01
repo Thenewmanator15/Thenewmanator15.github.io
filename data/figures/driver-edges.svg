@@ -1,0 +1,1137 @@
+<svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 287.54 216" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  </defs>
+ <g id="driver-edges-figure_1">
+  <g id="driver-edges-patch_1">
+   <path d="M 0 216 
+L 287.54 216 
+L 287.54 0 
+L 0 0 
+L 0 216 
+z
+" fill="none"/>
+  </g>
+  <g id="driver-edges-axes_1">
+   <g id="driver-edges-patch_2">
+    <path d="M 33.6 184.9 
+L 283.94 184.9 
+L 283.94 3.6 
+L 33.6 3.6 
+L 33.6 184.9 
+z
+" fill="none"/>
+   </g>
+   <g id="driver-edges-matplotlib.axis_1">
+    <g id="driver-edges-xtick_1">
+     <g id="driver-edges-line2d_1">
+      <defs>
+       <path id="driver-edges-mae40bbd23d" d="M 0 0 
+L 0 -3 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-edges-mae40bbd23d" x="72.498506" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_2">
+      <defs>
+       <path id="driver-edges-m6ab5fe8380" d="M 0 0 
+L 0 3 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-edges-m6ab5fe8380" x="72.498506" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_1">
+      <!-- $\mathdefault{30}$ -->
+      <g class="f-fg" transform="translate(67.498506 195.9)">
+       <text>
+        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">3</tspan>
+        <tspan x="5" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_2">
+     <g id="driver-edges-line2d_3">
+      <g>
+       <use xlink:href="#driver-edges-mae40bbd23d" x="116.055669" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_4">
+      <g>
+       <use xlink:href="#driver-edges-m6ab5fe8380" x="116.055669" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_2">
+      <!-- $\mathdefault{40}$ -->
+      <g class="f-fg" transform="translate(111.055669 195.9)">
+       <text>
+        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">4</tspan>
+        <tspan x="5" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_3">
+     <g id="driver-edges-line2d_5">
+      <g>
+       <use xlink:href="#driver-edges-mae40bbd23d" x="159.612831" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_6">
+      <g>
+       <use xlink:href="#driver-edges-m6ab5fe8380" x="159.612831" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_3">
+      <!-- $\mathdefault{50}$ -->
+      <g class="f-fg" transform="translate(154.612831 195.9)">
+       <text>
+        <tspan x="0" y="-0.125" font-size="10px" class="f-fg">5</tspan>
+        <tspan x="5" y="-0.125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_4">
+     <g id="driver-edges-line2d_7">
+      <g>
+       <use xlink:href="#driver-edges-mae40bbd23d" x="203.169994" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_8">
+      <g>
+       <use xlink:href="#driver-edges-m6ab5fe8380" x="203.169994" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_4">
+      <!-- $\mathdefault{60}$ -->
+      <g class="f-fg" transform="translate(198.169994 195.9)">
+       <text>
+        <tspan x="0" y="-0.15625" font-size="10px" class="f-fg">6</tspan>
+        <tspan x="5" y="-0.15625" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_5">
+     <g id="driver-edges-line2d_9">
+      <g>
+       <use xlink:href="#driver-edges-mae40bbd23d" x="246.727156" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_10">
+      <g>
+       <use xlink:href="#driver-edges-m6ab5fe8380" x="246.727156" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_5">
+      <!-- $\mathdefault{70}$ -->
+      <g class="f-fg" transform="translate(241.727156 195.9)">
+       <text>
+        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">7</tspan>
+        <tspan x="5" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_6">
+     <g id="driver-edges-line2d_11">
+      <defs>
+       <path id="driver-edges-m20fb295bad" d="M 0 0 
+L 0 -1.5 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="37.652776" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_12">
+      <defs>
+       <path id="driver-edges-m9d8bd21e61" d="M 0 0 
+L 0 1.5 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="37.652776" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_7">
+     <g id="driver-edges-line2d_13">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="46.364209" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_14">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="46.364209" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_8">
+     <g id="driver-edges-line2d_15">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="55.075641" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_16">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="55.075641" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_9">
+     <g id="driver-edges-line2d_17">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="63.787074" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_18">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="63.787074" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_10">
+     <g id="driver-edges-line2d_19">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="81.209939" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_20">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="81.209939" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_11">
+     <g id="driver-edges-line2d_21">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="89.921371" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_22">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="89.921371" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_12">
+     <g id="driver-edges-line2d_23">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="98.632804" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_24">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="98.632804" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_13">
+     <g id="driver-edges-line2d_25">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="107.344236" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_26">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="107.344236" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_14">
+     <g id="driver-edges-line2d_27">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="124.767101" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_28">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="124.767101" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_15">
+     <g id="driver-edges-line2d_29">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="133.478534" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_30">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="133.478534" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_16">
+     <g id="driver-edges-line2d_31">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="142.189966" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_32">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="142.189966" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_17">
+     <g id="driver-edges-line2d_33">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="150.901399" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_34">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="150.901399" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_18">
+     <g id="driver-edges-line2d_35">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="168.324264" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_36">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="168.324264" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_19">
+     <g id="driver-edges-line2d_37">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="177.035696" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_38">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="177.035696" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_20">
+     <g id="driver-edges-line2d_39">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="185.747129" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_40">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="185.747129" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_21">
+     <g id="driver-edges-line2d_41">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="194.458561" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_42">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="194.458561" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_22">
+     <g id="driver-edges-line2d_43">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="211.881426" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_44">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="211.881426" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_23">
+     <g id="driver-edges-line2d_45">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="220.592859" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_46">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="220.592859" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_24">
+     <g id="driver-edges-line2d_47">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="229.304291" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_48">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="229.304291" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_25">
+     <g id="driver-edges-line2d_49">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="238.015724" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_50">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="238.015724" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_26">
+     <g id="driver-edges-line2d_51">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="255.438589" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_52">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="255.438589" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_27">
+     <g id="driver-edges-line2d_53">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="264.150021" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_54">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="264.150021" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_28">
+     <g id="driver-edges-line2d_55">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="272.861454" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_56">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="272.861454" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-xtick_29">
+     <g id="driver-edges-line2d_57">
+      <g>
+       <use xlink:href="#driver-edges-m20fb295bad" x="281.572886" y="184.9" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_58">
+      <g>
+       <use xlink:href="#driver-edges-m9d8bd21e61" x="281.572886" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-text_6">
+     <text font-size="10px" text-anchor="middle" class="f-fg" x="158.77" y="209.9" transform="rotate(-0 158.77 209.9)">Rail measured in each capture (V)</text>
+    </g>
+   </g>
+   <g id="driver-edges-matplotlib.axis_2">
+    <g id="driver-edges-ytick_1">
+     <g id="driver-edges-line2d_59">
+      <defs>
+       <path id="driver-edges-m2685e6c094" d="M 0 0 
+L 3 0 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-edges-m2685e6c094" x="33.6" y="184.020912" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_60">
+      <defs>
+       <path id="driver-edges-m41dff3320c" d="M 0 0 
+L -3 0 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-edges-m41dff3320c" x="283.94" y="184.020912" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_7">
+      <!-- $\mathdefault{0.9}$ -->
+      <g class="f-fg" transform="translate(17.6 187.770912)">
+       <text>
+        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="5" y="-0.234375" font-size="10px" class="f-fg">.</tspan>
+        <tspan x="7.5" y="-0.234375" font-size="10px" class="f-fg">9</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_2">
+     <g id="driver-edges-line2d_61">
+      <g>
+       <use xlink:href="#driver-edges-m2685e6c094" x="33.6" y="155.151025" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_62">
+      <g>
+       <use xlink:href="#driver-edges-m41dff3320c" x="283.94" y="155.151025" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_8">
+      <!-- $\mathdefault{1.0}$ -->
+      <g class="f-fg" transform="translate(17.6 158.901025)">
+       <text>
+        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.234375" font-size="10px" class="f-fg">.</tspan>
+        <tspan x="7.5" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_3">
+     <g id="driver-edges-line2d_63">
+      <g>
+       <use xlink:href="#driver-edges-m2685e6c094" x="33.6" y="126.281139" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_64">
+      <g>
+       <use xlink:href="#driver-edges-m41dff3320c" x="283.94" y="126.281139" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_9">
+      <!-- $\mathdefault{1.1}$ -->
+      <g class="f-fg" transform="translate(17.6 130.031139)">
+       <text>
+        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.234375" font-size="10px" class="f-fg">.</tspan>
+        <tspan x="7.5" y="-0.234375" font-size="10px" class="f-fg">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_4">
+     <g id="driver-edges-line2d_65">
+      <g>
+       <use xlink:href="#driver-edges-m2685e6c094" x="33.6" y="97.411253" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_66">
+      <g>
+       <use xlink:href="#driver-edges-m41dff3320c" x="283.94" y="97.411253" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_10">
+      <!-- $\mathdefault{1.2}$ -->
+      <g class="f-fg" transform="translate(17.6 101.161253)">
+       <text>
+        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.234375" font-size="10px" class="f-fg">.</tspan>
+        <tspan x="7.5" y="-0.234375" font-size="10px" class="f-fg">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_5">
+     <g id="driver-edges-line2d_67">
+      <g>
+       <use xlink:href="#driver-edges-m2685e6c094" x="33.6" y="68.541366" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_68">
+      <g>
+       <use xlink:href="#driver-edges-m41dff3320c" x="283.94" y="68.541366" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_11">
+      <!-- $\mathdefault{1.3}$ -->
+      <g class="f-fg" transform="translate(17.6 72.291366)">
+       <text>
+        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.234375" font-size="10px" class="f-fg">.</tspan>
+        <tspan x="7.5" y="-0.234375" font-size="10px" class="f-fg">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_6">
+     <g id="driver-edges-line2d_69">
+      <g>
+       <use xlink:href="#driver-edges-m2685e6c094" x="33.6" y="39.67148" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_70">
+      <g>
+       <use xlink:href="#driver-edges-m41dff3320c" x="283.94" y="39.67148" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_12">
+      <!-- $\mathdefault{1.4}$ -->
+      <g class="f-fg" transform="translate(17.6 43.42148)">
+       <text>
+        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.234375" font-size="10px" class="f-fg">.</tspan>
+        <tspan x="7.5" y="-0.234375" font-size="10px" class="f-fg">4</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_7">
+     <g id="driver-edges-line2d_71">
+      <g>
+       <use xlink:href="#driver-edges-m2685e6c094" x="33.6" y="10.801593" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_72">
+      <g>
+       <use xlink:href="#driver-edges-m41dff3320c" x="283.94" y="10.801593" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-text_13">
+      <!-- $\mathdefault{1.5}$ -->
+      <g class="f-fg" transform="translate(17.6 14.551593)">
+       <text>
+        <tspan x="0" y="-0.125" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="5" y="-0.125" font-size="10px" class="f-fg">.</tspan>
+        <tspan x="7.5" y="-0.125" font-size="10px" class="f-fg">5</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_8">
+     <g id="driver-edges-line2d_73">
+      <defs>
+       <path id="driver-edges-m7e519bac54" d="M 0 0 
+L 1.5 0 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="178.246935" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_74">
+      <defs>
+       <path id="driver-edges-ma626b2919d" d="M 0 0 
+L -1.5 0 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="178.246935" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_9">
+     <g id="driver-edges-line2d_75">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="172.472957" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_76">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="172.472957" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_10">
+     <g id="driver-edges-line2d_77">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="166.69898" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_78">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="166.69898" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_11">
+     <g id="driver-edges-line2d_79">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="160.925003" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_80">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="160.925003" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_12">
+     <g id="driver-edges-line2d_81">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="149.377048" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_82">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="149.377048" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_13">
+     <g id="driver-edges-line2d_83">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="143.603071" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_84">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="143.603071" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_14">
+     <g id="driver-edges-line2d_85">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="137.829094" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_86">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="137.829094" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_15">
+     <g id="driver-edges-line2d_87">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="132.055116" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_88">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="132.055116" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_16">
+     <g id="driver-edges-line2d_89">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="120.507162" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_90">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="120.507162" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_17">
+     <g id="driver-edges-line2d_91">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="114.733184" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_92">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="114.733184" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_18">
+     <g id="driver-edges-line2d_93">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="108.959207" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_94">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="108.959207" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_19">
+     <g id="driver-edges-line2d_95">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="103.18523" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_96">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="103.18523" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_20">
+     <g id="driver-edges-line2d_97">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="91.637275" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_98">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="91.637275" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_21">
+     <g id="driver-edges-line2d_99">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="85.863298" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_100">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="85.863298" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_22">
+     <g id="driver-edges-line2d_101">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="80.089321" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_102">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="80.089321" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_23">
+     <g id="driver-edges-line2d_103">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="74.315343" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_104">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="74.315343" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_24">
+     <g id="driver-edges-line2d_105">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="62.767389" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_106">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="62.767389" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_25">
+     <g id="driver-edges-line2d_107">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="56.993412" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_108">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="56.993412" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_26">
+     <g id="driver-edges-line2d_109">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="51.219434" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_110">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="51.219434" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_27">
+     <g id="driver-edges-line2d_111">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="45.445457" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_112">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="45.445457" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_28">
+     <g id="driver-edges-line2d_113">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="33.897502" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_114">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="33.897502" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_29">
+     <g id="driver-edges-line2d_115">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="28.123525" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_116">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="28.123525" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_30">
+     <g id="driver-edges-line2d_117">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="22.349548" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_118">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="22.349548" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_31">
+     <g id="driver-edges-line2d_119">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="16.57557" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_120">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="16.57557" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-ytick_32">
+     <g id="driver-edges-line2d_121">
+      <g>
+       <use xlink:href="#driver-edges-m7e519bac54" x="33.6" y="5.027616" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="driver-edges-line2d_122">
+      <g>
+       <use xlink:href="#driver-edges-ma626b2919d" x="283.94" y="5.027616" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="driver-edges-text_14">
+     <text font-size="10px" text-anchor="middle" class="f-fg" x="11.1" y="94.25" transform="rotate(-90 11.1 94.25)">Edge time, 10–90 % (ns)</text>
+    </g>
+   </g>
+   <g id="driver-edges-line2d_123">
+    <defs>
+     <path id="driver-edges-m22b7722c2a" d="M 0 1.8 
+C 0.477366 1.8 0.935244 1.610341 1.272792 1.272792 
+C 1.610341 0.935244 1.8 0.477366 1.8 0 
+C 1.8 -0.477366 1.610341 -0.935244 1.272792 -1.272792 
+C 0.935244 -1.610341 0.477366 -1.8 0 -1.8 
+C -0.477366 -1.8 -0.935244 -1.610341 -1.272792 -1.272792 
+C -1.610341 -0.935244 -1.8 -0.477366 -1.8 0 
+C -1.8 0.477366 -1.610341 0.935244 -1.272792 1.272792 
+C -0.935244 1.610341 -0.477366 1.8 0 1.8 
+z
+" class="s-c5"/>
+    </defs>
+    <g clip-path="url(#driver-edges-p95ebfbe4f8)">
+     <use xlink:href="#driver-edges-m22b7722c2a" x="44.979091" y="128.013332" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="90.178358" y="100.760159" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="134.91592" y="82.80309" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="180.664008" y="73.247158" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="224.321352" y="59.562831" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="266.968169" y="47.26426" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="47.261486" y="127.118366" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="91.415382" y="99.143446" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="135.765285" y="85.834428" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="181.600487" y="73.218288" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="224.591406" y="57.108891" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="267.490855" y="44.088572" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="45.754408" y="166.929939" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="92.957305" y="150.474104" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="136.431709" y="132.170596" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="181.857474" y="114.011437" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="227.418266" y="91.464056" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="269.002289" y="65.971946" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="46.028819" y="167.189768" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="92.844057" y="152.061948" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="148.135519" y="132.257206" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="184.296675" y="111.932805" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="233.686142" y="95.303751" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="272.560909" y="70.619998" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="45.096695" y="137.973443" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="90.505037" y="102.752182" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="135.120639" y="84.766242" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="181.042955" y="59.678311" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="224.608829" y="33.118015" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="266.933324" y="11.840909" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="45.018292" y="137.020737" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="90.444057" y="102.665572" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="135.307934" y="84.275454" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="181.147492" y="60.255709" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="224.473802" y="35.716305" class="f-c5 s-c5"/>
+     <use xlink:href="#driver-edges-m22b7722c2a" x="266.885411" y="13.977281" class="f-c5 s-c5"/>
+    </g>
+   </g>
+   <g id="driver-edges-line2d_124">
+    <path d="M 44.979091 141.187027 
+L 272.560909 41.539821 
+" clip-path="url(#driver-edges-p95ebfbe4f8)" fill="none" stroke-dasharray="3.33,1.44" stroke-dashoffset="0" stroke-width="0.9" class="s-c5"/>
+   </g>
+   <g id="driver-edges-line2d_125">
+    <defs>
+     <path id="driver-edges-m455962c96f" d="M -1.8 1.8 
+L 1.8 1.8 
+L 1.8 -1.8 
+L -1.8 -1.8 
+z
+" stroke-linejoin="miter" class="s-c4"/>
+    </defs>
+    <g clip-path="url(#driver-edges-p95ebfbe4f8)">
+     <use xlink:href="#driver-edges-m455962c96f" x="44.979091" y="132.517035" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="90.178358" y="100.962249" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="134.91592" y="76.740414" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="180.664008" y="57.657419" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="224.321352" y="36.495792" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="266.968169" y="27.286298" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="47.261486" y="129.196998" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="91.415382" y="96.227587" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="135.765285" y="75.037091" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="181.600487" y="55.434438" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="224.591406" y="35.831785" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="267.490855" y="27.488388" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="45.754408" y="134.595666" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="92.957305" y="104.195676" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="136.431709" y="76.191886" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="181.857474" y="57.28211" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="227.418266" y="37.246409" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="269.002289" y="25.149927" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="46.028819" y="132.747994" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="92.844057" y="102.203654" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="148.135519" y="83.871276" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="184.296675" y="61.930162" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="233.686142" y="37.679457" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="272.560909" y="28.094655" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="45.096695" y="131.881897" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="90.505037" y="101.048858" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="135.120639" y="76.278496" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="181.042955" y="58.292556" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="224.608829" y="37.506238" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="266.933324" y="26.564551" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="45.018292" y="128.47525" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="90.444057" y="98.479438" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="135.307934" y="75.614488" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="181.147492" y="56.733583" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="224.473802" y="35.889525" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     <use xlink:href="#driver-edges-m455962c96f" x="266.885411" y="27.748217" stroke-linejoin="miter" class="f-c4 s-c4"/>
+    </g>
+   </g>
+   <g id="driver-edges-line2d_126">
+    <path d="M 44.979091 125.118308 
+L 272.560909 18.37171 
+" clip-path="url(#driver-edges-p95ebfbe4f8)" fill="none" stroke-dasharray="3.33,1.44" stroke-dashoffset="0" stroke-width="0.9" class="s-c4"/>
+   </g>
+   <g id="driver-edges-line2d_127">
+    <defs>
+     <path id="driver-edges-mc1c2b88c58" d="M 0 -1.8 
+L -1.8 1.8 
+L 1.8 1.8 
+z
+" stroke-linejoin="miter" class="s-c2"/>
+    </defs>
+    <g clip-path="url(#driver-edges-p95ebfbe4f8)">
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="44.979091" y="172.415218" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="90.178358" y="159.221679" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="134.91592" y="144.151599" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="180.664008" y="121.633087" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="224.321352" y="119.092537" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="266.968169" y="110.922359" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="47.261486" y="169.124051" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="91.415382" y="154.487018" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="135.765285" y="140.860432" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="181.600487" y="117.215995" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="224.591406" y="113.953698" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="267.490855" y="101.741736" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="45.754408" y="175.331076" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="92.957305" y="159.394899" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="136.431709" y="146.721019" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="181.857474" y="123.50963" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="227.418266" y="119.987504" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="269.002289" y="103.820367" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="46.028819" y="170.740764" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="92.844057" y="156.59452" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="148.135519" y="152.841435" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="184.296675" y="127.753503" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="233.686142" y="116.869556" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="272.560909" y="101.424167" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="45.096695" y="176.659091" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="90.505037" y="157.835925" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="135.120639" y="142.679235" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="181.042955" y="118.948188" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="224.608829" y="114.271266" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="266.933324" y="101.106598" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="45.018292" y="167.853776" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="90.444057" y="153.303353" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="135.307934" y="139.734506" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="181.147492" y="115.628151" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="224.473802" y="116.176679" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     <use xlink:href="#driver-edges-mc1c2b88c58" x="266.885411" y="106.967185" stroke-linejoin="miter" class="f-c2 s-c2"/>
+    </g>
+   </g>
+   <g id="driver-edges-line2d_128">
+    <path d="M 44.979091 170.841696 
+L 272.560909 100.741887 
+" clip-path="url(#driver-edges-p95ebfbe4f8)" fill="none" stroke-dasharray="3.33,1.44" stroke-dashoffset="0" stroke-width="0.9" class="s-c2"/>
+   </g>
+   <g id="driver-edges-patch_3">
+    <path d="M 33.6 184.9 
+L 33.6 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="driver-edges-patch_4">
+    <path d="M 283.94 184.9 
+L 283.94 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="driver-edges-patch_5">
+    <path d="M 33.6 184.9 
+L 283.94 184.9 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="driver-edges-patch_6">
+    <path d="M 33.6 3.6 
+L 283.94 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="driver-edges-legend_1">
+    <g id="driver-edges-line2d_129">
+     <g>
+      <use xlink:href="#driver-edges-m22b7722c2a" x="50.7" y="15.3" class="f-c5 s-c5"/>
+     </g>
+    </g>
+    <g id="driver-edges-text_15">
+     <text font-size="9px" text-anchor="start" class="f-fg" x="66.9" y="18.45" transform="rotate(-0 66.9 18.45)">rise, output A</text>
+    </g>
+    <g id="driver-edges-line2d_130">
+     <g>
+      <use xlink:href="#driver-edges-m455962c96f" x="50.7" y="28.8" stroke-linejoin="miter" class="f-c4 s-c4"/>
+     </g>
+    </g>
+    <g id="driver-edges-text_16">
+     <text font-size="9px" text-anchor="start" class="f-fg" x="66.9" y="31.95" transform="rotate(-0 66.9 31.95)">fall, output A</text>
+    </g>
+    <g id="driver-edges-line2d_131">
+     <g>
+      <use xlink:href="#driver-edges-mc1c2b88c58" x="50.7" y="42.3" stroke-linejoin="miter" class="f-c2 s-c2"/>
+     </g>
+    </g>
+    <g id="driver-edges-text_17">
+     <text font-size="9px" text-anchor="start" class="f-fg" x="66.9" y="45.45" transform="rotate(-0 66.9 45.45)">rise, output B</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="driver-edges-p95ebfbe4f8">
+   <rect x="33.6" y="3.6" width="250.34" height="181.3"/>
+  </clipPath>
+ </defs>
+</svg>

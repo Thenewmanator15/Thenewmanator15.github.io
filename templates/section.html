@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
+{% block head %}<link rel="stylesheet" href="/css/pages.css">{% endblock head %}
+
+{% block content %}
+{%- if section.extra?.start -%}
+{#- A big project: its parts are the pages in this folder. -#}
+{%- set chan_sec = get_section(path=section.ancestors | last) -%}
+{%- set n = chan_sec.extra.channel -%}
+{%- set_global skills = section.extra?.skills or [] -%}
+{%- set_global proof = section.extra?.proof or [] -%}
+{#- A part's proof links are resolved against the part's own page (its "#photos" is there). -#}
+{%- for q in section.pages -%}
+  {%- set qs = q.extra?.skills or [] -%}
+  {%- set_global skills = [...skills, ...qs] -%}
+  {%- for r in (q.extra?.proof or []) -%}
+    {%- set u = r?.url -%}
+    {%- set whole = u and (u is starting_with(pat="https://") or u is starting_with(pat="/")) -%}
+    {%- set url = u if whole else ((q.path ~ u) if u else none) -%}
+    {%- set_global proof = [...proof, {...r, "url": url}] -%}
+  {%- endfor -%}
+{%- endfor -%}
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="{{ chan_sec.path }}">CH{{ n }} {{ chan_sec.title }}</a></nav>
+{{<project p={section} n={n} chan={chan_sec.title} parts={section.pages} skills={skills | unique} proof={proof} />}}
+{%- set_global list = chan_sec.pages -%}
+{%- for sub in chan_sec.subsections %}{% set s = get_section(path=sub) %}{% if s.extra?.start %}{% set_global list = [...list, s] %}{% endif %}{% endfor -%}
+{{<next_in list={list | sort(attribute="extra.start") | reverse} current={section.path} label={"Next in " ~ chan_sec.title} />}}
+{%- else -%}
+{#- A channel: its projects, newest first, and its four key figures. -#}
+{%- set n = section.extra.channel -%}
+{%- set_global list = section.pages -%}
+{%- for sub in section.subsections %}{% set s = get_section(path=sub) %}{% if s.extra?.start %}{% set_global list = [...list, s] %}{% endif %}{% endfor -%}
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a></nav>
+<article class="channel" data-channel="{{ n }}">
+<header class="phead">
+<p class="kicker"><span class="tag">CH{{ n }}</span> Channel</p>
+<h1>{{ section.title }}</h1>
+<p class="lede">{{ section.description }}</p>
+</header>
+{%- set figures = section.extra?.readouts or [] %}
+{%- if figures %}
+<dl class="figures">{% for r in figures %}<div><dt>{{ r.label }}</dt><dd>{{ r.value }}</dd></div>{% endfor %}</dl>
+{%- endif %}
+{%- if list %}
+<ul class="rows">
+{%- for p in list | sort(attribute="extra.start") | reverse %}
+<li class="row" data-channel="{{ n }}"><span class="dot" aria-hidden="true"></span><span class="tag">CH{{ n }}</span> <span class="ti"><a href="{{ p.path }}">{{ p.title }}</a>{% if p.extra?.role %} <span class="lbl">role</span>{% endif %}{% if p.extra?.still_to_come %} <span class="lbl wip">in progress</span>{% endif %}</span> <span class="dt">{{<dates start={p.extra.start} end={p.extra?.end or "now"} />}}</span></li>
+{%- endfor %}
+</ul>
+{%- else %}
+<p class="empty">No projects here yet.</p>
+{%- endif %}
+{{ section.content | safe }}
+</article>
+{%- endif %}
+{% endblock content %}

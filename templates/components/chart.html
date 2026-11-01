@@ -1,0 +1,7 @@
+{#- A chart drawn by tools/make_charts.py, inlined so it takes the page's theme colours:
+      {{ <chart name="driver-edges" alt="What the chart shows" caption="One line about it." /> }}
+    The SVG lives at data/figures/NAME.svg. The build fails when alt is empty. -#}
+{% component chart(name: string, alt: string, caption: string = "") -%}
+{%- if not alt %}{{ throw(message="chart needs alt text") }}{% endif -%}
+<figure class="fig chartfig"><div class="chartbox" role="img" aria-label="{{ alt | escape_html | safe }}">{{ load_data(path="data/figures/" ~ name ~ ".svg", format="plain") | safe }}</div>{% if caption %}<figcaption>{{ caption | escape_html | safe }}</figcaption>{% endif %}</figure>
+{%- endcomponent chart %}

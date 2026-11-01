@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="{{ config.extra.csp }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ config.title }}{% endblock title %}</title>
+<script src="/js/theme-boot.js"></script>
+<link rel="stylesheet" href="/css/tokens.css">
+{% block head %}{% endblock head %}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<main id="main">
+{% block content %}{% endblock content %}
+</main>
+{%- set site_links = load_data(path="data/site.toml") %}
+<footer class="foot">
+<nav aria-label="Links">{% for l in site_links.links %}<a href="{{ l.url }}">{{ l.label }}</a> · {% endfor %}<span>{{ site_links.cv }}</span>{% if site_links.refs %} · <span>{{ site_links.refs }}</span>{% endif %}</nav>
+</footer>
+</body>
+</html>
