@@ -1,12 +1,14 @@
 # The only skill spellings allowed on any project, part or timeline entry.
 # Add a skill here first, then use it on a page.
 skills = [
-  "accessibility", "Altium Designer", "ARM64", "C", "C#", "C++", "CI", "clock jitter", "CST",
-  "CUDA", "DICOM", "embedded firmware", "EMI and grounding", "ESP-IDF", "ESP32", "FPGA",
+  "accessibility", "AI coding agents", "Altium Designer", "ARM64", "board bring-up", "C", "C#", "C++",
+  "CI", "clock jitter", "CST", "CUDA", "design for manufacture", "device drivers", "DICOM",
+  "embedded firmware", "EMI and grounding", "ESP-IDF", "ESP32", "fault-finding", "FPGA",
   "gate drivers", "Git", "hardware-in-the-loop testing", "HDR imaging", "high-voltage design",
   "Julia", "Keysight ADS", "KiCad", "lab design", "LabVIEW", "Linux device drivers",
-  "low-current measurement", "low-noise amplifiers", "LTspice", "MATLAB", "mentoring", "MQTT", "ONNX Runtime",
-  "open standards", "PCB design", "PDF", "PDF/UA", "power delivery", "Python", "Raspberry Pi",
+  "low-current measurement", "low-noise amplifiers", "LTspice", "MATLAB", "MEMS drive control",
+  "mentoring", "MQTT", "ONNX Runtime", "open standards", "PCB design", "PCB layout review", "PDF",
+  "PDF/UA", "photodiode front ends", "power delivery", "Python", "Raspberry Pi", "real-time firmware",
   "RF test equipment", "Rust", "signal integrity", "signal processing", "Simulink", "teaching",
   "test automation", "test strategy", "time-of-flight mass spectrometry", "Typst", "UHD", "USRP",
   "VHDL", "VNA measurements", "WebGPU", "WGSL", "Wireshark", "Zephyr",
