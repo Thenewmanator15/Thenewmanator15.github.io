@@ -20,7 +20,7 @@ from urllib.parse import urlparse
 
 # The one policy every page must carry (the build plan's Global Constraints).
 EXPECTED_CSP = (
-    "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; "
+    "default-src 'self'; img-src 'self' data: https://www.phovir.com; style-src 'self'; script-src 'self'; "
     "font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
 )
 
@@ -39,6 +39,9 @@ STRAY_MAX_BYTES = 10 * 1024 * 1024
 
 # The site's own address: the same origin as "self" in the policy.
 SITE_HOSTS = {"thenewmanator15.github.io"}
+# Other sites whose images a page may show from their own server (img-src in the policy), and nothing
+# else from them. PhovIR's pictures stay on PhovIR's site: they hold the copyright (Mathew, 2 Nov 2026).
+EMBED_IMAGE_HOSTS = {"www.phovir.com"}
 # Script types that are data, not code: browsers never run them, so the policy doesn't apply.
 DATA_SCRIPT_TYPES = {"application/json", "application/ld+json"}
 
@@ -120,6 +123,12 @@ def _is_other_origin(url: str) -> bool:
     return bool(u.scheme in ("http", "https") and u.netloc) or url.startswith("//")
 
 
+def is_embedded_image(url: str) -> bool:
+    """An https image on one of the other sites the policy lets pages show."""
+    u = urlparse(url)
+    return u.scheme == "https" and u.netloc.lower() in EMBED_IMAGE_HOSTS
+
+
 def duplicate_ids(html: str) -> list[str]:
     """Element ids used more than once on a page (links and labels then point at the wrong one)."""
     counts = Counter(a.get("id") for _, a in _parse(html).tags if a.get("id"))
@@ -160,6 +169,10 @@ def csp_problems(html: str) -> list[str]:
             if tag == "a" and attr == "href":
                 continue  # plain outbound links are fine
             first = v.split(",")[0].strip().split(" ")[0]
+            if tag == "img" and attr in ("src", "srcset") and is_embedded_image(first):
+                if a.get("referrerpolicy") != "no-referrer":
+                    out.append(f"<img src={first}> from another site must send no referrer")
+                continue
             if _is_other_origin(first):
                 out.append(f"<{tag} {attr}={first}> loads from another origin")
     return out

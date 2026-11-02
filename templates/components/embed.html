@@ -1,0 +1,9 @@
+{#- A picture shown from another site's server, linked to the page it comes from and credited:
+      {{ <embed src="https://www.phovir.com/....webp" link="https://www.phovir.com/page/" alt="..." caption="..." credit="PhovIR" width={1920} height={1080} /> }}
+    Only hosts in the policy's img-src work (tools/check_site.py lists them). It sends no referrer,
+    so the other site doesn't learn which page showed it. The build fails when alt is empty. -#}
+{% component embed(src: string, link: string, alt: string, credit: string, caption: string = "", width = 0, height = 0) -%}
+{%- if not alt %}{{ throw(message="embed needs alt text") }}{% endif -%}
+{%- if not src is starting_with(pat="https://www.phovir.com/") %}{{ throw(message="embed host is not in the policy: " ~ src) }}{% endif -%}
+<figure class="fig embed"><a href="{{ link }}"><img src="{{ src }}"{% if width %} width="{{ width }}" height="{{ height }}"{% endif %} alt="{{ alt | escape_html | safe }}" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><figcaption>{% if caption %}{{ caption | escape_html | safe }} {% endif %}© <a href="{{ link }}">{{ credit }}</a></figcaption></figure>
+{%- endcomponent embed %}

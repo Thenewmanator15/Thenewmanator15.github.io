@@ -23,6 +23,7 @@ from check_site import (  # noqa: E402
     duplicate_ids,
     front_matter_problems,
     images_missing_alt,
+    is_embedded_image,
     oversize_pages,
     repo_size_problems,
     reserved_path_hits,
@@ -168,8 +169,11 @@ class BuiltSite(unittest.TestCase):
         self.assertEqual(front_matter_problems(CONTENT, DATA), [])
 
     def test_text_only_pages_have_no_images(self):
-        for path in text_only_pages(CONTENT):  # empty until Task 10 adds PhovIR and MBDA
-            self.assertNotIn("<img", (PUBLIC / path / "index.html").read_text(encoding="utf-8"))
+        # No photos of their own. Pictures shown from another site's server (PhovIR's) are allowed.
+        for path in text_only_pages(CONTENT):
+            html = (PUBLIC / path / "index.html").read_text(encoding="utf-8")
+            own = [s for s in re.findall(r'<img[^>]*?\ssrc="([^"]+)"', html) if not is_embedded_image(s)]
+            self.assertEqual(own, [], path)
 
     def test_front_page_carries_the_data_blob(self):
         html = (PUBLIC / "index.html").read_text(encoding="utf-8")
@@ -605,6 +609,14 @@ class Csp(unittest.TestCase):
         self.assertNotEqual(csp_problems(GOOD_HEAD + '<script src="https://cdn.example.com/a.js"></script>'), [])
         self.assertNotEqual(csp_problems(GOOD_HEAD + '<link rel="stylesheet" href="https://fonts.googleapis.com/x">'), [])
         self.assertNotEqual(csp_problems(GOOD_HEAD + '<img src="https://example.com/a.png" alt="a">'), [])
+
+    def test_embedded_images_only_from_listed_hosts_with_no_referrer(self):
+        ok = '<img src="https://www.phovir.com/a.webp" alt="a" referrerpolicy="no-referrer">'
+        self.assertEqual(csp_problems(GOOD_HEAD + ok), [])
+        self.assertNotEqual(csp_problems(GOOD_HEAD + '<img src="https://www.phovir.com/a.webp" alt="a">'), [])
+        self.assertNotEqual(csp_problems(GOOD_HEAD + '<script src="https://www.phovir.com/a.js"></script>'), [])
+        self.assertNotEqual(csp_problems(GOOD_HEAD + '<img src="http://www.phovir.com/a.webp" alt="a" '
+                                                     'referrerpolicy="no-referrer">'), [])
 
     def test_config_policy_matches_expected(self):
         cfg = tomllib.loads((ROOT / "config.toml").read_text(encoding="utf-8"))

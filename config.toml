@@ -16,4 +16,4 @@ skip_prefixes = ["https://www.linkedin.com/", "https://hal.science/"]
 
 [extra]
 # The one Content Security Policy every page carries; tools/check_site.py checks it matches.
-csp = "default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+csp = "default-src 'self'; img-src 'self' data: https://www.phovir.com; style-src 'self'; script-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
