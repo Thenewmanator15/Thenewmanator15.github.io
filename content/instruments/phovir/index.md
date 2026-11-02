@@ -13,6 +13,10 @@ text_only = true
 skills = ["ESP32", "embedded firmware", "EMI and grounding"]
 my_part = "I wrote the ESP32 firmware and device drivers, including control of the high-voltage MEMS drive. I led the engineering review of the board layout, then assembled and brought up the boards with the team."
 [[extra.proof]]
+kind = "photos"
+label = "The MIEYRA boards, on PhovIR's site"
+url = "https://www.phovir.com/mieyra-nir-mir/"
+[[extra.proof]]
 kind = "document"
 label = "Details on request"
 on_request = true
@@ -39,3 +43,6 @@ and for production.
 
 When the boards arrived, I assembled them with the team and brought them up, the MEMS drive
 included. I then fault-found at board and system level. The results went into the next revision.
+
+PhovIR's [MIEYRA NIR/MIR page](https://www.phovir.com/mieyra-nir-mir/) shows an exploded view of
+the boards I helped build and put together.
