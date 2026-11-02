@@ -195,12 +195,13 @@ class BuiltSite(unittest.TestCase):
         self.assertTrue(all(e["id"] not in {i["id"] for i in blob["items"]} for e in blob["events"]))
 
     def test_in_progress_labels(self):
-        # The pages held back for the first release (1 Nov 2026): thesis photos, the unproven fault, two roles.
+        # The pages held back for the first release (1 Nov 2026): thesis photos, the unproven fault, MBDA.
+        # PhovIR's sign came off on 2 Nov 2026 once its write-up was done.
         label = '<span class="lbl wip">in progress</span>'
         html = (PUBLIC / "index.html").read_text(encoding="utf-8")
         start = html.index('id="scope-data">') + len('id="scope-data">')
         blob = json.loads(html[start:html.index("</script>", start)])
-        self.assertEqual(sorted(i["id"] for i in blob["items"] if i["wip"]), ["mbda", "phd", "phovir"])
+        self.assertEqual(sorted(i["id"] for i in blob["items"] if i["wip"]), ["mbda", "phd"])
         self.assertEqual(sorted(q["title"] for i in blob["items"] for q in i.get("parts", []) if q["wip"]),
                          ["Capture, timing and the pattern", "The gate", "The timing problem"])
         self.assertIn(label, html)
@@ -235,8 +236,7 @@ class BuiltSite(unittest.TestCase):
                 if has:
                     marked.append(folder.as_posix())
         self.assertEqual(sorted(marked), ["instruments/phd", "instruments/phd/capture", "instruments/phd/gate",
-                                          "instruments/phd/timing-problem", "instruments/phovir",
-                                          "rf-wireless-embedded/mbda"])
+                                          "instruments/phd/timing-problem", "rf-wireless-embedded/mbda"])
 
     def test_profile_cards_on_the_front_page(self):
         html = (PUBLIC / "index.html").read_text(encoding="utf-8")

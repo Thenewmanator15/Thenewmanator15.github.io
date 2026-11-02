@@ -2,7 +2,6 @@
 title = "Electronics and embedded engineer, PhovIR"
 description = "Firmware and electronics for a handheld spectrometer at a start-up."
 [extra]
-still_to_come = ["write-up"]
 start = "2025-10"
 end = "2025-12"
 featured = false
