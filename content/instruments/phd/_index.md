@@ -115,12 +115,13 @@ be any width from 16 ns in 1 ns steps. So a new experiment was a setting, with n
 build.
 
 The driver was sized to its load. The gate and its feedthrough are under 100 pF. A 20 ns symbol
-needs edges under 2 ns to stay square. I used GaN FETs. The small, fast ones available then were
+needs [edges under 2 ns](https://thenewmanator15.github.io/mptofsims-supplementary/driver-edges/) to stay square. I used GaN FETs. The small, fast ones available then were
 rated to 100 V. A 75 V rail already overshot to 87 V. So each output stayed at 75 V, one
 swinging positive and one negative. Together they put 150 V across the gate.
 
-The detector side is about single ions. Their pulses are about 2 ns wide and a few millivolts
-high. So they are amplified, then sampled at 1 GS/s. The recording stores the raw samples, compressed
+The detector side is about single ions. [Their pulses](https://thenewmanator15.github.io/mptofsims-supplementary/single-ion-events/)
+are about 2 ns wide and a few millivolts high. So they are amplified, then
+[sampled at 1 GS/s](https://thenewmanator15.github.io/mptofsims-supplementary/capture-sampling/). The recording stores the raw samples, compressed
 without loss. Decoding happens afterwards in software, so the same record can be decoded several
 ways and the results compared.
 
@@ -137,10 +138,12 @@ board around a 100 MHz oven-controlled crystal oscillator, specified to 2 parts 
 second. It has a low-jitter buffer, attenuators to set each output's level and three LT3045
 regulators in parallel. A monitor on the oven current shows when the oscillator has warmed up.
 
+{{ <figure src="clock-reference.jpg" alt="A long green circuit board on a wooden desk. A metal-cased oscillator marked OD100LP-61205CV 100.0 MHz sits in the middle with a blue trimmer beside it. Regulators and a power socket are at the top. Below the oscillator a small buffer chip feeds gold traces to two gold SMA connectors at the bottom edge." caption="The clock reference board out of its case. The buffer below the oscillator feeds the two outputs, each through its own attenuator." /> }}
+
 {{ <chart name="phd-clock" alt="Block diagram of the clock chain. My clock reference board, a 100 MHz OCXO, feeds the converter card. On the card a first loop follows the reference below about 100 Hz. A second loop locks a 3 GHz VCO to a 500 MHz VCSO and sets the jitter, about 200 femtoseconds as modelled. Divided by 3, that gives one 1 GHz sample clock, which feeds both the DAC that plays the code and the ADC that records, whose aperture jitter is 120 femtoseconds." caption="The clock chain. My reference disciplines the jitter cleaner on the converter card, which makes one 1 GHz clock for both converters." /> }}
 
 I measured the board on two oscilloscopes with jitter-analysis software. From 12 kHz to 20 MHz
-the jitter came out at 2.4 ps. That was the oscilloscope's floor: the oscillator's own figure is
+the [jitter came out at 2.4 ps](https://thenewmanator15.github.io/mptofsims-supplementary/clock-reference/). That was the oscilloscope's floor: the oscillator's own figure is
 below 0.1 ps. Driving the output harder helped the measurement. At +10 dBm it read 2.4 ps against
 4.5 ps at +6 dBm, because a steeper edge turns less amplitude noise into timing noise.
 
@@ -162,8 +165,8 @@ the clock reference board, then measured its jitter. I designed gates, modelled 
 and measured how well a gate blanked the beam. I wrote the pattern generator in the card's FPGA.
 I changed the card's capture firmware too. I also wrote the recording software and the decode.
 Then I
-commissioned all of it on the live instrument, which meant fixing ground loops and EMI along the
-way.
+commissioned all of it on the live instrument, which meant fixing ground loops and
+[EMI](https://thenewmanator15.github.io/mptofsims-supplementary/detector-coupling/) along the way.
 
 {{ <figure src="driver-layout.jpg" alt="Altium layout of the driver's drive board, its top copper in red over the bottom in blue. Two halves mirror each other above and below the centre line. Wide copper paths from each half sweep to the right and meet at the output connectors that feed the gate." caption="The drive board's layout in Altium, version 3.1. The two outputs are laid out as mirror images, so their paths to the gate match." /> }}
 
@@ -179,8 +182,9 @@ budget I had to make design choices before I understood how the instrument worke
 taught myself the rest as I went. Then I went back and checked those early choices against what
 I'd learned.
 
-I learned the gun by testing its beam, since I couldn't change it. I swept the gate over a
-fortnight while reading the beam on a Faraday cup, down to single-digit picoamps. I also modelled
+I learned the gun by testing its beam, since I couldn't change it. I
+[swept the gate over a fortnight](https://thenewmanator15.github.io/mptofsims-supplementary/beam-blanking/)
+while reading the beam on a Faraday cup, down to single-digit picoamps. I also modelled
 the column in CST from Ionoptika's drawing.
 
 I also learned to distrust a result until something had tried to break it.
@@ -250,8 +254,9 @@ beams.
 
 It measures what each part costs, which is what a next version needs to know.
 
-- The gate's tail sets its voltage. At 15 kV, 10% transmission took 27 V but 1% took 50 V. A
-  simulation built on the measured gate shows that below 0.3% leakage when shut, the gate keeps
+- The gate's tail sets its voltage. At 15 kV,
+  [10% transmission took 27 V but 1% took 50 V](https://thenewmanator15.github.io/mptofsims-supplementary/beam-blanking/).
+  A [simulation built on the measured gate](https://thenewmanator15.github.io/mptofsims-supplementary/multiplex-acquisition/) shows that below 0.3% leakage when shut, the gate keeps
   99% of the ideal.
 - The biggest loss is the events the code never touched. That is a property of the beam, not
   the gate.
