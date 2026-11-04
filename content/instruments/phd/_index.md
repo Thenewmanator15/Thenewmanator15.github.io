@@ -135,7 +135,7 @@ In practice the capture dropped samples after the ADC, which is the timing probl
 The second was an external reference. The card's own oscillator is specified to 10 ppm. The
 absolute flight time sets the mass scale, so it needs a steadier source. I designed a reference
 board around a 100 MHz oven-controlled crystal oscillator, specified to 2 parts in 10¹¹ over a
-second. It has a low-jitter buffer, attenuators to set each output's level and three LT3045
+second. It has a low-jitter buffer, attenuators to set each output's level and two LT3045
 regulators in parallel. A monitor on the oven current shows when the oscillator has warmed up.
 
 {{ <figure src="clock-reference.jpg" alt="A long green circuit board on a wooden desk. A metal-cased oscillator marked OD100LP-61205CV 100.0 MHz sits in the middle with a blue trimmer beside it. Regulators and a power socket are at the top. Below the oscillator a small buffer chip feeds gold traces to two gold SMA connectors at the bottom edge." caption="The clock reference board out of its case. The buffer below the oscillator feeds the two outputs, each through its own attenuator." /> }}

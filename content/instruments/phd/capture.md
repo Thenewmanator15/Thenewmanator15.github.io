@@ -49,7 +49,7 @@ with Blosc.
 ## Timing
 
 I designed an external clock reference board around a 100 MHz oven-controlled crystal
-oscillator. It has a low-jitter buffer, three LT3045 regulators in parallel and a monitor on the
+oscillator. It has a low-jitter buffer, two LT3045 regulators in parallel and a monitor on the
 oven current that shows when the oscillator has warmed up.
 
 I measured its jitter and phase noise at the picosecond level. From 12 kHz to 20 MHz the jitter
