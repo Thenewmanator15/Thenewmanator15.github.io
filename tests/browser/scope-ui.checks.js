@@ -90,7 +90,9 @@
   expect("the sniffers tile is not marked in progress", !!sn && !sn.querySelector(".rl.wip"), sn?.textContent ?? "no tile");
   const phdTile = await findTile("phd");
   phdTile?.click(); await sleep(150);
-  expect("the PhD card itself has no in progress label", !$("#zoom h3 .rl.wip"), $("#zoom h3")?.textContent ?? "no card");
+  // The PhD overview carries the work-in-progress sign until its thesis photos go up
+  // (still_to_come in content/instruments/phd/_index.md). Flip this when the sign comes off.
+  expect("the PhD card is marked in progress while its photos are held back", !!$("#zoom h3 .rl.wip"), $("#zoom h3")?.textContent ?? "no card");
   const driver = $$("#zoom .parts .plink").find((a) => a.textContent === "The driver");
   expect("the PhD card lists the driver part, unlabelled", !!driver && !driver.nextElementSibling?.matches(".rl.wip"), $("#zoom .parts")?.textContent ?? "no parts line");
   $("#zoom .zk button")?.click(); await sleep(150);
