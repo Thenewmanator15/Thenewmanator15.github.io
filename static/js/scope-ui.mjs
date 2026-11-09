@@ -144,6 +144,12 @@ class Scope {
   }
   styleC() { return !(this.effStyle() === "hc" || this.reducedMotion()); }
   clampS() { this.st.S = core.clampStart(this.st.S, this.W, this.min, this.max); }
+  // Drags and wheel turns fire many events a frame; this redraws once, on the next frame.
+  drawSoon() {
+    if (this.drawPending) return;
+    this.drawPending = true;
+    requestAnimationFrame(() => { this.drawPending = false; this.draw(); });
+  }
   slugsOn() { return this.channels.filter((c) => this.st.show[c.n - 1]).map((c) => c.slug); }
   chName(n) { return this.byN.get(n)?.name ?? `CH${n}`; }
   span() { // the measurement window: the selection, else the view
@@ -243,15 +249,23 @@ class Scope {
     const save = btn("Save");
     save.addEventListener("click", () => this.save());
 
-    strip?.append(
+    // Channels and Time stay in view; the rest folds away behind "More controls" so the strip
+    // is one or two rows until a visitor asks for the full panel.
+    const more = el("div", { class: "more", id: "strip-more", hidden: true },
       grp("Digital lines", "Digital", this.digButtons),
       el("div", { class: "grp", role: "group", "aria-label": "Math channel: a differential signal, M = A − B" },
         this.mexpr, this.mathBtn, this.selA, el("span", { "aria-hidden": "true", text: "−" }), this.selB),
       grp("Acquire", "Acquire", this.runBtn, auto, single),
       grp("Trigger, which chooses what Single steps through", "Trigger", this.trigButtons),
-      grp("Time", "Time", zout, zin, earlier, later),
       grp("Menu", "Menu", this.curBtn, this.measBtn, this.layBtn, this.dispBtn, save),
     );
+    const moreBtn = btn("More controls", { class: "btn morebtn", "aria-expanded": "false", "aria-controls": "strip-more" });
+    moreBtn.addEventListener("click", () => {
+      more.hidden = !more.hidden;
+      moreBtn.setAttribute("aria-expanded", String(!more.hidden));
+      moreBtn.textContent = more.hidden ? "More controls" : "Fewer controls";
+    });
+    strip?.append(grp("Time", "Time", zout, zin, earlier, later), moreBtn, more);
   }
 
   srcName(k) {
@@ -1058,7 +1072,7 @@ class Scope {
       this.rec.setPointerCapture?.(e.pointerId);
       this.draw();
     });
-    this.rec?.addEventListener("pointermove", (e) => { if (rdrag) { this.st.S = recT(e) - rdrag.off; this.draw(); } });
+    this.rec?.addEventListener("pointermove", (e) => { if (rdrag) { this.st.S = recT(e) - rdrag.off; this.drawSoon(); } });
     for (const ev of ["pointerup", "pointercancel"]) this.rec?.addEventListener(ev, () => { rdrag = null; });
 
     // The trace: drag selects, Shift-drag pans, a click picks. Touch: swipe pans; press-and-hold then drag selects.
@@ -1094,8 +1108,8 @@ class Scope {
       if (d.k === "touch") {
         const dx = e.clientX - d.x0;
         if (!d.mode && Math.abs(dx) > 8) { clearTimeout(d.timer); d.mode = "pan"; }
-        if (d.mode === "pan") { st.S = d.S0 - (dx / this.G.w) * this.W; this.draw(); }
-        else if (d.mode === "sel") { const t = this.T(x); st.tmp = [Math.min(d.t0, t), Math.max(d.t0, t)]; this.draw(); }
+        if (d.mode === "pan") { st.S = d.S0 - (dx / this.G.w) * this.W; this.drawSoon(); }
+        else if (d.mode === "sel") { const t = this.T(x); st.tmp = [Math.min(d.t0, t), Math.max(d.t0, t)]; this.drawSoon(); }
         return;
       }
       if (d.k === "pan") st.S = d.S0 - ((e.clientX - d.x0) / this.G.w) * this.W;
@@ -1109,7 +1123,7 @@ class Scope {
         const span = st.sel.span;
         this.setSpan(core.moveEdge(span, d.i, this.T(x) - span[d.i], this.min, this.max));
       }
-      this.draw();
+      this.drawSoon();
     });
     plot.addEventListener("pointerup", (e) => {
       const d = this.drag, st = this.st;
@@ -1150,7 +1164,8 @@ class Scope {
         return;
       }
       this.st.S += core.wheelPan(e.deltaX, e.deltaY, e.deltaMode, this.W, this.G?.w ?? 0);
-      this.draw();
+      this.clampS(); // clamp each turn, so turns past the end don't pile up before the frame draws
+      this.drawSoon();
     }, { passive: false });
     plot.addEventListener("keydown", (e) => {
       if (e.target !== plot) return; // keys on a milestone or digital segment are handled above

@@ -91,6 +91,10 @@ html[data-style=hc] .tr { stroke-width: 3; }
         border-radius: 6px; padding: 4px 6px; max-width: 13.5em; }
 .strip { gap: 8px 20px; }
 .strip .grp { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; min-width: 0; max-width: 100%; }
+.strip .morebtn { margin-left: auto; }
+.strip .more { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; width: 100%;
+               padding-top: 8px; border-top: 1px solid var(--btnedge); }
+.strip .more[hidden] { display: none; }
 
 /* Zoom pane: under the trace, never over it. */
 .zoom { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 16px; align-items: start;

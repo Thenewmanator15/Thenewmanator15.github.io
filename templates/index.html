@@ -2,7 +2,10 @@
 
 {% block head %}<link rel="stylesheet" href="/css/pages.css">
 <link rel="stylesheet" href="/css/scope.css">
-<script type="module" src="/js/scope-main.mjs"></script>{% endblock head %}
+<script type="module" src="/js/scope-main.mjs"></script>
+{#- The modules scope-main.mjs imports, fetched at the same time rather than one after another. #}
+<link rel="modulepreload" href="/js/scope-ui.mjs">
+<link rel="modulepreload" href="/js/scope-core.mjs">{% endblock head %}
 
 {% block content %}
 {%- set site = load_data(path="data/site.toml") -%}
