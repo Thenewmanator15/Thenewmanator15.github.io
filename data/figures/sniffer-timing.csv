@@ -1,0 +1,8 @@
+# source: esp32c6-sniffer docs/superpowers/specs/2026-09-05-esp32c6-sniffer-design.md, section 10 item 4, lines 397-435.
+# 802.15.4 timestamp jitter on the ESP32-C6: median SD 0.5 us over 1609 frames, SDs between 0.4 and 0.9 us across frame groups.
+# References from the same section: 16 us symbol, 192 us acknowledgement turnaround, 10 ms TSCH slot.
+kind,label,us,lo_us,hi_us
+jitter,timestamp jitter,0.5,0.4,0.9
+ref,one symbol,16,,
+ref,ACK turnaround,192,,
+ref,TSCH slot,10000,,

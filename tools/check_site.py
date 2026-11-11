@@ -249,7 +249,7 @@ def stray_files(repo: Path) -> list[str]:
 YM = re.compile(r"\d{4}-(0[1-9]|1[0-2])")
 PROJECT_ID = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
 PROOF_KINDS = ("code", "data", "document", "photos", "video", "measurements", "certificate")
-BOOL_KEYS = ("featured", "milestone", "role", "study", "text_only")
+BOOL_KEYS = ("featured", "milestone", "panel", "role", "study", "text_only")
 TIMELINE_FIELDS = ("id", "title", "date", "summary")
 WIP_PARTS = ("write-up", "dates", "photos", "proof")  # the rows of the work-in-progress sign, in order
 
@@ -312,6 +312,29 @@ def _load(data: Path, name: str) -> tuple[dict, str | None]:
         return tomllib.loads(f.read_text(encoding="utf-8")), None
     except tomllib.TOMLDecodeError as e:
         return {}, f"data/{name} is not valid TOML ({e})"
+
+
+def _panel_problems(where: str, ex: dict, body: str) -> list[str]:
+    """[[extra.matrix]] cards and [[extra.tiles]] belong to the panel layout and are placed by the text."""
+    out = []
+    mats, tiles = ex.get("matrix", []), ex.get("tiles", [])
+    if (mats or tiles) and ex.get("panel") is not True:
+        out.append(f"{where}: matrix and tiles need panel = true")
+    for m in mats:
+        title, cols = m.get("title"), m.get("cols") or []
+        if not title or not cols:
+            out.append(f"{where}: matrix {title or '?'}: needs a title and at least one column")
+            continue
+        for k, row in enumerate(m.get("rows", []), 1):
+            if len(row) != len(cols) + 1:
+                out.append(f"{where}: matrix {title}: row {k} has {len(row)} cells, needs {len(cols) + 1}")
+    if any(not t.get("value") or not t.get("label") for t in tiles):
+        out.append(f"{where}: tiles need a value and a label")
+    if mats and "<matrices" not in body:
+        out.append(f"{where}: has a matrix but never shows it: add {{{{ <matrices /> }}}} to the text")
+    if tiles and "<tiles" not in body:
+        out.append(f"{where}: has tiles but never shows them: add {{{{ <tiles /> }}}} to the text")
+    return out
 
 
 def _wip_problems(where: str, ex: dict, text_only: bool) -> list[str]:
@@ -516,10 +539,16 @@ def front_matter_problems(content: Path, data: Path) -> list[str]:
         if hero and not (p.folder / str(hero)).is_file():
             out.append(f"{where}: hero {hero} is not in the folder")
         out += _wip_problems(where, ex, text_only)
+        out += _panel_problems(where, ex, p.file.read_text(encoding="utf-8").split("+++", 2)[-1])
         parts = [(f, _front(f)) for f in p.parts]
-        for f, (_, perr) in parts:
+        for f, (pf, perr) in parts:
             if perr:
                 out.append(f"{rel(f)}: {perr}")
+                continue
+            pex = pf.get("extra", {})
+            if "panel" in pex and not isinstance(pex["panel"], bool):
+                out.append(f"{rel(f)}: panel must be true or false")
+            out += _panel_problems(rel(f), pex, f.read_text(encoding="utf-8").split("+++", 2)[-1])
         part_fms = [pf for _, (pf, perr) in parts if not perr]
         own_skills = ex.get("skills", [])
         out += skill_problems(where, own_skills)

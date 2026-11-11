@@ -1,0 +1,7 @@
+# source: esp32c6-sniffer docs/superpowers/specs/2026-09-05-esp32c6-sniffer-design.md, lines 128-133 (ESP-IDF driver, mean of 3 runs, range 787.6-823.5 kB/s).
+# source: nrf54l15-sniffer docs/2026-09-14-nrf54l15-spike.md, lines 344-428 (UART bridge, EasyDMA and polled); line 358 for a busy 802.15.4 channel (about 31 kB/s).
+# Sustained link throughput in kB/s.
+link,kB_per_s
+"ESP32-C6, USB",809.9
+"nRF54L15, DMA",94.3
+"nRF54L15, polled",78.0

@@ -39,6 +39,41 @@ class Themed(unittest.TestCase):
         self.assertIn('xlink:href="#pdn-m1"', out)
         self.assertIn('url(#pdn-m1)', out)
 
+    def test_grid_and_trace_placeholders(self):
+        self.assertIn('class="s-grid"', themed(SAMPLE.replace("#000003", "#000007")))
+        self.assertIn('class="s-trace"', themed(SAMPLE.replace("#000003", "#000008")))
+
+    def test_every_chart_csv_names_its_source(self):
+        figs = ROOT / "data" / "figures"
+        names = ("link", "sweep", "timing", "ble-error", "carrier", "fuzz")
+        for name in names:
+            self.assertTrue((figs / f"sniffer-{name}.csv").exists(), name)
+            self.assertTrue((figs / f"sniffer-{name}.svg").exists(), name)
+        for csv in figs.glob("sniffer-*.csv"):
+            first = csv.read_text(encoding="utf-8").splitlines()[0]
+            self.assertTrue(first.startswith("# source:"), csv.name)
+
+    def test_sniffer_tiles_agree_with_the_fuzz_data(self):
+        import csv
+        with open(ROOT / "data" / "figures" / "sniffer-fuzz.csv", encoding="utf-8", newline="") as f:
+            total = sum(int(r["inputs"]) for r in csv.DictReader(l for l in f if not l.startswith("#")))
+        page = (ROOT / "content" / "rf-wireless-embedded" / "sniffers" / "index.md").read_text(encoding="utf-8")
+        self.assertIn(f'value = "{total:,}"', page)
+        self.assertIn(f"That is {total:,} in all.", page)
+
+    def test_carrier_chart_names_the_board_that_measured(self):
+        text = (ROOT / "data" / "figures" / "sniffer-carrier.csv").read_text(encoding="utf-8")
+        self.assertIn("measured by the ESP32-C6", text)
+        page = (ROOT / "content" / "rf-wireless-embedded" / "sniffers" / "index.md").read_text(encoding="utf-8")
+        self.assertNotIn("reading on the nRF54L15", page)
+
+    def test_hand_drawn_sniffer_diagrams_exist(self):
+        for name in ("datapath", "header", "retune"):
+            svg = (ROOT / "data" / "figures" / f"sniffer-{name}.svg").read_text(encoding="utf-8")
+            self.assertTrue(svg.startswith('<svg class="chart" aria-hidden="true" focusable="false"'), name)
+            for i in re.findall(r'id="([^"]+)"', svg):
+                self.assertTrue(i.startswith(f"sniffer-{name}-"), i)
+
     def test_charts_never_share_an_id(self):
         ids = [i for svg in (ROOT / "data" / "figures").glob("*.svg")
                for i in re.findall(r'id="([^"]+)"', svg.read_text(encoding="utf-8"))]

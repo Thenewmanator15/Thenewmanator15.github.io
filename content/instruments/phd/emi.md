@@ -30,7 +30,7 @@ The star ground is a single point bonding the electronics' signal ground to the 
 earth. It did the work. Between 10 and 40 MHz it cut the coupling from −73 dB to −111 dB, about
 38 dB. Two chokes without it gained only 3 dB.
 
-{{ <chart name="detector-coupling" alt="Plot of coupling from drive channel B into the detector against frequency, 0.5 MHz to 2 GHz. Without the star ground the coupling sits near minus 73 dB between 10 and 40 MHz, and two chokes barely lower it. With the star ground it falls to about minus 111 dB. Above about 100 MHz all three meet near minus 88 dB." caption="Coupling from drive channel B into the detector output, October 2021, smoothed. The star ground does the work below 100 MHz; the chokes barely move it." /> }}
+{{ <chart name="detector-coupling" alt="Plot of coupling from drive channel B into the detector against frequency, 0.5 MHz to 2 GHz. Without the star ground the coupling sits near minus 73 dB from 10 to 40 MHz. Two chokes barely lower it. With the star ground it falls to about minus 111 dB. Above about 100 MHz all three meet near minus 88 dB." caption="Coupling from drive channel B into the detector output, October 2021, smoothed. The star ground does the work below 100 MHz; the chokes barely move it." /> }}
 
 The ferrites' datasheet explains the chokes. Below 20 MHz they present only tens of ohms,
 almost all of it reactive. They only turn lossy above about 50 MHz. Above 100 MHz every

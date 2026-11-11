@@ -47,7 +47,7 @@ Faraday cup. I ran four beam energies from 10 to 15 kV, with singly and doubly c
 voltage step cycled through three drive settings: both electrodes driven, then each alone. The
 gate in these sweeps was a larger design than the 50 µm ones, at 150/150 µm.
 
-{{ <chart name="gate-blanking" alt="Plot of beam transmitted, in per cent, against gate voltage per channel from 0 to 70 V, for 10, 11, 14 and 15 kV beams. Each curve falls from 100 per cent towards zero. A dashed line marks 10 per cent, reached at about 21 V for 10 kV and about 27 V for 14 and 15 kV." caption="Beam transmitted through the gate against voltage per channel, both electrodes driven, one sweep per energy, 19 to 22 July 2022." /> }}
+{{ <chart name="gate-blanking" alt="Plot of beam transmitted, in per cent, against gate voltage per channel from 0 to 70 V, for 10, 11, 14 and 15 kV beams. Each curve falls from 100 per cent towards zero. A dashed line marks 10 per cent, reached at about 21 V for 10 kV. The 14 kV and 15 kV beams reach it at about 27 V." caption="Beam transmitted through the gate against voltage per channel, both electrodes driven, one sweep per energy, 19 to 22 July 2022." /> }}
 
 With both electrodes driven, the gate let through 10% of the beam at about 21 V per channel at
 10 kV. At 15 kV it needed about 27 V. Faster ions need a stronger field to turn aside, so the

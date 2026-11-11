@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
 
-from check_contrast import check, contrast, opacity_problems  # noqa: E402
+from check_contrast import _pairs, check, contrast, opacity_problems  # noqa: E402
 
 BACKGROUNDS = ["page", "bezel", "panel", "screen", "btn", "zbg", "tagbg", "grid"]
 FOREGROUNDS = ["pagetext", "paneldim", "text", "dim", "btntext", "btnedge", "trace",
@@ -33,6 +33,16 @@ def sheet(scope=None, paper=None, hc=None, light=None, more=None, forced=True) -
 
 
 class Contrast(unittest.TestCase):
+    def test_chart_text_on_screen_is_checked(self):
+        pairs = _pairs({"c1": "#ffff00"})
+        self.assertIn(("pagetext", "screen"), pairs)
+        self.assertIn(("paneldim", "screen"), pairs)
+
+    def test_panel_header_and_cards_are_checked(self):
+        pairs = _pairs({"c1": "#ffff00"})
+        for pair in (("pagetext", "panel"), ("paneldim", "panel")):
+            self.assertIn(pair, pairs)
+
     def test_contrast_known_pair(self):
         self.assertEqual(round(contrast("#000000", "#ffffff"), 1), 21.0)
 

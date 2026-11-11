@@ -81,7 +81,11 @@ def _pairs(t: dict[str, str]) -> list[tuple[str, str]]:
              # pressed digital buttons; project cards inside the zoom pane use the screen's text colours
              ("dim", "grid"), ("paneldim", "page"), ("chtext", "dig"), ("text", "zbg"), ("dim", "zbg"),
              # the "in progress" and "work in progress" labels: accent text on the page
-             ("accent", "page")]
+             ("accent", "page"),
+             # chart text and labels sit on the screen colour inside each figure
+             ("pagetext", "screen"), ("paneldim", "screen"),
+             # panel layout: the header, fold rows and matrix cards sit on the panel colour
+             ("pagetext", "panel")]
     for c in chans:
         pairs += [(c, "screen"), (c, "panel"), ("chtext", c)]
     return pairs

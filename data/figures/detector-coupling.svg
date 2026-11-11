@@ -1,1757 +1,1827 @@
-<svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 287.58 215.54" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 344.698437 244.356484" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <defs>
   </defs>
  <g id="detector-coupling-figure_1">
   <g id="detector-coupling-patch_1">
-   <path d="M 0 215.54 
-L 287.58 215.54 
-L 287.58 0 
+   <path d="M 0 244.356484 
+L 344.698437 244.356484 
+L 344.698437 0 
 L 0 0 
-L 0 215.54 
+L 0 244.356484 
 z
 " fill="none"/>
   </g>
   <g id="detector-coupling-axes_1">
    <g id="detector-coupling-patch_2">
-    <path d="M 43 183.04 
-L 283.98 183.04 
-L 283.98 7.35 
-L 43 7.35 
-L 43 183.04 
+    <path d="M 48.600781 211.454141 
+L 341.098437 211.454141 
+L 341.098437 7.398828 
+L 48.600781 7.398828 
+L 48.600781 211.454141 
 z
 " fill="none"/>
    </g>
    <g id="detector-coupling-matplotlib.axis_1">
     <g id="detector-coupling-xtick_1">
      <g id="detector-coupling-line2d_1">
+      <path d="M 73.045285 211.454141 
+L 73.045285 7.398828 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="detector-coupling-line2d_2">
       <defs>
        <path id="detector-coupling-mae40bbd23d" d="M 0 0 
 L 0 -3 
 " stroke-width="0.5" class="s-fg"/>
       </defs>
       <g>
-       <use xlink:href="#detector-coupling-mae40bbd23d" x="63.139089" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-mae40bbd23d" x="73.045285" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_2">
+     <g id="detector-coupling-line2d_3">
       <defs>
        <path id="detector-coupling-m6ab5fe8380" d="M 0 0 
 L 0 3 
 " stroke-width="0.5" class="s-fg"/>
       </defs>
       <g>
-       <use xlink:href="#detector-coupling-m6ab5fe8380" x="63.139089" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m6ab5fe8380" x="73.045285" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-text_1">
       <!-- $\mathdefault{10^{0}}$ -->
-      <g class="f-fg" transform="translate(55.889089 195.44)">
+      <g class="f-fg" transform="translate(63.945285 224.354141)">
        <text>
-        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
-        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
-        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">0</tspan>
+        <tspan x="0" y="-0.675764" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="6.362305" y="-0.675764" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="13.125038" y="-4.804688" font-size="7px" class="f-fg">0</tspan>
        </text>
       </g>
      </g>
     </g>
     <g id="detector-coupling-xtick_2">
-     <g id="detector-coupling-line2d_3">
+     <g id="detector-coupling-line2d_4">
+      <path d="M 154.248168 211.454141 
+L 154.248168 7.398828 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="detector-coupling-line2d_5">
       <g>
-       <use xlink:href="#detector-coupling-mae40bbd23d" x="130.039696" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-mae40bbd23d" x="154.248168" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_4">
+     <g id="detector-coupling-line2d_6">
       <g>
-       <use xlink:href="#detector-coupling-m6ab5fe8380" x="130.039696" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m6ab5fe8380" x="154.248168" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-text_2">
       <!-- $\mathdefault{10^{1}}$ -->
-      <g class="f-fg" transform="translate(122.789696 195.44)">
+      <g class="f-fg" transform="translate(145.148168 224.254141)">
        <text>
-        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
-        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
-        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">1</tspan>
+        <tspan x="0" y="-0.763264" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="6.362305" y="-0.763264" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="13.125038" y="-4.892188" font-size="7px" class="f-fg">1</tspan>
        </text>
       </g>
      </g>
     </g>
     <g id="detector-coupling-xtick_3">
-     <g id="detector-coupling-line2d_5">
+     <g id="detector-coupling-line2d_7">
+      <path d="M 235.451051 211.454141 
+L 235.451051 7.398828 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="detector-coupling-line2d_8">
       <g>
-       <use xlink:href="#detector-coupling-mae40bbd23d" x="196.940304" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-mae40bbd23d" x="235.451051" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_6">
+     <g id="detector-coupling-line2d_9">
       <g>
-       <use xlink:href="#detector-coupling-m6ab5fe8380" x="196.940304" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m6ab5fe8380" x="235.451051" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-text_3">
       <!-- $\mathdefault{10^{2}}$ -->
-      <g class="f-fg" transform="translate(189.690304 195.44)">
+      <g class="f-fg" transform="translate(226.351051 224.354141)">
        <text>
-        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
-        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
-        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">2</tspan>
+        <tspan x="0" y="-0.675764" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="6.362305" y="-0.675764" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="13.125038" y="-4.804688" font-size="7px" class="f-fg">2</tspan>
        </text>
       </g>
      </g>
     </g>
     <g id="detector-coupling-xtick_4">
-     <g id="detector-coupling-line2d_7">
+     <g id="detector-coupling-line2d_10">
+      <path d="M 316.653934 211.454141 
+L 316.653934 7.398828 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="detector-coupling-line2d_11">
       <g>
-       <use xlink:href="#detector-coupling-mae40bbd23d" x="263.840911" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-mae40bbd23d" x="316.653934" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_8">
+     <g id="detector-coupling-line2d_12">
       <g>
-       <use xlink:href="#detector-coupling-m6ab5fe8380" x="263.840911" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m6ab5fe8380" x="316.653934" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-text_4">
       <!-- $\mathdefault{10^{3}}$ -->
-      <g class="f-fg" transform="translate(256.590911 195.44)">
+      <g class="f-fg" transform="translate(307.553934 224.354141)">
        <text>
-        <tspan x="0" y="-0.135139" font-size="10px" class="f-fg">1</tspan>
-        <tspan x="5" y="-0.135139" font-size="10px" class="f-fg">0</tspan>
-        <tspan x="10.400429" y="-4.264063" font-size="7px" class="f-fg">3</tspan>
+        <tspan x="0" y="-0.675764" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="6.362305" y="-0.675764" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="13.125038" y="-4.804688" font-size="7px" class="f-fg">3</tspan>
        </text>
       </g>
      </g>
     </g>
     <g id="detector-coupling-xtick_5">
-     <g id="detector-coupling-line2d_9">
+     <g id="detector-coupling-line2d_13">
       <defs>
        <path id="detector-coupling-m20fb295bad" d="M 0 0 
 L 0 -1.5 
 " stroke-width="0.5" class="s-fg"/>
       </defs>
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="43" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="48.600781" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_10">
+     <g id="detector-coupling-line2d_14">
       <defs>
        <path id="detector-coupling-m9d8bd21e61" d="M 0 0 
 L 0 1.5 
 " stroke-width="0.5" class="s-fg"/>
       </defs>
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="43" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="48.600781" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-xtick_6">
-     <g id="detector-coupling-line2d_11">
-      <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="48.297273" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="detector-coupling-line2d_12">
-      <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="48.297273" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="detector-coupling-xtick_7">
-     <g id="detector-coupling-line2d_13">
-      <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="52.776054" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="detector-coupling-line2d_14">
-      <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="52.776054" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="detector-coupling-xtick_8">
      <g id="detector-coupling-line2d_15">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="56.655751" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="55.030527" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_16">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="56.655751" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="55.030527" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_9">
+    <g id="detector-coupling-xtick_7">
      <g id="detector-coupling-line2d_17">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="60.077886" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="60.466799" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_18">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="60.077886" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="60.466799" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_10">
+    <g id="detector-coupling-xtick_8">
      <g id="detector-coupling-line2d_19">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="83.278179" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="65.175912" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_20">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="83.278179" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="65.175912" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_11">
+    <g id="detector-coupling-xtick_9">
      <g id="detector-coupling-line2d_21">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="95.058791" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="69.329645" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_22">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="95.058791" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="69.329645" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_12">
+    <g id="detector-coupling-xtick_10">
      <g id="detector-coupling-line2d_23">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="103.417268" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="97.489788" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_24">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="103.417268" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="97.489788" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_13">
+    <g id="detector-coupling-xtick_11">
      <g id="detector-coupling-line2d_25">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="109.900607" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="111.788906" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_26">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="109.900607" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="111.788906" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_14">
+    <g id="detector-coupling-xtick_12">
      <g id="detector-coupling-line2d_27">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="115.19788" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="121.934292" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_28">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="115.19788" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="121.934292" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_15">
+    <g id="detector-coupling-xtick_13">
      <g id="detector-coupling-line2d_29">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="119.676661" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="129.803664" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_30">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="119.676661" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="129.803664" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_16">
+    <g id="detector-coupling-xtick_14">
      <g id="detector-coupling-line2d_31">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="123.556358" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="136.23341" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_32">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="123.556358" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="136.23341" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_17">
+    <g id="detector-coupling-xtick_15">
      <g id="detector-coupling-line2d_33">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="126.978493" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="141.669682" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_34">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="126.978493" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="141.669682" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_18">
+    <g id="detector-coupling-xtick_16">
      <g id="detector-coupling-line2d_35">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="150.178786" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="146.378795" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_36">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="150.178786" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="146.378795" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_19">
+    <g id="detector-coupling-xtick_17">
      <g id="detector-coupling-line2d_37">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="161.959398" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="150.532528" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_38">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="161.959398" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="150.532528" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_20">
+    <g id="detector-coupling-xtick_18">
      <g id="detector-coupling-line2d_39">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="170.317875" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="178.692671" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_40">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="170.317875" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="178.692671" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_21">
+    <g id="detector-coupling-xtick_19">
      <g id="detector-coupling-line2d_41">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="176.801214" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="192.991789" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_42">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="176.801214" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="192.991789" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_22">
+    <g id="detector-coupling-xtick_20">
      <g id="detector-coupling-line2d_43">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="182.098487" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="203.137175" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_44">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="182.098487" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="203.137175" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_23">
+    <g id="detector-coupling-xtick_21">
      <g id="detector-coupling-line2d_45">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="186.577268" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="211.006547" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_46">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="186.577268" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="211.006547" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_24">
+    <g id="detector-coupling-xtick_22">
      <g id="detector-coupling-line2d_47">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="190.456965" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="217.436293" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_48">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="190.456965" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="217.436293" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_25">
+    <g id="detector-coupling-xtick_23">
      <g id="detector-coupling-line2d_49">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="193.8791" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="222.872565" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_50">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="193.8791" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="222.872565" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_26">
+    <g id="detector-coupling-xtick_24">
      <g id="detector-coupling-line2d_51">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="217.079393" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="227.581678" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_52">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="217.079393" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="227.581678" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_27">
+    <g id="detector-coupling-xtick_25">
      <g id="detector-coupling-line2d_53">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="228.860005" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="231.735411" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_54">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="228.860005" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="231.735411" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_28">
+    <g id="detector-coupling-xtick_26">
      <g id="detector-coupling-line2d_55">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="237.218482" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="259.895554" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_56">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="237.218482" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="259.895554" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_29">
+    <g id="detector-coupling-xtick_27">
      <g id="detector-coupling-line2d_57">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="243.701821" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="274.194672" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_58">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="243.701821" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="274.194672" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_30">
+    <g id="detector-coupling-xtick_28">
      <g id="detector-coupling-line2d_59">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="248.999095" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="284.340058" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_60">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="248.999095" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="284.340058" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_31">
+    <g id="detector-coupling-xtick_29">
      <g id="detector-coupling-line2d_61">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="253.477875" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="292.20943" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_62">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="253.477875" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="292.20943" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_32">
+    <g id="detector-coupling-xtick_30">
      <g id="detector-coupling-line2d_63">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="257.357572" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="298.639176" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_64">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="257.357572" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="298.639176" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_33">
+    <g id="detector-coupling-xtick_31">
      <g id="detector-coupling-line2d_65">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="260.779707" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="304.075448" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_66">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="260.779707" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="304.075448" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
-    <g id="detector-coupling-xtick_34">
+    <g id="detector-coupling-xtick_32">
      <g id="detector-coupling-line2d_67">
       <g>
-       <use xlink:href="#detector-coupling-m20fb295bad" x="283.98" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="308.784562" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-line2d_68">
       <g>
-       <use xlink:href="#detector-coupling-m9d8bd21e61" x="283.98" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="308.784562" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="detector-coupling-xtick_33">
+     <g id="detector-coupling-line2d_69">
+      <g>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="312.938294" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="detector-coupling-line2d_70">
+      <g>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="312.938294" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+    </g>
+    <g id="detector-coupling-xtick_34">
+     <g id="detector-coupling-line2d_71">
+      <g>
+       <use xlink:href="#detector-coupling-m20fb295bad" x="341.098437" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="detector-coupling-line2d_72">
+      <g>
+       <use xlink:href="#detector-coupling-m9d8bd21e61" x="341.098437" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-text_5">
-     <text font-size="10px" text-anchor="middle" class="f-fg" x="163.49" y="209.44" transform="rotate(-0 163.49 209.44)">Frequency (MHz)</text>
+     <text font-size="10px" text-anchor="middle" class="f-fg" x="194.849609" y="238.354141" transform="rotate(-0 194.849609 238.354141)">Frequency (MHz)</text>
     </g>
    </g>
    <g id="detector-coupling-matplotlib.axis_2">
     <g id="detector-coupling-ytick_1">
-     <g id="detector-coupling-line2d_69">
+     <g id="detector-coupling-line2d_73">
+      <path d="M 48.600781 211.454141 
+L 341.098437 211.454141 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="detector-coupling-line2d_74">
       <defs>
        <path id="detector-coupling-m2685e6c094" d="M 0 0 
 L 3 0 
 " stroke-width="0.5" class="s-fg"/>
       </defs>
       <g>
-       <use xlink:href="#detector-coupling-m2685e6c094" x="43" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m2685e6c094" x="48.600781" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_70">
+     <g id="detector-coupling-line2d_75">
       <defs>
        <path id="detector-coupling-m41dff3320c" d="M 0 0 
 L -3 0 
 " stroke-width="0.5" class="s-fg"/>
       </defs>
       <g>
-       <use xlink:href="#detector-coupling-m41dff3320c" x="283.98" y="183.04" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m41dff3320c" x="341.098437" y="211.454141" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-text_6">
       <!-- $\mathdefault{−120}$ -->
-      <g class="f-fg" transform="translate(17.6 186.79)">
+      <g class="f-fg" transform="translate(17.600781 215.252969)">
        <text>
-        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">−</tspan>
-        <tspan x="6.849991" y="-0.234375" font-size="10px" class="f-fg">1</tspan>
-        <tspan x="11.849991" y="-0.234375" font-size="10px" class="f-fg">2</tspan>
-        <tspan x="16.849991" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">2</tspan>
+        <tspan x="21.103516" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
        </text>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_2">
-     <g id="detector-coupling-line2d_71">
+     <g id="detector-coupling-line2d_76">
+      <path d="M 48.600781 177.444922 
+L 341.098437 177.444922 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="detector-coupling-line2d_77">
       <g>
-       <use xlink:href="#detector-coupling-m2685e6c094" x="43" y="153.758333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m2685e6c094" x="48.600781" y="177.444922" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_72">
+     <g id="detector-coupling-line2d_78">
       <g>
-       <use xlink:href="#detector-coupling-m41dff3320c" x="283.98" y="153.758333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m41dff3320c" x="341.098437" y="177.444922" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-text_7">
       <!-- $\mathdefault{−110}$ -->
-      <g class="f-fg" transform="translate(17.6 157.508333)">
+      <g class="f-fg" transform="translate(17.600781 181.24375)">
        <text>
-        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">−</tspan>
-        <tspan x="6.849991" y="-0.234375" font-size="10px" class="f-fg">1</tspan>
-        <tspan x="11.849991" y="-0.234375" font-size="10px" class="f-fg">1</tspan>
-        <tspan x="16.849991" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="21.103516" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
        </text>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_3">
-     <g id="detector-coupling-line2d_73">
+     <g id="detector-coupling-line2d_79">
+      <path d="M 48.600781 143.435703 
+L 341.098437 143.435703 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="detector-coupling-line2d_80">
       <g>
-       <use xlink:href="#detector-coupling-m2685e6c094" x="43" y="124.476667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m2685e6c094" x="48.600781" y="143.435703" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_74">
+     <g id="detector-coupling-line2d_81">
       <g>
-       <use xlink:href="#detector-coupling-m41dff3320c" x="283.98" y="124.476667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m41dff3320c" x="341.098437" y="143.435703" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-text_8">
       <!-- $\mathdefault{−100}$ -->
-      <g class="f-fg" transform="translate(17.6 128.226667)">
+      <g class="f-fg" transform="translate(17.600781 147.234531)">
        <text>
-        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">−</tspan>
-        <tspan x="6.849991" y="-0.234375" font-size="10px" class="f-fg">1</tspan>
-        <tspan x="11.849991" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
-        <tspan x="16.849991" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="21.103516" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
        </text>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_4">
-     <g id="detector-coupling-line2d_75">
+     <g id="detector-coupling-line2d_82">
+      <path d="M 48.600781 109.426484 
+L 341.098437 109.426484 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="detector-coupling-line2d_83">
       <g>
-       <use xlink:href="#detector-coupling-m2685e6c094" x="43" y="95.195" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m2685e6c094" x="48.600781" y="109.426484" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_76">
+     <g id="detector-coupling-line2d_84">
       <g>
-       <use xlink:href="#detector-coupling-m41dff3320c" x="283.98" y="95.195" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m41dff3320c" x="341.098437" y="109.426484" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-text_9">
       <!-- $\mathdefault{−90}$ -->
-      <g class="f-fg" transform="translate(22.6 98.945)">
+      <g class="f-fg" transform="translate(23.900781 113.225312)">
        <text>
-        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">−</tspan>
-        <tspan x="6.849991" y="-0.234375" font-size="10px" class="f-fg">9</tspan>
-        <tspan x="11.849991" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">9</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
        </text>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_5">
-     <g id="detector-coupling-line2d_77">
+     <g id="detector-coupling-line2d_85">
+      <path d="M 48.600781 75.417266 
+L 341.098437 75.417266 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="detector-coupling-line2d_86">
       <g>
-       <use xlink:href="#detector-coupling-m2685e6c094" x="43" y="65.913333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m2685e6c094" x="48.600781" y="75.417266" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_78">
+     <g id="detector-coupling-line2d_87">
       <g>
-       <use xlink:href="#detector-coupling-m41dff3320c" x="283.98" y="65.913333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m41dff3320c" x="341.098437" y="75.417266" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-text_10">
       <!-- $\mathdefault{−80}$ -->
-      <g class="f-fg" transform="translate(22.6 69.663333)">
+      <g class="f-fg" transform="translate(23.900781 79.216094)">
        <text>
-        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">−</tspan>
-        <tspan x="6.849991" y="-0.234375" font-size="10px" class="f-fg">8</tspan>
-        <tspan x="11.849991" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">8</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
        </text>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_6">
-     <g id="detector-coupling-line2d_79">
+     <g id="detector-coupling-line2d_88">
+      <path d="M 48.600781 41.408047 
+L 341.098437 41.408047 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="detector-coupling-line2d_89">
       <g>
-       <use xlink:href="#detector-coupling-m2685e6c094" x="43" y="36.631667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m2685e6c094" x="48.600781" y="41.408047" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_80">
+     <g id="detector-coupling-line2d_90">
       <g>
-       <use xlink:href="#detector-coupling-m41dff3320c" x="283.98" y="36.631667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m41dff3320c" x="341.098437" y="41.408047" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-text_11">
       <!-- $\mathdefault{−70}$ -->
-      <g class="f-fg" transform="translate(22.6 40.381667)">
+      <g class="f-fg" transform="translate(23.900781 45.206875)">
        <text>
-        <tspan x="0" y="-0.234375" font-size="10px" class="f-fg">−</tspan>
-        <tspan x="6.849991" y="-0.234375" font-size="10px" class="f-fg">7</tspan>
-        <tspan x="11.849991" y="-0.234375" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">7</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
        </text>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_7">
-     <g id="detector-coupling-line2d_81">
+     <g id="detector-coupling-line2d_91">
+      <path d="M 48.600781 7.398828 
+L 341.098437 7.398828 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="detector-coupling-line2d_92">
       <g>
-       <use xlink:href="#detector-coupling-m2685e6c094" x="43" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m2685e6c094" x="48.600781" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_82">
+     <g id="detector-coupling-line2d_93">
       <g>
-       <use xlink:href="#detector-coupling-m41dff3320c" x="283.98" y="7.35" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m41dff3320c" x="341.098437" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
      <g id="detector-coupling-text_12">
       <!-- $\mathdefault{−60}$ -->
-      <g class="f-fg" transform="translate(22.6 11.1)">
+      <g class="f-fg" transform="translate(23.900781 11.197656)">
        <text>
-        <tspan x="0" y="-0.15625" font-size="10px" class="f-fg">−</tspan>
-        <tspan x="6.849991" y="-0.15625" font-size="10px" class="f-fg">6</tspan>
-        <tspan x="11.849991" y="-0.15625" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">6</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
        </text>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_8">
-     <g id="detector-coupling-line2d_83">
+     <g id="detector-coupling-line2d_94">
       <defs>
        <path id="detector-coupling-m7e519bac54" d="M 0 0 
 L 1.5 0 
 " stroke-width="0.5" class="s-fg"/>
       </defs>
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="177.183667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="204.652297" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_84">
+     <g id="detector-coupling-line2d_95">
       <defs>
        <path id="detector-coupling-ma626b2919d" d="M 0 0 
 L -1.5 0 
 " stroke-width="0.5" class="s-fg"/>
       </defs>
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="177.183667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="204.652297" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_9">
-     <g id="detector-coupling-line2d_85">
+     <g id="detector-coupling-line2d_96">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="171.327333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="197.850453" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_86">
+     <g id="detector-coupling-line2d_97">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="171.327333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="197.850453" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_10">
-     <g id="detector-coupling-line2d_87">
+     <g id="detector-coupling-line2d_98">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="165.471" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="191.048609" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_88">
+     <g id="detector-coupling-line2d_99">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="165.471" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="191.048609" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_11">
-     <g id="detector-coupling-line2d_89">
+     <g id="detector-coupling-line2d_100">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="159.614667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="184.246766" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_90">
+     <g id="detector-coupling-line2d_101">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="159.614667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="184.246766" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_12">
-     <g id="detector-coupling-line2d_91">
+     <g id="detector-coupling-line2d_102">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="147.902" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="170.643078" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_92">
+     <g id="detector-coupling-line2d_103">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="147.902" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="170.643078" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_13">
-     <g id="detector-coupling-line2d_93">
+     <g id="detector-coupling-line2d_104">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="142.045667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="163.841234" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_94">
+     <g id="detector-coupling-line2d_105">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="142.045667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="163.841234" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_14">
-     <g id="detector-coupling-line2d_95">
+     <g id="detector-coupling-line2d_106">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="136.189333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="157.039391" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_96">
+     <g id="detector-coupling-line2d_107">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="136.189333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="157.039391" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_15">
-     <g id="detector-coupling-line2d_97">
+     <g id="detector-coupling-line2d_108">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="130.333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="150.237547" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_98">
+     <g id="detector-coupling-line2d_109">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="130.333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="150.237547" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_16">
-     <g id="detector-coupling-line2d_99">
+     <g id="detector-coupling-line2d_110">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="118.620333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="136.633859" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_100">
+     <g id="detector-coupling-line2d_111">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="118.620333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="136.633859" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_17">
-     <g id="detector-coupling-line2d_101">
+     <g id="detector-coupling-line2d_112">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="112.764" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="129.832016" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_102">
+     <g id="detector-coupling-line2d_113">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="112.764" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="129.832016" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_18">
-     <g id="detector-coupling-line2d_103">
+     <g id="detector-coupling-line2d_114">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="106.907667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="123.030172" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_104">
+     <g id="detector-coupling-line2d_115">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="106.907667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="123.030172" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_19">
-     <g id="detector-coupling-line2d_105">
+     <g id="detector-coupling-line2d_116">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="101.051333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="116.228328" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_106">
+     <g id="detector-coupling-line2d_117">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="101.051333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="116.228328" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_20">
-     <g id="detector-coupling-line2d_107">
+     <g id="detector-coupling-line2d_118">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="89.338667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="102.624641" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_108">
+     <g id="detector-coupling-line2d_119">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="89.338667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="102.624641" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_21">
-     <g id="detector-coupling-line2d_109">
+     <g id="detector-coupling-line2d_120">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="83.482333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="95.822797" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_110">
+     <g id="detector-coupling-line2d_121">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="83.482333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="95.822797" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_22">
-     <g id="detector-coupling-line2d_111">
+     <g id="detector-coupling-line2d_122">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="77.626" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="89.020953" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_112">
+     <g id="detector-coupling-line2d_123">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="77.626" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="89.020953" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_23">
-     <g id="detector-coupling-line2d_113">
+     <g id="detector-coupling-line2d_124">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="71.769667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="82.219109" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_114">
+     <g id="detector-coupling-line2d_125">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="71.769667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="82.219109" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_24">
-     <g id="detector-coupling-line2d_115">
+     <g id="detector-coupling-line2d_126">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="60.057" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="68.615422" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_116">
+     <g id="detector-coupling-line2d_127">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="60.057" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="68.615422" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_25">
-     <g id="detector-coupling-line2d_117">
+     <g id="detector-coupling-line2d_128">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="54.200667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="61.813578" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_118">
+     <g id="detector-coupling-line2d_129">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="54.200667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="61.813578" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_26">
-     <g id="detector-coupling-line2d_119">
+     <g id="detector-coupling-line2d_130">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="48.344333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="55.011734" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_120">
+     <g id="detector-coupling-line2d_131">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="48.344333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="55.011734" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_27">
-     <g id="detector-coupling-line2d_121">
+     <g id="detector-coupling-line2d_132">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="42.488" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="48.209891" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_122">
+     <g id="detector-coupling-line2d_133">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="42.488" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="48.209891" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_28">
-     <g id="detector-coupling-line2d_123">
+     <g id="detector-coupling-line2d_134">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="30.775333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="34.606203" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_124">
+     <g id="detector-coupling-line2d_135">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="30.775333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="34.606203" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_29">
-     <g id="detector-coupling-line2d_125">
+     <g id="detector-coupling-line2d_136">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="24.919" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="27.804359" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_126">
+     <g id="detector-coupling-line2d_137">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="24.919" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="27.804359" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_30">
-     <g id="detector-coupling-line2d_127">
+     <g id="detector-coupling-line2d_138">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="19.062667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="21.002516" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_128">
+     <g id="detector-coupling-line2d_139">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="19.062667" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="21.002516" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-ytick_31">
-     <g id="detector-coupling-line2d_129">
+     <g id="detector-coupling-line2d_140">
       <g>
-       <use xlink:href="#detector-coupling-m7e519bac54" x="43" y="13.206333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-m7e519bac54" x="48.600781" y="14.200672" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
-     <g id="detector-coupling-line2d_130">
+     <g id="detector-coupling-line2d_141">
       <g>
-       <use xlink:href="#detector-coupling-ma626b2919d" x="283.98" y="13.206333" stroke-width="0.5" class="f-fg s-fg"/>
+       <use xlink:href="#detector-coupling-ma626b2919d" x="341.098437" y="14.200672" stroke-width="0.5" class="f-fg s-fg"/>
       </g>
      </g>
     </g>
     <g id="detector-coupling-text_13">
-     <text font-size="10px" text-anchor="middle" class="f-fg" x="11.1" y="95.195" transform="rotate(-90 11.1 95.195)">Drive to detector coupling (dB)</text>
+     <text font-size="10px" text-anchor="middle" class="f-fg" x="11.198438" y="109.426484" transform="rotate(-90 11.198438 109.426484)">Drive to detector coupling (dB)</text>
     </g>
    </g>
-   <g id="detector-coupling-line2d_131">
-    <path d="M 48.729712 122.631922 
-L 56.980646 120.787177 
-L 63.399296 118.825305 
-L 68.653339 116.717025 
-L 73.101202 114.403773 
-L 76.957688 111.856268 
-L 83.408501 107.083357 
-L 88.68407 103.510993 
-L 95.145689 99.440842 
-L 109.952731 90.714905 
-L 111.090263 91.183412 
-L 112.184932 88.87016 
-L 113.23985 87.201105 
-L 114.257805 84.917135 
-L 115.241299 83.043108 
-L 117.113717 78.885112 
-L 120.53132 71.535413 
-L 122.10031 67.728797 
-L 124.305532 62.86804 
-L 126.355121 58.505072 
-L 128.269609 54.43492 
-L 131.204239 48.402897 
-L 132.832522 45.738265 
-L 133.869464 44.537717 
-L 134.374379 44.098492 
-L 135.838516 43.483577 
-L 137.232399 42.078057 
-L 140.246157 38.593538 
-L 142.222211 36.69023 
-L 143.346391 35.870343 
-L 145.128454 35.167583 
-L 145.811762 35.10902 
-L 146.479366 35.196865 
-L 147.131975 35.431118 
-L 147.770247 35.782498 
-L 148.70211 36.602385 
-L 149.307152 37.39299 
-L 150.191727 38.915637 
-L 151.330764 41.60955 
-L 152.426829 45.12335 
-L 154.751504 54.347075 
-L 155.966895 58.007283 
-L 157.36128 60.93545 
-L 158.474234 62.86804 
-L 159.122102 63.39511 
-L 159.755837 63.307265 
-L 160.170776 62.86804 
-L 160.78228 61.872463 
-L 161.38118 60.496225 
-L 162.160979 58.095128 
-L 162.732394 55.869722 
-L 163.842576 50.101233 
-L 165.086351 43.688548 
-L 166.279059 39.589115 
-L 168.059673 34.962612 
-L 168.681035 34.376978 
-L 169.289386 34.611232 
-L 169.885261 35.401837 
-L 171.741547 38.593538 
-L 172.289646 39.969777 
-L 173.486324 42.429437 
-L 174.130448 44.537717 
-L 174.7606 47.378038 
-L 175.981329 54.522765 
-L 177.15283 67.728797 
-L 177.721331 72.17961 
-L 178.389166 76.484015 
-L 178.934204 79.060802 
-L 179.575033 80.78842 
-L 180.202033 81.432617 
-L 180.714391 81.374053 
-L 181.317528 80.700575 
-L 182.005719 77.421028 
-L 182.582895 75.459157 
-L 183.148828 76.981803 
-L 183.795446 80.61273 
-L 184.959413 89.719328 
-L 185.567372 92.03258 
-L 186.162869 90.656342 
-L 186.746405 86.23481 
-L 187.399262 79.060802 
-L 188.585182 61.316112 
-L 189.198421 50.071952 
-L 189.798983 41.697395 
-L 190.387383 38.066468 
-L 191.035395 38.417848 
-L 191.599518 40.90679 
-L 192.830117 48.607868 
-L 193.426408 52.50233 
-L 194.010707 54.376357 
-L 194.646437 53.322217 
-L 195.206938 50.891838 
-L 195.817293 45.006223 
-L 197.6318 23.952705 
-L 198.249354 18.799132 
-L 198.854055 16.222345 
-L 199.446427 16.83726 
-L 200.079168 20.35106 
-L 200.647319 25.416788 
-L 201.254706 33.52781 
-L 201.849655 38.534975 
-L 203.051331 44.918378 
-L 203.657098 43.747112 
-L 204.295641 44.274182 
-L 204.876265 43.952083 
-L 205.488842 41.170325 
-L 206.08877 40.672537 
-L 206.676561 39.881932 
-L 207.293415 35.694653 
-L 207.897444 32.678642 
-L 208.489171 32.502952 
-L 209.107339 42.224465 
-L 209.712629 54.493483 
-L 210.922579 66.645375 
-L 211.52676 69.661387 
-L 212.118633 84.507192 
-L 213.333571 79.090083 
-L 213.922506 67.0846 
-L 214.531474 63.687927 
-L 215.158996 66.967473 
-L 215.742845 68.109458 
-L 216.345005 70.539837 
-L 216.964124 63.541518 
-L 218.164135 38.915637 
-L 218.773473 41.287452 
-L 219.370295 56.19182 
-L 219.981408 63.160857 
-L 220.579932 55.284088 
-L 221.191605 60.613352 
-L 221.790667 83.59946 
-L 222.377625 98.035322 
-L 223.000395 97.332562 
-L 224.207264 128.488255 
-L 224.792406 114.228083 
-L 225.409652 106.673413 
-L 226.014058 109.484453 
-L 226.606146 99.206588 
-L 227.227416 93.145283 
-L 227.815608 85.53205 
-L 228.431469 86.615472 
-L 229.034547 76.806113 
-L 229.625361 60.75976 
-L 230.844578 123.334682 
-L 231.435522 112.851845 
-L 232.049419 98.18173 
-L 232.650613 97.771787 
-L 233.256273 98.796645 
-L 233.865873 97.039745 
-L 234.462946 115.165097 
-L 235.063646 106.029217 
-L 235.667505 72.326018 
-L 236.27408 85.766303 
-L 236.882949 73.263032 
-L 237.479321 80.466322 
-L 238.091905 83.306643 
-L 238.691839 118.005418 
-L 239.293166 90.012145 
-L 239.89555 76.161917 
-L 240.498678 81.901123 
-L 241.102252 95.985605 
-L 241.705993 92.442523 
-L 242.309638 69.749232 
-L 242.912941 60.174127 
-L 243.51567 47.992953 
-L 244.129062 86.879007 
-L 244.729772 88.196682 
-L 245.329304 103.920937 
-L 245.938244 98.211012 
-L 246.534683 97.976758 
-L 247.139781 76.981803 
-L 247.742649 96.688365 
-L 248.353073 90.012145 
-L 248.950936 91.15413 
-L 249.555752 70.656963 
-L 250.166847 82.047532 
-L 250.765353 116.424208 
-L 251.970352 77.830972 
-L 252.57603 114.755153 
-L 253.186114 135.281602 
-L 253.78365 124.35954 
-L 254.393287 128.019748 
-L 254.990394 125.735778 
-L 255.598636 125.76506 
-L 256.201965 117.361222 
-L 256.807829 130.977197 
-L 257.408568 113.905985 
-L 258.011345 125.120863 
-L 258.615786 92.296115 
-L 259.221535 95.136437 
-L 259.828258 116.512053 
-L 260.429106 159.49754 
-L 261.030585 112.881127 
-L 261.638676 126.057877 
-L 262.240441 147.667747 
-L 262.842026 127.199862 
-L 263.449082 127.609805 
-L 264.049483 107.112638 
-L 264.654684 116.336363 
-L 265.258606 93.116002 
-L 265.866493 128.868917 
-L 266.467232 125.823623 
-L 267.071403 96.42483 
-L 267.673453 83.745868 
-L 268.278249 113.964548 
-L 268.885369 122.924738 
-L 269.489633 97.47897 
-L 270.090958 116.131392 
-L 271.298002 92.530368 
-L 271.903045 103.774528 
-L 272.508684 94.257987 
-L 273.110404 111.329198 
-L 273.716466 85.18067 
-L 274.318247 83.570178 
-L 274.923694 88.87016 
-L 275.528443 64.390687 
-L 276.132282 77.655282 
-L 276.735014 96.366267 
-L 277.336454 108.313187 
-L 277.943583 127.287707 
-L 279.148519 85.941993 
-L 279.752921 101.285587 
-L 280.358174 102.193318 
-L 280.960748 86.908288 
-L 281.566868 89.250822 
-L 282.169879 117.390503 
-L 282.772747 81.374053 
-L 283.98 98.298857 
-L 283.98 98.298857 
-" clip-path="url(#detector-coupling-p9ac4e71f85)" fill="none" stroke-width="1.1" stroke-linecap="square" class="s-c4"/>
+   <g id="detector-coupling-line2d_142">
+    <path d="M 55.555414 141.293122 
+L 65.570265 139.150542 
+L 73.361119 136.871924 
+L 79.738392 134.42326 
+L 85.137137 131.736532 
+L 89.818078 128.77773 
+L 97.647971 123.234227 
+L 104.051373 119.085102 
+L 111.894382 114.357821 
+L 129.866931 104.223074 
+L 131.247649 104.767221 
+L 132.576341 102.080493 
+L 133.856784 100.141968 
+L 135.092362 97.489249 
+L 136.286111 95.312659 
+L 138.558821 90.48335 
+L 142.707054 81.947036 
+L 144.611468 77.525837 
+L 145.526448 75.485284 
+L 146.418289 73.784823 
+L 148.137033 70.213855 
+L 155.66167 55.079753 
+L 157.638055 51.984914 
+L 158.896679 50.590536 
+L 159.509535 50.080398 
+L 161.286682 49.366204 
+L 162.978554 47.733762 
+L 166.136691 44.196803 
+L 168.095189 42.292287 
+L 169.950624 40.795881 
+L 170.39962 40.523807 
+L 172.562659 39.707586 
+L 173.392047 39.639567 
+L 174.202375 39.741595 
+L 174.994501 40.013669 
+L 175.769225 40.42178 
+L 176.900305 41.374038 
+L 177.634697 42.292287 
+L 178.708379 44.060766 
+L 179.406426 45.489153 
+L 180.762391 49.12814 
+L 181.421309 51.27072 
+L 184.242963 61.983624 
+L 185.718185 66.234777 
+L 187.410668 69.635698 
+L 188.761553 71.880307 
+L 189.547925 72.492473 
+L 190.317142 72.390445 
+L 190.820788 71.880307 
+L 191.563022 70.723993 
+L 192.289957 69.12556 
+L 193.236465 66.336804 
+L 193.930039 63.752104 
+L 194.610236 60.657265 
+L 196.148127 52.427034 
+L 196.787234 49.604269 
+L 198.234924 44.842978 
+L 200.396205 39.469521 
+L 201.150404 38.789337 
+L 201.888811 39.061411 
+L 202.612074 39.97966 
+L 204.865205 43.686665 
+L 205.530478 45.285098 
+L 206.982987 48.141872 
+L 207.764814 50.590536 
+L 208.529683 53.88943 
+L 210.011384 62.18768 
+L 211.433333 77.525837 
+L 212.12337 82.695238 
+L 212.933978 87.694594 
+L 213.595536 90.687405 
+L 214.373364 92.693949 
+L 215.134407 93.442152 
+L 215.756299 93.374133 
+L 216.488376 92.591921 
+L 217.323692 88.782889 
+L 218.024259 86.504271 
+L 218.711179 88.27275 
+L 219.496034 92.489893 
+L 220.155137 97.01312 
+L 220.908839 103.06676 
+L 221.646769 105.753489 
+L 222.369574 104.155055 
+L 223.077861 99.019663 
+L 223.870288 90.687405 
+L 225.309738 70.077818 
+L 226.054078 57.018278 
+L 226.783031 47.291642 
+L 227.497222 43.074499 
+L 228.283768 43.482609 
+L 228.968491 46.373393 
+L 230.462173 55.317817 
+L 231.185941 59.841043 
+L 231.895153 62.017633 
+L 232.666792 60.793302 
+L 233.34712 57.970536 
+L 234.087959 51.134683 
+L 236.290378 26.682055 
+L 237.039955 20.696433 
+L 237.773932 17.703621 
+L 238.492944 18.417815 
+L 239.260954 22.498921 
+L 239.950566 28.382516 
+L 240.687803 37.80307 
+L 241.409942 43.618646 
+L 242.868519 51.032656 
+L 243.603789 49.672287 
+L 244.378841 50.284453 
+L 245.083593 49.910352 
+L 245.82713 46.679476 
+L 246.555313 46.101319 
+L 247.268764 45.18307 
+L 248.017491 40.319752 
+L 248.750652 36.816802 
+L 249.468881 36.612747 
+L 250.219204 47.903808 
+L 250.953895 62.15367 
+L 252.422512 76.267496 
+L 253.155858 79.770446 
+L 253.874263 97.01312 
+L 255.348936 90.721414 
+L 256.063775 76.777634 
+L 256.802931 72.832565 
+L 257.564607 76.641597 
+L 258.273273 77.967957 
+L 259.004166 80.790722 
+L 259.755642 72.662519 
+L 261.212196 44.060766 
+L 261.951802 46.815513 
+L 262.676215 64.126205 
+L 263.417974 72.220399 
+L 264.144452 63.071919 
+L 264.886892 69.261597 
+L 265.614023 95.958834 
+L 266.326464 112.725379 
+L 267.082372 111.909157 
+L 268.54725 148.094966 
+L 269.257485 131.532477 
+L 270.006689 122.758098 
+L 270.740307 126.022983 
+L 271.458974 114.085747 
+L 272.213062 107.045839 
+L 272.927 98.203442 
+L 273.674523 99.461783 
+L 274.406529 88.068695 
+L 275.123649 69.431643 
+L 276.603515 142.109344 
+L 277.320794 129.934043 
+L 278.065932 112.895425 
+L 278.795651 112.419296 
+L 279.530791 113.609618 
+L 280.270715 111.569065 
+L 280.995432 132.620772 
+L 281.724552 122.009895 
+L 282.457506 82.865285 
+L 283.193757 98.475516 
+L 283.932793 83.95358 
+L 284.65666 92.319847 
+L 285.400204 95.618742 
+L 286.128395 135.919666 
+L 286.858275 103.406853 
+L 287.589439 87.320492 
+L 288.321506 93.986299 
+L 289.054115 110.344733 
+L 289.786926 106.229618 
+L 290.519621 79.872473 
+L 291.251901 68.751459 
+L 291.983483 54.603624 
+L 292.728009 99.767866 
+L 293.457141 101.298281 
+L 294.184843 119.561232 
+L 294.923965 112.929434 
+L 295.647913 112.65736 
+L 296.382371 88.27275 
+L 297.114122 111.160955 
+L 297.855045 103.406853 
+L 298.580721 104.733212 
+L 299.314838 80.926759 
+L 300.056575 94.156345 
+L 300.783032 134.083168 
+L 301.516502 113.201508 
+L 302.245641 89.259018 
+L 302.980803 132.144642 
+L 303.721313 155.985105 
+L 304.446593 143.299666 
+L 305.18656 147.550819 
+L 305.911319 144.8981 
+L 306.649594 144.932109 
+L 307.381905 135.171463 
+L 308.117293 150.98575 
+L 308.84646 131.158375 
+L 309.578101 144.183906 
+L 310.311761 106.059572 
+L 311.04701 109.358466 
+L 311.783441 134.185196 
+L 312.512741 184.110729 
+L 313.242806 129.968052 
+L 313.980897 145.272201 
+L 314.71131 170.371004 
+L 315.441504 146.59856 
+L 316.178338 147.07469 
+L 316.907096 123.268236 
+L 317.641679 133.98114 
+L 318.37471 107.01183 
+L 319.112554 148.537086 
+L 319.84172 145.000127 
+L 320.575054 110.854872 
+L 321.305813 96.12888 
+L 322.039904 131.226394 
+L 322.776817 141.633215 
+L 323.510262 112.079203 
+L 324.240141 133.743076 
+L 325.705231 106.331645 
+L 326.439623 119.391185 
+L 327.174738 108.338189 
+L 327.905096 128.165564 
+L 328.640724 97.795332 
+L 329.371157 95.924825 
+L 330.106039 102.080493 
+L 330.840073 73.648786 
+L 331.573004 89.054962 
+L 332.30459 110.786853 
+L 333.034608 124.662614 
+L 333.771531 146.700588 
+L 335.234063 98.679571 
+L 335.967677 116.500402 
+L 336.702323 117.554688 
+L 337.433718 99.801875 
+L 338.169416 102.522613 
+L 338.901342 135.205472 
+L 339.633093 93.374133 
+L 341.098437 113.031462 
+L 341.098437 113.031462 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="1.1" stroke-linecap="square" class="s-c4"/>
    </g>
-   <g id="detector-coupling-line2d_132">
-    <path d="M 48.729712 122.25126 
-L 56.980646 120.49436 
-L 63.399296 118.620333 
-L 68.653339 116.541335 
-L 73.101202 114.257365 
-L 88.68407 104.887232 
-L 95.145689 101.314868 
-L 109.952731 93.379537 
-L 111.090263 93.96517 
-L 112.184932 90.861313 
-L 114.257805 87.083978 
-L 115.241299 85.268515 
-L 117.113717 82.252503 
-L 118.872738 78.85583 
-L 119.713861 77.567437 
-L 120.53132 75.605565 
-L 124.305532 68.343712 
-L 125.687862 65.093447 
-L 129.479256 56.631045 
-L 131.204239 53.292935 
-L 132.832522 50.716148 
-L 133.869464 49.662008 
-L 134.870668 49.16422 
-L 136.310613 48.46146 
-L 138.562462 46.645997 
-L 140.246157 45.328322 
-L 142.222211 44.010647 
-L 143.346391 43.483577 
-L 145.128454 43.220042 
-L 145.811762 43.36645 
-L 146.479366 43.629985 
-L 147.770247 44.508435 
-L 148.70211 45.679702 
-L 149.307152 46.675278 
-L 150.191727 48.432178 
-L 151.330764 51.594598 
-L 152.426829 55.225525 
-L 153.741203 60.115563 
-L 154.751504 63.39511 
-L 155.966895 66.323277 
-L 156.672452 67.875205 
-L 157.81159 69.632105 
-L 158.474234 71.066907 
-L 159.122102 71.330442 
-L 159.755837 71.12547 
-L 160.170776 70.803372 
-L 160.78228 69.983485 
-L 162.160979 67.26029 
-L 163.292788 63.453673 
-L 164.55981 58.592917 
-L 165.086351 57.099552 
-L 166.279059 54.493483 
-L 167.424731 52.619457 
-L 168.059673 51.155373 
-L 168.681035 51.09681 
-L 169.289386 51.360345 
-L 169.885261 51.887415 
-L 171.741547 53.058682 
-L 173.486324 55.31337 
-L 174.130448 56.953143 
-L 174.7606 59.324958 
-L 175.981329 65.796207 
-L 177.15283 79.03152 
-L 177.721331 83.07239 
-L 178.389166 86.556908 
-L 178.934204 88.548062 
-L 179.575033 89.690047 
-L 180.202033 89.982863 
-L 180.714391 89.631483 
-L 181.317528 88.665188 
-L 182.005719 84.800008 
-L 182.582895 82.808855 
-L 183.148828 83.892277 
-L 183.795446 86.674035 
-L 184.338461 89.777892 
-L 184.959413 94.257987 
-L 185.567372 96.483393 
-L 186.162869 95.487817 
-L 186.746405 91.798327 
-L 187.95872 80.934828 
-L 188.585182 74.492862 
-L 189.198421 66.645375 
-L 189.798983 61.667492 
-L 190.387383 60.876887 
-L 191.035395 62.575223 
-L 191.599518 64.654222 
-L 192.221332 66.235432 
-L 192.830117 67.465262 
-L 193.426408 67.143163 
-L 194.010707 64.44925 
-L 195.206938 53.73216 
-L 196.415089 37.656525 
-L 197.058764 31.41953 
-L 197.6318 27.583632 
-L 198.249354 25.006845 
-L 198.854055 25.065408 
-L 199.446427 26.793027 
-L 200.079168 30.01401 
-L 200.647319 34.318415 
-L 201.254706 40.262593 
-L 201.849655 42.634408 
-L 202.480725 44.2449 
-L 203.051331 46.938813 
-L 203.657098 45.708983 
-L 204.295641 46.323898 
-L 204.876265 45.562575 
-L 205.488842 40.90679 
-L 206.08877 38.681383 
-L 206.676561 37.246582 
-L 207.293415 32.444388 
-L 207.897444 29.164842 
-L 208.489171 27.085843 
-L 209.107339 31.126713 
-L 209.712629 38.9742 
-L 210.305566 48.842122 
-L 210.922579 49.632727 
-L 211.52676 44.332745 
-L 212.118633 37.246582 
-L 212.732452 37.246582 
-L 213.333571 43.688548 
-L 213.922506 47.787982 
-L 214.531474 45.738265 
-L 215.158996 41.170325 
-L 215.742845 39.911213 
-L 216.345005 39.530552 
-L 216.964124 41.638832 
-L 217.570324 42.66369 
-L 218.164135 46.792405 
-L 218.773473 52.531612 
-L 219.370295 68.870782 
-L 219.981408 69.807795 
-L 220.579932 52.443767 
-L 221.191605 53.644315 
-L 221.790667 80.08566 
-L 222.377625 100.026475 
-L 223.000395 97.859632 
-L 223.58688 99.880067 
-L 224.207264 127.375552 
-L 224.792406 132.997632 
-L 225.409652 124.125287 
-L 226.014058 118.91315 
-L 226.606146 101.754093 
-L 227.227416 93.467382 
-L 227.815608 78.621577 
-L 228.431469 73.877947 
-L 229.625361 61.46252 
-L 230.844578 121.37281 
-L 231.435522 111.036382 
-L 232.049419 98.328138 
-L 232.650613 100.319292 
-L 233.256273 101.51984 
-L 233.865873 95.517098 
-L 234.462946 113.203225 
-L 235.063646 109.95296 
-L 235.667505 75.019932 
-L 236.27408 92.676777 
-L 236.882949 82.311067 
-L 237.479321 86.93757 
-L 238.091905 101.373432 
-L 238.691839 122.221978 
-L 239.293166 88.401653 
-L 239.89555 73.93651 
-L 240.498678 79.295055 
-L 241.102252 95.165718 
-L 241.705993 93.203847 
-L 242.309638 71.740385 
-L 242.912941 57.626622 
-L 243.51567 48.11008 
-L 244.129062 83.980122 
-L 244.729772 87.493922 
-L 245.329304 101.080615 
-L 245.938244 96.746928 
-L 246.534683 102.427572 
-L 247.139781 77.713845 
-L 247.742649 102.720388 
-L 248.353073 82.750292 
-L 248.950936 95.575662 
-L 249.555752 76.630423 
-L 250.166847 98.767363 
-L 250.765353 144.271073 
-L 251.970352 78.621577 
-L 252.57603 116.043547 
-L 253.186114 139.937387 
-L 253.78365 127.199862 
-L 254.393287 130.655098 
-L 254.990394 128.107593 
-L 255.598636 119.000995 
-L 256.201965 116.512053 
-L 256.807829 136.072207 
-L 257.408568 115.516477 
-L 258.011345 113.437478 
-L 258.615786 92.266833 
-L 259.221535 97.273998 
-L 259.828258 116.863433 
-L 260.429106 151.445082 
-L 261.030585 116.424208 
-L 261.638676 125.325835 
-L 262.240441 128.341847 
-L 262.842026 132.704815 
-L 264.049483 107.698272 
-L 264.654684 120.84574 
-L 265.258606 93.818762 
-L 265.866493 127.609805 
-L 266.467232 123.48109 
-L 267.071403 92.061862 
-L 267.673453 80.056378 
-L 268.278249 109.308763 
-L 268.885369 120.67005 
-L 269.489633 94.023733 
-L 270.090958 113.81814 
-L 271.298002 91.50551 
-L 271.903045 102.603262 
-L 272.508684 96.629802 
-L 273.110404 116.336363 
-L 273.716466 86.029838 
-L 274.318247 76.981803 
-L 274.923694 94.49224 
-L 275.528443 69.339288 
-L 276.132282 73.58513 
-L 276.735014 94.199423 
-L 277.336454 108.693848 
-L 277.943583 109.660143 
-L 278.545291 116.45349 
-L 279.148519 79.675717 
-L 279.752921 126.204285 
-L 280.358174 96.190577 
-L 280.960748 89.075132 
-L 281.566868 101.666248 
-L 282.169879 111.094945 
-L 282.772747 83.453052 
-L 283.378194 92.588932 
-L 283.98 93.116002 
-L 283.98 93.116002 
-" clip-path="url(#detector-coupling-p9ac4e71f85)" fill="none" stroke-dasharray="4.07,1.76" stroke-dashoffset="0" stroke-width="1.1" class="s-c4"/>
+   <g id="detector-coupling-line2d_143">
+    <path d="M 55.555414 140.851002 
+L 65.570265 138.810449 
+L 73.361119 136.633859 
+L 79.738392 134.219205 
+L 85.137137 131.566486 
+L 104.051373 120.683536 
+L 111.894382 116.534411 
+L 129.866931 107.317913 
+L 131.247649 107.998097 
+L 132.576341 104.39312 
+L 135.092362 100.005931 
+L 136.286111 97.897359 
+L 138.558821 94.39441 
+L 140.693893 90.44934 
+L 141.714834 88.952935 
+L 142.707054 86.674317 
+L 147.288131 78.240031 
+L 148.137033 76.471551 
+L 149.77589 72.696528 
+L 155.66167 60.759292 
+L 157.638055 57.766481 
+L 158.272983 57.052287 
+L 158.896679 56.542149 
+L 160.111923 55.963992 
+L 161.859706 55.147771 
+L 164.592964 53.0392 
+L 166.636606 51.508785 
+L 169.035109 49.97837 
+L 170.39962 49.366204 
+L 172.562659 49.060121 
+L 173.392047 49.230167 
+L 174.202375 49.53625 
+L 174.994501 49.97837 
+L 175.769225 50.556527 
+L 176.900305 51.916895 
+L 177.634697 53.073209 
+L 178.708379 55.113762 
+L 180.090924 58.786758 
+L 181.421309 63.003901 
+L 182.068142 65.486574 
+L 184.242963 72.492473 
+L 185.718185 75.893395 
+L 186.574579 77.695883 
+L 187.957247 79.736436 
+L 188.761553 81.402888 
+L 189.547925 81.708971 
+L 190.317142 81.470907 
+L 190.820788 81.096805 
+L 191.563022 80.144547 
+L 192.289957 78.886206 
+L 193.236465 76.98169 
+L 194.610236 72.560491 
+L 196.148127 66.914961 
+L 196.787234 65.180491 
+L 198.234924 62.15367 
+L 199.625522 59.97708 
+L 200.396205 58.276619 
+L 201.150404 58.208601 
+L 201.888811 58.514684 
+L 202.612074 59.12685 
+L 204.865205 60.487219 
+L 206.982987 63.105928 
+L 207.764814 65.010445 
+L 208.529683 67.765191 
+L 210.011384 75.281229 
+L 211.433333 90.653396 
+L 212.12337 95.346668 
+L 212.933978 99.393765 
+L 213.595536 101.706392 
+L 214.373364 103.032751 
+L 215.134407 103.372843 
+L 215.756299 102.964733 
+L 216.488376 101.842429 
+L 217.323692 97.353212 
+L 218.024259 95.040585 
+L 218.711179 96.298926 
+L 219.496034 99.529802 
+L 220.155137 103.134779 
+L 220.908839 108.338189 
+L 221.646769 110.92289 
+L 222.369574 109.766577 
+L 223.077861 105.481415 
+L 224.549349 92.863995 
+L 225.309738 85.381967 
+L 226.054078 76.267496 
+L 226.783031 70.485929 
+L 227.497222 69.56768 
+L 228.283768 71.540215 
+L 228.968491 73.954869 
+L 229.72324 75.791367 
+L 230.462173 77.219754 
+L 231.185941 76.845653 
+L 231.895153 73.716805 
+L 232.666792 67.595145 
+L 233.34712 61.269431 
+L 234.813554 42.59837 
+L 235.594836 35.354406 
+L 236.290378 30.899198 
+L 237.039955 27.906387 
+L 237.773932 27.974405 
+L 238.492944 29.980949 
+L 239.260954 33.721963 
+L 239.950566 38.721319 
+L 240.687803 45.62519 
+L 241.409942 48.379937 
+L 242.175926 50.250444 
+L 242.868519 53.379292 
+L 243.603789 51.950905 
+L 244.378841 52.665098 
+L 245.083593 51.780859 
+L 245.82713 46.373393 
+L 246.555313 43.788692 
+L 247.268764 42.12224 
+L 248.017491 36.544729 
+L 248.750652 32.735696 
+L 249.468881 30.321042 
+L 250.219204 35.014314 
+L 250.953895 44.128784 
+L 251.673592 55.589891 
+L 252.422512 56.50814 
+L 253.155858 50.352471 
+L 253.874263 42.12224 
+L 254.619307 42.12224 
+L 255.348936 49.604269 
+L 256.063775 54.365559 
+L 256.802931 51.984914 
+L 257.564607 46.679476 
+L 258.273273 45.217079 
+L 259.004166 44.77496 
+L 259.755642 47.223623 
+L 260.491439 48.413946 
+L 261.212196 53.209246 
+L 261.951802 59.875053 
+L 262.676215 78.852197 
+L 263.417974 79.940492 
+L 264.144452 59.773025 
+L 264.886892 61.167403 
+L 265.614023 91.877727 
+L 266.326464 115.038005 
+L 267.082372 112.521323 
+L 267.794238 114.867959 
+L 268.54725 146.802616 
+L 269.257485 153.332386 
+L 270.006689 143.027592 
+L 270.740307 136.973952 
+L 271.458974 117.044549 
+L 272.213062 107.41994 
+L 272.927 90.177267 
+L 273.674523 84.667773 
+L 275.123649 70.247864 
+L 276.603515 139.830726 
+L 277.320794 127.825472 
+L 278.065932 113.065471 
+L 278.795651 115.378098 
+L 279.530791 116.772476 
+L 280.270715 109.800586 
+L 280.995432 130.342154 
+L 281.724552 126.567131 
+L 282.457506 85.994133 
+L 283.193757 106.501692 
+L 283.932793 94.462428 
+L 284.65666 99.835885 
+L 285.400204 116.60243 
+L 286.128395 140.816993 
+L 286.858275 101.536346 
+L 287.589439 84.735792 
+L 288.321506 90.959479 
+L 289.054115 109.392475 
+L 289.786926 107.113857 
+L 290.519621 82.1851 
+L 291.251901 65.792657 
+L 291.983483 54.739661 
+L 292.728009 96.400954 
+L 293.457141 100.48206 
+L 294.184843 116.262337 
+L 294.923965 111.228973 
+L 295.647913 117.826761 
+L 296.382371 89.122981 
+L 297.114122 118.166854 
+L 297.855045 94.972566 
+L 298.580721 109.868604 
+L 299.314838 87.86464 
+L 300.056575 113.575609 
+L 300.783032 166.425935 
+L 301.516502 124.458559 
+L 302.245641 90.177267 
+L 302.980803 133.641048 
+L 303.721313 161.392571 
+L 304.446593 146.59856 
+L 305.18656 150.611648 
+L 305.911319 147.652846 
+L 306.649594 137.075979 
+L 307.381905 134.185196 
+L 308.117293 156.903354 
+L 308.84646 133.028882 
+L 309.578101 130.614228 
+L 310.311761 106.025562 
+L 311.04701 111.841139 
+L 311.783441 134.593306 
+L 312.512741 174.758194 
+L 313.242806 134.083168 
+L 313.980897 144.42197 
+L 314.71131 147.92492 
+L 315.441504 152.992294 
+L 316.907096 123.948421 
+L 317.641679 139.21856 
+L 318.37471 107.828051 
+L 319.112554 147.07469 
+L 319.84172 142.27939 
+L 320.575054 105.787498 
+L 321.305813 91.843718 
+L 322.039904 125.818928 
+L 322.776817 139.014505 
+L 323.510262 108.066116 
+L 324.240141 131.056347 
+L 325.705231 105.141323 
+L 326.439623 118.030817 
+L 327.174738 111.092936 
+L 327.905096 133.98114 
+L 328.640724 98.781599 
+L 329.371157 88.27275 
+L 330.106039 108.610263 
+L 330.840073 79.396344 
+L 331.573004 84.327681 
+L 332.30459 108.270171 
+L 333.034608 125.104734 
+L 333.771531 126.227038 
+L 334.501875 134.117177 
+L 335.234063 91.401598 
+L 335.967677 145.442247 
+L 336.702323 110.582798 
+L 337.433718 102.318558 
+L 338.169416 116.942522 
+L 338.901342 127.89349 
+L 339.633093 95.788788 
+L 340.367975 106.399664 
+L 341.098437 107.01183 
+L 341.098437 107.01183 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-dasharray="4.07,1.76" stroke-dashoffset="0" stroke-width="1.1" class="s-c4"/>
    </g>
-   <g id="detector-coupling-line2d_133">
-    <path d="M 48.729712 154.57822 
-L 56.980646 155.134572 
-L 63.399296 155.28098 
-L 68.653339 156.540092 
-L 73.101202 156.569373 
-L 76.957688 156.950035 
-L 80.361757 156.774345 
-L 83.408501 157.184288 
-L 86.16586 157.21357 
-L 88.68407 159.526822 
-L 91.001325 159.438977 
-L 93.147339 160.37599 
-L 97.015404 159.468258 
-L 98.772031 159.292568 
-L 101.995566 159.409695 
-L 104.896907 159.292568 
-L 106.245701 160.171018 
-L 107.534649 159.907483 
-L 108.768835 160.990905 
-L 109.952731 161.283722 
-L 111.090263 163.567692 
-L 112.184932 163.421283 
-L 113.23985 163.128467 
-L 114.257805 163.157748 
-L 115.241299 163.831227 
-L 116.192589 163.977635 
-L 117.113717 164.358297 
-L 118.006537 163.684818 
-L 118.872738 164.036198 
-L 119.713861 163.831227 
-L 120.53132 163.801945 
-L 121.326405 164.270452 
-L 122.854135 163.831227 
-L 123.588895 163.88979 
-L 124.305532 163.567692 
-L 125.004917 163.567692 
-L 125.687862 163.860508 
-L 126.355121 163.479847 
-L 127.007404 163.948353 
-L 127.64536 163.772663 
-L 128.269609 163.421283 
-L 128.880727 163.567692 
-L 130.065703 163.509128 
-L 131.204239 162.542833 
-L 132.299836 162.396425 
-L 133.355621 161.60582 
-L 133.869464 161.166595 
-L 134.374379 161.108032 
-L 135.838516 160.522398 
-L 136.310613 160.288145 
-L 136.775161 158.560527 
-L 137.232399 158.61909 
-L 138.125839 158.238428 
-L 138.562462 158.531245 
-L 139.416504 158.706935 
-L 139.834292 158.355555 
-L 140.246157 158.706935 
-L 141.052776 158.033457 
-L 141.44784 158.911907 
-L 142.222211 158.121302 
-L 142.976476 159.14616 
-L 143.346391 159.351132 
-L 144.072384 158.765498 
-L 144.780678 159.029033 
-L 145.128454 159.351132 
-L 145.811762 159.731793 
-L 146.479366 160.698088 
-L 147.131975 161.313003 
-L 147.770247 161.547257 
-L 148.394797 161.927918 
-L 148.70211 162.513552 
-L 149.307152 162.630678 
-L 150.191727 163.157748 
-L 150.766827 164.24117 
-L 151.330764 165.002493 
-L 151.883965 165.353873 
-L 152.426829 165.851662 
-L 152.959735 165.763817 
-L 154.751504 168.399167 
-L 155.486822 168.867673 
-L 155.966895 168.926237 
-L 157.81159 167.57928 
-L 158.474234 167.901378 
-L 159.122102 167.813533 
-L 159.755837 165.500282 
-L 160.170776 165.031775 
-L 160.78228 164.006917 
-L 162.732394 155.720205 
-L 163.292788 154.05115 
-L 163.842576 152.001433 
-L 164.55981 148.25338 
-L 166.279059 136.804248 
-L 166.93925 131.91421 
-L 168.059673 126.438538 
-L 168.681035 123.451808 
-L 169.289386 121.343528 
-L 169.885261 119.908727 
-L 170.469159 118.942432 
-L 171.041555 117.654038 
-L 171.741547 115.39935 
-L 172.289646 114.140238 
-L 172.960543 113.056817 
-L 173.486324 113.613168 
-L 174.130448 114.69659 
-L 174.7606 116.482772 
-L 175.377375 118.649615 
-L 175.981329 120.289388 
-L 176.572984 123.803188 
-L 177.721331 133.378293 
-L 178.389166 137.155628 
-L 178.934204 138.853965 
-L 179.575033 138.971092 
-L 180.202033 137.741262 
-L 180.714391 136.101488 
-L 181.317528 133.466138 
-L 182.005719 128.136875 
-L 182.582895 121.314247 
-L 183.148828 116.336363 
-L 183.795446 112.646873 
-L 184.338461 110.450748 
-L 184.959413 109.982242 
-L 185.567372 107.639708 
-L 186.162869 101.373432 
-L 189.198421 55.31337 
-L 189.798983 48.051517 
-L 190.387383 46.587433 
-L 191.035395 50.481895 
-L 192.221332 60.75976 
-L 194.010707 76.74755 
-L 194.646437 79.148647 
-L 195.206938 80.466322 
-L 195.817293 78.32876 
-L 197.058764 72.208892 
-L 197.6318 69.778513 
-L 198.249354 66.411122 
-L 198.854055 64.537095 
-L 199.446427 64.068588 
-L 200.079168 66.440403 
-L 200.647319 70.803372 
-L 201.849655 86.615472 
-L 203.051331 95.839197 
-L 203.657098 95.312127 
-L 204.295641 93.555227 
-L 204.876265 91.476228 
-L 205.488842 86.556908 
-L 206.08877 87.025415 
-L 206.676561 90.480652 
-L 207.293415 92.091143 
-L 208.489171 97.010463 
-L 209.712629 123.568935 
-L 210.922579 136.365023 
-L 211.52676 129.98162 
-L 212.118633 127.492678 
-L 212.732452 115.721448 
-L 213.333571 115.662885 
-L 213.922506 116.394927 
-L 214.531474 112.968972 
-L 215.158996 113.935267 
-L 215.742845 112.93969 
-L 216.345005 107.815398 
-L 217.570324 90.714905 
-L 218.164135 87.28895 
-L 218.773473 85.678458 
-L 219.370295 81.461898 
-L 220.579932 66.20615 
-L 221.191605 71.916075 
-L 221.790667 86.93757 
-L 222.377625 92.647495 
-L 223.58688 86.498345 
-L 224.207264 83.892277 
-L 224.792406 91.534792 
-L 225.409652 111.0071 
-L 226.014058 110.743565 
-L 226.606146 97.47897 
-L 227.227416 93.906607 
-L 227.815608 98.972335 
-L 228.431469 95.54638 
-L 229.034547 86.674035 
-L 229.625361 85.00498 
-L 230.241364 102.339727 
-L 230.844578 106.849103 
-L 231.435522 100.787798 
-L 232.049419 93.145283 
-L 232.650613 110.65572 
-L 233.256273 111.914832 
-L 233.865873 80.817702 
-L 234.462946 73.175187 
-L 235.063646 76.074072 
-L 235.667505 76.659705 
-L 236.27408 99.997193 
-L 237.479321 105.326457 
-L 238.091905 118.532488 
-L 238.691839 90.246398 
-L 239.293166 70.832653 
-L 239.89555 47.40732 
-L 240.498678 63.863617 
-L 241.102252 75.839818 
-L 241.705993 76.806113 
-L 242.309638 73.380158 
-L 242.912941 75.254185 
-L 243.51567 64.829912 
-L 244.129062 92.03258 
-L 244.729772 89.690047 
-L 245.329304 86.176247 
-L 245.938244 80.027097 
-L 246.534683 62.16528 
-L 247.139781 60.086282 
-L 247.742649 96.483393 
-L 248.353073 64.419968 
-L 249.555752 108.37175 
-L 250.166847 118.0347 
-L 250.765353 106.380597 
-L 251.369636 113.320352 
-L 251.970352 115.516477 
-L 252.57603 99.821503 
-L 253.186114 112.851845 
-L 253.78365 79.939252 
-L 254.393287 96.893337 
-L 254.990394 59.734902 
-L 255.598636 72.735962 
-L 256.201965 83.101672 
-L 256.807829 78.943675 
-L 257.408568 104.68226 
-L 258.011345 110.538593 
-L 259.221535 77.27462 
-L 259.828258 94.580085 
-L 261.030585 71.330442 
-L 261.638676 92.38396 
-L 262.240441 59.676338 
-L 263.449082 84.448628 
-L 264.049483 68.49012 
-L 264.654684 95.634225 
-L 265.258606 58.563635 
-L 265.866493 85.268515 
-L 266.467232 135.42801 
-L 267.071403 115.662885 
-L 267.673453 116.365645 
-L 268.278249 128.92748 
-L 268.885369 115.838575 
-L 269.489633 116.863433 
-L 270.090958 131.679957 
-L 270.693863 99.557968 
-L 271.298002 103.27674 
-L 271.903045 132.294872 
-L 272.508684 122.836893 
-L 273.110404 132.499843 
-L 273.716466 81.84256 
-L 274.318247 107.171202 
-L 274.923694 76.835395 
-L 275.528443 66.352558 
-L 276.132282 100.99277 
-L 277.336454 131.504267 
-L 277.943583 106.585568 
-L 278.545291 86.93757 
-L 279.148519 129.688803 
-L 279.752921 91.183412 
-L 280.358174 88.079555 
-L 280.960748 87.581767 
-L 281.566868 112.031958 
-L 282.169879 124.798765 
-L 282.772747 82.281785 
-L 283.378194 103.686683 
-L 283.98 104.85795 
-L 283.98 104.85795 
-" clip-path="url(#detector-coupling-p9ac4e71f85)" fill="none" stroke-width="1.1" stroke-linecap="square" class="s-c5"/>
+   <g id="detector-coupling-line2d_144">
+    <path d="M 55.555414 178.39718 
+L 65.570265 179.043355 
+L 73.361119 179.213401 
+L 79.738392 180.675798 
+L 85.137137 180.709807 
+L 89.818078 181.151927 
+L 93.949883 180.947871 
+L 97.647971 181.424 
+L 100.99481 181.45801 
+L 104.051373 184.144738 
+L 106.864019 184.04271 
+L 109.468816 185.131005 
+L 114.163812 184.07672 
+L 116.295978 183.872664 
+L 120.208653 184.008701 
+L 122.013393 183.872664 
+L 123.730254 183.872664 
+L 125.367399 184.892941 
+L 126.931902 184.586858 
+L 128.429938 185.845199 
+L 129.866931 186.185291 
+L 131.247649 188.83801 
+L 132.576341 188.667964 
+L 133.856784 188.327872 
+L 135.092362 188.361881 
+L 136.286111 189.144093 
+L 137.440771 189.314139 
+L 138.558821 189.756259 
+L 139.642512 188.974047 
+L 140.693893 189.382158 
+L 141.714834 189.144093 
+L 142.707054 189.110084 
+L 143.672114 189.654231 
+L 145.526448 189.144093 
+L 146.418289 189.212112 
+L 147.288131 188.83801 
+L 148.137033 188.83801 
+L 148.96598 189.178102 
+L 149.77589 188.735982 
+L 150.567619 189.28013 
+L 151.34196 189.076075 
+L 152.099664 188.667964 
+L 152.841429 188.83801 
+L 154.279734 188.769992 
+L 155.66167 187.647687 
+L 156.991489 187.477641 
+L 157.638055 186.933494 
+L 158.272983 186.559392 
+L 158.896679 186.049254 
+L 159.509535 185.981236 
+L 161.286682 185.301051 
+L 161.859706 185.028978 
+L 162.423567 183.022434 
+L 162.978554 183.090452 
+L 164.062998 182.648332 
+L 164.592964 182.988425 
+L 165.629587 183.19248 
+L 166.136691 182.784369 
+L 166.636606 183.19248 
+L 167.615667 182.410268 
+L 168.095189 183.430544 
+L 169.035109 182.512295 
+L 169.950624 183.702618 
+L 170.39962 183.940683 
+L 171.280819 183.260498 
+L 172.140535 183.566581 
+L 172.562659 183.940683 
+L 173.392047 184.382802 
+L 174.202375 185.505107 
+L 174.994501 186.2193 
+L 175.769225 186.491374 
+L 176.527295 186.933494 
+L 176.900305 187.613678 
+L 177.634697 187.749715 
+L 178.708379 188.361881 
+L 179.406426 189.620222 
+L 180.090924 190.504462 
+L 180.762391 190.912572 
+L 181.421309 191.490729 
+L 182.068142 191.388702 
+L 184.242963 194.449531 
+L 185.13548 194.993679 
+L 185.718185 195.061697 
+L 186.574579 194.48354 
+L 187.410668 194.07543 
+L 187.957247 193.497273 
+L 188.761553 193.871375 
+L 189.547925 193.769347 
+L 190.317142 191.082619 
+L 190.820788 190.538471 
+L 191.563022 189.348148 
+L 193.930039 179.72354 
+L 194.610236 177.785014 
+L 195.277561 175.404369 
+L 196.148127 171.051189 
+L 198.234924 157.753584 
+L 199.036254 152.074045 
+L 199.625522 149.557362 
+L 201.150404 142.24538 
+L 201.888811 139.796717 
+L 202.612074 138.130265 
+L 203.320801 137.007961 
+L 204.015566 135.511555 
+L 204.865205 132.892845 
+L 205.530478 131.430449 
+L 206.344802 130.172108 
+L 206.982987 130.818283 
+L 207.764814 132.076624 
+L 208.529683 134.151186 
+L 209.278315 136.667869 
+L 210.011384 138.572385 
+L 210.729525 142.653491 
+L 212.12337 153.774506 
+L 212.933978 158.161695 
+L 213.595536 160.13423 
+L 214.373364 160.270266 
+L 215.134407 158.841879 
+L 215.756299 156.937363 
+L 216.488376 153.876533 
+L 217.323692 147.686855 
+L 218.024259 139.762707 
+L 218.711179 133.98114 
+L 219.496034 129.695979 
+L 220.155137 127.145287 
+L 220.908839 126.60114 
+L 221.646769 123.880402 
+L 222.369574 116.60243 
+L 226.054078 63.105928 
+L 226.783031 54.671642 
+L 227.497222 52.971181 
+L 228.283768 57.494407 
+L 229.72324 69.431643 
+L 231.185941 82.831275 
+L 231.895153 88.000677 
+L 232.666792 90.789432 
+L 233.34712 92.319847 
+L 234.087959 89.837174 
+L 234.813554 86.09616 
+L 236.290378 79.906482 
+L 237.039955 75.995422 
+L 237.773932 73.818832 
+L 238.492944 73.274685 
+L 239.260954 76.029432 
+L 239.950566 81.096805 
+L 241.409942 99.461783 
+L 242.868519 110.174687 
+L 243.603789 109.562521 
+L 244.378841 107.521968 
+L 245.083593 105.107314 
+L 245.82713 99.393765 
+L 246.555313 99.937912 
+L 247.268764 103.951 
+L 248.017491 105.821507 
+L 249.468881 111.535056 
+L 250.953895 142.381417 
+L 252.422512 157.243446 
+L 253.155858 149.829436 
+L 253.874263 146.938653 
+L 254.619307 133.266947 
+L 255.348936 133.198928 
+L 256.063775 134.049159 
+L 256.802931 130.07008 
+L 257.564607 131.192384 
+L 258.273273 130.036071 
+L 259.004166 124.084458 
+L 260.491439 104.223074 
+L 261.212196 100.243995 
+L 261.951802 98.373488 
+L 262.676215 93.476161 
+L 264.144452 75.757358 
+L 264.886892 82.389155 
+L 265.614023 99.835885 
+L 266.326464 106.467682 
+L 267.794238 99.325746 
+L 268.54725 96.298926 
+L 269.257485 105.175332 
+L 270.006689 127.791462 
+L 270.740307 127.48538 
+L 271.458974 112.079203 
+L 272.213062 107.930079 
+L 272.927 113.813674 
+L 273.674523 109.834595 
+L 274.406529 99.529802 
+L 275.123649 97.591276 
+L 275.871344 117.724734 
+L 276.603515 122.962153 
+L 277.320794 115.922245 
+L 278.065932 107.045839 
+L 278.795651 127.383352 
+L 279.530791 128.845748 
+L 280.270715 92.727958 
+L 280.995432 83.851552 
+L 281.724552 87.218465 
+L 282.457506 87.898649 
+L 283.193757 115.003996 
+L 284.65666 121.193674 
+L 285.400204 136.531832 
+L 286.128395 103.678926 
+L 286.858275 81.130814 
+L 287.589439 53.923439 
+L 288.321506 73.03662 
+L 289.054115 86.946391 
+L 289.786926 88.068695 
+L 290.519621 84.089616 
+L 291.251901 86.266206 
+L 291.983483 74.158925 
+L 292.728009 105.753489 
+L 293.457141 103.032751 
+L 294.184843 98.951645 
+L 294.923965 91.809709 
+L 295.647913 71.064086 
+L 296.382371 68.649431 
+L 297.114122 110.92289 
+L 297.855045 73.682795 
+L 299.314838 124.730633 
+L 300.056575 135.953675 
+L 300.783032 122.418006 
+L 301.516502 130.478191 
+L 302.245641 133.028882 
+L 302.980803 114.799941 
+L 303.721313 129.934043 
+L 304.446593 91.707681 
+L 305.18656 111.399019 
+L 305.911319 68.24132 
+L 306.649594 83.341414 
+L 307.381905 95.380677 
+L 308.117293 90.551368 
+L 308.84646 120.445471 
+L 309.578101 127.247315 
+L 311.04701 88.612842 
+L 311.783441 108.712291 
+L 313.242806 81.708971 
+L 313.980897 106.161599 
+L 314.71131 68.173302 
+L 316.178338 96.945101 
+L 316.907096 78.410077 
+L 317.641679 109.936623 
+L 318.37471 66.880952 
+L 319.112554 97.897359 
+L 319.84172 156.155151 
+L 320.575054 133.198928 
+L 321.305813 134.01515 
+L 322.039904 148.605104 
+L 322.776817 133.402984 
+L 323.510262 134.593306 
+L 324.240141 151.801971 
+L 324.971938 114.493858 
+L 325.705231 118.813029 
+L 326.439623 152.516165 
+L 327.174738 141.531187 
+L 327.905096 152.754229 
+L 328.640724 93.918281 
+L 329.371157 123.336255 
+L 330.106039 88.102704 
+L 330.840073 75.927404 
+L 331.573004 116.16031 
+L 333.034608 151.597916 
+L 333.771531 122.65607 
+L 334.501875 99.835885 
+L 335.234063 149.489344 
+L 335.967677 104.767221 
+L 336.702323 101.162244 
+L 337.433718 100.584087 
+L 338.169416 128.981785 
+L 338.901342 143.809805 
+L 339.633093 94.428419 
+L 340.367975 119.289158 
+L 341.098437 120.649527 
+L 341.098437 120.649527 
+" clip-path="url(#detector-coupling-p1c7905d0c8)" fill="none" stroke-width="1.1" stroke-linecap="square" class="s-c5"/>
    </g>
    <g id="detector-coupling-patch_3">
-    <path d="M 43 183.04 
-L 43 7.35 
+    <path d="M 48.600781 211.454141 
+L 48.600781 7.398828 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
    </g>
    <g id="detector-coupling-patch_4">
-    <path d="M 283.98 183.04 
-L 283.98 7.35 
+    <path d="M 341.098437 211.454141 
+L 341.098437 7.398828 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
    </g>
    <g id="detector-coupling-patch_5">
-    <path d="M 43 183.04 
-L 283.98 183.04 
+    <path d="M 48.600781 211.454141 
+L 341.098437 211.454141 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
    </g>
    <g id="detector-coupling-patch_6">
-    <path d="M 43 7.35 
-L 283.98 7.35 
+    <path d="M 48.600781 7.398828 
+L 341.098437 7.398828 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
    </g>
    <g id="detector-coupling-legend_1">
-    <g id="detector-coupling-line2d_134">
-     <path d="M 50.2 17.75 
-L 58.2 17.75 
-L 66.2 17.75 
+    <g id="detector-coupling-line2d_145">
+     <path d="M 56.700781 19.187422 
+L 65.700781 19.187422 
+L 74.700781 19.187422 
 " fill="none" stroke-width="1.1" stroke-linecap="square" class="s-c4"/>
     </g>
     <g id="detector-coupling-text_14">
-     <text font-size="8px" text-anchor="start" class="f-fg" x="72.6" y="20.55" transform="rotate(-0 72.6 20.55)">no star ground</text>
+     <text font-size="9px" text-anchor="start" class="f-fg" x="81.900781" y="22.337422" transform="rotate(-0 81.900781 22.337422)">no star ground</text>
     </g>
-    <g id="detector-coupling-line2d_135">
-     <path d="M 50.2 29.75 
-L 58.2 29.75 
-L 66.2 29.75 
+    <g id="detector-coupling-line2d_146">
+     <path d="M 56.700781 32.688125 
+L 65.700781 32.688125 
+L 74.700781 32.688125 
 " fill="none" stroke-dasharray="4.07,1.76" stroke-dashoffset="0" stroke-width="1.1" class="s-c4"/>
     </g>
     <g id="detector-coupling-text_15">
-     <text font-size="8px" text-anchor="start" class="f-fg" x="72.6" y="32.55" transform="rotate(-0 72.6 32.55)">no star ground, two chokes</text>
+     <text font-size="9px" text-anchor="start" class="f-fg" x="81.900781" y="35.838125" transform="rotate(-0 81.900781 35.838125)">no star ground, two chokes</text>
     </g>
-    <g id="detector-coupling-line2d_136">
-     <path d="M 50.2 41.75 
-L 58.2 41.75 
-L 66.2 41.75 
+    <g id="detector-coupling-line2d_147">
+     <path d="M 56.700781 46.188828 
+L 65.700781 46.188828 
+L 74.700781 46.188828 
 " fill="none" stroke-width="1.1" stroke-linecap="square" class="s-c5"/>
     </g>
     <g id="detector-coupling-text_16">
-     <text font-size="8px" text-anchor="start" class="f-fg" x="72.6" y="44.55" transform="rotate(-0 72.6 44.55)">star ground</text>
+     <text font-size="9px" text-anchor="start" class="f-fg" x="81.900781" y="49.338828" transform="rotate(-0 81.900781 49.338828)">star ground</text>
     </g>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="detector-coupling-p9ac4e71f85">
-   <rect x="43" y="7.35" width="240.98" height="175.69"/>
+  <clipPath id="detector-coupling-p1c7905d0c8">
+   <rect x="48.600781" y="7.398828" width="292.497656" height="204.055312"/>
   </clipPath>
  </defs>
 </svg>

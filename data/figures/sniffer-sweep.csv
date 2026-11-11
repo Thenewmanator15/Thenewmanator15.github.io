@@ -1,0 +1,10 @@
+# source: esp32c6-sniffer firmware/bench-results.json (payload, payload_kB_per_s, wire_kB_per_s). 20 s per point.
+# The design spec (lines 120-133) notes this sweep timed from port open, counting start-up as zero throughput;
+# the corrected re-run gave 809.9 kB/s on the wire, so these read about 3% low.
+payload_bytes,payload_kB_per_s,wire_kB_per_s
+64,680.1,786.3
+128,729.9,786.9
+256,747.3,776.5
+512,774.8,789.9
+1024,781.4,789.0
+1500,774.4,779.5

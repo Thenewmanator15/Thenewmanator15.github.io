@@ -1,0 +1,288 @@
+<svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 344.698437 172.317266" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  </defs>
+ <g id="sniffer-carrier-figure_1">
+  <g id="sniffer-carrier-patch_1">
+   <path d="M 0 172.317266 
+L 344.698437 172.317266 
+L 344.698437 0 
+L 0 0 
+L 0 172.317266 
+z
+" fill="none"/>
+  </g>
+  <g id="sniffer-carrier-axes_1">
+   <g id="sniffer-carrier-patch_2">
+    <path d="M 48.600781 155.216484 
+L 341.098437 155.216484 
+L 341.098437 7.398828 
+L 48.600781 7.398828 
+L 48.600781 155.216484 
+z
+" fill="none"/>
+   </g>
+   <g id="sniffer-carrier-matplotlib.axis_1">
+    <g id="sniffer-carrier-xtick_1">
+     <g id="sniffer-carrier-line2d_1"/>
+     <g id="sniffer-carrier-line2d_2"/>
+     <g id="sniffer-carrier-text_1">
+      <text font-size="10px" text-anchor="middle" class="f-fg" x="97.350391" y="166.314922" transform="rotate(-0 97.350391 166.314922)">carrier off</text>
+     </g>
+    </g>
+    <g id="sniffer-carrier-xtick_2">
+     <g id="sniffer-carrier-line2d_3"/>
+     <g id="sniffer-carrier-line2d_4"/>
+     <g id="sniffer-carrier-text_2">
+      <text font-size="10px" text-anchor="middle" class="f-fg" x="194.849609" y="166.314922" transform="rotate(-0 194.849609 166.314922)">carrier on</text>
+     </g>
+    </g>
+    <g id="sniffer-carrier-xtick_3">
+     <g id="sniffer-carrier-line2d_5"/>
+     <g id="sniffer-carrier-line2d_6"/>
+     <g id="sniffer-carrier-text_3">
+      <text font-size="10px" text-anchor="middle" class="f-fg" x="292.348828" y="166.314922" transform="rotate(-0 292.348828 166.314922)">off again</text>
+     </g>
+    </g>
+   </g>
+   <g id="sniffer-carrier-matplotlib.axis_2">
+    <g id="sniffer-carrier-ytick_1">
+     <g id="sniffer-carrier-line2d_7">
+      <path d="M 48.600781 149.53119 
+L 341.098437 149.53119 
+" clip-path="url(#sniffer-carrier-p3fbbf1f158)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-carrier-line2d_8">
+      <defs>
+       <path id="sniffer-carrier-m2685e6c094" d="M 0 0 
+L 3 0 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#sniffer-carrier-m2685e6c094" x="48.600781" y="149.53119" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-line2d_9">
+      <defs>
+       <path id="sniffer-carrier-m41dff3320c" d="M 0 0 
+L -3 0 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#sniffer-carrier-m41dff3320c" x="341.098437" y="149.53119" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-text_4">
+      <!-- $\mathdefault{−110}$ -->
+      <g class="f-fg" transform="translate(17.600781 153.330018)">
+       <text>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="21.103516" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="sniffer-carrier-ytick_2">
+     <g id="sniffer-carrier-line2d_10">
+      <path d="M 48.600781 121.104718 
+L 341.098437 121.104718 
+" clip-path="url(#sniffer-carrier-p3fbbf1f158)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-carrier-line2d_11">
+      <g>
+       <use xlink:href="#sniffer-carrier-m2685e6c094" x="48.600781" y="121.104718" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-line2d_12">
+      <g>
+       <use xlink:href="#sniffer-carrier-m41dff3320c" x="341.098437" y="121.104718" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-text_5">
+      <!-- $\mathdefault{−100}$ -->
+      <g class="f-fg" transform="translate(17.600781 124.903546)">
+       <text>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">1</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+        <tspan x="21.103516" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="sniffer-carrier-ytick_3">
+     <g id="sniffer-carrier-line2d_13">
+      <path d="M 48.600781 92.678245 
+L 341.098437 92.678245 
+" clip-path="url(#sniffer-carrier-p3fbbf1f158)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-carrier-line2d_14">
+      <g>
+       <use xlink:href="#sniffer-carrier-m2685e6c094" x="48.600781" y="92.678245" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-line2d_15">
+      <g>
+       <use xlink:href="#sniffer-carrier-m41dff3320c" x="341.098437" y="92.678245" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-text_6">
+      <!-- $\mathdefault{−90}$ -->
+      <g class="f-fg" transform="translate(23.900781 96.477073)">
+       <text>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">9</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="sniffer-carrier-ytick_4">
+     <g id="sniffer-carrier-line2d_16">
+      <path d="M 48.600781 64.251773 
+L 341.098437 64.251773 
+" clip-path="url(#sniffer-carrier-p3fbbf1f158)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-carrier-line2d_17">
+      <g>
+       <use xlink:href="#sniffer-carrier-m2685e6c094" x="48.600781" y="64.251773" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-line2d_18">
+      <g>
+       <use xlink:href="#sniffer-carrier-m41dff3320c" x="341.098437" y="64.251773" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-text_7">
+      <!-- $\mathdefault{−80}$ -->
+      <g class="f-fg" transform="translate(23.900781 68.050601)">
+       <text>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">8</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="sniffer-carrier-ytick_5">
+     <g id="sniffer-carrier-line2d_19">
+      <path d="M 48.600781 35.8253 
+L 341.098437 35.8253 
+" clip-path="url(#sniffer-carrier-p3fbbf1f158)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-carrier-line2d_20">
+      <g>
+       <use xlink:href="#sniffer-carrier-m2685e6c094" x="48.600781" y="35.8253" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-line2d_21">
+      <g>
+       <use xlink:href="#sniffer-carrier-m41dff3320c" x="341.098437" y="35.8253" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-text_8">
+      <!-- $\mathdefault{−70}$ -->
+      <g class="f-fg" transform="translate(23.900781 39.624129)">
+       <text>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">7</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="sniffer-carrier-ytick_6">
+     <g id="sniffer-carrier-line2d_22">
+      <path d="M 48.600781 7.398828 
+L 341.098437 7.398828 
+" clip-path="url(#sniffer-carrier-p3fbbf1f158)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-carrier-line2d_23">
+      <g>
+       <use xlink:href="#sniffer-carrier-m2685e6c094" x="48.600781" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-line2d_24">
+      <g>
+       <use xlink:href="#sniffer-carrier-m41dff3320c" x="341.098437" y="7.398828" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-carrier-text_9">
+      <!-- $\mathdefault{−60}$ -->
+      <g class="f-fg" transform="translate(23.900781 11.197656)">
+       <text>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">6</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="sniffer-carrier-text_10">
+     <text font-size="10px" text-anchor="middle" class="f-fg" x="11.198438" y="81.307656" transform="rotate(-90 11.198438 81.307656)">Channel 20, median (dBm)</text>
+    </g>
+   </g>
+   <g id="sniffer-carrier-line2d_25">
+    <path d="M 48.600781 135.317954 
+L 146.1 135.317954 
+L 146.1 35.8253 
+L 243.599219 35.8253 
+L 243.599219 135.317954 
+L 341.098437 135.317954 
+L 341.098437 135.317954 
+" clip-path="url(#sniffer-carrier-p3fbbf1f158)" fill="none" stroke-width="1.6" stroke-linecap="square" class="s-trace"/>
+   </g>
+   <g id="sniffer-carrier-patch_3">
+    <path d="M 48.600781 155.216484 
+L 48.600781 7.398828 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-carrier-patch_4">
+    <path d="M 341.098437 155.216484 
+L 341.098437 7.398828 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-carrier-patch_5">
+    <path d="M 48.600781 155.216484 
+L 341.098437 155.216484 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-carrier-patch_6">
+    <path d="M 48.600781 7.398828 
+L 341.098437 7.398828 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-carrier-text_11">
+    <text font-size="9px" text-anchor="middle" class="f-fg" x="97.350391" y="128.211336" transform="rotate(-0 97.350391 128.211336)">−105 dBm</text>
+   </g>
+   <g id="sniffer-carrier-text_12">
+    <text font-size="9px" text-anchor="middle" class="f-fg" x="194.849609" y="28.718682" transform="rotate(-0 194.849609 28.718682)">−70 dBm</text>
+   </g>
+   <g id="sniffer-carrier-text_13">
+    <text font-size="9px" text-anchor="middle" class="f-fg" x="292.348828" y="128.211336" transform="rotate(-0 292.348828 128.211336)">−105 dBm</text>
+   </g>
+   <g id="sniffer-carrier-patch_7">
+    <path d="M 194.849609 129.467997 
+Q 194.849609 85.569896 194.849609 41.671794 
+" fill="none" stroke-width="0.9" stroke-linecap="round" class="s-dim"/>
+    <path d="M 196.849609 125.467997 
+L 194.849609 129.467997 
+L 192.849609 125.467997 
+" fill="none" stroke-width="0.9" stroke-linecap="round" class="s-dim"/>
+    <path d="M 192.849609 45.671794 
+L 194.849609 41.671794 
+L 196.849609 45.671794 
+" fill="none" stroke-width="0.9" stroke-linecap="round" class="s-dim"/>
+   </g>
+   <g id="sniffer-carrier-text_14">
+    <text font-size="9px" text-anchor="start" class="f-dim" x="202.649547" y="87.909869" transform="rotate(-0 202.649547 87.909869)">+35 dB</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="sniffer-carrier-p3fbbf1f158">
+   <rect x="48.600781" y="7.398828" width="292.497656" height="147.817656"/>
+  </clipPath>
+ </defs>
+</svg>

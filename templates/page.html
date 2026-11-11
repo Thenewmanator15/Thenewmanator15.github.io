@@ -18,6 +18,33 @@
 {%- if parent.extra?.start -%}
 {#- A part of a big project: a breadcrumb back to its project, then the next part. -#}
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href="{{ chan_sec.path }}">CH{{ n }} {{ chan_sec.title }}</a> › <a href="{{ parent.path }}">{{ parent.title }}</a></nav>
+{%- set proof = page.extra?.proof or [] -%}
+{%- set skills = page.extra?.skills or [] -%}
+{%- if page.extra?.panel %}
+<article class="project part panel" data-channel="{{ n }}">
+<header class="panelhead">
+<div class="pttl">
+<p class="kicker"><span class="tag">CH{{ n }}</span> Part of <a href="{{ parent.path }}">{{ parent.title }}</a></p>
+<h1>{{ page.title }}</h1>
+<p class="lede">{{ page.description }}</p>
+</div>
+</header>
+{%- if page.extra?.still_to_come %}
+{{<wip_sign items={page.extra.still_to_come} note={page.extra?.still_to_come_note or ""} />}}
+{%- endif %}
+<div class="prose">
+{{ page.content | safe }}
+{%- if skills %}
+<h2 id="skills">Skills</h2>
+<ul class="skills">{% for s in skills %}<li>{{ s }}</li>{% endfor %}</ul>
+{%- endif %}
+{%- if proof %}
+<h2 id="proof">Proof</h2>
+{{<proof_list items={proof} />}}
+{%- endif %}
+</div>
+</article>
+{%- else %}
 <article class="project part" data-channel="{{ n }}">
 <header class="phead">
 <p class="kicker"><span class="tag">CH{{ n }}</span> Part of <a href="{{ parent.path }}">{{ parent.title }}</a></p>
@@ -44,6 +71,7 @@
 </div>
 </div>
 </article>
+{%- endif %}
 {{<next_in list={parent.pages} current={page.path} label="Next part" />}}
 {%- else -%}
 {#- A project in one folder. -#}

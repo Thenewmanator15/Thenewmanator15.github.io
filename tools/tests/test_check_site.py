@@ -402,6 +402,47 @@ class FrontMatter(unittest.TestCase):
         self.flagged('kind = "certificate"', 'kind = "certificate"\nto_come = true', "to_come",
                      lambda s: s.data / "timeline.toml")                                  # no page to carry a sign
 
+    PANEL = ('panel = true\n[[extra.matrix]]\ntitle = "Radio"\ncols = ["A", "B"]\n'
+             'rows = [["Capture", "yes", "no"], ["Survey", "-", "not yet tried"]]\n'
+             '[[extra.tiles]]\nvalue = "8"\nlabel = "golden vectors"\n')
+    BODY = "\n{{ <matrices /> }}\n\n{{ <tiles /> }}\n"
+
+    def panel_problems(self, keys: str, body: str = BODY) -> list[str]:
+        with Site() as s:
+            s.edit('my_part = "..."\n', 'my_part = "..."\n' + keys)
+            s.page.write_text(s.page.read_text(encoding="utf-8") + body, encoding="utf-8")
+            return s.problems()
+
+    def test_a_correct_panel_page_is_clean(self):
+        self.assertEqual(self.panel_problems(self.PANEL), [])
+
+    def test_matrix_rows_match_the_columns(self):
+        keys = self.PANEL.replace('["Survey", "-", "not yet tried"]', '["Survey", "-"]')
+        self.assertEqual(self.panel_problems(keys), ["content/instruments/x/index.md: matrix Radio: row 2 has 2 cells, needs 3"])
+
+    def test_matrix_needs_a_title_and_columns(self):
+        keys = self.PANEL.replace('cols = ["A", "B"]\n', "").replace(
+            'rows = [["Capture", "yes", "no"], ["Survey", "-", "not yet tried"]]\n', "")
+        self.assertEqual(self.panel_problems(keys),
+                         ["content/instruments/x/index.md: matrix Radio: needs a title and at least one column"])
+
+    def test_tiles_need_a_value_and_a_label(self):
+        keys = self.PANEL.replace('label = "golden vectors"\n', "")
+        self.assertEqual(self.panel_problems(keys), ["content/instruments/x/index.md: tiles need a value and a label"])
+
+    def test_matrix_and_tiles_need_panel(self):
+        keys = self.PANEL.replace("panel = true\n", "")
+        self.assertEqual(self.panel_problems(keys), ["content/instruments/x/index.md: matrix and tiles need panel = true"])
+
+    def test_panel_is_true_or_false(self):
+        keys = self.PANEL.replace("panel = true", 'panel = "yes"')
+        self.assertIn("content/instruments/x/index.md: panel must be true or false", self.panel_problems(keys))
+
+    def test_matrix_and_tiles_must_be_shown(self):
+        self.assertEqual(self.panel_problems(self.PANEL, body="\nNo calls here.\n"),
+                         ["content/instruments/x/index.md: has a matrix but never shows it: add {{ <matrices /> }} to the text",
+                          "content/instruments/x/index.md: has tiles but never shows them: add {{ <tiles /> }} to the text"])
+
     def test_role_rules(self):
         self.flagged("role = false", "role = true", "bus_label")
         self.flagged("role = false", 'role = false\nbus_label = "X"', "bus_label")
@@ -430,6 +471,18 @@ class FrontMatter(unittest.TestCase):
             self.assertEqual(s.problems(), [])
             write(big / "driver.md", '+++\ntitle = "The driver"\ndescription = "Another."\n[extra]\nskills = ["kicad"]\n+++\n')
             self.assertTrue(any("kicad" in p for p in s.problems()))
+
+    def test_parts_get_the_panel_rules(self):
+        with Site() as s:
+            big = s.content / "instruments" / "big"
+            write(big / "_index.md", SAMPLE_FRONT_MATTER)
+            (big / "hero.jpg").write_bytes(b"jpg")
+            write(big / "gate.md", '+++\ntitle = "The gate"\ndescription = "One part."\n[extra]\npanel = "no"\n+++\n')
+            write(big / "driver.md", '+++\ntitle = "The driver"\ndescription = "Another."\n[extra]\npanel = true\n'
+                                     '[[extra.tiles]]\nvalue = "8"\nlabel = "vectors"\n+++\nNo call.\n')
+            self.assertEqual(sorted(s.problems()), [
+                "content/instruments/big/driver.md: has tiles but never shows them: add {{ <tiles /> }} to the text",
+                "content/instruments/big/gate.md: panel must be true or false"])
 
     def test_big_project_proof_can_come_from_parts(self):
         with Site() as s:

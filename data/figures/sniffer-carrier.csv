@@ -1,0 +1,6 @@
+# source: nrf54l15-sniffer docs/2026-09-14-nrf54l15-spike.md, lines 260-274. The nRF54L15 sent an unmodulated carrier on channel 20 (2450 MHz);
+# measured by the ESP32-C6's energy detector (tools/spectrum.py), median reading.
+state,median_dbm
+carrier off,-105
+carrier on,-70
+off again,-105

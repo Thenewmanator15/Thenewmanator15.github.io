@@ -1,0 +1,14 @@
+# source: esp32c6-sniffer host/tests/test_robustness.py. Random inputs per target in each run (fixed seeds), counted from the loop bounds.
+# CSI is test_csi_survives_random_input (2000) plus test_csi_csv_row_never_contains_a_newline (200);
+# parser noise is test_parser_survives_pure_noise (200). test_parser_does_not_buffer_without_bound_on_garbage feeds fixed zero bytes, so it is not counted.
+target,inputs
+HT signal decoder,20000
+HE signal decoder,20000
+Wi-Fi metadata,2000
+802.15.4 metadata,2000
+CSI records,2200
+access-point records,2000
+board replies,2000
+radiotap headers,500
+802.15.4 tap records,300
+parser noise,200

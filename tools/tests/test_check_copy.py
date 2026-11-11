@@ -102,6 +102,28 @@ class Files(unittest.TestCase):
             self.assertTrue(any("robust" in p for p in out), out)
             self.assertTrue(any("two 'and's" in p for p in out), out)
 
+    def test_chart_component_alt_and_caption_checked(self):
+        with tempfile.TemporaryDirectory() as d:
+            c = Path(d) / "content"
+            c.mkdir()
+            (c / "a.md").write_text('+++\ntitle = "A"\n+++\n{{ <chart name="x" alt="A robust plot" '
+                                    'caption="Fast, and small." /> }}\n', encoding="utf-8")
+            out = check_paths([c])
+            self.assertTrue(any("robust" in p for p in out), out)
+            self.assertTrue(any("comma before" in p for p in out), out)
+
+    def test_matrix_and_tiles_checked(self):
+        with tempfile.TemporaryDirectory() as d:
+            c = Path(d) / "content"
+            c.mkdir()
+            (c / "a.md").write_text(
+                '+++\ntitle = "A"\n[extra]\npanel = true\n[[extra.matrix]]\ntitle = "A seamless radio"\n'
+                'cols = ["A"]\nrows = [["Capture, and survey", "yes"]]\nnotes = ["It is crucial."]\n'
+                '[[extra.tiles]]\nvalue = "8"\nlabel = "vibrant vectors"\n+++\n', encoding="utf-8")
+            out = " | ".join(check_paths([c]))
+            for word in ("seamless", "crucial", "vibrant", "comma before"):
+                self.assertIn(word, out)
+
     def test_missing_folder_skipped(self):
         self.assertEqual(check_paths([Path("does-not-exist")]), [])
 

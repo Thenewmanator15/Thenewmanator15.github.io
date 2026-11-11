@@ -1,0 +1,248 @@
+<svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 345.397813 143.356094" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  </defs>
+ <g id="sniffer-ble-error-figure_1">
+  <g id="sniffer-ble-error-patch_1">
+   <path d="M 0 143.356094 
+L 345.397813 143.356094 
+L 345.397813 0 
+L 0 0 
+L 0 143.356094 
+z
+" fill="none"/>
+  </g>
+  <g id="sniffer-ble-error-axes_1">
+   <g id="sniffer-ble-error-patch_2">
+    <path d="M 63.057813 112.255312 
+L 341.797813 112.255312 
+L 341.797813 3.6 
+L 63.057813 3.6 
+L 63.057813 112.255312 
+z
+" fill="none"/>
+   </g>
+   <g id="sniffer-ble-error-matplotlib.axis_1">
+    <g id="sniffer-ble-error-xtick_1">
+     <g id="sniffer-ble-error-line2d_1">
+      <path d="M 76.994812 112.255312 
+L 76.994812 3.6 
+" clip-path="url(#sniffer-ble-error-p5ac8540622)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-ble-error-line2d_2">
+      <defs>
+       <path id="sniffer-ble-error-mae40bbd23d" d="M 0 0 
+L 0 -3 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#sniffer-ble-error-mae40bbd23d" x="76.994812" y="112.255312" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-ble-error-line2d_3">
+      <defs>
+       <path id="sniffer-ble-error-m6ab5fe8380" d="M 0 0 
+L 0 3 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#sniffer-ble-error-m6ab5fe8380" x="76.994812" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-ble-error-text_1">
+      <!-- $\mathdefault{−40}$ -->
+      <g class="f-fg" transform="translate(66.394813 123.352969)">
+       <text>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">4</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="sniffer-ble-error-xtick_2">
+     <g id="sniffer-ble-error-line2d_4">
+      <path d="M 132.742813 112.255312 
+L 132.742813 3.6 
+" clip-path="url(#sniffer-ble-error-p5ac8540622)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-ble-error-line2d_5">
+      <g>
+       <use xlink:href="#sniffer-ble-error-mae40bbd23d" x="132.742813" y="112.255312" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-ble-error-line2d_6">
+      <g>
+       <use xlink:href="#sniffer-ble-error-m6ab5fe8380" x="132.742813" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-ble-error-text_2">
+      <!-- $\mathdefault{−20}$ -->
+      <g class="f-fg" transform="translate(122.142813 123.352969)">
+       <text>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">−</tspan>
+        <tspan x="8.378906" y="-0.578125" font-size="10px" class="f-fg">2</tspan>
+        <tspan x="14.741211" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="sniffer-ble-error-xtick_3">
+     <g id="sniffer-ble-error-line2d_7">
+      <path d="M 188.490813 112.255312 
+L 188.490813 3.6 
+" clip-path="url(#sniffer-ble-error-p5ac8540622)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-ble-error-line2d_8">
+      <g>
+       <use xlink:href="#sniffer-ble-error-mae40bbd23d" x="188.490813" y="112.255312" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-ble-error-line2d_9">
+      <g>
+       <use xlink:href="#sniffer-ble-error-m6ab5fe8380" x="188.490813" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-ble-error-text_3">
+      <!-- $\mathdefault{0}$ -->
+      <g class="f-fg" transform="translate(185.290813 123.352969)">
+       <text>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="sniffer-ble-error-xtick_4">
+     <g id="sniffer-ble-error-line2d_10">
+      <path d="M 244.238812 112.255312 
+L 244.238812 3.6 
+" clip-path="url(#sniffer-ble-error-p5ac8540622)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-ble-error-line2d_11">
+      <g>
+       <use xlink:href="#sniffer-ble-error-mae40bbd23d" x="244.238812" y="112.255312" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-ble-error-line2d_12">
+      <g>
+       <use xlink:href="#sniffer-ble-error-m6ab5fe8380" x="244.238812" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-ble-error-text_4">
+      <!-- $\mathdefault{20}$ -->
+      <g class="f-fg" transform="translate(237.838812 123.352969)">
+       <text>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">2</tspan>
+        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="sniffer-ble-error-xtick_5">
+     <g id="sniffer-ble-error-line2d_13">
+      <path d="M 299.986813 112.255312 
+L 299.986813 3.6 
+" clip-path="url(#sniffer-ble-error-p5ac8540622)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-ble-error-line2d_14">
+      <g>
+       <use xlink:href="#sniffer-ble-error-mae40bbd23d" x="299.986813" y="112.255312" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-ble-error-line2d_15">
+      <g>
+       <use xlink:href="#sniffer-ble-error-m6ab5fe8380" x="299.986813" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-ble-error-text_5">
+      <!-- $\mathdefault{40}$ -->
+      <g class="f-fg" transform="translate(293.586813 123.352969)">
+       <text>
+        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">4</tspan>
+        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="sniffer-ble-error-text_6">
+     <text font-size="10px" text-anchor="middle" class="f-fg" x="202.427813" y="137.35375" transform="rotate(-0 202.427813 137.35375)">Timestamp error, 1st to 99th percentile (µs)</text>
+    </g>
+   </g>
+   <g id="sniffer-ble-error-matplotlib.axis_2">
+    <g id="sniffer-ble-error-ytick_1">
+     <g id="sniffer-ble-error-line2d_16"/>
+     <g id="sniffer-ble-error-line2d_17"/>
+     <g id="sniffer-ble-error-text_7">
+      <text font-size="10px" class="f-fg" transform="translate(11.182813 31.531607)">ESP32-C6</text>
+      <text font-size="10px" class="f-fg" transform="translate(3.6 43.53356)">567 events</text>
+     </g>
+    </g>
+    <g id="sniffer-ble-error-ytick_2">
+     <g id="sniffer-ble-error-line2d_18"/>
+     <g id="sniffer-ble-error-line2d_19"/>
+     <g id="sniffer-ble-error-text_8">
+      <text font-size="10px" class="f-fg" transform="translate(9.498438 80.920385)">nRF54L15</text>
+      <text font-size="10px" class="f-fg" transform="translate(3.6 92.922338)">605 events</text>
+     </g>
+    </g>
+   </g>
+   <g id="sniffer-ble-error-patch_3">
+    <path d="M 124.380612 43.604911 
+L 249.813613 43.604911 
+L 249.813613 22.861624 
+L 124.380612 22.861624 
+z
+" clip-path="url(#sniffer-ble-error-p5ac8540622)" class="f-trace"/>
+   </g>
+   <g id="sniffer-ble-error-patch_4">
+    <path d="M 135.530213 92.993689 
+L 305.561613 92.993689 
+L 305.561613 72.250402 
+L 135.530213 72.250402 
+z
+" clip-path="url(#sniffer-ble-error-p5ac8540622)" class="f-c2"/>
+   </g>
+   <g id="sniffer-ble-error-line2d_20">
+    <path d="M 188.490813 112.255312 
+L 188.490813 3.6 
+" clip-path="url(#sniffer-ble-error-p5ac8540622)" fill="none" stroke-width="0.8" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-ble-error-patch_5">
+    <path d="M 63.057813 112.255312 
+L 63.057813 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-ble-error-patch_6">
+    <path d="M 341.797813 112.255312 
+L 341.797813 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-ble-error-patch_7">
+    <path d="M 63.057812 112.255312 
+L 341.797813 112.255312 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-ble-error-patch_8">
+    <path d="M 63.057812 3.6 
+L 341.797813 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-ble-error-text_9">
+    <text font-size="9px" text-anchor="end" class="f-fg" x="120.199512" y="35.571158" transform="rotate(-0 120.199512 35.571158)">−23</text>
+   </g>
+   <g id="sniffer-ble-error-text_10">
+    <text font-size="9px" text-anchor="start" class="f-fg" x="253.994712" y="35.571158" transform="rotate(-0 253.994712 35.571158)">+22</text>
+   </g>
+   <g id="sniffer-ble-error-text_11">
+    <text font-size="9px" text-anchor="end" class="f-fg" x="131.349112" y="84.959936" transform="rotate(-0 131.349112 84.959936)">−19</text>
+   </g>
+   <g id="sniffer-ble-error-text_12">
+    <text font-size="9px" text-anchor="start" class="f-fg" x="309.742713" y="84.959936" transform="rotate(-0 309.742713 84.959936)">+42</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="sniffer-ble-error-p5ac8540622">
+   <rect x="63.057813" y="3.6" width="278.74" height="108.655312"/>
+  </clipPath>
+ </defs>
+</svg>

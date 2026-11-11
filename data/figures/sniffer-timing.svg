@@ -1,0 +1,237 @@
+<svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 345.806563 194.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  </defs>
+ <g id="sniffer-timing-figure_1">
+  <g id="sniffer-timing-patch_1">
+   <path d="M 0 194.4 
+L 345.806563 194.4 
+L 345.806563 0 
+L 0 0 
+L 0 194.4 
+z
+" fill="none"/>
+  </g>
+  <g id="sniffer-timing-axes_1">
+   <g id="sniffer-timing-patch_2">
+    <path d="M 18.926562 177.3 
+L 342.206562 177.3 
+L 342.206562 3.6 
+L 18.926562 3.6 
+L 18.926562 177.3 
+z
+" fill="none"/>
+   </g>
+   <g id="sniffer-timing-matplotlib.axis_1">
+    <g id="sniffer-timing-xtick_1">
+     <g id="sniffer-timing-line2d_1">
+      <path d="M 18.926563 177.3 
+L 18.926563 3.6 
+" clip-path="url(#sniffer-timing-p52475fa2d2)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-timing-line2d_2">
+      <defs>
+       <path id="sniffer-timing-mae40bbd23d" d="M 0 0 
+L 0 -3 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#sniffer-timing-mae40bbd23d" x="18.926563" y="177.3" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-line2d_3">
+      <defs>
+       <path id="sniffer-timing-m6ab5fe8380" d="M 0 0 
+L 0 3 
+" stroke-width="0.5" class="s-fg"/>
+      </defs>
+      <g>
+       <use xlink:href="#sniffer-timing-m6ab5fe8380" x="18.926563" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-text_1">
+      <text font-size="10px" text-anchor="middle" class="f-fg" x="18.926563" y="188.397656" transform="rotate(-0 18.926563 188.397656)">0.1 µs</text>
+     </g>
+    </g>
+    <g id="sniffer-timing-xtick_2">
+     <g id="sniffer-timing-line2d_4">
+      <path d="M 77.950269 177.3 
+L 77.950269 3.6 
+" clip-path="url(#sniffer-timing-p52475fa2d2)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-timing-line2d_5">
+      <g>
+       <use xlink:href="#sniffer-timing-mae40bbd23d" x="77.950269" y="177.3" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-line2d_6">
+      <g>
+       <use xlink:href="#sniffer-timing-m6ab5fe8380" x="77.950269" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-text_2">
+      <text font-size="10px" text-anchor="middle" class="f-fg" x="77.950269" y="188.397656" transform="rotate(-0 77.950269 188.397656)">1 µs</text>
+     </g>
+    </g>
+    <g id="sniffer-timing-xtick_3">
+     <g id="sniffer-timing-line2d_7">
+      <path d="M 136.973976 177.3 
+L 136.973976 3.6 
+" clip-path="url(#sniffer-timing-p52475fa2d2)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-timing-line2d_8">
+      <g>
+       <use xlink:href="#sniffer-timing-mae40bbd23d" x="136.973976" y="177.3" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-line2d_9">
+      <g>
+       <use xlink:href="#sniffer-timing-m6ab5fe8380" x="136.973976" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-text_3">
+      <text font-size="10px" text-anchor="middle" class="f-fg" x="136.973976" y="188.397656" transform="rotate(-0 136.973976 188.397656)">10 µs</text>
+     </g>
+    </g>
+    <g id="sniffer-timing-xtick_4">
+     <g id="sniffer-timing-line2d_10">
+      <path d="M 195.997683 177.3 
+L 195.997683 3.6 
+" clip-path="url(#sniffer-timing-p52475fa2d2)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-timing-line2d_11">
+      <g>
+       <use xlink:href="#sniffer-timing-mae40bbd23d" x="195.997683" y="177.3" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-line2d_12">
+      <g>
+       <use xlink:href="#sniffer-timing-m6ab5fe8380" x="195.997683" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-text_4">
+      <text font-size="10px" text-anchor="middle" class="f-fg" x="195.997683" y="188.397656" transform="rotate(-0 195.997683 188.397656)">100 µs</text>
+     </g>
+    </g>
+    <g id="sniffer-timing-xtick_5">
+     <g id="sniffer-timing-line2d_13">
+      <path d="M 255.02139 177.3 
+L 255.02139 3.6 
+" clip-path="url(#sniffer-timing-p52475fa2d2)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-timing-line2d_14">
+      <g>
+       <use xlink:href="#sniffer-timing-mae40bbd23d" x="255.02139" y="177.3" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-line2d_15">
+      <g>
+       <use xlink:href="#sniffer-timing-m6ab5fe8380" x="255.02139" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-text_5">
+      <text font-size="10px" text-anchor="middle" class="f-fg" x="255.02139" y="188.397656" transform="rotate(-0 255.02139 188.397656)">1 ms</text>
+     </g>
+    </g>
+    <g id="sniffer-timing-xtick_6">
+     <g id="sniffer-timing-line2d_16">
+      <path d="M 314.045097 177.3 
+L 314.045097 3.6 
+" clip-path="url(#sniffer-timing-p52475fa2d2)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+     </g>
+     <g id="sniffer-timing-line2d_17">
+      <g>
+       <use xlink:href="#sniffer-timing-mae40bbd23d" x="314.045097" y="177.3" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-line2d_18">
+      <g>
+       <use xlink:href="#sniffer-timing-m6ab5fe8380" x="314.045097" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+      </g>
+     </g>
+     <g id="sniffer-timing-text_6">
+      <text font-size="10px" text-anchor="middle" class="f-fg" x="314.045097" y="188.397656" transform="rotate(-0 314.045097 188.397656)">10 ms</text>
+     </g>
+    </g>
+   </g>
+   <g id="sniffer-timing-matplotlib.axis_2"/>
+   <g id="sniffer-timing-patch_3">
+    <path d="M 54.462375 60.921 
+L 75.249493 60.921 
+L 75.249493 33.129 
+L 54.462375 33.129 
+z
+" clip-path="url(#sniffer-timing-p52475fa2d2)" class="f-trace"/>
+   </g>
+   <g id="sniffer-timing-line2d_19">
+    <defs>
+     <path id="sniffer-timing-mf1a5a93441" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" class="s-fg"/>
+    </defs>
+    <g clip-path="url(#sniffer-timing-p52475fa2d2)">
+     <use xlink:href="#sniffer-timing-mf1a5a93441" x="60.182363" y="47.025" class="f-fg s-fg"/>
+    </g>
+   </g>
+   <g id="sniffer-timing-line2d_20">
+    <path d="M 149.021894 177.3 
+L 149.021894 3.6 
+" clip-path="url(#sniffer-timing-p52475fa2d2)" fill="none" stroke-dasharray="3.33,1.44" stroke-dashoffset="0" stroke-width="0.9" class="s-dim"/>
+   </g>
+   <g id="sniffer-timing-line2d_21">
+    <path d="M 212.719172 177.3 
+L 212.719172 3.6 
+" clip-path="url(#sniffer-timing-p52475fa2d2)" fill="none" stroke-dasharray="3.33,1.44" stroke-dashoffset="0" stroke-width="0.9" class="s-dim"/>
+   </g>
+   <g id="sniffer-timing-line2d_22">
+    <path d="M 314.045097 177.3 
+L 314.045097 3.6 
+" clip-path="url(#sniffer-timing-p52475fa2d2)" fill="none" stroke-dasharray="3.33,1.44" stroke-dashoffset="0" stroke-width="0.9" class="s-dim"/>
+   </g>
+   <g id="sniffer-timing-patch_4">
+    <path d="M 18.926562 177.3 
+L 18.926562 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-timing-patch_5">
+    <path d="M 342.206562 177.3 
+L 342.206562 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-timing-patch_6">
+    <path d="M 18.926563 177.3 
+L 342.206563 177.3 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-timing-patch_7">
+    <path d="M 18.926563 3.6 
+L 342.206563 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+   </g>
+   <g id="sniffer-timing-text_7">
+    <text font-size="9px" text-anchor="start" class="f-fg" x="83.874511" y="49.363242" transform="rotate(-0 83.874511 49.363242)">0.5 µs jitter</text>
+   </g>
+   <g id="sniffer-timing-text_8">
+    <text font-size="9px" class="f-dim" transform="translate(143.954755 170.352) rotate(-90)">one symbol, 16 µs</text>
+   </g>
+   <g id="sniffer-timing-text_9">
+    <text font-size="9px" class="f-dim" transform="translate(207.652033 170.352) rotate(-90)">ACK turnaround, 192 µs</text>
+   </g>
+   <g id="sniffer-timing-text_10">
+    <text font-size="9px" class="f-dim" transform="translate(308.977958 170.352) rotate(-90)">TSCH slot, 10 ms</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="sniffer-timing-p52475fa2d2">
+   <rect x="18.926562" y="3.6" width="323.28" height="173.7"/>
+  </clipPath>
+ </defs>
+</svg>

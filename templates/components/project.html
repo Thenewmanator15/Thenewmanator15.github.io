@@ -5,6 +5,51 @@
 {%- set text_only = p.extra?.text_only or false -%}
 {%- set bits = p.relative_path | split(pat="/") -%}
 {%- set dir = bits[:-1] | join(sep="/") -%}
+{%- if p.extra?.panel %}
+<article class="project panel" data-channel="{{ n }}">
+<header class="panelhead">
+<div class="pttl">
+<p class="kicker"><span class="tag">CH{{ n }}</span> {{ chan }} · {{<dates start={p.extra.start} end={p.extra?.end or "now"} />}}{% if p.extra?.role %} · role{% endif %}</p>
+<h1>{{ p.title }}</h1>
+<p class="lede">{{ p.description }}</p>
+</div>
+{%- if p.extra?.readouts %}
+{{<lcd items={p.extra.readouts} />}}
+{%- endif %}
+</header>
+{%- if p.extra?.still_to_come %}
+{{<wip_sign items={p.extra.still_to_come} note={p.extra?.still_to_come_note or ""} />}}
+{%- endif %}
+{%- if p.extra?.my_part or p.extra?.result %}
+<div class="duo">
+{%- if p.extra?.my_part %}
+<section class="pcard"><h2 id="what-i-did" class="k">What I did</h2><p>{{ p.extra.my_part }}</p></section>
+{%- endif %}
+{%- if p.extra?.result %}
+<section class="pcard"><h2 id="result" class="k">Result</h2><p>{{ p.extra.result }}</p></section>
+{%- endif %}
+</div>
+{%- endif %}
+{%- if p.extra?.hero and not text_only %}
+<figure class="hero">{{<img path={dir ~ "/" ~ p.extra.hero} alt={p.extra.hero_alt} sizes="(min-width: 64rem) 60rem, 100vw" lazy={false} />}}</figure>
+{%- endif %}
+<div class="prose">
+{%- if parts %}
+<h2 id="parts">Parts</h2>
+<ol class="parts">{% for q in parts %}<li><a href="{{ q.path }}">{{ q.title }}</a>{% if q.extra?.still_to_come %} <span class="lbl wip">in progress</span>{% endif %}{% if q.description %}: {{ q.description }}{% endif %}</li>{% endfor %}</ol>
+{%- endif %}
+{{ p.content | safe }}
+{%- if skills %}
+<h2 id="skills">Skills</h2>
+<ul class="skills">{% for s in skills %}<li>{{ s }}</li>{% endfor %}</ul>
+{%- endif %}
+{%- if proof %}
+<h2 id="proof">Proof</h2>
+{{<proof_list items={proof} />}}
+{%- endif %}
+</div>
+</article>
+{%- else %}
 <article class="project" data-channel="{{ n }}">
 <header class="phead">
 <p class="kicker"><span class="tag">CH{{ n }}</span> {{ chan }} · {{<dates start={p.extra.start} end={p.extra?.end or "now"} />}}{% if p.extra?.role %} · role{% endif %}</p>
@@ -51,6 +96,7 @@
 </div>
 </div>
 </article>
+{%- endif %}
 {%- endcomponent project %}
 
 {#- "Next in ...": the next project in the list (newest first), wrapping round to the first. -#}

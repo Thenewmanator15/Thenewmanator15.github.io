@@ -91,8 +91,13 @@ def _markdown(path: Path) -> list[str]:
             pieces += [str(r.get("label", "")), str(r.get("value", ""))]
         for p in extra.get("proof", []):
             pieces.append(str(p.get("label", "")))
+        for m in extra.get("matrix", []):  # the panel layout's support matrices and stat tiles
+            pieces += [str(m.get("title", "")), str(m.get("sub", "")), *_strings(m.get("rows", [])),
+                       *_strings(m.get("notes", []))]
+        for t in extra.get("tiles", []):
+            pieces.append(str(t.get("label", "")))
     body = re.sub(r"```.*?```", " ", body, flags=re.S)
-    for sc in re.finditer(r"\{\{\s*<figure\b(.*?)/>\s*\}\}", body, re.S):  # the Tera 2 figure component
+    for sc in re.finditer(r"\{\{\s*<(?:figure|chart)\b(.*?)/>\s*\}\}", body, re.S):  # figure and chart components
         pieces += re.findall(r'(?:alt|caption)\s*=\s*"([^"]*)"', sc.group(1))
     body = re.sub(r"\{\{.*?\}\}|\{%.*?%\}", " ", body, flags=re.S)
     pieces.append(body)

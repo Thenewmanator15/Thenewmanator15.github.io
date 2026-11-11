@@ -1,0 +1,5 @@
+# source: esp32c6-sniffer README.md, lines 1119-1139. 1st to 99th percentile of timestamp error against a periodic advertising train.
+# The nRF54L15 row was measured before firmware 7, when its timestamps came in 32 us steps.
+board,p1_us,p99_us,events
+ESP32-C6,-23,22,567
+nRF54L15,-19,42,605
