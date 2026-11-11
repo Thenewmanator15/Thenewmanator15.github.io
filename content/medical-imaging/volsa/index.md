@@ -29,7 +29,7 @@ label = "Code on GitHub"
 url = "https://github.com/Thenewmanator15/volsa"
 [[extra.proof]]
 kind = "code"
-label = "Volsa 0.7.0 for Windows, the latest release"
+label = "Volsa for Windows, the latest release"
 url = "https://github.com/Thenewmanator15/volsa/releases/latest"
 +++
 

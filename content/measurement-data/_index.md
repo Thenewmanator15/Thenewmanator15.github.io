@@ -7,7 +7,7 @@ channel = 3
 # Four key figures for this channel: drafts for Mathew to confirm.
 [[extra.readouts]]
 label = "reading (prototype)"
-value = "~24× faster"
+value = "21–31× faster"
 [[extra.readouts]]
 label = "decode"
 value = "17 µs"

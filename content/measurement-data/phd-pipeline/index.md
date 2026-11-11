@@ -10,10 +10,10 @@ role = false
 skills = ["Julia", "CUDA", "Python", "Rust", "signal processing", "CI"]
 text_only = false
 my_part = "I rebuilt the analysis as Julia packages that run from the raw captures to the decoded spectra, with a thesis build that traces every number to its code. I built it with AI coding agents, directing the design and checking the results."
-result = "Profiling showed reading the compressed captures ran on one thread, at 0.3 to 0.5 GB/s. A parallel reader in a prototype reached 9.8 GB/s for the decoding alone, about 24 times faster."
+result = "Profiling showed reading the compressed captures ran on one thread, at 0.3 to 0.5 GB/s. A parallel reader in a prototype reached 9.8 GB/s for the decoding alone, 21 to 31 times faster."
 [[extra.readouts]]
 label = "reading"
-value = "~24× faster"
+value = "21–31× faster"
 [[extra.readouts]]
 label = "captures"
 value = "~4 TB"
