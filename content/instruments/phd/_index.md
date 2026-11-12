@@ -111,9 +111,9 @@ short because of it.
 | Where | What SIMS showed | Time it took |
 |---|---|---|
 | Microchips | [Corrosion of the cobalt seed layer inside through-silicon vias, in 3D](https://doi.org/10.3390/nano9071035) | traded against mass and spatial resolution |
-| Medicines | [How a steroid drug spreads through commercial tablets, in 3D](https://doi.org/10.1002/jms.5147) | 3 hours of sputtering for one 3D image |
-| Cancer | [Lipids in breast tumour biopsies before and after chemotherapy](https://doi.org/10.1039/c5an02406d) | about 1 mm² per section, not the whole biopsy, because of the time |
-| Bacteria | [Two antibiotics inside single E. coli cells, in 3D at about 300 nm](https://doi.org/10.1021/acs.analchem.7b00466) | about 1 hour per image |
+| Medicines | [How a steroid drug spreads through commercial tablets, in 3D](https://pmc.ncbi.nlm.nih.gov/articles/PMC12086350/) | 3 hours of sputtering for one 3D image |
+| Cancer | [Lipids in breast tumour biopsies before and after chemotherapy](https://pmc.ncbi.nlm.nih.gov/articles/PMC4783233/) | about 1 mm² per section, not the whole biopsy, because of the time |
+| Bacteria | [Two antibiotics inside single E. coli cells, in 3D at about 300 nm](https://pmc.ncbi.nlm.nih.gov/articles/PMC5415874/) | about 1 hour per image |
 | Solar cells | [Where the ions sit in perovskite solar cells as they degrade](https://www.osti.gov/biblio/1461790) | 1.5 to 2 hours per 3D profile |
 | Implants | [Which of hundreds of polymers bacteria stick to, leading to coatings that resist them](https://doi.org/10.1038/nbt.2316) | |
 | Displays | [Why blue OLEDs fail early: oxygen lost at one buried interface (OrbiSIMS)](https://doi.org/10.1038/s41467-023-43840-9) | |
