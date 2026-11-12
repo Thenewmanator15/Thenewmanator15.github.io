@@ -1,0 +1,367 @@
+<svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 345.118437 201.117266" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<defs>
+</defs>
+<g>
+<g>
+<path d="M 0 201.12 
+L 345.12 201.12 
+L 345.12 0 
+L 0 0 
+L 0 201.12 
+z
+" fill="none"/>
+</g>
+<g>
+<g>
+<path d="M 33.90 170.02 
+L 341.52 170.02 
+L 341.52 7.40 
+L 33.90 7.40 
+L 33.90 170.02 
+z
+" fill="none"/>
+</g>
+<g>
+<g>
+<g>
+<path d="M 57.88 170.02 
+L 57.88 7.40 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<defs>
+<path id="driver-rejection-mae40bbd23d" d="M 0 0 
+L 0 -3 
+" stroke-width="0.5" class="s-fg"/>
+</defs>
+<g>
+<use xlink:href="#driver-rejection-mae40bbd23d" x="57.88" y="170.02" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<defs>
+<path id="driver-rejection-m6ab5fe8380" d="M 0 0 
+L 0 3 
+" stroke-width="0.5" class="s-fg"/>
+</defs>
+<g>
+<use xlink:href="#driver-rejection-m6ab5fe8380" x="57.88" y="7.40" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="57.88" y="181.11" transform="rotate(-0 57.88 181.11)">5</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 132.38 170.02 
+L 132.38 7.40 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-mae40bbd23d" x="132.38" y="170.02" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m6ab5fe8380" x="132.38" y="7.40" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="132.38" y="181.11" transform="rotate(-0 132.38 181.11)">10</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 206.88 170.02 
+L 206.88 7.40 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-mae40bbd23d" x="206.88" y="170.02" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m6ab5fe8380" x="206.88" y="7.40" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="206.88" y="181.11" transform="rotate(-0 206.88 181.11)">20</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 305.36 170.02 
+L 305.36 7.40 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-mae40bbd23d" x="305.36" y="170.02" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m6ab5fe8380" x="305.36" y="7.40" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="305.36" y="181.11" transform="rotate(-0 305.36 181.11)">50</text>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="187.71" y="195.11" transform="rotate(-0 187.71 195.11)">Symbol rate (MHz, log scale)</text>
+</g>
+</g>
+<g>
+<g>
+<g>
+<path d="M 33.90 170.02 
+L 341.52 170.02 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<defs>
+<path id="driver-rejection-m2685e6c094" d="M 0 0 
+L 3 0 
+" stroke-width="0.5" class="s-fg"/>
+</defs>
+<g>
+<use xlink:href="#driver-rejection-m2685e6c094" x="33.90" y="170.02" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<defs>
+<path id="driver-rejection-m41dff3320c" d="M 0 0 
+L -3 0 
+" stroke-width="0.5" class="s-fg"/>
+</defs>
+<g>
+<use xlink:href="#driver-rejection-m41dff3320c" x="341.52" y="170.02" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(17.60 173.82)">
+<text>
+<tspan x="0" y="-0.70" font-size="10px" class="f-fg">1</tspan>
+<tspan x="6.36" y="-0.70" font-size="10px" class="f-fg">5</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 33.90 137.49 
+L 341.52 137.49 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m2685e6c094" x="33.90" y="137.49" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m41dff3320c" x="341.52" y="137.49" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(17.60 141.29)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">2</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 33.90 104.97 
+L 341.52 104.97 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m2685e6c094" x="33.90" y="104.97" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m41dff3320c" x="341.52" y="104.97" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(17.60 108.77)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">2</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">5</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 33.90 72.45 
+L 341.52 72.45 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m2685e6c094" x="33.90" y="72.45" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m41dff3320c" x="341.52" y="72.45" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(17.60 76.24)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">3</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 33.90 39.92 
+L 341.52 39.92 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m2685e6c094" x="33.90" y="39.92" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m41dff3320c" x="341.52" y="39.92" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(17.60 43.72)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">3</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">5</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 33.90 7.40 
+L 341.52 7.40 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m2685e6c094" x="33.90" y="7.40" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#driver-rejection-m41dff3320c" x="341.52" y="7.40" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(17.60 11.20)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">4</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="11.20" y="88.71" transform="rotate(-90 11.20 88.71)">Common-mode rejection (dB)</text>
+</g>
+</g>
+<g>
+<path d="M 58.15 16.97 
+L 132.92 55.30 
+L 207.74 93.86 
+L 231.40 100.01 
+L 262.86 118.04 
+L 266.17 114.66 
+L 271.91 114.24 
+L 271.91 114.16 
+L 278.82 127.33 
+L 283.54 117.48 
+L 287.57 121.79 
+L 291.75 124.63 
+L 302.18 127.83 
+L 308.08 130.70 
+L 312.58 136.42 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-linecap="square" class="s-trace"/>
+<defs>
+<path id="driver-rejection-m11e32542d6" d="M 0 1.8 
+C 0.48 1.8 0.94 1.61 1.27 1.27 
+C 1.61 0.94 1.8 0.48 1.8 0 
+C 1.8 -0.48 1.61 -0.94 1.27 -1.27 
+C 0.94 -1.61 0.48 -1.8 0 -1.8 
+C -0.48 -1.8 -0.94 -1.61 -1.27 -1.27 
+C -1.61 -0.94 -1.8 -0.48 -1.8 0 
+C -1.8 0.48 -1.61 0.94 -1.27 1.27 
+C -0.94 1.61 -0.48 1.8 0 1.8 
+z
+" class="s-trace"/>
+</defs>
+<g clip-path="url(#driver-rejection-p0ad927af51)">
+<use xlink:href="#driver-rejection-m11e32542d6" x="58.15" y="16.97" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="132.92" y="55.30" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="207.74" y="93.86" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="231.40" y="100.01" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="262.86" y="118.04" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="266.17" y="114.66" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="271.91" y="114.24" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="271.91" y="114.16" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="278.82" y="127.33" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="283.54" y="117.48" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="287.57" y="121.79" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="291.75" y="124.63" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="302.18" y="127.83" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="308.08" y="130.70" class="f-trace s-trace"/>
+<use xlink:href="#driver-rejection-m11e32542d6" x="312.58" y="136.42" class="f-trace s-trace"/>
+</g>
+</g>
+<g>
+<path d="M 230.86 170.02 
+L 230.86 7.40 
+" clip-path="url(#driver-rejection-p0ad927af51)" fill="none" stroke-dasharray="3.33,1.44" stroke-dashoffset="0" stroke-width="0.9" class="s-dim"/>
+</g>
+<g>
+<path d="M 33.90 170.02 
+L 33.90 7.40 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+</g>
+<g>
+<path d="M 341.52 170.02 
+L 341.52 7.40 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+</g>
+<g>
+<path d="M 33.90 170.02 
+L 341.52 170.02 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+</g>
+<g>
+<path d="M 33.90 7.40 
+L 341.52 7.40 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-dim" x="235.07" y="17.49" transform="rotate(-0 235.07 17.49)">25 MHz target</text>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="driver-rejection-p0ad927af51">
+<rect x="33.90" y="7.40" width="307.62" height="162.62"/>
+</clipPath>
+</defs>
+</svg>

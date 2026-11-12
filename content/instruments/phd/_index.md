@@ -11,26 +11,44 @@ featured = true
 milestone = true
 role = false
 study = true
+panel = true
 bus_label = "PhD"   # its label on the D1 study line
 skills = ["time-of-flight mass spectrometry", "signal processing", "signal integrity", "EMI and grounding"]
 text_only = false
 hero = "biotof.jpg"
 hero_alt = "The BioTOF instrument in its lab: a stainless-steel vacuum chamber on a steel table with tall columns for the ion guns"
-my_part = "I designed the gate that switches the beam and the 150 V driver behind it. I built the 1 GS/s capture that records the result. Then I found out why the first data looked flat."
-result = "In a matched test on the instrument, the modulated beam reached conventional pulsing's signal-to-noise about 30 times faster for the strongest line."
-# Key figures, drawn from the parts.
+my_part = "I designed the gate that switches the beam and the 150 V driver behind it. I built the 1 GS/s capture that records the result, then found out why the first data looked flat."
+result = "In a matched test on the instrument, the coded beam reached the signal-to-noise of pulsing about 30 times faster for the strongest line."
+# Key figures. Order agreed with Mathew, 12 Nov 2026: the result first.
+[[extra.readouts]]
+label = "speed-up"
+value = "~30× faster"   # thesis assets/values/multiplex-compare.json time-107ag 31.9 (95% 28.6 to 36.0)
+[[extra.readouts]]
+label = "gate open"
+value = "50% vs 0.049%"   # multiplex-compare.json duty-mseq-pc 50.024, duty-pulsed-pc 0.04885
 [[extra.readouts]]
 label = "edge"
 value = "1.3–1.8 ns"
 [[extra.readouts]]
-label = "finest gate wires"
-value = "50 µm"
-[[extra.readouts]]
 label = "capture"
 value = "1 GS/s"
-[[extra.readouts]]
-label = "speed-up"
-value = "~30× faster"
+# Tiles: values from the thesis repo (G:/dev/projects/PhD Thesis).
+[[extra.tiles]]
+value = "2.7×"   # multiplex-compare.json lod-gain 2.706 (95% 2.54 to 2.90)
+label = "weaker line detectable in the same time"
+[[extra.tiles]]
+value = "17–20×"   # multiplex-compare.json proj-time-lo 17.20, proj-time-hi 19.54 (a projection)
+label = "projected speed-up against pulsing at its own fastest rate"
+[[extra.tiles]]
+value = "1.7×"   # Content/chapters/results/discussion.typ l.90; gain_budget.csv row 5, 0.7664 in gain
+label = "time lost to events the code never touched"
+[[extra.tiles]]
+value = "~4%"   # multiplex-decode.json copy-linear-pc -4.42, the median over lines
+label = "size of the negative copy each line left"
+[[extra.proof]]
+kind = "document"
+label = "The EPSRC grant behind the project, EP/N028945/1"
+url = "https://gtr.ukri.org/projects?ref=EP%2FN028945%2F1"
 [[extra.proof]]
 kind = "data"
 label = "Supplementary data and figures"
@@ -45,7 +63,7 @@ label = "Simulation: when multiplexing beats pulsing"
 url = "https://thenewmanator15.github.io/mptofsims-supplementary/multiplex-acquisition/"
 +++
 
-## In brief
+<details class="fold" open><summary><h2 id="in-brief">In brief</h2></summary>
 
 A time-of-flight secondary ion mass spectrometer tells you what a surface is made of, molecule
 by molecule, in its top few nanometres. Instruments like it are used to:
@@ -73,8 +91,71 @@ when time is the limit rather than damage to the sample. It also measures what t
 and the electronics each cost. The data, figures and simulations are public on the supplementary
 site. The PhD was funded by a joint award from EPSRC and a University of Manchester Presidential Doctoral Scholarship.
 
+</details>
 
-## The problem
+## Why this work
+
+SIMS has moved towards bigger molecules. Since the early 2000s, beams of C60 or argon clusters have let it
+sputter intact molecules from cells, drugs and devices. They also let it measure below the surface, in depth
+and in 3D.
+
+Heavier molecules fly for longer. A pulsed instrument waits for the slowest ion before the next pulse, so the
+heavier the molecules it looks for, the more of the beam it throws away. A chemical image can take about a
+million cycles and several hours.
+
+{{ <chart name="phd-mass-reach" alt="Log-log chart of the share of the primary beam used against the mass of the heaviest ion measured, from m/z 50 to 30,000. The coded beam stays at 50%. Pulsing with 100 ns pulses falls from 0.23% at m/z 100 to 0.023% at m/z 10,000." caption="Calculated for the BioTOF's 3 m flight path, not measured. Pulsing wastes more of the beam the heavier the ions it has to wait for. A coded beam stays open half the time at any mass." /> }}
+
+SIMS is now used well beyond the surface-science lab. Many of these measurements took hours. Some were cut
+short because of it.
+
+| Where | What SIMS showed | Time it took |
+|---|---|---|
+| Microchips | [Corrosion of the cobalt seed layer inside through-silicon vias, in 3D](https://doi.org/10.3390/nano9071035) | traded against mass and spatial resolution |
+| Medicines | [How a steroid drug spreads through commercial tablets, in 3D](https://doi.org/10.1002/jms.5147) | 3 hours of sputtering for one 3D image |
+| Cancer | [Lipids in breast tumour biopsies before and after chemotherapy](https://doi.org/10.1039/c5an02406d) | about 1 mm² per section, not the whole biopsy, because of the time |
+| Bacteria | [Two antibiotics inside single E. coli cells, in 3D at about 300 nm](https://doi.org/10.1021/acs.analchem.7b00466) | about 1 hour per image |
+| Solar cells | [Where the ions sit in perovskite solar cells as they degrade](https://www.osti.gov/biblio/1461790) | 1.5 to 2 hours per 3D profile |
+| Implants | [Which of hundreds of polymers bacteria stick to, leading to coatings that resist them](https://doi.org/10.1038/nbt.2316) | |
+| Displays | [Why blue OLEDs fail early: oxygen lost at one buried interface (OrbiSIMS)](https://doi.org/10.1038/s41467-023-43840-9) | |
+| Car paint | [Every layer of a 100 µm automotive paint stack](https://www.nist.gov/programs-projects/secondary-ion-mass-spectrometry-ion-source-development) | |
+| Corrosion | [The few-nanometre oxide film that protects stainless steel](https://doi.org/10.3389/fmats.2019.00232) | |
+| Catalysts | [The insides of zeolite catalyst crystals](https://doi.org/10.1039/c3cp54337d) | |
+| Nuclear safeguards | [Uranium particles among millions of dust particles on inspectors' swipes (large-geometry SIMS)](https://joint-research-centre.ec.europa.eu/scientific-activities/nuclear-safeguards-and-non-proliferation/analytical-and-reference-techniques-nuclear-safeguards/environmental-sample-analysis_en) | results within 24 hours |
+| Life on Mars | [Traces of microbes kept in ancient iron deposits in Spain, as a guide for Mars](https://doi.org/10.1038/s41598-021-00730-8) | |
+
+The instruments keep improving. The [3D OrbiSIMS](https://doi.org/10.1038/nmeth.4504) maps metabolites
+in 3D inside single cells. Even so, a [2023 review](https://doi.org/10.3389/fchem.2023.1237408) still lists
+high throughput among what ToF-SIMS needs next.
+
+Coding the beam was already used in other mass spectrometers. This work came from the EPSRC grant
+[Development of Multiplexed ToF-SIMS Instrumentation](https://gtr.ukri.org/projects?ref=EP%2FN028945%2F1)
+(EP/N028945/1, 2016 to 2020), led by Professor Nicholas Lockyer at the University of Manchester. It set out
+to bring that coding to ToF-SIMS, so that images and depth profiles take less time. The grant named advanced
+manufacturing and healthcare as the sectors that would gain. I joined the project in September 2017. After
+the grant ended in February 2020, I carried on until the whole design in its proposal was built and tested
+on the instrument.
+
+## Pulsing against a code
+
+{{ <chart name="phd-coding" alt="Two square-wave traces over two periods of 31 symbols. The pulsed trace opens for one symbol at the start of each period. The coded trace switches on and off in an irregular pattern, open for 16 of every 31 symbols." caption="Pulsing against a coded pattern, drawn short so it can be seen. The test used a code of 2,047 symbols, so pulsing opened the gate for 1 symbol in 2,047." /> }}
+
+## The system
+
+{{ <chart name="phd-architecture" alt="Block diagram. The drive path runs down the left: a 100 MHz clock reference, a pattern generator playing the m-sequence through a 1 GS/s DAC, the 150 V driver, then the Bradbury–Nielsen gate in the vacuum. The C60 ion beam passes through the gate to the sample. Ions from the sample fly to the detector. The capture path runs up the right: the detector, a bought 28 dB pre-amplifier, a 16-bit 1 GS/s ADC, recording in LabVIEW and decoding in Julia. The pattern generator and the ADC share one converter card with one 1 GHz clock. The clock reference, driver and gate are hardware I designed. The pattern generator, capture, recording and decode are firmware or software I wrote or changed. The pre-amplifier, detector, sample and card are bought or part of the instrument." caption="The system. The pattern generator and the capture sit on one converter card, so the code runs from the same clock as the record." /> }}
+
+{{ <chart name="phd-clock" alt="Block diagram of the clock chain. My clock reference board, a 100 MHz OCXO, feeds the converter card. On the card a first loop follows the reference below about 100 Hz. A second loop locks a 3 GHz VCO to a 500 MHz VCSO and sets the jitter, about 200 femtoseconds as modelled. Divided by 3, that gives one 1 GHz sample clock, which feeds both the DAC that plays the code and the ADC that records, whose aperture jitter is 120 femtoseconds." caption="The clock chain. My reference disciplines the jitter cleaner on the converter card, which makes one 1 GHz clock for both converters." /> }}
+
+## Measured
+
+{{ <chart name="phd-pair-spectra" alt="Mirrored plot of the two spectra against flight time from 0 to 112 microseconds. The coded run is drawn upwards and the pulsed run downwards, each as height over its own baseline noise. Both show lines at the same flight times, labelled sodium, silver, silver dimer and silver trimer, with the silver lines tallest. Dashed lines mark 4 standard deviations." caption="The matched pair, 7 September 2022: coded above, pulsed below, each over its own noise. The pulsed run was recorded for 3.5 times as long. The lines fall in the same places." /> }}
+
+{{ <chart name="phd-speedup" alt="Speed-up for five lines on a log scale, each with a 95 per cent interval: sodium 26 times, silver-107 32 times, silver-109 33 times, the silver dimer 11 times and the silver trimer 27 times. A dashed line at 1,024 marks ideal counting. A dotted line at 1 marks no gain." caption="How many times faster the coded run reached the same signal-to-noise, per line, with 95% intervals. Ideal counting would give 1,024." /> }}
+
+{{ <tiles /> }}
+
+## More detail
+
+<details class="fold"><summary><h2 id="the-problem">The problem</h2></summary>
 
 A time-of-flight instrument works out each ion's mass from how long it takes to fly to the
 detector. To start that clock, the beam is let through in short bursts. Each burst then has to
@@ -82,9 +163,9 @@ wait until the slowest ions from the last one have landed. In my pulsed test on 
 left the gate open for 0.049% of the time. The other 99.95% of the beam was thrown away. A
 measurement took as long as it took to collect enough ions from those short bursts.
 
-{{ <chart name="phd-coding" alt="Two square-wave traces over two periods of 31 symbols. The pulsed trace opens for one symbol at the start of each period. The coded trace switches on and off in an irregular pattern, open for 16 of every 31 symbols." caption="Pulsing against a coded pattern, drawn short so it can be seen. The test used a code of 2,047 symbols, so pulsing opened the gate for 1 symbol in 2,047." /> }}
+</details>
 
-## The idea
+<details class="fold"><summary><h2 id="the-idea">The idea</h2></summary>
 
 The idea is the multiplex advantage behind Fourier-transform and Hadamard spectroscopy. Keep the
 beam on about half the time, switched in a known pattern. The ions from different openings then
@@ -96,13 +177,13 @@ With the gate open 1,024 times as long, ideal counting would give 32 times the s
 or the same spectrum in about a thousandth of the time. The question was how much of that
 survives on a real instrument. And if not all of it, what takes the rest?
 
-## The architecture
+</details>
+
+<details class="fold"><summary><h2 id="the-architecture">The architecture</h2></summary>
 
 A coded beam needs a gate that switches in nanoseconds, with a driver to swing it. It needs a
 pattern generator to play the code. It also needs a capture fast enough to record single ions
 for decoding. I added these as a drive path and a capture path around the instrument.
-
-{{ <chart name="phd-architecture" alt="Block diagram. The drive path runs down the left: a 100 MHz clock reference, a pattern generator playing the m-sequence through a 1 GS/s DAC, the 150 V driver, then the Bradbury–Nielsen gate in the vacuum. The C60 ion beam passes through the gate to the sample. Ions from the sample fly to the detector. The capture path runs up the right: the detector, a bought 28 dB pre-amplifier, a 16-bit 1 GS/s ADC, recording in LabVIEW and decoding in Julia. The pattern generator and the ADC share one converter card with one 1 GHz clock. The clock reference, driver and gate are hardware I designed. The pattern generator, capture, recording and decode are firmware or software I wrote or changed. The pre-amplifier, detector, sample and card are bought or part of the instrument." caption="The system. The pattern generator and the capture sit on one converter card, so the code runs from the same clock as the record." /> }}
 
 One card plays the code and records the detector. Both run from the card's 1 GHz clock, which
 my 100 MHz reference disciplines, so every sample in the record should line up with a symbol of
@@ -125,7 +206,9 @@ are about 2 ns wide and a few millivolts high. So they are amplified, then
 without loss. Decoding happens afterwards in software, so the same record can be decoded several
 ways and the results compared.
 
-## The clock
+</details>
+
+<details class="fold"><summary><h2 id="the-clock">The clock</h2></summary>
 
 I made two choices about the clock. The first was to play the code and record the detector from
 one clock. Any drift in the oscillator then moves both together. A symbol is always 100 samples,
@@ -139,8 +222,6 @@ second. It has a low-jitter buffer, attenuators to set each output's level and t
 regulators in parallel. A monitor on the oven current shows when the oscillator has warmed up.
 
 {{ <figure src="clock-reference.jpg" alt="A long green circuit board on a wooden desk. A metal-cased oscillator marked OD100LP-61205CV 100.0 MHz sits in the middle with a blue trimmer beside it. Regulators and a power socket are at the top. Below the oscillator a small buffer chip feeds gold traces to two gold SMA connectors at the bottom edge." caption="The clock reference board out of its case. The buffer below the oscillator feeds the two outputs, each through its own attenuator." /> }}
-
-{{ <chart name="phd-clock" alt="Block diagram of the clock chain. My clock reference board, a 100 MHz OCXO, feeds the converter card. On the card a first loop follows the reference below about 100 Hz. A second loop locks a 3 GHz VCO to a 500 MHz VCSO and sets the jitter, about 200 femtoseconds as modelled. Divided by 3, that gives one 1 GHz sample clock, which feeds both the DAC that plays the code and the ADC that records, whose aperture jitter is 120 femtoseconds." caption="The clock chain. My reference disciplines the jitter cleaner on the converter card, which makes one 1 GHz clock for both converters." /> }}
 
 I measured the board on two oscilloscopes with jitter-analysis software. From 12 kHz to 20 MHz
 the [jitter came out at 2.4 ps](https://thenewmanator15.github.io/mptofsims-supplementary/clock-reference/). That was the oscilloscope's floor: the oscillator's own figure is
@@ -158,7 +239,9 @@ reference would buy nothing. Those figures are modelled, not measured.
 So the jitter is set on the card, not by my reference. The place to improve it is the card's loop
 filter. The reference does the job it's there for: keeping the time of flight steady.
 
-## What I built
+</details>
+
+<details class="fold"><summary><h2 id="what-i-built">What I built</h2></summary>
 
 Each part has its own page, listed above. I designed, built and tested the driver. I designed
 the clock reference board, then measured its jitter. I designed gates, modelled them in CST
@@ -174,7 +257,9 @@ commissioned all of it on the live instrument, which meant fixing ground loops a
 
 {{ <figure src="driver-water-block.jpg" alt="A round water-cooling block on an aluminium plate mounted on the vacuum chamber, with coax cables leaving the board beneath" caption="The driver on the instrument with its water-cooling block, October 2022." /> }}
 
-## How I learned it and checked it
+</details>
+
+<details class="fold"><summary><h2 id="how-i-learned-it-and-checked-it">How I learned it and checked it</h2></summary>
 
 The BioTOF is a commercial instrument that I didn't build. Much of it couldn't be changed,
 including the C60 ion gun. Most of the capture card's firmware was the vendor's. On a fixed
@@ -204,25 +289,25 @@ I also learned to distrust a result until something had tried to break it.
 - Each figure on these pages says whether it was measured or inferred. The dose figures are
   inferred, for example, because the beam current wasn't logged.
 
-## The test
+</details>
+
+<details class="fold"><summary><h2 id="the-test">The test</h2></summary>
 
 On 7 September 2022 I recorded a matched pair, ten minutes apart, through the same gate and
 driver on the same silver sample. One run played an order-11 m-sequence, open 50.0% of the time.
 The other opened the gate once per period of the same length, 0.049% of the time.
 
-## Results
+</details>
+
+<details class="fold"><summary><h2 id="results">Results</h2></summary>
 
 The decoded spectrum is the same spectrum. The lines sit where the pulsed run puts them, with the
 same widths: a resolving power of about 160 at silver-107 in both, on the mass scale fitted to the
 silver lines. The two silver isotopes keep their ratio to within about 10%.
 
-{{ <chart name="phd-pair-spectra" alt="Mirrored plot of the two spectra against flight time from 0 to 112 microseconds. The coded run is drawn upwards and the pulsed run downwards, each as height over its own baseline noise. Both show lines at the same flight times, labelled sodium, silver, silver dimer and silver trimer, with the silver lines tallest. Dashed lines mark 4 standard deviations." caption="The matched pair, 7 September 2022: coded above, pulsed below, each over its own noise. The pulsed run was recorded for 3.5 times as long. The lines fall in the same places." /> }}
-
 It is faster. Every line reached a given signal-to-noise in less time, from 11 times faster for
 the weakest line to 33 times for silver-109. Silver-107 came out 32 times faster (29 to 36).
 At equal time, the smallest detectable line was 2.7 times weaker.
-
-{{ <chart name="phd-speedup" alt="Speed-up for five lines on a log scale, each with a 95 per cent interval: sodium 26 times, silver-107 32 times, silver-109 33 times, the silver dimer 11 times and the silver trimer 27 times. A dashed line at 1,024 marks ideal counting. A dotted line at 1 marks no gain." caption="How many times faster the coded run reached the same signal-to-noise, per line, with 95% intervals. Ideal counting would give 1,024." /> }}
 
 It is not a thousand times faster. The data say why. Decoding spreads every ion's counting
 noise across the whole spectrum. So a line gains only as the square root of its share of all the
@@ -240,7 +325,9 @@ actually delivered, so the dose figures are inferred. The pulsed run repeated at
 long period. Had it run at its own fastest rate, the advantage is projected to fall to 17 to 20
 times. A clean test needs both arms in one run, with the current logged.
 
-## Outcome
+</details>
+
+<details class="fold"><summary><h2 id="outcome">Outcome</h2></summary>
 
 The method works on a real instrument. The coded beam gave the same spectrum as pulsing, about
 30 times faster for the strongest line. Against pulsing at its own fastest rate, the projection
@@ -267,5 +354,7 @@ It measures what each part costs, which is what a next version needs to know.
   20 ps rms at the generator against 33 to 132 ps rms at the driver's output.
 - The driver's high-voltage stage should be a small board of its own beside a cooling element,
   with GaN parts that report their own junction temperature.
+
+</details>
 
 I'm a PhD candidate at the University of Manchester. The thesis is not yet submitted.

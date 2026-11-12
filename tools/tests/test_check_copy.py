@@ -124,6 +124,32 @@ class Files(unittest.TestCase):
             for word in ("seamless", "crucial", "vibrant", "comma before"):
                 self.assertIn(word, out)
 
+    def test_html_tags_skipped_but_their_text_checked(self):
+        # A fold's heading id ("how-i-learned-it-and-checked-it") isn't prose; its title and text are.
+        with tempfile.TemporaryDirectory() as d:
+            c = Path(d) / "content"
+            c.mkdir()
+            (c / "a.md").write_text(
+                '+++\ntitle = "A"\n+++\n<details class="fold"><summary><h2 id="tested-and-checked-and-signed">'
+                'Tested and checked.</h2></summary>\n\nIt worked.\n\n</details>\n\n'
+                '<details class="fold"><summary><h2 id="b">Fast, and small.</h2></summary>\n\nOk.\n\n</details>\n',
+                encoding="utf-8")
+            out = check_paths([c])
+            self.assertFalse(any("two 'and's" in p for p in out), out)
+            self.assertTrue(any("comma before" in p for p in out), out)
+
+    def test_table_cells_are_checked_one_at_a_time(self):
+        # cells have no full stops, so a table must not read as one long sentence
+        with tempfile.TemporaryDirectory() as d:
+            c = Path(d) / "content"
+            c.mkdir()
+            (c / "a.md").write_text(
+                '+++\ntitle = "A"\n+++\n| Where | What |\n|---|---|\n| Chips | before and after |\n'
+                '| Cells | in and out |\n| Paint | fast, and small |\n', encoding="utf-8")
+            out = check_paths([c])
+            self.assertFalse(any("two 'and's" in p for p in out), out)
+            self.assertTrue(any("comma before" in p for p in out), out)
+
     def test_missing_folder_skipped(self):
         self.assertEqual(check_paths([Path("does-not-exist")]), [])
 

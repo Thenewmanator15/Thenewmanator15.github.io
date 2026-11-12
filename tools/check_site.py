@@ -332,6 +332,12 @@ def _panel_problems(where: str, ex: dict, body: str) -> list[str]:
         out.append(f"{where}: tiles need a value and a label")
     if mats and "<matrices" not in body:
         out.append(f"{where}: has a matrix but never shows it: add {{{{ <matrices /> }}}} to the text")
+    elif mats and not re.search(r"<matrices\s*/>", body):  # placed one at a time with only="title"
+        titles = [m.get("title") for m in mats]
+        picked = re.findall(r'<matrices\s+only\s*=\s*"([^"]*)"', body)
+        out += [f'{where}: matrices only="{t}": no matrix has that title' for t in picked if t not in titles]
+        out += [f'{where}: matrix {t} is never shown: add {{{{ <matrices only="{t}" /> }}}} to the text'
+                for t in titles if t and t not in picked]
     if tiles and "<tiles" not in body:
         out.append(f"{where}: has tiles but never shows them: add {{{{ <tiles /> }}}} to the text")
     return out

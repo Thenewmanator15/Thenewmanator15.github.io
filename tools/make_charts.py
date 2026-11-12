@@ -67,6 +67,15 @@ def themed(svg: str, prefix: str = "chart") -> str:
     if "style=" in svg or "<style" in svg:
         raise ValueError("inline style left in the chart")
     svg = re.sub(r"<\?xml[^>]*>\s*|<!DOCTYPE[^>]*>\s*", "", svg)
+    # round geometry to two decimals: invisible at screen size and much smaller (text is untouched)
+    svg = re.sub(r'(\s(?:d|x|y|x1|y1|x2|y2|cx|cy|r|rx|ry|width|height|points|transform)=")([^"]*)"',
+                 lambda m: m.group(1) + re.sub(r"(?<![\de.])(-?\d+\.\d{3,})(?![\de])",
+                                               lambda n: f"{float(n.group(1)):.2f}", m.group(2)) + '"', svg)
+    # drop what only matplotlib needs: comments, ids nothing refers to, indentation
+    svg = re.sub(r"\s*<!--.*?-->", "", svg, flags=re.S)
+    used = set(re.findall(r'(?:href="#|url\(#)([^")]+)', svg))
+    svg = re.sub(r'\s+id="([^"]+)"', lambda m: m.group(0) if m.group(1) in used else "", svg)
+    svg = re.sub(r"\n[ \t]+", "\n", svg)
     # size comes from CSS; keep the viewBox
     svg = re.sub(r'<svg([^>]*?) width="[^"]*" height="[^"]*"', r"<svg\1", svg, count=1)
     return svg.replace("<svg ", '<svg class="chart" aria-hidden="true" focusable="false" ', 1)
@@ -134,6 +143,26 @@ def driver_pdn(plt, np) -> str:
     fig.savefig(buf, format="svg", transparent=True)
     plt.close(fig)
     return buf.getvalue()
+
+
+def driver_rejection(plt, np) -> str:
+    data = sorted(rows("driver-rejection"), key=lambda r: float(r["rate_mhz"]))
+    rate = [float(r["rate_mhz"]) for r in data]
+    cmrr = [float(r["cmrr_db"]) for r in data]
+    fig, ax = plt.subplots(figsize=(5.0, 3.0))
+    ax.plot(rate, cmrr, "-o", ms=3.6, lw=1.0, color="#000008")
+    ax.axvline(25, ls="--", lw=0.9, color="#000002")
+    ax.text(25 * 1.04, 39.5, "25 MHz target", va="top", fontsize=9, color="#000002")
+    ax.set_xscale("log")
+    ax.set_xlim(4, 70)
+    ax.set_xticks([5, 10, 20, 50], ["5", "10", "20", "50"])
+    ax.minorticks_off()
+    ax.set_ylim(15, 40)
+    ax.set_xlabel("Symbol rate (MHz, log scale)")
+    ax.set_ylabel("Common-mode rejection (dB)")
+    out = _finish(fig, ax)
+    plt.close(fig)
+    return out
 
 
 def detector_coupling(plt, np) -> str:
@@ -225,6 +254,34 @@ def phd_coding(plt, np) -> str:
     ax.set_xlabel("Time (symbols), two periods")
     for side in ("left", "right", "top"):
         ax.spines[side].set_visible(False)
+    out = _finish(fig, ax)
+    plt.close(fig)
+    return out
+
+
+def phd_mass_reach(plt, np) -> str:
+    """Calculated from the thesis values, not measured: the share of the beam used against mass."""
+    data = rows("phd-mass-reach")
+    mz = [float(r["mz"]) for r in data]
+    fig, ax = plt.subplots(figsize=(5.0, 3.0))
+    ax.plot(mz, [float(r["coded_pct"]) for r in data], lw=1.6, color="#000008")
+    ax.plot(mz, [float(r["pulsed_pct"]) for r in data], lw=1.6, ls="--", color="#000005")
+    ax.text(60, 62, "coded beam, open half the time", fontsize=9, color="#000001")
+    ax.text(450, 0.32, "pulsed, 100 ns per pulse", fontsize=9, color="#000001")
+    for r in data:
+        if float(r["mz"]) in (100, 10000):
+            p = float(r["pulsed_pct"])
+            ax.plot([float(r["mz"])], [p], "o", ms=4, color="#000005")
+            ax.text(float(r["mz"]), p * 1.9, f"{p:.2g}%", ha="center", fontsize=9, color="#000001")
+    ax.set_xscale("log")
+    ax.set_yscale("log")
+    ax.set_xlim(50, 30000)
+    ax.set_ylim(0.01, 200)
+    ax.set_xticks([100, 1000, 10000], ["100", "1,000", "10,000"])
+    ax.set_yticks([0.01, 0.1, 1, 10, 100], ["0.01%", "0.1%", "1%", "10%", "100%"])
+    ax.minorticks_off()
+    ax.set_xlabel("Mass of the heaviest ion measured (m/z)")
+    ax.set_ylabel("Share of the beam used")
     out = _finish(fig, ax)
     plt.close(fig)
     return out
@@ -419,8 +476,8 @@ def sniffer_fuzz(plt, np) -> str:
     return out
 
 
-CHARTS = {"driver-edges": driver_edges, "driver-pdn": driver_pdn, "detector-coupling": detector_coupling,
-          "gate-blanking": gate_blanking, "phd-coding": phd_coding, "phd-pair-spectra": phd_pair_spectra,
+CHARTS = {"driver-edges": driver_edges, "driver-pdn": driver_pdn, "driver-rejection": driver_rejection, "detector-coupling": detector_coupling,
+          "gate-blanking": gate_blanking, "phd-coding": phd_coding, "phd-mass-reach": phd_mass_reach, "phd-pair-spectra": phd_pair_spectra,
           "phd-speedup": phd_speedup, "sniffer-link": sniffer_link, "sniffer-sweep": sniffer_sweep,
           "sniffer-timing": sniffer_timing, "sniffer-ble-error": sniffer_ble_error,
           "sniffer-carrier": sniffer_carrier, "sniffer-fuzz": sniffer_fuzz}

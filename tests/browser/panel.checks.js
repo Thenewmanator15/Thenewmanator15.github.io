@@ -28,13 +28,17 @@
   const dots = [...document.querySelectorAll(".mcard .dot-on, .mcard .dot-off, .mcard .na")];
   const mute = dots.filter((d) => !d.querySelector(".sr")?.textContent.trim()).length;
   expect("every dot and dash in a matrix has words for screen readers", mute === 0, mute);
-  expect("the matrix legend is there", !document.querySelector(".mx") || !!document.querySelector(".mxkey"), null);
+  expect("the matrix legend is there", !document.querySelector(".mx .dot-on, .mx .dot-off, .mx .na") || !!document.querySelector(".mxkey"), null);
 
   const folds = [...document.querySelectorAll("details.fold")];
   const noHeading = folds.filter((f) => !f.querySelector(":scope > summary h2[id]")).length;
   expect("every fold's title is a heading with an id", noHeading === 0, noHeading);
   if (folds.length) {
-    const fold = folds[0], summary = fold.querySelector(":scope > summary");
+    const startOpen = folds.filter((f) => f.open);
+    const hidden = startOpen.filter((f) => !(f.querySelector(":scope > :not(summary)")?.getBoundingClientRect().height > 0)).length;
+    expect("a fold that starts open shows its text", hidden === 0, hidden);
+    // Test opening on a fold that starts closed (the PhD overview's "In brief" starts open).
+    const fold = folds.find((f) => !f.open) || folds[0], summary = fold.querySelector(":scope > summary");
     summary.focus();
     expect("a fold's title takes keyboard focus", document.activeElement === summary, document.activeElement?.tagName);
     // Script can't press a real key; Enter and Space on a focused summary act as this click does.

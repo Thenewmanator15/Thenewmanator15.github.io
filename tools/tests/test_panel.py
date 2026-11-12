@@ -58,6 +58,11 @@ PAGES = {
     "rf-wireless-embedded/fx-panel/index.md": fixture([("radios", "3"), ("timing", "0.5 µs")], MATRIX,
                                                      "{{ <matrices /> }}\n\n{{ <tiles /> }}"),
     "rf-wireless-embedded/fx-bare/index.md": fixture([("boards", "2")]),
+    "rf-wireless-embedded/fx-split/index.md": fixture(
+        [("boards", "2")],
+        '[[extra.matrix]]\ntitle = "First card"\ncols = ["A"]\nrows = [["Capture", "yes"]]\n'
+        '[[extra.matrix]]\ntitle = "Second card"\ncols = ["45 V"]\nrows = [["20 ns", "about 90 °C"]]\n',
+        '{{ <matrices only="First card" /> }}\n\nMiddle text.\n\n{{ <matrices only="Second card" /> }}'),
     "instruments/fx-big/_index.md": fixture([("boards", "2")]),
     "instruments/fx-big/part-one.md": '+++\ntitle = "Part one"\ndescription = "A part."\nweight = 1\n'
                                       '[extra]\npanel = true\n+++\nText.\n',
@@ -101,6 +106,17 @@ class Panel(unittest.TestCase):
         # matrices and tiles sit where the Markdown calls them, before the folds
         self.assertLess(h.index('class="mx"'), h.index('class="stiles"'))
         self.assertLess(h.index('class="stiles"'), h.index('<details class="fold">'))
+
+    def test_a_matrix_can_be_placed_on_its_own(self):
+        # only="title" draws that one matrix where it's called, so each can sit beside its own text
+        h = self.page("rf-wireless-embedded/fx-split")
+        self.assertEqual(h.count("<h3>First card</h3>"), 1)
+        self.assertEqual(h.count("<h3>Second card</h3>"), 1)
+        self.assertLess(h.index("<h3>First card</h3>"), h.index("Middle text."))
+        self.assertLess(h.index("Middle text."), h.index("<h3>Second card</h3>"))
+        # the dot legend goes only under cards that use dots
+        self.assertEqual(h.count('class="mxkey"'), 1)
+        self.assertLess(h.index('class="mxkey"'), h.index("Middle text."))
 
     def test_tiles_and_cards(self):
         h = self.page("rf-wireless-embedded/fx-panel")

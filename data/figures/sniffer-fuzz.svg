@@ -1,328 +1,328 @@
 <svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 344.400625 230.078437" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <defs>
-  </defs>
- <g id="sniffer-fuzz-figure_1">
-  <g id="sniffer-fuzz-patch_1">
-   <path d="M 0 230.078437 
-L 344.400625 230.078437 
-L 344.400625 0 
+<defs>
+</defs>
+<g>
+<g>
+<path d="M 0 230.08 
+L 344.40 230.08 
+L 344.40 0 
 L 0 0 
-L 0 230.078437 
+L 0 230.08 
 z
 " fill="none"/>
-  </g>
-  <g id="sniffer-fuzz-axes_1">
-   <g id="sniffer-fuzz-patch_2">
-    <path d="M 111.539062 198.977656 
-L 320.124063 198.977656 
-L 320.124063 3.6 
-L 111.539062 3.6 
-L 111.539062 198.977656 
+</g>
+<g>
+<g>
+<path d="M 111.54 198.98 
+L 320.12 198.98 
+L 320.12 3.6 
+L 111.54 3.6 
+L 111.54 198.98 
 z
 " fill="none"/>
-   </g>
-   <g id="sniffer-fuzz-matplotlib.axis_1">
-    <g id="sniffer-fuzz-xtick_1">
-     <g id="sniffer-fuzz-line2d_1">
-      <path d="M 111.539062 198.977656 
-L 111.539062 3.6 
+</g>
+<g>
+<g>
+<g>
+<path d="M 111.54 198.98 
+L 111.54 3.6 
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="sniffer-fuzz-line2d_2">
-      <defs>
-       <path id="sniffer-fuzz-mae40bbd23d" d="M 0 0 
+</g>
+<g>
+<defs>
+<path id="sniffer-fuzz-mae40bbd23d" d="M 0 0 
 L 0 -3 
 " stroke-width="0.5" class="s-fg"/>
-      </defs>
-      <g>
-       <use xlink:href="#sniffer-fuzz-mae40bbd23d" x="111.539062" y="198.977656" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="sniffer-fuzz-line2d_3">
-      <defs>
-       <path id="sniffer-fuzz-m6ab5fe8380" d="M 0 0 
+</defs>
+<g>
+<use xlink:href="#sniffer-fuzz-mae40bbd23d" x="111.54" y="198.98" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<defs>
+<path id="sniffer-fuzz-m6ab5fe8380" d="M 0 0 
 L 0 3 
 " stroke-width="0.5" class="s-fg"/>
-      </defs>
-      <g>
-       <use xlink:href="#sniffer-fuzz-m6ab5fe8380" x="111.539062" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="sniffer-fuzz-text_1">
-      <text font-size="10px" text-anchor="middle" class="f-fg" x="111.539062" y="210.075312" transform="rotate(-0 111.539062 210.075312)">100</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-xtick_2">
-     <g id="sniffer-fuzz-line2d_4">
-      <path d="M 181.067396 198.977656 
-L 181.067396 3.6 
+</defs>
+<g>
+<use xlink:href="#sniffer-fuzz-m6ab5fe8380" x="111.54" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="111.54" y="210.08" transform="rotate(-0 111.54 210.08)">100</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 181.07 198.98 
+L 181.07 3.6 
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="sniffer-fuzz-line2d_5">
-      <g>
-       <use xlink:href="#sniffer-fuzz-mae40bbd23d" x="181.067396" y="198.977656" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="sniffer-fuzz-line2d_6">
-      <g>
-       <use xlink:href="#sniffer-fuzz-m6ab5fe8380" x="181.067396" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="sniffer-fuzz-text_2">
-      <text font-size="10px" text-anchor="middle" class="f-fg" x="181.067396" y="210.075312" transform="rotate(-0 181.067396 210.075312)">1,000</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-xtick_3">
-     <g id="sniffer-fuzz-line2d_7">
-      <path d="M 250.595729 198.977656 
-L 250.595729 3.6 
+</g>
+<g>
+<g>
+<use xlink:href="#sniffer-fuzz-mae40bbd23d" x="181.07" y="198.98" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#sniffer-fuzz-m6ab5fe8380" x="181.07" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="181.07" y="210.08" transform="rotate(-0 181.07 210.08)">1,000</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 250.60 198.98 
+L 250.60 3.6 
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="sniffer-fuzz-line2d_8">
-      <g>
-       <use xlink:href="#sniffer-fuzz-mae40bbd23d" x="250.595729" y="198.977656" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="sniffer-fuzz-line2d_9">
-      <g>
-       <use xlink:href="#sniffer-fuzz-m6ab5fe8380" x="250.595729" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="sniffer-fuzz-text_3">
-      <text font-size="10px" text-anchor="middle" class="f-fg" x="250.595729" y="210.075312" transform="rotate(-0 250.595729 210.075312)">10,000</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-xtick_4">
-     <g id="sniffer-fuzz-line2d_10">
-      <path d="M 320.124062 198.977656 
-L 320.124062 3.6 
+</g>
+<g>
+<g>
+<use xlink:href="#sniffer-fuzz-mae40bbd23d" x="250.60" y="198.98" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#sniffer-fuzz-m6ab5fe8380" x="250.60" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="250.60" y="210.08" transform="rotate(-0 250.60 210.08)">10,000</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 320.12 198.98 
+L 320.12 3.6 
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="sniffer-fuzz-line2d_11">
-      <g>
-       <use xlink:href="#sniffer-fuzz-mae40bbd23d" x="320.124062" y="198.977656" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="sniffer-fuzz-line2d_12">
-      <g>
-       <use xlink:href="#sniffer-fuzz-m6ab5fe8380" x="320.124062" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="sniffer-fuzz-text_4">
-      <text font-size="10px" text-anchor="middle" class="f-fg" x="320.124062" y="210.075312" transform="rotate(-0 320.124062 210.075312)">100,000</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-text_5">
-     <text font-size="10px" text-anchor="middle" class="f-fg" x="215.831563" y="224.076094" transform="rotate(-0 215.831563 224.076094)">Random inputs per run (log scale)</text>
-    </g>
-   </g>
-   <g id="sniffer-fuzz-matplotlib.axis_2">
-    <g id="sniffer-fuzz-ytick_1">
-     <g id="sniffer-fuzz-line2d_13"/>
-     <g id="sniffer-fuzz-line2d_14"/>
-     <g id="sniffer-fuzz-text_6">
-      <text font-size="10px" text-anchor="end" class="f-fg" x="108.039062" y="21.830523" transform="rotate(-0 108.039062 21.830523)">HT signal decoder</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-ytick_2">
-     <g id="sniffer-fuzz-line2d_15"/>
-     <g id="sniffer-fuzz-line2d_16"/>
-     <g id="sniffer-fuzz-text_7">
-      <text font-size="10px" text-anchor="end" class="f-fg" x="108.039062" y="40.332195" transform="rotate(-0 108.039062 40.332195)">HE signal decoder</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-ytick_3">
-     <g id="sniffer-fuzz-line2d_17"/>
-     <g id="sniffer-fuzz-line2d_18"/>
-     <g id="sniffer-fuzz-text_8">
-      <text font-size="10px" text-anchor="end" class="f-fg" x="108.039062" y="58.833867" transform="rotate(-0 108.039062 58.833867)">Wi-Fi metadata</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-ytick_4">
-     <g id="sniffer-fuzz-line2d_19"/>
-     <g id="sniffer-fuzz-line2d_20"/>
-     <g id="sniffer-fuzz-text_9">
-      <text font-size="10px" text-anchor="end" class="f-fg" x="108.039062" y="77.335539" transform="rotate(-0 108.039062 77.335539)">802.15.4 metadata</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-ytick_5">
-     <g id="sniffer-fuzz-line2d_21"/>
-     <g id="sniffer-fuzz-line2d_22"/>
-     <g id="sniffer-fuzz-text_10">
-      <text font-size="10px" text-anchor="end" class="f-fg" x="108.039062" y="95.837211" transform="rotate(-0 108.039062 95.837211)">CSI records</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-ytick_6">
-     <g id="sniffer-fuzz-line2d_23"/>
-     <g id="sniffer-fuzz-line2d_24"/>
-     <g id="sniffer-fuzz-text_11">
-      <text font-size="10px" text-anchor="end" class="f-fg" x="108.039062" y="114.338883" transform="rotate(-0 108.039062 114.338883)">access-point records</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-ytick_7">
-     <g id="sniffer-fuzz-line2d_25"/>
-     <g id="sniffer-fuzz-line2d_26"/>
-     <g id="sniffer-fuzz-text_12">
-      <text font-size="10px" text-anchor="end" class="f-fg" x="108.039062" y="132.840555" transform="rotate(-0 108.039062 132.840555)">board replies</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-ytick_8">
-     <g id="sniffer-fuzz-line2d_27"/>
-     <g id="sniffer-fuzz-line2d_28"/>
-     <g id="sniffer-fuzz-text_13">
-      <text font-size="10px" text-anchor="end" class="f-fg" x="108.039062" y="151.342227" transform="rotate(-0 108.039062 151.342227)">radiotap headers</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-ytick_9">
-     <g id="sniffer-fuzz-line2d_29"/>
-     <g id="sniffer-fuzz-line2d_30"/>
-     <g id="sniffer-fuzz-text_14">
-      <text font-size="10px" text-anchor="end" class="f-fg" x="108.039062" y="169.843899" transform="rotate(-0 108.039062 169.843899)">802.15.4 tap records</text>
-     </g>
-    </g>
-    <g id="sniffer-fuzz-ytick_10">
-     <g id="sniffer-fuzz-line2d_31"/>
-     <g id="sniffer-fuzz-line2d_32"/>
-     <g id="sniffer-fuzz-text_15">
-      <text font-size="10px" text-anchor="end" class="f-fg" x="108.039062" y="188.345571" transform="rotate(-0 108.039062 188.345571)">parser noise</text>
-     </g>
-    </g>
-   </g>
-   <g id="sniffer-fuzz-patch_3">
-    <path d="M -69555.850938 23.581806 
-L 271.525843 23.581806 
-L 271.525843 12.480803 
-L -69555.850938 12.480803 
+</g>
+<g>
+<g>
+<use xlink:href="#sniffer-fuzz-mae40bbd23d" x="320.12" y="198.98" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#sniffer-fuzz-m6ab5fe8380" x="320.12" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="320.12" y="210.08" transform="rotate(-0 320.12 210.08)">100,000</text>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="215.83" y="224.08" transform="rotate(-0 215.83 224.08)">Random inputs per run (log scale)</text>
+</g>
+</g>
+<g>
+<g>
+<g/>
+<g/>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="108.04" y="21.83" transform="rotate(-0 108.04 21.83)">HT signal decoder</text>
+</g>
+</g>
+<g>
+<g/>
+<g/>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="108.04" y="40.33" transform="rotate(-0 108.04 40.33)">HE signal decoder</text>
+</g>
+</g>
+<g>
+<g/>
+<g/>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="108.04" y="58.83" transform="rotate(-0 108.04 58.83)">Wi-Fi metadata</text>
+</g>
+</g>
+<g>
+<g/>
+<g/>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="108.04" y="77.34" transform="rotate(-0 108.04 77.34)">802.15.4 metadata</text>
+</g>
+</g>
+<g>
+<g/>
+<g/>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="108.04" y="95.84" transform="rotate(-0 108.04 95.84)">CSI records</text>
+</g>
+</g>
+<g>
+<g/>
+<g/>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="108.04" y="114.34" transform="rotate(-0 108.04 114.34)">access-point records</text>
+</g>
+</g>
+<g>
+<g/>
+<g/>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="108.04" y="132.84" transform="rotate(-0 108.04 132.84)">board replies</text>
+</g>
+</g>
+<g>
+<g/>
+<g/>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="108.04" y="151.34" transform="rotate(-0 108.04 151.34)">radiotap headers</text>
+</g>
+</g>
+<g>
+<g/>
+<g/>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="108.04" y="169.84" transform="rotate(-0 108.04 169.84)">802.15.4 tap records</text>
+</g>
+</g>
+<g>
+<g/>
+<g/>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="108.04" y="188.35" transform="rotate(-0 108.04 188.35)">parser noise</text>
+</g>
+</g>
+</g>
+<g>
+<path d="M -69555.85 23.58 
+L 271.53 23.58 
+L 271.53 12.48 
+L -69555.85 12.48 
 z
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" class="f-trace"/>
-   </g>
-   <g id="sniffer-fuzz-patch_4">
-    <path d="M -69555.850938 42.083478 
-L 271.525843 42.083478 
-L 271.525843 30.982475 
-L -69555.850938 30.982475 
+</g>
+<g>
+<path d="M -69555.85 42.08 
+L 271.53 42.08 
+L 271.53 30.98 
+L -69555.85 30.98 
 z
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" class="f-trace"/>
-   </g>
-   <g id="sniffer-fuzz-patch_5">
-    <path d="M -69555.850938 60.58515 
-L 201.99751 60.58515 
-L 201.99751 49.484147 
-L -69555.850938 49.484147 
+</g>
+<g>
+<path d="M -69555.85 60.59 
+L 202.00 60.59 
+L 202.00 49.48 
+L -69555.85 49.48 
 z
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" class="f-trace"/>
-   </g>
-   <g id="sniffer-fuzz-patch_6">
-    <path d="M -69555.850938 79.086822 
-L 201.99751 79.086822 
-L 201.99751 67.985819 
-L -69555.850938 67.985819 
+</g>
+<g>
+<path d="M -69555.85 79.09 
+L 202.00 79.09 
+L 202.00 67.99 
+L -69555.85 67.99 
 z
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" class="f-trace"/>
-   </g>
-   <g id="sniffer-fuzz-patch_7">
-    <path d="M -69555.850938 97.588494 
-L 204.875474 97.588494 
-L 204.875474 86.487491 
-L -69555.850938 86.487491 
+</g>
+<g>
+<path d="M -69555.85 97.59 
+L 204.88 97.59 
+L 204.88 86.49 
+L -69555.85 86.49 
 z
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" class="f-trace"/>
-   </g>
-   <g id="sniffer-fuzz-patch_8">
-    <path d="M -69555.850938 116.090166 
-L 201.99751 116.090166 
-L 201.99751 104.989163 
-L -69555.850938 104.989163 
+</g>
+<g>
+<path d="M -69555.85 116.09 
+L 202.00 116.09 
+L 202.00 104.99 
+L -69555.85 104.99 
 z
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" class="f-trace"/>
-   </g>
-   <g id="sniffer-fuzz-patch_9">
-    <path d="M -69555.850938 134.591838 
-L 201.99751 134.591838 
-L 201.99751 123.490835 
-L -69555.850938 123.490835 
+</g>
+<g>
+<path d="M -69555.85 134.59 
+L 202.00 134.59 
+L 202.00 123.49 
+L -69555.85 123.49 
 z
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" class="f-trace"/>
-   </g>
-   <g id="sniffer-fuzz-patch_10">
-    <path d="M -69555.850938 153.09351 
-L 160.137282 153.09351 
-L 160.137282 141.992507 
-L -69555.850938 141.992507 
+</g>
+<g>
+<path d="M -69555.85 153.09 
+L 160.14 153.09 
+L 160.14 141.99 
+L -69555.85 141.99 
 z
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" class="f-trace"/>
-   </g>
-   <g id="sniffer-fuzz-patch_11">
-    <path d="M -69555.850938 171.595182 
-L 144.712508 171.595182 
-L 144.712508 160.494179 
-L -69555.850938 160.494179 
+</g>
+<g>
+<path d="M -69555.85 171.60 
+L 144.71 171.60 
+L 144.71 160.49 
+L -69555.85 160.49 
 z
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" class="f-trace"/>
-   </g>
-   <g id="sniffer-fuzz-patch_12">
-    <path d="M -69555.850938 190.096854 
-L 132.469176 190.096854 
-L 132.469176 178.99585 
-L -69555.850938 178.99585 
+</g>
+<g>
+<path d="M -69555.85 190.10 
+L 132.47 190.10 
+L 132.47 179.00 
+L -69555.85 179.00 
 z
 " clip-path="url(#sniffer-fuzz-p77b8ebf948)" class="f-trace"/>
-   </g>
-   <g id="sniffer-fuzz-patch_13">
-    <path d="M 111.539062 198.977656 
-L 111.539062 3.6 
+</g>
+<g>
+<path d="M 111.54 198.98 
+L 111.54 3.6 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
-   </g>
-   <g id="sniffer-fuzz-patch_14">
-    <path d="M 320.124063 198.977656 
-L 320.124063 3.6 
+</g>
+<g>
+<path d="M 320.12 198.98 
+L 320.12 3.6 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
-   </g>
-   <g id="sniffer-fuzz-patch_15">
-    <path d="M 111.539062 198.977656 
-L 320.124062 198.977656 
+</g>
+<g>
+<path d="M 111.54 198.98 
+L 320.12 198.98 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
-   </g>
-   <g id="sniffer-fuzz-patch_16">
-    <path d="M 111.539062 3.6 
-L 320.124062 3.6 
+</g>
+<g>
+<path d="M 111.54 3.6 
+L 320.12 3.6 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
-   </g>
-   <g id="sniffer-fuzz-text_16">
-    <text font-size="9px" text-anchor="start" class="f-fg" x="275.746063" y="20.369195" transform="rotate(-0 275.746063 20.369195)">20,000</text>
-   </g>
-   <g id="sniffer-fuzz-text_17">
-    <text font-size="9px" text-anchor="start" class="f-fg" x="275.746063" y="38.870867" transform="rotate(-0 275.746063 38.870867)">20,000</text>
-   </g>
-   <g id="sniffer-fuzz-text_18">
-    <text font-size="9px" text-anchor="start" class="f-fg" x="206.217729" y="57.372539" transform="rotate(-0 206.217729 57.372539)">2,000</text>
-   </g>
-   <g id="sniffer-fuzz-text_19">
-    <text font-size="9px" text-anchor="start" class="f-fg" x="206.217729" y="75.874211" transform="rotate(-0 206.217729 75.874211)">2,000</text>
-   </g>
-   <g id="sniffer-fuzz-text_20">
-    <text font-size="9px" text-anchor="start" class="f-fg" x="209.095694" y="94.375883" transform="rotate(-0 209.095694 94.375883)">2,200</text>
-   </g>
-   <g id="sniffer-fuzz-text_21">
-    <text font-size="9px" text-anchor="start" class="f-fg" x="206.217729" y="112.877555" transform="rotate(-0 206.217729 112.877555)">2,000</text>
-   </g>
-   <g id="sniffer-fuzz-text_22">
-    <text font-size="9px" text-anchor="start" class="f-fg" x="206.217729" y="131.379227" transform="rotate(-0 206.217729 131.379227)">2,000</text>
-   </g>
-   <g id="sniffer-fuzz-text_23">
-    <text font-size="9px" text-anchor="start" class="f-fg" x="164.357502" y="149.880899" transform="rotate(-0 164.357502 149.880899)">500</text>
-   </g>
-   <g id="sniffer-fuzz-text_24">
-    <text font-size="9px" text-anchor="start" class="f-fg" x="148.932728" y="168.382571" transform="rotate(-0 148.932728 168.382571)">300</text>
-   </g>
-   <g id="sniffer-fuzz-text_25">
-    <text font-size="9px" text-anchor="start" class="f-fg" x="136.689396" y="186.884243" transform="rotate(-0 136.689396 186.884243)">200</text>
-   </g>
-  </g>
- </g>
- <defs>
-  <clipPath id="sniffer-fuzz-p77b8ebf948">
-   <rect x="111.539062" y="3.6" width="208.585" height="195.377656"/>
-  </clipPath>
- </defs>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="275.75" y="20.37" transform="rotate(-0 275.75 20.37)">20,000</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="275.75" y="38.87" transform="rotate(-0 275.75 38.87)">20,000</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="206.22" y="57.37" transform="rotate(-0 206.22 57.37)">2,000</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="206.22" y="75.87" transform="rotate(-0 206.22 75.87)">2,000</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="209.10" y="94.38" transform="rotate(-0 209.10 94.38)">2,200</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="206.22" y="112.88" transform="rotate(-0 206.22 112.88)">2,000</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="206.22" y="131.38" transform="rotate(-0 206.22 131.38)">2,000</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="164.36" y="149.88" transform="rotate(-0 164.36 149.88)">500</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="148.93" y="168.38" transform="rotate(-0 148.93 168.38)">300</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="136.69" y="186.88" transform="rotate(-0 136.69 186.88)">200</text>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="sniffer-fuzz-p77b8ebf948">
+<rect x="111.54" y="3.6" width="208.59" height="195.38"/>
+</clipPath>
+</defs>
 </svg>

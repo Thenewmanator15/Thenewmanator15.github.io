@@ -256,8 +256,9 @@ class BuiltSite(unittest.TestCase):
 
     def test_driver_chart_is_inline_and_themed(self):
         html = (PUBLIC / "instruments" / "phd" / "driver" / "index.html").read_text(encoding="utf-8")
-        box = re.search(r'<div class="chartbox" role="img" aria-label="([^"]+)"><svg class="chart" aria-hidden="true"', html)
-        self.assertTrue(box and box.group(1).startswith("Scatter plot of edge time"), "chart not inlined with a label")
+        labels = re.findall(r'<div class="chartbox" role="img" aria-label="([^"]+)"><svg class="chart" aria-hidden="true"', html)
+        self.assertTrue(any(l.startswith("Scatter plot of edge time") for l in labels), "chart not inlined with a label")
+        self.assertTrue(any(l.startswith("Line chart of common-mode rejection") for l in labels), labels)
         self.assertEqual(csp_problems(html), [])
 
     def test_front_page_extras(self):
@@ -442,6 +443,18 @@ class FrontMatter(unittest.TestCase):
         self.assertEqual(self.panel_problems(self.PANEL, body="\nNo calls here.\n"),
                          ["content/instruments/x/index.md: has a matrix but never shows it: add {{ <matrices /> }} to the text",
                           "content/instruments/x/index.md: has tiles but never shows them: add {{ <tiles /> }} to the text"])
+
+    def test_matrices_placed_one_at_a_time(self):
+        two = self.PANEL + '[[extra.matrix]]\ntitle = "Heat"\ncols = ["45 V"]\nrows = [["20 ns", "hot"]]\n'
+        both = '\n{{ <matrices only="Radio" /> }}\n\nText.\n\n{{ <matrices only="Heat" /> }}\n\n{{ <tiles /> }}\n'
+        self.assertEqual(self.panel_problems(two, body=both), [])
+        one = '\n{{ <matrices only="Radio" /> }}\n\n{{ <tiles /> }}\n'
+        self.assertEqual(self.panel_problems(two, body=one),
+                         ['content/instruments/x/index.md: matrix Heat is never shown: add {{ <matrices only="Heat" /> }} to the text'])
+        typo = both.replace('only="Heat"', 'only="Heta"')
+        self.assertEqual(self.panel_problems(two, body=typo),
+                         ['content/instruments/x/index.md: matrices only="Heta": no matrix has that title',
+                          'content/instruments/x/index.md: matrix Heat is never shown: add {{ <matrices only="Heat" /> }} to the text'])
 
     def test_role_rules(self):
         self.flagged("role = false", "role = true", "bus_label")

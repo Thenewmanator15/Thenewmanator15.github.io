@@ -2,14 +2,18 @@
     `lcd` is the readout screen in the page header. `matrices` and `tiles` are called from the page's
     Markdown, where the story needs them, and draw [[extra.matrix]] and [[extra.tiles]]:
       {{ <matrices /> }}   {{ <tiles /> }}
+    {{ <matrices only="Title" /> }} draws one matrix, so each can sit beside its own text.
     Matrix cells: "yes" is a lit dot, "no" a hollow dot, "-" does not apply; anything else is text. -#}
 {% component lcd(items) -%}
 <dl class="lcd">{% for r in items %}<div class="ro"><dt>{{ r.label }}</dt><dd>{{ r.value }}</dd></div>{% endfor %}</dl>
 {%- endcomponent lcd %}
 
-{% component matrices(@page = none, @section = none) -%}
+{% component matrices(only: string = "", @page = none, @section = none) -%}
 {%- set p = page if page else section -%}
 {%- set mats = p.extra?.matrix or [] -%}
+{%- if only %}{% set_global picked = [] %}{% for m in mats %}{% if m.title == only %}{% set_global picked = [...picked, m] %}{% endif %}{% endfor %}{% set mats = picked %}{% endif -%}
+{%- set_global dots = false -%}
+{%- for m in mats %}{% for r in m.rows %}{% for v in r[1:] %}{% if v == "yes" or v == "no" or v == "-" %}{% set_global dots = true %}{% endif %}{% endfor %}{% endfor %}{% endfor -%}
 {%- if mats -%}
 <div class="mx">
 {%- for m in mats %}
@@ -29,7 +33,9 @@
 </section>
 {%- endfor %}
 </div>
+{%- if dots %}
 <p class="mxkey"><span class="dot-on" aria-hidden="true"></span> yes <span class="dot-off" aria-hidden="true"></span> no <span class="na" aria-hidden="true">–</span> does not apply</p>
+{%- endif %}
 {%- endif -%}
 {%- endcomponent matrices %}
 

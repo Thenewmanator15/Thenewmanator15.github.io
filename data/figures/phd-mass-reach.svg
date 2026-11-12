@@ -1,0 +1,394 @@
+<svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 345.365625 201.278437" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<defs>
+</defs>
+<g>
+<g>
+<path d="M 0 201.28 
+L 345.37 201.28 
+L 345.37 0 
+L 0 0 
+L 0 201.28 
+z
+" fill="none"/>
+</g>
+<g>
+<g>
+<path d="M 52.87 170.18 
+L 341.77 170.18 
+L 341.77 3.6 
+L 52.87 3.6 
+L 52.87 170.18 
+z
+" fill="none"/>
+</g>
+<g>
+<g>
+<g>
+<path d="M 84.17 170.18 
+L 84.17 3.6 
+" clip-path="url(#phd-mass-reach-pd0bd293b9e)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<defs>
+<path id="phd-mass-reach-mae40bbd23d" d="M 0 0 
+L 0 -3 
+" stroke-width="0.5" class="s-fg"/>
+</defs>
+<g>
+<use xlink:href="#phd-mass-reach-mae40bbd23d" x="84.17" y="170.18" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<defs>
+<path id="phd-mass-reach-m6ab5fe8380" d="M 0 0 
+L 0 3 
+" stroke-width="0.5" class="s-fg"/>
+</defs>
+<g>
+<use xlink:href="#phd-mass-reach-m6ab5fe8380" x="84.17" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="84.17" y="181.28" transform="rotate(-0 84.17 181.28)">100</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 188.16 170.18 
+L 188.16 3.6 
+" clip-path="url(#phd-mass-reach-pd0bd293b9e)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-mae40bbd23d" x="188.16" y="170.18" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-m6ab5fe8380" x="188.16" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="188.16" y="181.28" transform="rotate(-0 188.16 181.28)">1,000</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 292.15 170.18 
+L 292.15 3.6 
+" clip-path="url(#phd-mass-reach-pd0bd293b9e)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-mae40bbd23d" x="292.15" y="170.18" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-m6ab5fe8380" x="292.15" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="292.15" y="181.28" transform="rotate(-0 292.15 181.28)">10,000</text>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="197.32" y="195.28" transform="rotate(-0 197.32 195.28)">Mass of the heaviest ion measured (m/z)</text>
+</g>
+</g>
+<g>
+<g>
+<g>
+<path d="M 52.87 170.18 
+L 341.77 170.18 
+" clip-path="url(#phd-mass-reach-pd0bd293b9e)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<defs>
+<path id="phd-mass-reach-m2685e6c094" d="M 0 0 
+L 3 0 
+" stroke-width="0.5" class="s-fg"/>
+</defs>
+<g>
+<use xlink:href="#phd-mass-reach-m2685e6c094" x="52.87" y="170.18" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<defs>
+<path id="phd-mass-reach-m41dff3320c" d="M 0 0 
+L -3 0 
+" stroke-width="0.5" class="s-fg"/>
+</defs>
+<g>
+<use xlink:href="#phd-mass-reach-m41dff3320c" x="341.77" y="170.18" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="49.37" y="173.98" transform="rotate(-0 49.37 173.98)">0.01%</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 52.87 131.45 
+L 341.77 131.45 
+" clip-path="url(#phd-mass-reach-pd0bd293b9e)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-m2685e6c094" x="52.87" y="131.45" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-m41dff3320c" x="341.77" y="131.45" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="49.37" y="135.25" transform="rotate(-0 49.37 135.25)">0.1%</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 52.87 92.72 
+L 341.77 92.72 
+" clip-path="url(#phd-mass-reach-pd0bd293b9e)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-m2685e6c094" x="52.87" y="92.72" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-m41dff3320c" x="341.77" y="92.72" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="49.37" y="96.52" transform="rotate(-0 49.37 96.52)">1%</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 52.87 53.99 
+L 341.77 53.99 
+" clip-path="url(#phd-mass-reach-pd0bd293b9e)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-m2685e6c094" x="52.87" y="53.99" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-m41dff3320c" x="341.77" y="53.99" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="49.37" y="57.79" transform="rotate(-0 49.37 57.79)">10%</text>
+</g>
+</g>
+<g>
+<g>
+<path d="M 52.87 15.26 
+L 341.77 15.26 
+" clip-path="url(#phd-mass-reach-pd0bd293b9e)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-m2685e6c094" x="52.87" y="15.26" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#phd-mass-reach-m41dff3320c" x="341.77" y="15.26" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="end" class="f-fg" x="49.37" y="19.06" transform="rotate(-0 49.37 19.06)">100%</text>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="11.20" y="86.89" transform="rotate(-90 11.20 86.89)">Share of the beam used</text>
+</g>
+</g>
+<g>
+<path d="M 52.87 26.92 
+L 57.99 26.92 
+L 63.31 26.92 
+L 68.70 26.92 
+L 73.53 26.92 
+L 78.91 26.92 
+L 84.17 26.92 
+L 89.29 26.92 
+L 94.61 26.92 
+L 99.69 26.92 
+L 104.83 26.92 
+L 110.21 26.92 
+L 115.48 26.92 
+L 120.59 26.92 
+L 125.73 26.92 
+L 130.99 26.92 
+L 136.13 26.92 
+L 141.39 26.92 
+L 146.55 26.92 
+L 151.80 26.92 
+L 156.95 26.92 
+L 162.14 26.92 
+L 167.37 26.92 
+L 172.57 26.92 
+L 177.74 26.92 
+L 182.95 26.92 
+L 188.16 26.92 
+L 193.36 26.92 
+L 198.56 26.92 
+L 203.77 26.92 
+L 208.96 26.92 
+L 214.15 26.92 
+L 219.35 26.92 
+L 224.56 26.92 
+L 229.76 26.92 
+L 234.95 26.92 
+L 240.15 26.92 
+L 245.35 26.92 
+L 250.55 26.92 
+L 255.76 26.92 
+L 260.95 26.92 
+L 266.15 26.92 
+L 271.36 26.92 
+L 276.55 26.92 
+L 281.75 26.92 
+L 286.95 26.92 
+L 292.15 26.92 
+L 297.35 26.92 
+L 302.55 26.92 
+L 307.75 26.92 
+L 312.95 26.92 
+L 318.15 26.92 
+L 323.35 26.92 
+L 328.55 26.92 
+L 333.75 26.92 
+L 338.95 26.92 
+" clip-path="url(#phd-mass-reach-pd0bd293b9e)" fill="none" stroke-width="1.6" stroke-linecap="square" class="s-trace"/>
+</g>
+<g>
+<path d="M 52.87 111.50 
+L 57.99 112.45 
+L 63.31 113.44 
+L 68.70 114.45 
+L 73.53 115.34 
+L 78.91 116.35 
+L 84.17 117.33 
+L 89.29 118.28 
+L 94.61 119.27 
+L 99.69 120.22 
+L 104.83 121.17 
+L 110.21 122.18 
+L 115.48 123.16 
+L 120.59 124.11 
+L 125.73 125.07 
+L 130.99 126.05 
+L 136.13 127.00 
+L 141.39 127.98 
+L 146.55 128.94 
+L 151.80 129.92 
+L 156.95 130.88 
+L 162.14 131.85 
+L 167.37 132.82 
+L 172.57 133.79 
+L 177.74 134.75 
+L 182.95 135.72 
+L 188.16 136.69 
+L 193.36 137.66 
+L 198.56 138.63 
+L 203.77 139.60 
+L 208.96 140.57 
+L 214.15 141.53 
+L 219.35 142.50 
+L 224.56 143.47 
+L 229.76 144.44 
+L 234.95 145.41 
+L 240.15 146.37 
+L 245.35 147.34 
+L 250.55 148.31 
+L 255.76 149.28 
+L 260.95 150.25 
+L 266.15 151.22 
+L 271.36 152.18 
+L 276.55 153.15 
+L 281.75 154.12 
+L 286.95 155.09 
+L 292.15 156.06 
+L 297.35 157.03 
+L 302.55 157.99 
+L 307.75 158.96 
+L 312.95 159.93 
+L 318.15 160.90 
+L 323.35 161.87 
+L 328.55 162.83 
+L 333.75 163.80 
+L 338.95 164.77 
+" clip-path="url(#phd-mass-reach-pd0bd293b9e)" fill="none" stroke-dasharray="5.92,2.56" stroke-dashoffset="0" stroke-width="1.6" class="s-c2"/>
+</g>
+<g>
+<defs>
+<path id="phd-mass-reach-m4ebbefa9ab" d="M 0 2 
+C 0.53 2 1.04 1.79 1.41 1.41 
+C 1.79 1.04 2 0.53 2 0 
+C 2 -0.53 1.79 -1.04 1.41 -1.41 
+C 1.04 -1.79 0.53 -2 0 -2 
+C -0.53 -2 -1.04 -1.79 -1.41 -1.41 
+C -1.79 -1.04 -2 -0.53 -2 0 
+C -2 0.53 -1.79 1.04 -1.41 1.41 
+C -1.04 1.79 -0.53 2 0 2 
+z
+" class="s-c2"/>
+</defs>
+<g clip-path="url(#phd-mass-reach-pd0bd293b9e)">
+<use xlink:href="#phd-mass-reach-m4ebbefa9ab" x="84.17" y="117.33" class="f-c2 s-c2"/>
+</g>
+</g>
+<g>
+<g clip-path="url(#phd-mass-reach-pd0bd293b9e)">
+<use xlink:href="#phd-mass-reach-m4ebbefa9ab" x="292.15" y="156.06" class="f-c2 s-c2"/>
+</g>
+</g>
+<g>
+<path d="M 52.87 170.18 
+L 52.87 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+</g>
+<g>
+<path d="M 341.77 170.18 
+L 341.77 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+</g>
+<g>
+<path d="M 52.87 170.18 
+L 341.77 170.18 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+</g>
+<g>
+<path d="M 52.87 3.6 
+L 341.77 3.6 
+" fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="61.10" y="23.30" transform="rotate(-0 61.10 23.30)">coded beam, open half the time</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="start" class="f-fg" x="152.10" y="111.88" transform="rotate(-0 152.10 111.88)">pulsed, 100 ns per pulse</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="middle" class="f-fg" x="84.17" y="106.53" transform="rotate(-0 84.17 106.53)">0.23%</text>
+</g>
+<g>
+<text font-size="9px" text-anchor="middle" class="f-fg" x="292.15" y="145.26" transform="rotate(-0 292.15 145.26)">0.023%</text>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="phd-mass-reach-pd0bd293b9e">
+<rect x="52.87" y="3.6" width="288.90" height="166.58"/>
+</clipPath>
+</defs>
+</svg>

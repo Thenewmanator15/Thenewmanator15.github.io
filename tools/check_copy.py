@@ -100,6 +100,9 @@ def _markdown(path: Path) -> list[str]:
     for sc in re.finditer(r"\{\{\s*<(?:figure|chart)\b(.*?)/>\s*\}\}", body, re.S):  # figure and chart components
         pieces += re.findall(r'(?:alt|caption)\s*=\s*"([^"]*)"', sc.group(1))
     body = re.sub(r"\{\{.*?\}\}|\{%.*?%\}", " ", body, flags=re.S)
+    body = re.sub(r"<[^>]+>", " ", body)  # HTML tags (fold headings' ids) aren't prose; their text still is
+    # a table cell stands alone: it has no full stop, so mark its edges as sentence ends
+    body = re.sub(r"^\|.*$", lambda m: m.group(0).replace("|", ". "), body, flags=re.M)
     pieces.append(body)
     return [p for p in pieces if p]
 

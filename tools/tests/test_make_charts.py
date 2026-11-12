@@ -39,6 +39,25 @@ class Themed(unittest.TestCase):
         self.assertIn('xlink:href="#pdn-m1"', out)
         self.assertIn('url(#pdn-m1)', out)
 
+    def test_coordinates_are_rounded_but_text_is_not(self):
+        # matplotlib writes six decimals; two are invisible on screen and keep pages small
+        svg = SAMPLE.replace('d="M0 0"', 'd="M 12.345678 -9.876543 L 1e-05 3"').replace(
+            ">1.0</text>", ' x="1.23456" transform="translate(3.14159 2.71828)">0.023%</text>')
+        out = themed(svg)
+        self.assertIn('d="M 12.35 -9.88 L 1e-05 3"', out)
+        self.assertIn('x="1.23"', out)
+        self.assertIn('transform="translate(3.14 2.72)"', out)
+        self.assertIn(">0.023%</text>", out)
+
+    def test_unused_ids_comments_and_indents_dropped(self):
+        svg = SAMPLE.replace('<path d="M0 0"', '\n   <!-- a note -->\n   <g id="figure_1"><path id="m1" d="M0 0"').replace(
+            "</svg>", '</g><use xlink:href="#m1"/></svg>')
+        out = themed(svg, "pdn")
+        self.assertNotIn('id="pdn-figure_1"', out)
+        self.assertIn('id="pdn-m1"', out)
+        self.assertNotIn("a note", out)
+        self.assertNotIn("\n   ", out)
+
     def test_grid_and_trace_placeholders(self):
         self.assertIn('class="s-grid"', themed(SAMPLE.replace("#000003", "#000007")))
         self.assertIn('class="s-trace"', themed(SAMPLE.replace("#000003", "#000008")))
@@ -66,6 +85,34 @@ class Themed(unittest.TestCase):
         self.assertIn("measured by the ESP32-C6", text)
         page = (ROOT / "content" / "rf-wireless-embedded" / "sniffers" / "index.md").read_text(encoding="utf-8")
         self.assertNotIn("reading on the nRF54L15", page)
+
+    def test_driver_rejection_matches_the_thesis(self):
+        # poly6 rows of the thesis width sweep; ends match bng-driver.json cmrr-slowest and cmrr-fastest
+        import csv
+        path = ROOT / "data" / "figures" / "driver-rejection.csv"
+        self.assertTrue(path.read_text(encoding="utf-8").startswith("# source:"))
+        with open(path, encoding="utf-8", newline="") as f:
+            data = list(csv.DictReader(l for l in f if not l.startswith("#")))
+        self.assertEqual(len(data), 15)
+        by_rate = sorted(data, key=lambda r: float(r["rate_mhz"]))
+        self.assertAlmostEqual(float(by_rate[0]["rate_mhz"]), 5.01, places=2)
+        self.assertAlmostEqual(float(by_rate[0]["cmrr_db"]), 38.53, places=2)
+        self.assertAlmostEqual(float(by_rate[-1]["rate_mhz"]), 53.48, places=2)
+        self.assertAlmostEqual(float(by_rate[-1]["cmrr_db"]), 20.16, places=2)
+        self.assertTrue((ROOT / "data" / "figures" / "driver-rejection.svg").exists())
+
+    def test_phd_mass_reach_matches_the_thesis(self):
+        # thesis assets/values/mass-reach.json: 43.19 us and 0.2315 % at m/z 100, 0.02315 % at m/z 10,000
+        import csv
+        path = ROOT / "data" / "figures" / "phd-mass-reach.csv"
+        self.assertTrue(path.read_text(encoding="utf-8").startswith("# source:"))
+        with open(path, encoding="utf-8", newline="") as f:
+            data = {float(r["mz"]): r for r in csv.DictReader(l for l in f if not l.startswith("#"))}
+        self.assertAlmostEqual(float(data[100]["flight_us"]), 43.19, places=2)
+        self.assertAlmostEqual(float(data[100]["pulsed_pct"]), 0.2315, places=4)
+        self.assertAlmostEqual(float(data[10000]["pulsed_pct"]), 0.02315, places=5)
+        self.assertTrue(all(float(r["coded_pct"]) == 50 for r in data.values()))
+        self.assertTrue((ROOT / "data" / "figures" / "phd-mass-reach.svg").exists())
 
     def test_hand_drawn_sniffer_diagrams_exist(self):
         for name in ("datapath", "header", "retune"):

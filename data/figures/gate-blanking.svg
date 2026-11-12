@@ -1,1413 +1,1395 @@
 <svg class="chart" aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 344.858437 244.156094" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <defs>
-  </defs>
- <g id="gate-blanking-figure_1">
-  <g id="gate-blanking-patch_1">
-   <path d="M 0 244.156094 
-L 344.858437 244.156094 
-L 344.858437 0 
+<defs>
+</defs>
+<g>
+<g>
+<path d="M 0 244.16 
+L 344.86 244.16 
+L 344.86 0 
 L 0 0 
-L 0 244.156094 
+L 0 244.16 
 z
 " fill="none"/>
-  </g>
-  <g id="gate-blanking-axes_1">
-   <g id="gate-blanking-patch_2">
-    <path d="M 40.200781 213.055312 
-L 334.858437 213.055312 
-L 334.858437 3.6 
-L 40.200781 3.6 
-L 40.200781 213.055312 
+</g>
+<g>
+<g>
+<path d="M 40.20 213.06 
+L 334.86 213.06 
+L 334.86 3.6 
+L 40.20 3.6 
+L 40.20 213.06 
 z
 " fill="none"/>
-   </g>
-   <g id="gate-blanking-matplotlib.axis_1">
-    <g id="gate-blanking-xtick_1">
-     <g id="gate-blanking-line2d_1">
-      <path d="M 40.200781 213.055312 
-L 40.200781 3.6 
+</g>
+<g>
+<g>
+<g>
+<path d="M 40.20 213.06 
+L 40.20 3.6 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_2">
-      <defs>
-       <path id="gate-blanking-mae40bbd23d" d="M 0 0 
+</g>
+<g>
+<defs>
+<path id="gate-blanking-mae40bbd23d" d="M 0 0 
 L 0 -3 
 " stroke-width="0.5" class="s-fg"/>
-      </defs>
-      <g>
-       <use xlink:href="#gate-blanking-mae40bbd23d" x="40.200781" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_3">
-      <defs>
-       <path id="gate-blanking-m6ab5fe8380" d="M 0 0 
+</defs>
+<g>
+<use xlink:href="#gate-blanking-mae40bbd23d" x="40.20" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<defs>
+<path id="gate-blanking-m6ab5fe8380" d="M 0 0 
 L 0 3 
 " stroke-width="0.5" class="s-fg"/>
-      </defs>
-      <g>
-       <use xlink:href="#gate-blanking-m6ab5fe8380" x="40.200781" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_1">
-      <!-- $\mathdefault{0}$ -->
-      <g class="f-fg" transform="translate(37.000781 224.152969)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_2">
-     <g id="gate-blanking-line2d_4">
-      <path d="M 82.294732 213.055312 
-L 82.294732 3.6 
+</defs>
+<g>
+<use xlink:href="#gate-blanking-m6ab5fe8380" x="40.20" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(37.00 224.15)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 82.29 213.06 
+L 82.29 3.6 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_5">
-      <g>
-       <use xlink:href="#gate-blanking-mae40bbd23d" x="82.294732" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_6">
-      <g>
-       <use xlink:href="#gate-blanking-m6ab5fe8380" x="82.294732" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_2">
-      <!-- $\mathdefault{10}$ -->
-      <g class="f-fg" transform="translate(75.894732 224.152969)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">1</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_3">
-     <g id="gate-blanking-line2d_7">
-      <path d="M 124.388683 213.055312 
-L 124.388683 3.6 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-mae40bbd23d" x="82.29" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m6ab5fe8380" x="82.29" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(75.89 224.15)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">1</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 124.39 213.06 
+L 124.39 3.6 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_8">
-      <g>
-       <use xlink:href="#gate-blanking-mae40bbd23d" x="124.388683" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_9">
-      <g>
-       <use xlink:href="#gate-blanking-m6ab5fe8380" x="124.388683" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_3">
-      <!-- $\mathdefault{20}$ -->
-      <g class="f-fg" transform="translate(117.988683 224.152969)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">2</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_4">
-     <g id="gate-blanking-line2d_10">
-      <path d="M 166.482634 213.055312 
-L 166.482634 3.6 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-mae40bbd23d" x="124.39" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m6ab5fe8380" x="124.39" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(117.99 224.15)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">2</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 166.48 213.06 
+L 166.48 3.6 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_11">
-      <g>
-       <use xlink:href="#gate-blanking-mae40bbd23d" x="166.482634" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_12">
-      <g>
-       <use xlink:href="#gate-blanking-m6ab5fe8380" x="166.482634" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_4">
-      <!-- $\mathdefault{30}$ -->
-      <g class="f-fg" transform="translate(160.082634 224.152969)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">3</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_5">
-     <g id="gate-blanking-line2d_13">
-      <path d="M 208.576585 213.055312 
-L 208.576585 3.6 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-mae40bbd23d" x="166.48" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m6ab5fe8380" x="166.48" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(160.08 224.15)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">3</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 208.58 213.06 
+L 208.58 3.6 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_14">
-      <g>
-       <use xlink:href="#gate-blanking-mae40bbd23d" x="208.576585" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_15">
-      <g>
-       <use xlink:href="#gate-blanking-m6ab5fe8380" x="208.576585" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_5">
-      <!-- $\mathdefault{40}$ -->
-      <g class="f-fg" transform="translate(202.176585 224.152969)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">4</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_6">
-     <g id="gate-blanking-line2d_16">
-      <path d="M 250.670536 213.055312 
-L 250.670536 3.6 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-mae40bbd23d" x="208.58" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m6ab5fe8380" x="208.58" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(202.18 224.15)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">4</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 250.67 213.06 
+L 250.67 3.6 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_17">
-      <g>
-       <use xlink:href="#gate-blanking-mae40bbd23d" x="250.670536" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_18">
-      <g>
-       <use xlink:href="#gate-blanking-m6ab5fe8380" x="250.670536" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_6">
-      <!-- $\mathdefault{50}$ -->
-      <g class="f-fg" transform="translate(244.270536 224.152969)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">5</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_7">
-     <g id="gate-blanking-line2d_19">
-      <path d="M 292.764487 213.055312 
-L 292.764487 3.6 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-mae40bbd23d" x="250.67" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m6ab5fe8380" x="250.67" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(244.27 224.15)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">5</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 292.76 213.06 
+L 292.76 3.6 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_20">
-      <g>
-       <use xlink:href="#gate-blanking-mae40bbd23d" x="292.764487" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_21">
-      <g>
-       <use xlink:href="#gate-blanking-m6ab5fe8380" x="292.764487" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_7">
-      <!-- $\mathdefault{60}$ -->
-      <g class="f-fg" transform="translate(286.364487 224.152969)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">6</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_8">
-     <g id="gate-blanking-line2d_22">
-      <path d="M 334.858437 213.055312 
-L 334.858437 3.6 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-mae40bbd23d" x="292.76" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m6ab5fe8380" x="292.76" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(286.36 224.15)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">6</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 334.86 213.06 
+L 334.86 3.6 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_23">
-      <g>
-       <use xlink:href="#gate-blanking-mae40bbd23d" x="334.858437" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_24">
-      <g>
-       <use xlink:href="#gate-blanking-m6ab5fe8380" x="334.858437" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_8">
-      <!-- $\mathdefault{70}$ -->
-      <g class="f-fg" transform="translate(328.458437 224.152969)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">7</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_9">
-     <g id="gate-blanking-line2d_25">
-      <defs>
-       <path id="gate-blanking-m20fb295bad" d="M 0 0 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-mae40bbd23d" x="334.86" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m6ab5fe8380" x="334.86" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(328.46 224.15)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">7</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<defs>
+<path id="gate-blanking-m20fb295bad" d="M 0 0 
 L 0 -1.5 
 " stroke-width="0.5" class="s-fg"/>
-      </defs>
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="48.619571" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_26">
-      <defs>
-       <path id="gate-blanking-m9d8bd21e61" d="M 0 0 
+</defs>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="48.62" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<defs>
+<path id="gate-blanking-m9d8bd21e61" d="M 0 0 
 L 0 1.5 
 " stroke-width="0.5" class="s-fg"/>
-      </defs>
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="48.619571" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_10">
-     <g id="gate-blanking-line2d_27">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="57.038362" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_28">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="57.038362" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_11">
-     <g id="gate-blanking-line2d_29">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="65.457152" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_30">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="65.457152" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_12">
-     <g id="gate-blanking-line2d_31">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="73.875942" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_32">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="73.875942" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_13">
-     <g id="gate-blanking-line2d_33">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="90.713522" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_34">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="90.713522" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_14">
-     <g id="gate-blanking-line2d_35">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="99.132312" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_36">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="99.132312" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_15">
-     <g id="gate-blanking-line2d_37">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="107.551103" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_38">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="107.551103" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_16">
-     <g id="gate-blanking-line2d_39">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="115.969893" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_40">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="115.969893" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_17">
-     <g id="gate-blanking-line2d_41">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="132.807473" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_42">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="132.807473" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_18">
-     <g id="gate-blanking-line2d_43">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="141.226263" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_44">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="141.226263" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_19">
-     <g id="gate-blanking-line2d_45">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="149.645054" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_46">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="149.645054" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_20">
-     <g id="gate-blanking-line2d_47">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="158.063844" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_48">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="158.063844" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_21">
-     <g id="gate-blanking-line2d_49">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="174.901424" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_50">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="174.901424" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_22">
-     <g id="gate-blanking-line2d_51">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="183.320214" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_52">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="183.320214" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_23">
-     <g id="gate-blanking-line2d_53">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="191.739004" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_54">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="191.739004" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_24">
-     <g id="gate-blanking-line2d_55">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="200.157795" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_56">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="200.157795" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_25">
-     <g id="gate-blanking-line2d_57">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="216.995375" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_58">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="216.995375" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_26">
-     <g id="gate-blanking-line2d_59">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="225.414165" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_60">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="225.414165" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_27">
-     <g id="gate-blanking-line2d_61">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="233.832955" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_62">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="233.832955" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_28">
-     <g id="gate-blanking-line2d_63">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="242.251746" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_64">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="242.251746" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_29">
-     <g id="gate-blanking-line2d_65">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="259.089326" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_66">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="259.089326" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_30">
-     <g id="gate-blanking-line2d_67">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="267.508116" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_68">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="267.508116" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_31">
-     <g id="gate-blanking-line2d_69">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="275.926906" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_70">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="275.926906" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_32">
-     <g id="gate-blanking-line2d_71">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="284.345696" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_72">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="284.345696" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_33">
-     <g id="gate-blanking-line2d_73">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="301.183277" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_74">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="301.183277" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_34">
-     <g id="gate-blanking-line2d_75">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="309.602067" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_76">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="309.602067" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_35">
-     <g id="gate-blanking-line2d_77">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="318.020857" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_78">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="318.020857" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-xtick_36">
-     <g id="gate-blanking-line2d_79">
-      <g>
-       <use xlink:href="#gate-blanking-m20fb295bad" x="326.439647" y="213.055312" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_80">
-      <g>
-       <use xlink:href="#gate-blanking-m9d8bd21e61" x="326.439647" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-text_9">
-     <text font-size="10px" text-anchor="middle" class="f-fg" x="187.529609" y="238.15375" transform="rotate(-0 187.529609 238.15375)">Gate voltage per channel (V)</text>
-    </g>
-   </g>
-   <g id="gate-blanking-matplotlib.axis_2">
-    <g id="gate-blanking-ytick_1">
-     <g id="gate-blanking-line2d_81">
-      <path d="M 40.200781 207.237109 
-L 334.858437 207.237109 
+</defs>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="48.62" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="57.04" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="57.04" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="65.46" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="65.46" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="73.88" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="73.88" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="90.71" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="90.71" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="99.13" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="99.13" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="107.55" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="107.55" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="115.97" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="115.97" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="132.81" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="132.81" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="141.23" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="141.23" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="149.65" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="149.65" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="158.06" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="158.06" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="174.90" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="174.90" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="183.32" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="183.32" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="191.74" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="191.74" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="200.16" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="200.16" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="217.00" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="217.00" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="225.41" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="225.41" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="233.83" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="233.83" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="242.25" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="242.25" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="259.09" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="259.09" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="267.51" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="267.51" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="275.93" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="275.93" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="284.35" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="284.35" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="301.18" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="301.18" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="309.60" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="309.60" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="318.02" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="318.02" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m20fb295bad" x="326.44" y="213.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m9d8bd21e61" x="326.44" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="187.53" y="238.15" transform="rotate(-0 187.53 238.15)">Gate voltage per channel (V)</text>
+</g>
+</g>
+<g>
+<g>
+<g>
+<path d="M 40.20 207.24 
+L 334.86 207.24 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_82">
-      <defs>
-       <path id="gate-blanking-m2685e6c094" d="M 0 0 
+</g>
+<g>
+<defs>
+<path id="gate-blanking-m2685e6c094" d="M 0 0 
 L 3 0 
 " stroke-width="0.5" class="s-fg"/>
-      </defs>
-      <g>
-       <use xlink:href="#gate-blanking-m2685e6c094" x="40.200781" y="207.237109" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_83">
-      <defs>
-       <path id="gate-blanking-m41dff3320c" d="M 0 0 
+</defs>
+<g>
+<use xlink:href="#gate-blanking-m2685e6c094" x="40.20" y="207.24" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<defs>
+<path id="gate-blanking-m41dff3320c" d="M 0 0 
 L -3 0 
 " stroke-width="0.5" class="s-fg"/>
-      </defs>
-      <g>
-       <use xlink:href="#gate-blanking-m41dff3320c" x="334.858437" y="207.237109" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_10">
-      <!-- $\mathdefault{0}$ -->
-      <g class="f-fg" transform="translate(30.300781 211.035937)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_2">
-     <g id="gate-blanking-line2d_84">
-      <path d="M 40.200781 168.449089 
-L 334.858437 168.449089 
+</defs>
+<g>
+<use xlink:href="#gate-blanking-m41dff3320c" x="334.86" y="207.24" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(30.30 211.04)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 40.20 168.45 
+L 334.86 168.45 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_85">
-      <g>
-       <use xlink:href="#gate-blanking-m2685e6c094" x="40.200781" y="168.449089" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_86">
-      <g>
-       <use xlink:href="#gate-blanking-m41dff3320c" x="334.858437" y="168.449089" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_11">
-      <!-- $\mathdefault{20}$ -->
-      <g class="f-fg" transform="translate(23.900781 172.247917)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">2</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_3">
-     <g id="gate-blanking-line2d_87">
-      <path d="M 40.200781 129.661068 
-L 334.858437 129.661068 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m2685e6c094" x="40.20" y="168.45" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m41dff3320c" x="334.86" y="168.45" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(23.90 172.25)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">2</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 40.20 129.66 
+L 334.86 129.66 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_88">
-      <g>
-       <use xlink:href="#gate-blanking-m2685e6c094" x="40.200781" y="129.661068" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_89">
-      <g>
-       <use xlink:href="#gate-blanking-m41dff3320c" x="334.858437" y="129.661068" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_12">
-      <!-- $\mathdefault{40}$ -->
-      <g class="f-fg" transform="translate(23.900781 133.459896)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">4</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_4">
-     <g id="gate-blanking-line2d_90">
-      <path d="M 40.200781 90.873047 
-L 334.858437 90.873047 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m2685e6c094" x="40.20" y="129.66" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m41dff3320c" x="334.86" y="129.66" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(23.90 133.46)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">4</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 40.20 90.87 
+L 334.86 90.87 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_91">
-      <g>
-       <use xlink:href="#gate-blanking-m2685e6c094" x="40.200781" y="90.873047" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_92">
-      <g>
-       <use xlink:href="#gate-blanking-m41dff3320c" x="334.858437" y="90.873047" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_13">
-      <!-- $\mathdefault{60}$ -->
-      <g class="f-fg" transform="translate(23.900781 94.671875)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">6</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_5">
-     <g id="gate-blanking-line2d_93">
-      <path d="M 40.200781 52.085026 
-L 334.858437 52.085026 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m2685e6c094" x="40.20" y="90.87" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m41dff3320c" x="334.86" y="90.87" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(23.90 94.67)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">6</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 40.20 52.09 
+L 334.86 52.09 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_94">
-      <g>
-       <use xlink:href="#gate-blanking-m2685e6c094" x="40.200781" y="52.085026" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_95">
-      <g>
-       <use xlink:href="#gate-blanking-m41dff3320c" x="334.858437" y="52.085026" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_14">
-      <!-- $\mathdefault{80}$ -->
-      <g class="f-fg" transform="translate(23.900781 55.883854)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">8</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_6">
-     <g id="gate-blanking-line2d_96">
-      <path d="M 40.200781 13.297005 
-L 334.858437 13.297005 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m2685e6c094" x="40.20" y="52.09" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m41dff3320c" x="334.86" y="52.09" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(23.90 55.88)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">8</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<path d="M 40.20 13.30 
+L 334.86 13.30 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-width="0.5" stroke-linecap="square" class="s-grid"/>
-     </g>
-     <g id="gate-blanking-line2d_97">
-      <g>
-       <use xlink:href="#gate-blanking-m2685e6c094" x="40.200781" y="13.297005" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_98">
-      <g>
-       <use xlink:href="#gate-blanking-m41dff3320c" x="334.858437" y="13.297005" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-text_15">
-      <!-- $\mathdefault{100}$ -->
-      <g class="f-fg" transform="translate(17.600781 17.095833)">
-       <text>
-        <tspan x="0" y="-0.578125" font-size="10px" class="f-fg">1</tspan>
-        <tspan x="6.362305" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-        <tspan x="12.724609" y="-0.578125" font-size="10px" class="f-fg">0</tspan>
-       </text>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_7">
-     <g id="gate-blanking-line2d_99">
-      <defs>
-       <path id="gate-blanking-m7e519bac54" d="M 0 0 
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m2685e6c094" x="40.20" y="13.30" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m41dff3320c" x="334.86" y="13.30" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(17.60 17.10)">
+<text>
+<tspan x="0" y="-0.58" font-size="10px" class="f-fg">1</tspan>
+<tspan x="6.36" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+<tspan x="12.72" y="-0.58" font-size="10px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+</g>
+<g>
+<g>
+<defs>
+<path id="gate-blanking-m7e519bac54" d="M 0 0 
 L 1.5 0 
 " stroke-width="0.5" class="s-fg"/>
-      </defs>
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="197.540104" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_100">
-      <defs>
-       <path id="gate-blanking-ma626b2919d" d="M 0 0 
+</defs>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="197.54" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<defs>
+<path id="gate-blanking-ma626b2919d" d="M 0 0 
 L -1.5 0 
 " stroke-width="0.5" class="s-fg"/>
-      </defs>
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="197.540104" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_8">
-     <g id="gate-blanking-line2d_101">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="187.843099" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_102">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="187.843099" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_9">
-     <g id="gate-blanking-line2d_103">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="178.146094" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_104">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="178.146094" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_10">
-     <g id="gate-blanking-line2d_105">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="158.752083" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_106">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="158.752083" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_11">
-     <g id="gate-blanking-line2d_107">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="149.055078" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_108">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="149.055078" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_12">
-     <g id="gate-blanking-line2d_109">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="139.358073" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_110">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="139.358073" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_13">
-     <g id="gate-blanking-line2d_111">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="119.964062" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_112">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="119.964062" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_14">
-     <g id="gate-blanking-line2d_113">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="110.267057" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_114">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="110.267057" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_15">
-     <g id="gate-blanking-line2d_115">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="100.570052" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_116">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="100.570052" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_16">
-     <g id="gate-blanking-line2d_117">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="81.176042" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_118">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="81.176042" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_17">
-     <g id="gate-blanking-line2d_119">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="71.479036" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_120">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="71.479036" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_18">
-     <g id="gate-blanking-line2d_121">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="61.782031" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_122">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="61.782031" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_19">
-     <g id="gate-blanking-line2d_123">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="42.388021" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_124">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="42.388021" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_20">
-     <g id="gate-blanking-line2d_125">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="32.691016" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_126">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="32.691016" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_21">
-     <g id="gate-blanking-line2d_127">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="22.99401" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_128">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="22.99401" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-ytick_22">
-     <g id="gate-blanking-line2d_129">
-      <g>
-       <use xlink:href="#gate-blanking-m7e519bac54" x="40.200781" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-     <g id="gate-blanking-line2d_130">
-      <g>
-       <use xlink:href="#gate-blanking-ma626b2919d" x="334.858437" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
-      </g>
-     </g>
-    </g>
-    <g id="gate-blanking-text_16">
-     <text font-size="10px" text-anchor="middle" class="f-fg" x="11.198438" y="108.327656" transform="rotate(-90 11.198438 108.327656)">Beam transmitted (%)</text>
-    </g>
-   </g>
-   <g id="gate-blanking-line2d_131">
-    <path d="M 40.200781 13.297005 
-L 50.724269 34.048596 
-L 61.247757 61.665667 
-L 71.771244 93.219722 
-L 82.294732 122.116798 
-L 92.81822 148.162954 
-L 103.341708 168.468483 
-L 113.865195 183.266112 
-L 124.388683 193.544938 
-L 134.912171 199.091625 
-L 145.435658 202.233455 
-L 155.959146 204.696494 
-L 166.482634 205.394678 
-L 177.006122 206.344985 
-L 187.529609 206.868623 
-L 198.053097 206.558319 
-L 208.576585 207.237109 
-L 219.100073 206.888017 
-L 229.62356 206.306197 
-L 240.147048 206.170439 
-L 250.670536 205.918317 
-L 261.194023 205.879529 
-L 271.717511 206.073469 
-L 282.240999 206.926805 
-L 292.764487 206.946199 
-L 303.287974 206.674683 
-L 313.811462 207.353473 
-L 324.33495 207.004381 
-L 334.858437 207.353473 
+</defs>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="197.54" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="187.84" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="187.84" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="178.15" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="178.15" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="158.75" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="158.75" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="149.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="149.06" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="139.36" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="139.36" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="119.96" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="119.96" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="110.27" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="110.27" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="100.57" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="100.57" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="81.18" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="81.18" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="71.48" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="71.48" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="61.78" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="61.78" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="42.39" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="42.39" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="32.69" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="32.69" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="22.99" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="22.99" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-m7e519bac54" x="40.20" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+<g>
+<g>
+<use xlink:href="#gate-blanking-ma626b2919d" x="334.86" y="3.6" stroke-width="0.5" class="f-fg s-fg"/>
+</g>
+</g>
+</g>
+<g>
+<text font-size="10px" text-anchor="middle" class="f-fg" x="11.20" y="108.33" transform="rotate(-90 11.20 108.33)">Beam transmitted (%)</text>
+</g>
+</g>
+<g>
+<path d="M 40.20 13.30 
+L 50.72 34.05 
+L 61.25 61.67 
+L 71.77 93.22 
+L 82.29 122.12 
+L 92.82 148.16 
+L 103.34 168.47 
+L 113.87 183.27 
+L 124.39 193.54 
+L 134.91 199.09 
+L 145.44 202.23 
+L 155.96 204.70 
+L 166.48 205.39 
+L 177.01 206.34 
+L 187.53 206.87 
+L 198.05 206.56 
+L 208.58 207.24 
+L 219.10 206.89 
+L 229.62 206.31 
+L 240.15 206.17 
+L 250.67 205.92 
+L 261.19 205.88 
+L 271.72 206.07 
+L 282.24 206.93 
+L 292.76 206.95 
+L 303.29 206.67 
+L 313.81 207.35 
+L 324.33 207.00 
+L 334.86 207.35 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-linecap="square" class="s-c5"/>
-    <defs>
-     <path id="gate-blanking-m475dc31423" d="M 0 1.4 
-C 0.371284 1.4 0.727412 1.252487 0.989949 0.989949 
-C 1.252487 0.727412 1.4 0.371284 1.4 0 
-C 1.4 -0.371284 1.252487 -0.727412 0.989949 -0.989949 
-C 0.727412 -1.252487 0.371284 -1.4 0 -1.4 
-C -0.371284 -1.4 -0.727412 -1.252487 -0.989949 -0.989949 
-C -1.252487 -0.727412 -1.4 -0.371284 -1.4 0 
-C -1.4 0.371284 -1.252487 0.727412 -0.989949 0.989949 
-C -0.727412 1.252487 -0.371284 1.4 0 1.4 
+<defs>
+<path id="gate-blanking-m475dc31423" d="M 0 1.4 
+C 0.37 1.4 0.73 1.25 0.99 0.99 
+C 1.25 0.73 1.4 0.37 1.4 0 
+C 1.4 -0.37 1.25 -0.73 0.99 -0.99 
+C 0.73 -1.25 0.37 -1.4 0 -1.4 
+C -0.37 -1.4 -0.73 -1.25 -0.99 -0.99 
+C -1.25 -0.73 -1.4 -0.37 -1.4 0 
+C -1.4 0.37 -1.25 0.73 -0.99 0.99 
+C -0.73 1.25 -0.37 1.4 0 1.4 
 z
 " class="s-c5"/>
-    </defs>
-    <g clip-path="url(#gate-blanking-p7198dd9079)">
-     <use xlink:href="#gate-blanking-m475dc31423" x="40.200781" y="13.297005" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="50.724269" y="34.048596" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="61.247757" y="61.665667" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="71.771244" y="93.219722" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="82.294732" y="122.116798" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="92.81822" y="148.162954" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="103.341708" y="168.468483" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="113.865195" y="183.266112" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="124.388683" y="193.544938" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="134.912171" y="199.091625" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="145.435658" y="202.233455" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="155.959146" y="204.696494" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="166.482634" y="205.394678" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="177.006122" y="206.344985" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="187.529609" y="206.868623" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="198.053097" y="206.558319" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="208.576585" y="207.237109" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="219.100073" y="206.888017" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="229.62356" y="206.306197" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="240.147048" y="206.170439" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="250.670536" y="205.918317" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="261.194023" y="205.879529" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="271.717511" y="206.073469" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="282.240999" y="206.926805" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="292.764487" y="206.946199" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="303.287974" y="206.674683" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="313.811462" y="207.353473" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="324.33495" y="207.004381" class="f-c5 s-c5"/>
-     <use xlink:href="#gate-blanking-m475dc31423" x="334.858437" y="207.353473" class="f-c5 s-c5"/>
-    </g>
-   </g>
-   <g id="gate-blanking-line2d_132">
-    <path d="M 40.200781 13.297005 
-L 50.724269 36.298302 
-L 61.247757 62.072941 
-L 71.771244 88.177279 
-L 82.294732 113.757979 
-L 92.81822 136.390789 
-L 103.341708 155.338737 
-L 113.865195 170.815158 
-L 124.388683 182.91702 
-L 134.912171 190.26735 
-L 145.435658 196.415252 
-L 155.959146 200.255266 
-L 166.482634 202.776487 
-L 177.006122 204.114674 
-L 187.529609 205.45286 
-L 198.053097 205.569224 
-L 208.576585 206.500137 
-L 219.100073 206.170439 
-L 229.62356 206.344985 
-L 240.147048 206.984987 
-L 250.670536 206.616501 
-L 261.194023 206.791047 
-L 271.717511 207.508626 
-L 282.240999 207.275897 
-L 292.764487 207.605596 
-L 303.287974 207.372867 
-L 313.811462 207.411655 
-L 324.33495 207.256503 
-L 334.858437 207.023775 
+</defs>
+<g clip-path="url(#gate-blanking-p7198dd9079)">
+<use xlink:href="#gate-blanking-m475dc31423" x="40.20" y="13.30" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="50.72" y="34.05" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="61.25" y="61.67" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="71.77" y="93.22" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="82.29" y="122.12" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="92.82" y="148.16" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="103.34" y="168.47" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="113.87" y="183.27" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="124.39" y="193.54" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="134.91" y="199.09" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="145.44" y="202.23" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="155.96" y="204.70" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="166.48" y="205.39" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="177.01" y="206.34" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="187.53" y="206.87" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="198.05" y="206.56" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="208.58" y="207.24" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="219.10" y="206.89" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="229.62" y="206.31" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="240.15" y="206.17" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="250.67" y="205.92" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="261.19" y="205.88" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="271.72" y="206.07" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="282.24" y="206.93" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="292.76" y="206.95" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="303.29" y="206.67" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="313.81" y="207.35" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="324.33" y="207.00" class="f-c5 s-c5"/>
+<use xlink:href="#gate-blanking-m475dc31423" x="334.86" y="207.35" class="f-c5 s-c5"/>
+</g>
+</g>
+<g>
+<path d="M 40.20 13.30 
+L 50.72 36.30 
+L 61.25 62.07 
+L 71.77 88.18 
+L 82.29 113.76 
+L 92.82 136.39 
+L 103.34 155.34 
+L 113.87 170.82 
+L 124.39 182.92 
+L 134.91 190.27 
+L 145.44 196.42 
+L 155.96 200.26 
+L 166.48 202.78 
+L 177.01 204.11 
+L 187.53 205.45 
+L 198.05 205.57 
+L 208.58 206.50 
+L 219.10 206.17 
+L 229.62 206.34 
+L 240.15 206.98 
+L 250.67 206.62 
+L 261.19 206.79 
+L 271.72 207.51 
+L 282.24 207.28 
+L 292.76 207.61 
+L 303.29 207.37 
+L 313.81 207.41 
+L 324.33 207.26 
+L 334.86 207.02 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-linecap="square" class="s-c2"/>
-    <defs>
-     <path id="gate-blanking-m4b2d179226" d="M -1.4 1.4 
+<defs>
+<path id="gate-blanking-m4b2d179226" d="M -1.4 1.4 
 L 1.4 1.4 
 L 1.4 -1.4 
 L -1.4 -1.4 
 z
 " stroke-linejoin="miter" class="s-c2"/>
-    </defs>
-    <g clip-path="url(#gate-blanking-p7198dd9079)">
-     <use xlink:href="#gate-blanking-m4b2d179226" x="40.200781" y="13.297005" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="50.724269" y="36.298302" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="61.247757" y="62.072941" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="71.771244" y="88.177279" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="82.294732" y="113.757979" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="92.81822" y="136.390789" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="103.341708" y="155.338737" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="113.865195" y="170.815158" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="124.388683" y="182.91702" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="134.912171" y="190.26735" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="145.435658" y="196.415252" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="155.959146" y="200.255266" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="166.482634" y="202.776487" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="177.006122" y="204.114674" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="187.529609" y="205.45286" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="198.053097" y="205.569224" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="208.576585" y="206.500137" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="219.100073" y="206.170439" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="229.62356" y="206.344985" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="240.147048" y="206.984987" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="250.670536" y="206.616501" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="261.194023" y="206.791047" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="271.717511" y="207.508626" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="282.240999" y="207.275897" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="292.764487" y="207.605596" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="303.287974" y="207.372867" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="313.811462" y="207.411655" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="324.33495" y="207.256503" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     <use xlink:href="#gate-blanking-m4b2d179226" x="334.858437" y="207.023775" stroke-linejoin="miter" class="f-c2 s-c2"/>
-    </g>
-   </g>
-   <g id="gate-blanking-line2d_133">
-    <path d="M 40.200781 13.297005 
-L 50.724269 20.724911 
-L 61.247757 33.97102 
-L 71.771244 52.938362 
-L 82.294732 74.892382 
-L 92.81822 97.777315 
-L 103.341708 120.138609 
-L 113.865195 140.541108 
-L 124.388683 157.472079 
-L 134.912171 172.017586 
-L 145.435658 182.761868 
-L 155.959146 190.616442 
-L 166.482634 196.764344 
-L 177.006122 200.623752 
-L 187.529609 202.951033 
-L 198.053097 204.347402 
-L 208.576585 205.123162 
-L 219.100073 205.530436 
-L 229.62356 206.519531 
-L 240.147048 206.655289 
-L 250.670536 206.597107 
-L 261.194023 207.314685 
-L 271.717511 207.314685 
-L 282.240999 207.140139 
-L 292.764487 207.120745 
-L 303.287974 207.9159 
-L 313.811462 207.392261 
-L 324.33495 207.217715 
-L 334.858437 207.101351 
+</defs>
+<g clip-path="url(#gate-blanking-p7198dd9079)">
+<use xlink:href="#gate-blanking-m4b2d179226" x="40.20" y="13.30" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="50.72" y="36.30" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="61.25" y="62.07" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="71.77" y="88.18" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="82.29" y="113.76" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="92.82" y="136.39" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="103.34" y="155.34" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="113.87" y="170.82" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="124.39" y="182.92" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="134.91" y="190.27" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="145.44" y="196.42" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="155.96" y="200.26" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="166.48" y="202.78" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="177.01" y="204.11" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="187.53" y="205.45" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="198.05" y="205.57" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="208.58" y="206.50" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="219.10" y="206.17" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="229.62" y="206.34" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="240.15" y="206.98" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="250.67" y="206.62" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="261.19" y="206.79" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="271.72" y="207.51" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="282.24" y="207.28" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="292.76" y="207.61" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="303.29" y="207.37" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="313.81" y="207.41" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="324.33" y="207.26" stroke-linejoin="miter" class="f-c2 s-c2"/>
+<use xlink:href="#gate-blanking-m4b2d179226" x="334.86" y="207.02" stroke-linejoin="miter" class="f-c2 s-c2"/>
+</g>
+</g>
+<g>
+<path d="M 40.20 13.30 
+L 50.72 20.72 
+L 61.25 33.97 
+L 71.77 52.94 
+L 82.29 74.89 
+L 92.82 97.78 
+L 103.34 120.14 
+L 113.87 140.54 
+L 124.39 157.47 
+L 134.91 172.02 
+L 145.44 182.76 
+L 155.96 190.62 
+L 166.48 196.76 
+L 177.01 200.62 
+L 187.53 202.95 
+L 198.05 204.35 
+L 208.58 205.12 
+L 219.10 205.53 
+L 229.62 206.52 
+L 240.15 206.66 
+L 250.67 206.60 
+L 261.19 207.31 
+L 271.72 207.31 
+L 282.24 207.14 
+L 292.76 207.12 
+L 303.29 207.92 
+L 313.81 207.39 
+L 324.33 207.22 
+L 334.86 207.10 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-linecap="square" class="s-c3"/>
-    <defs>
-     <path id="gate-blanking-m666b37f6ce" d="M 0 -1.4 
+<defs>
+<path id="gate-blanking-m666b37f6ce" d="M 0 -1.4 
 L -1.4 1.4 
 L 1.4 1.4 
 z
 " stroke-linejoin="miter" class="s-c3"/>
-    </defs>
-    <g clip-path="url(#gate-blanking-p7198dd9079)">
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="40.200781" y="13.297005" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="50.724269" y="20.724911" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="61.247757" y="33.97102" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="71.771244" y="52.938362" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="82.294732" y="74.892382" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="92.81822" y="97.777315" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="103.341708" y="120.138609" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="113.865195" y="140.541108" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="124.388683" y="157.472079" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="134.912171" y="172.017586" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="145.435658" y="182.761868" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="155.959146" y="190.616442" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="166.482634" y="196.764344" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="177.006122" y="200.623752" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="187.529609" y="202.951033" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="198.053097" y="204.347402" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="208.576585" y="205.123162" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="219.100073" y="205.530436" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="229.62356" y="206.519531" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="240.147048" y="206.655289" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="250.670536" y="206.597107" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="261.194023" y="207.314685" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="271.717511" y="207.314685" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="282.240999" y="207.140139" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="292.764487" y="207.120745" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="303.287974" y="207.9159" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="313.811462" y="207.392261" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="324.33495" y="207.217715" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     <use xlink:href="#gate-blanking-m666b37f6ce" x="334.858437" y="207.101351" stroke-linejoin="miter" class="f-c3 s-c3"/>
-    </g>
-   </g>
-   <g id="gate-blanking-line2d_134">
-    <path d="M 40.200781 13.297005 
-L 50.724269 31.643739 
-L 61.247757 53.151697 
-L 71.771244 75.12511 
-L 82.294732 96.361552 
-L 92.81822 116.725263 
-L 103.341708 134.80048 
-L 113.865195 151.382359 
-L 124.388683 163.852708 
-L 134.912171 173.724259 
-L 145.435658 182.23823 
-L 155.959146 188.037039 
-L 166.482634 192.458873 
-L 177.006122 196.027371 
-L 187.529609 198.684351 
-L 198.053097 200.158296 
-L 208.576585 201.767998 
-L 219.100073 202.485577 
-L 229.62356 203.726793 
-L 240.147048 204.521948 
-L 250.670536 204.890434 
-L 261.194023 205.35589 
-L 271.717511 205.297708 
-L 282.240999 205.646801 
-L 292.764487 205.704983 
-L 303.287974 205.627407 
-L 313.811462 205.840741 
-L 324.33495 205.511042 
-L 334.858437 206.422561 
-L 345.381925 205.937711 
-L 345.858437 205.954396 
+</defs>
+<g clip-path="url(#gate-blanking-p7198dd9079)">
+<use xlink:href="#gate-blanking-m666b37f6ce" x="40.20" y="13.30" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="50.72" y="20.72" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="61.25" y="33.97" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="71.77" y="52.94" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="82.29" y="74.89" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="92.82" y="97.78" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="103.34" y="120.14" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="113.87" y="140.54" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="124.39" y="157.47" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="134.91" y="172.02" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="145.44" y="182.76" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="155.96" y="190.62" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="166.48" y="196.76" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="177.01" y="200.62" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="187.53" y="202.95" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="198.05" y="204.35" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="208.58" y="205.12" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="219.10" y="205.53" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="229.62" y="206.52" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="240.15" y="206.66" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="250.67" y="206.60" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="261.19" y="207.31" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="271.72" y="207.31" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="282.24" y="207.14" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="292.76" y="207.12" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="303.29" y="207.92" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="313.81" y="207.39" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="324.33" y="207.22" stroke-linejoin="miter" class="f-c3 s-c3"/>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="334.86" y="207.10" stroke-linejoin="miter" class="f-c3 s-c3"/>
+</g>
+</g>
+<g>
+<path d="M 40.20 13.30 
+L 50.72 31.64 
+L 61.25 53.15 
+L 71.77 75.13 
+L 82.29 96.36 
+L 92.82 116.73 
+L 103.34 134.80 
+L 113.87 151.38 
+L 124.39 163.85 
+L 134.91 173.72 
+L 145.44 182.24 
+L 155.96 188.04 
+L 166.48 192.46 
+L 177.01 196.03 
+L 187.53 198.68 
+L 198.05 200.16 
+L 208.58 201.77 
+L 219.10 202.49 
+L 229.62 203.73 
+L 240.15 204.52 
+L 250.67 204.89 
+L 261.19 205.36 
+L 271.72 205.30 
+L 282.24 205.65 
+L 292.76 205.70 
+L 303.29 205.63 
+L 313.81 205.84 
+L 324.33 205.51 
+L 334.86 206.42 
+L 345.38 205.94 
+L 345.86 205.95 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-linecap="square" class="s-c4"/>
-    <defs>
-     <path id="gate-blanking-m339388ed61" d="M 0 1.979899 
-L 1.979899 0 
-L 0 -1.979899 
-L -1.979899 0 
+<defs>
+<path id="gate-blanking-m339388ed61" d="M 0 1.98 
+L 1.98 0 
+L 0 -1.98 
+L -1.98 0 
 z
 " stroke-linejoin="miter" class="s-c4"/>
-    </defs>
-    <g clip-path="url(#gate-blanking-p7198dd9079)">
-     <use xlink:href="#gate-blanking-m339388ed61" x="40.200781" y="13.297005" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="50.724269" y="31.643739" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="61.247757" y="53.151697" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="71.771244" y="75.12511" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="82.294732" y="96.361552" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="92.81822" y="116.725263" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="103.341708" y="134.80048" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="113.865195" y="151.382359" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="124.388683" y="163.852708" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="134.912171" y="173.724259" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="145.435658" y="182.23823" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="155.959146" y="188.037039" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="166.482634" y="192.458873" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="177.006122" y="196.027371" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="187.529609" y="198.684351" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="198.053097" y="200.158296" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="208.576585" y="201.767998" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="219.100073" y="202.485577" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="229.62356" y="203.726793" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="240.147048" y="204.521948" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="250.670536" y="204.890434" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="261.194023" y="205.35589" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="271.717511" y="205.297708" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="282.240999" y="205.646801" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="292.764487" y="205.704983" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="303.287974" y="205.627407" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="313.811462" y="205.840741" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="324.33495" y="205.511042" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="334.858437" y="206.422561" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="345.381925" y="205.937711" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="355.905413" y="206.306197" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="366.428901" y="206.849229" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="376.952388" y="206.209227" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="387.475876" y="206.597107" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="397.999364" y="207.043169" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="408.522852" y="206.868623" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="419.046339" y="207.120745" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="429.569827" y="207.586202" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="440.093315" y="207.52802" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="450.616802" y="206.713471" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     <use xlink:href="#gate-blanking-m339388ed61" x="461.14029" y="207.237109" stroke-linejoin="miter" class="f-c4 s-c4"/>
-    </g>
-   </g>
-   <g id="gate-blanking-line2d_135">
-    <path d="M 40.200781 187.843099 
-L 334.858437 187.843099 
+</defs>
+<g clip-path="url(#gate-blanking-p7198dd9079)">
+<use xlink:href="#gate-blanking-m339388ed61" x="40.20" y="13.30" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="50.72" y="31.64" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="61.25" y="53.15" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="71.77" y="75.13" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="82.29" y="96.36" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="92.82" y="116.73" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="103.34" y="134.80" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="113.87" y="151.38" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="124.39" y="163.85" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="134.91" y="173.72" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="145.44" y="182.24" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="155.96" y="188.04" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="166.48" y="192.46" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="177.01" y="196.03" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="187.53" y="198.68" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="198.05" y="200.16" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="208.58" y="201.77" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="219.10" y="202.49" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="229.62" y="203.73" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="240.15" y="204.52" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="250.67" y="204.89" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="261.19" y="205.36" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="271.72" y="205.30" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="282.24" y="205.65" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="292.76" y="205.70" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="303.29" y="205.63" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="313.81" y="205.84" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="324.33" y="205.51" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="334.86" y="206.42" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="345.38" y="205.94" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="355.91" y="206.31" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="366.43" y="206.85" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="376.95" y="206.21" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="387.48" y="206.60" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="398.00" y="207.04" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="408.52" y="206.87" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="419.05" y="207.12" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="429.57" y="207.59" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="440.09" y="207.53" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="450.62" y="206.71" stroke-linejoin="miter" class="f-c4 s-c4"/>
+<use xlink:href="#gate-blanking-m339388ed61" x="461.14" y="207.24" stroke-linejoin="miter" class="f-c4 s-c4"/>
+</g>
+</g>
+<g>
+<path d="M 40.20 187.84 
+L 334.86 187.84 
 " clip-path="url(#gate-blanking-p7198dd9079)" fill="none" stroke-dasharray="2.96,1.28" stroke-dashoffset="0" stroke-width="0.8" class="s-dim"/>
-   </g>
-   <g id="gate-blanking-patch_3">
-    <path d="M 40.200781 213.055312 
-L 40.200781 3.6 
+</g>
+<g>
+<path d="M 40.20 213.06 
+L 40.20 3.6 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
-   </g>
-   <g id="gate-blanking-patch_4">
-    <path d="M 334.858437 213.055312 
-L 334.858437 3.6 
+</g>
+<g>
+<path d="M 334.86 213.06 
+L 334.86 3.6 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
-   </g>
-   <g id="gate-blanking-patch_5">
-    <path d="M 40.200781 213.055312 
-L 334.858437 213.055312 
+</g>
+<g>
+<path d="M 40.20 213.06 
+L 334.86 213.06 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
-   </g>
-   <g id="gate-blanking-patch_6">
-    <path d="M 40.200781 3.6 
-L 334.858437 3.6 
+</g>
+<g>
+<path d="M 40.20 3.6 
+L 334.86 3.6 
 " fill="none" stroke-width="0.6" stroke-linejoin="miter" stroke-linecap="square" class="s-fg"/>
-   </g>
-   <g id="gate-blanking-text_17">
-    <text font-size="9px" text-anchor="end" class="f-dim" x="326.439647" y="183.964297" transform="rotate(-0 326.439647 183.964297)">10 %</text>
-   </g>
-   <g id="gate-blanking-legend_1">
-    <g id="gate-blanking-line2d_136">
-     <path d="M 252.418437 16.02 
-L 261.418437 16.02 
-L 270.418437 16.02 
+</g>
+<g>
+<text font-size="9px" text-anchor="end" class="f-dim" x="326.44" y="183.96" transform="rotate(-0 326.44 183.96)">10 %</text>
+</g>
+<g>
+<g>
+<path d="M 252.42 16.02 
+L 261.42 16.02 
+L 270.42 16.02 
 " fill="none" stroke-linecap="square" class="s-c5"/>
-     <g>
-      <use xlink:href="#gate-blanking-m475dc31423" x="261.418437" y="16.02" class="f-c5 s-c5"/>
-     </g>
-    </g>
-    <g id="gate-blanking-text_18">
-     <!-- 10 kV, C$_{60}^{+}$ -->
-     <g class="f-fg" transform="translate(277.618437 19.17)">
-      <text>
-       <tspan x="0" y="-0.608969" font-size="9px" class="f-fg">1</tspan>
-       <tspan x="5.726074" y="-0.608969" font-size="9px" class="f-fg">0</tspan>
-       <tspan x="11.452148" y="-0.608969" font-size="9px" class="f-fg"> </tspan>
-       <tspan x="14.312988" y="-0.608969" font-size="9px" class="f-fg">k</tspan>
-       <tspan x="19.524902" y="-0.608969" font-size="9px" class="f-fg">V</tspan>
-       <tspan x="25.681641" y="-0.608969" font-size="9px" class="f-fg">,</tspan>
-       <tspan x="28.54248" y="-0.608969" font-size="9px" class="f-fg"> </tspan>
-       <tspan x="31.40332" y="-0.608969" font-size="9px" class="f-fg">C</tspan>
-       <tspan x="38.047886" y="-4.325" font-size="6.3px" class="f-fg">+</tspan>
-       <tspan x="38.047886" y="2.65" font-size="6.3px" class="f-fg">6</tspan>
-       <tspan x="41.197886" y="2.65" font-size="6.3px" class="f-fg">0</tspan>
-      </text>
-     </g>
-    </g>
-    <g id="gate-blanking-line2d_137">
-     <path d="M 252.418437 31.41 
-L 261.418437 31.41 
-L 270.418437 31.41 
+<g>
+<use xlink:href="#gate-blanking-m475dc31423" x="261.42" y="16.02" class="f-c5 s-c5"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(277.62 19.17)">
+<text>
+<tspan x="0" y="-0.61" font-size="9px" class="f-fg">1</tspan>
+<tspan x="5.73" y="-0.61" font-size="9px" class="f-fg">0</tspan>
+<tspan x="11.45" y="-0.61" font-size="9px" class="f-fg"> </tspan>
+<tspan x="14.31" y="-0.61" font-size="9px" class="f-fg">k</tspan>
+<tspan x="19.52" y="-0.61" font-size="9px" class="f-fg">V</tspan>
+<tspan x="25.68" y="-0.61" font-size="9px" class="f-fg">,</tspan>
+<tspan x="28.54" y="-0.61" font-size="9px" class="f-fg"> </tspan>
+<tspan x="31.40" y="-0.61" font-size="9px" class="f-fg">C</tspan>
+<tspan x="38.05" y="-4.33" font-size="6.3px" class="f-fg">+</tspan>
+<tspan x="38.05" y="2.65" font-size="6.3px" class="f-fg">6</tspan>
+<tspan x="41.20" y="2.65" font-size="6.3px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+<g>
+<path d="M 252.42 31.41 
+L 261.42 31.41 
+L 270.42 31.41 
 " fill="none" stroke-linecap="square" class="s-c2"/>
-     <g>
-      <use xlink:href="#gate-blanking-m4b2d179226" x="261.418437" y="31.41" stroke-linejoin="miter" class="f-c2 s-c2"/>
-     </g>
-    </g>
-    <g id="gate-blanking-text_19">
-     <!-- 11 kV, C$_{60}^{+}$ -->
-     <g class="f-fg" transform="translate(277.618437 34.56)">
-      <text>
-       <tspan x="0" y="-0.608969" font-size="9px" class="f-fg">1</tspan>
-       <tspan x="5.726074" y="-0.608969" font-size="9px" class="f-fg">1</tspan>
-       <tspan x="11.452148" y="-0.608969" font-size="9px" class="f-fg"> </tspan>
-       <tspan x="14.312988" y="-0.608969" font-size="9px" class="f-fg">k</tspan>
-       <tspan x="19.524902" y="-0.608969" font-size="9px" class="f-fg">V</tspan>
-       <tspan x="25.681641" y="-0.608969" font-size="9px" class="f-fg">,</tspan>
-       <tspan x="28.54248" y="-0.608969" font-size="9px" class="f-fg"> </tspan>
-       <tspan x="31.40332" y="-0.608969" font-size="9px" class="f-fg">C</tspan>
-       <tspan x="38.047886" y="-4.325" font-size="6.3px" class="f-fg">+</tspan>
-       <tspan x="38.047886" y="2.65" font-size="6.3px" class="f-fg">6</tspan>
-       <tspan x="41.197886" y="2.65" font-size="6.3px" class="f-fg">0</tspan>
-      </text>
-     </g>
-    </g>
-    <g id="gate-blanking-line2d_138">
-     <path d="M 252.418437 46.8 
-L 261.418437 46.8 
-L 270.418437 46.8 
+<g>
+<use xlink:href="#gate-blanking-m4b2d179226" x="261.42" y="31.41" stroke-linejoin="miter" class="f-c2 s-c2"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(277.62 34.56)">
+<text>
+<tspan x="0" y="-0.61" font-size="9px" class="f-fg">1</tspan>
+<tspan x="5.73" y="-0.61" font-size="9px" class="f-fg">1</tspan>
+<tspan x="11.45" y="-0.61" font-size="9px" class="f-fg"> </tspan>
+<tspan x="14.31" y="-0.61" font-size="9px" class="f-fg">k</tspan>
+<tspan x="19.52" y="-0.61" font-size="9px" class="f-fg">V</tspan>
+<tspan x="25.68" y="-0.61" font-size="9px" class="f-fg">,</tspan>
+<tspan x="28.54" y="-0.61" font-size="9px" class="f-fg"> </tspan>
+<tspan x="31.40" y="-0.61" font-size="9px" class="f-fg">C</tspan>
+<tspan x="38.05" y="-4.33" font-size="6.3px" class="f-fg">+</tspan>
+<tspan x="38.05" y="2.65" font-size="6.3px" class="f-fg">6</tspan>
+<tspan x="41.20" y="2.65" font-size="6.3px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+<g>
+<path d="M 252.42 46.8 
+L 261.42 46.8 
+L 270.42 46.8 
 " fill="none" stroke-linecap="square" class="s-c3"/>
-     <g>
-      <use xlink:href="#gate-blanking-m666b37f6ce" x="261.418437" y="46.8" stroke-linejoin="miter" class="f-c3 s-c3"/>
-     </g>
-    </g>
-    <g id="gate-blanking-text_20">
-     <!-- 14 kV, C$_{60}^{+}$ -->
-     <g class="f-fg" transform="translate(277.618437 49.95)">
-      <text>
-       <tspan x="0" y="-0.608969" font-size="9px" class="f-fg">1</tspan>
-       <tspan x="5.726074" y="-0.608969" font-size="9px" class="f-fg">4</tspan>
-       <tspan x="11.452148" y="-0.608969" font-size="9px" class="f-fg"> </tspan>
-       <tspan x="14.312988" y="-0.608969" font-size="9px" class="f-fg">k</tspan>
-       <tspan x="19.524902" y="-0.608969" font-size="9px" class="f-fg">V</tspan>
-       <tspan x="25.681641" y="-0.608969" font-size="9px" class="f-fg">,</tspan>
-       <tspan x="28.54248" y="-0.608969" font-size="9px" class="f-fg"> </tspan>
-       <tspan x="31.40332" y="-0.608969" font-size="9px" class="f-fg">C</tspan>
-       <tspan x="38.047886" y="-4.325" font-size="6.3px" class="f-fg">+</tspan>
-       <tspan x="38.047886" y="2.65" font-size="6.3px" class="f-fg">6</tspan>
-       <tspan x="41.197886" y="2.65" font-size="6.3px" class="f-fg">0</tspan>
-      </text>
-     </g>
-    </g>
-    <g id="gate-blanking-line2d_139">
-     <path d="M 252.418437 62.64 
-L 261.418437 62.64 
-L 270.418437 62.64 
+<g>
+<use xlink:href="#gate-blanking-m666b37f6ce" x="261.42" y="46.8" stroke-linejoin="miter" class="f-c3 s-c3"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(277.62 49.95)">
+<text>
+<tspan x="0" y="-0.61" font-size="9px" class="f-fg">1</tspan>
+<tspan x="5.73" y="-0.61" font-size="9px" class="f-fg">4</tspan>
+<tspan x="11.45" y="-0.61" font-size="9px" class="f-fg"> </tspan>
+<tspan x="14.31" y="-0.61" font-size="9px" class="f-fg">k</tspan>
+<tspan x="19.52" y="-0.61" font-size="9px" class="f-fg">V</tspan>
+<tspan x="25.68" y="-0.61" font-size="9px" class="f-fg">,</tspan>
+<tspan x="28.54" y="-0.61" font-size="9px" class="f-fg"> </tspan>
+<tspan x="31.40" y="-0.61" font-size="9px" class="f-fg">C</tspan>
+<tspan x="38.05" y="-4.33" font-size="6.3px" class="f-fg">+</tspan>
+<tspan x="38.05" y="2.65" font-size="6.3px" class="f-fg">6</tspan>
+<tspan x="41.20" y="2.65" font-size="6.3px" class="f-fg">0</tspan>
+</text>
+</g>
+</g>
+<g>
+<path d="M 252.42 62.64 
+L 261.42 62.64 
+L 270.42 62.64 
 " fill="none" stroke-linecap="square" class="s-c4"/>
-     <g>
-      <use xlink:href="#gate-blanking-m339388ed61" x="261.418437" y="62.64" stroke-linejoin="miter" class="f-c4 s-c4"/>
-     </g>
-    </g>
-    <g id="gate-blanking-text_21">
-     <!-- 15 kV, C$_{60}^{2+}$ -->
-     <g class="f-fg" transform="translate(277.618437 65.79)">
-      <text>
-       <tspan x="0" y="-0.083969" font-size="9px" class="f-fg">1</tspan>
-       <tspan x="5.726074" y="-0.083969" font-size="9px" class="f-fg">5</tspan>
-       <tspan x="11.452148" y="-0.083969" font-size="9px" class="f-fg"> </tspan>
-       <tspan x="14.312988" y="-0.083969" font-size="9px" class="f-fg">k</tspan>
-       <tspan x="19.524902" y="-0.083969" font-size="9px" class="f-fg">V</tspan>
-       <tspan x="25.681641" y="-0.083969" font-size="9px" class="f-fg">,</tspan>
-       <tspan x="28.54248" y="-0.083969" font-size="9px" class="f-fg"> </tspan>
-       <tspan x="31.40332" y="-0.083969" font-size="9px" class="f-fg">C</tspan>
-       <tspan x="38.047886" y="-3.8" font-size="6.3px" class="f-fg">2</tspan>
-       <tspan x="38.047886" y="3.175" font-size="6.3px" class="f-fg">6</tspan>
-       <tspan x="41.197886" y="3.175" font-size="6.3px" class="f-fg">0</tspan>
-       <tspan x="42.45789" y="-3.8" font-size="6.3px" class="f-fg">+</tspan>
-      </text>
-     </g>
-    </g>
-   </g>
-  </g>
- </g>
- <defs>
-  <clipPath id="gate-blanking-p7198dd9079">
-   <rect x="40.200781" y="3.6" width="294.657656" height="209.455312"/>
-  </clipPath>
- </defs>
+<g>
+<use xlink:href="#gate-blanking-m339388ed61" x="261.42" y="62.64" stroke-linejoin="miter" class="f-c4 s-c4"/>
+</g>
+</g>
+<g>
+<g class="f-fg" transform="translate(277.62 65.79)">
+<text>
+<tspan x="0" y="-0.08" font-size="9px" class="f-fg">1</tspan>
+<tspan x="5.73" y="-0.08" font-size="9px" class="f-fg">5</tspan>
+<tspan x="11.45" y="-0.08" font-size="9px" class="f-fg"> </tspan>
+<tspan x="14.31" y="-0.08" font-size="9px" class="f-fg">k</tspan>
+<tspan x="19.52" y="-0.08" font-size="9px" class="f-fg">V</tspan>
+<tspan x="25.68" y="-0.08" font-size="9px" class="f-fg">,</tspan>
+<tspan x="28.54" y="-0.08" font-size="9px" class="f-fg"> </tspan>
+<tspan x="31.40" y="-0.08" font-size="9px" class="f-fg">C</tspan>
+<tspan x="38.05" y="-3.8" font-size="6.3px" class="f-fg">2</tspan>
+<tspan x="38.05" y="3.17" font-size="6.3px" class="f-fg">6</tspan>
+<tspan x="41.20" y="3.17" font-size="6.3px" class="f-fg">0</tspan>
+<tspan x="42.46" y="-3.8" font-size="6.3px" class="f-fg">+</tspan>
+</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="gate-blanking-p7198dd9079">
+<rect x="40.20" y="3.6" width="294.66" height="209.46"/>
+</clipPath>
+</defs>
 </svg>

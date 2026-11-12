@@ -137,7 +137,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 16px 8px; }
 .panel .prose > * { flex: 1 1 100%; min-width: 0; }
 .panel .prose > :is(p, ul, ol, h2, h3, table) { max-width: 46em; }
 .panel .prose > p { margin: 0 0 1em; }
-.panel .prose > .chartfig { flex: 0 1 calc(50% - 8px); max-width: none; margin: 4px 0 16px; }
+.panel .prose > .fig { flex: 0 1 calc(50% - 8px); max-width: none; margin: 4px 0 16px; }  /* charts and photos, two to a row */
 .panel .chartbox { max-width: none; }
 .mx { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 12px; margin: 4px 0 0; }
 .mcard { background: var(--panel); border: 1px solid var(--grid); border-top: 3px solid var(--cc, var(--grid));
@@ -172,7 +172,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 28px 16px 8px; }
 @media (max-width: 820px) {
   .panelhead, .duo { grid-template-columns: minmax(0, 1fr); }
   .lcd { width: auto; }
-  .panel .prose > .chartfig { flex-basis: 100%; }
+  .panel .prose > .fig { flex-basis: 100%; }
   .stiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 /* On a phone a chart keeps enough width for its text to read (10 px or more) and scrolls inside its box;
